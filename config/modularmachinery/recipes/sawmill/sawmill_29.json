@@ -1,0 +1,30 @@
+{
+    "machine": "sawmill",
+    "registryName": "sawmill_thaumcraft_01",
+    "recipeTime": 80,
+    "requirements": [
+		{
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 45
+        },
+		{
+			"type": "item",
+			"io-type": "input",
+			"item": "thaumcraft:log_greatwood@0"
+		},
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "thaumcraft:plank_greatwood@0",
+			"amount": 6
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "farmsteadforest:sawdust@0",
+			"amount": 1,
+			"chance": 0.5
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+#Fri Aug 24 21:53:46 CEST 2018
+shaderPack=BSL v7.0.zip
+antialiasingLevel=0
+normalMapEnabled=true
+specularMapEnabled=true
+renderResMul=1.0
+shadowResMul=1.0
+handDepthMul=0.125
+cloudShadow=true
+oldHandLight=default
+oldLighting=default
+tweakBlockDamage=false
+shadowClipFrustrum=true
+TexMinFilB=0
+TexMinFilN=0
+TexMinFilS=0
+TexMagFilB=0
+TexMagFilN=0
+TexMagFilS=0

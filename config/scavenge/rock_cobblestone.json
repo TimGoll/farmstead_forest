@@ -1,0 +1,192 @@
+{
+	"block_pools" :
+	[
+		{
+			"name": "rock_cobblestone",
+			"disableJEI": true,
+			"type":
+			{
+				"type": "block",
+				"name": "minecraft:cobblestone",
+				"meta": 0
+			},
+			"clicktype": "right",
+			"properties":
+			[
+				{
+					"type": "require_sneak"
+				},
+				{
+					"type": "require_item",
+					"name": "minecraft:stick"
+				},
+				{
+					"type": "consume_item",
+					"amount": 1,
+					"disableJEI": true
+				},
+				{
+					"type": "add_hunger",
+					"amount": 0.25,
+					"disableJEI": true
+				},
+				{
+					"type": "consume_block",
+					"chance": 20,
+					"name": "minecraft:gravel",
+					"disableJEI": true
+				},
+				{
+					"type": "spawn_particles",
+					"disableJEI": true,
+					"name": "crit",
+					"amount": 15
+				},
+				{
+					"type": "play_sound",
+					"disableJEI": true,
+					"name": "block.stone.hit"
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "primal:rock_stone",
+					"amount": "1",
+					"weight": 34
+				},
+				{
+					"name": "minecraft:air",
+					"amount": "0",
+					"weight": 66
+				}
+			]
+		},
+		
+		
+		
+		{
+			"name": "rock_cobblestone_2",
+			"disableJEI": true,
+			"type":
+			{
+				"type": "block",
+				"name": "minecraft:cobblestone",
+				"meta": 0
+			},
+			"clicktype": "right",
+			"properties":
+			[
+				{
+					"type": "require_sneak"
+				},
+				{
+					"type": "require_item",
+					"name": "farmsteadforest:flaked_stick"
+				},
+				{
+					"type": "damage_item",
+					"amount": 4
+				},
+				{
+					"type": "add_hunger",
+					"amount": 0.25,
+					"disableJEI": true
+				},
+				{
+					"type": "consume_block",
+					"chance": 20,
+					"name": "minecraft:gravel",
+					"disableJEI": true
+				},
+				{
+					"type": "spawn_particles",
+					"disableJEI": true,
+					"name": "crit",
+					"amount": 15
+				},
+				{
+					"type": "play_sound",
+					"disableJEI": true,
+					"name": "block.stone.hit"
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "primal:rock_stone",
+					"amount": "2",
+					"weight": 50
+				},
+				{
+					"name": "minecraft:air",
+					"amount": "0",
+					"weight": 50
+				}
+			]
+		},
+		
+		
+		{
+			"name": "rock_cobblestone_3",
+			"disableJEI": true,
+			"type":
+			{
+				"type": "block",
+				"name": "minecraft:cobblestone",
+				"meta": 0
+			},
+			"clicktype": "right",
+			"properties":
+			[
+				{
+					"type": "require_sneak"
+				},
+				{
+					"type": "require_item",
+					"name": "farmsteadforest:flaked_stick_with_rock"
+				},
+				{
+					"type": "damage_item",
+					"amount": 4
+				},
+				{
+					"type": "add_hunger",
+					"amount": 0.25,
+					"disableJEI": true
+				},
+				{
+					"type": "consume_block",
+					"chance": 20,
+					"name": "minecraft:gravel",
+					"disableJEI": true
+				},
+				{
+					"type": "spawn_particles",
+					"disableJEI": true,
+					"name": "crit",
+					"amount": 15
+				},
+				{
+					"type": "play_sound",
+					"disableJEI": true,
+					"name": "block.stone.hit"
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "primal:rock_stone",
+					"amount": "3",
+					"weight": 66
+				},
+				{
+					"name": "minecraft:air",
+					"amount": "0",
+					"weight": 34
+				}
+			]
+		}
+	]
+}
+ 

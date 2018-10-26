@@ -1,0 +1,78 @@
+	{
+	"block_pools" :
+	[
+		{
+			"name": "wood_birch",
+			"disableJEI": true,
+			"type":
+			{
+				"type": "block",
+				"name": "minecraft:log",
+				"metas": [2,6,10]
+			},
+			"clicktype": "right",
+			"properties":
+			[
+				{
+					"type": "require_sneak"
+				},
+				{
+					"type": "require_tool",
+					"tool": "axe",
+					"level": 1
+				},
+				{
+					"type": "add_hunger",
+					"amount": 0.25,
+					"disableJEI": true
+				},
+				{
+					"type": "consume_block",
+					"chance": 33,
+					"name": "primal:logs_stripped",
+					"meta": 2,
+					"disableJEI": true
+				},
+				{
+					"type": "spawn_particles",
+					"disableJEI": true,
+					"name": "crit",
+					"amount": 15
+				},
+				{
+					"type": "damage_item",
+					"amount": 1
+				},
+				{
+					"type": "play_sound",
+					"disableJEI": true,
+					"name": "block.wood.place"
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "primal:bark_birch",
+					"amount": "1",
+					"weight": 40
+				},
+				{
+					"name": "farmsteadforest:wet_birch_paperbark",
+					"amount": "2",
+					"weight": 25
+				},
+				{
+					"name": "minecraft:stick",
+					"amount": "3",
+					"weight": 15
+				},
+				{
+					"name": "minecraft:air",
+					"amount": "0",
+					"weight": 150
+				}
+			]
+		}
+	]
+}
+ 

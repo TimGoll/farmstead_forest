@@ -1,0 +1,30 @@
+{
+    "machine": "butchery",
+    "registryName": "hampshire",
+    "recipeTime": 50,
+    "requirements": [
+		{
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 25
+        },
+		{
+			"type": "item",
+			"io-type": "input",
+			"item": "animania:raw_hampshire_pork@0"
+		},
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "animania:raw_hampshire_bacon@0",
+			"amount": 6
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:bone@0",
+			"amount": 1,
+			"chance": 0.1
+        }
+    ]
+}

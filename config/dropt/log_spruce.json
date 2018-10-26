@@ -1,0 +1,55 @@
+{
+	"rules": [
+		{
+			"match": {
+				"blocks": {
+					"blocks": [
+						"minecraft:log:1",
+						"minecraft:log:5",
+						"minecraft:log:9"
+					]
+				},
+				"harvester": {
+					"heldItemMainHand": {
+						"harvestLevel": "axe;0;-1"
+					}
+				}
+			},
+			"replaceStrategy": "ADD",
+			"drops": [
+				{
+					"selector": {
+						"weight": {
+							"value": 5
+						}
+					},
+					"item": {
+						"items": [
+							"primal:bark_spruce"
+						],
+						"quantity": {
+							"min": 1,
+							"max": 2
+						}
+					}
+				},
+				{
+					"selector": {
+						"weight": {
+							"value": 95
+						}
+					},
+					"item": {
+						"items": [
+							"minecraft:air"
+						],
+						"quantity": {
+							"min": 0,
+							"max": 0
+						}
+					}
+				}
+			]
+		}
+	]
+}

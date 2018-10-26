@@ -1,0 +1,23 @@
+{
+    "machine": "sawmill",
+    "registryName": "sawmill_stick_22",
+    "recipeTime": 80,
+    "requirements": [
+		{
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 45
+        },
+		{
+			"type": "item",
+			"io-type": "input",
+			"item": "thaumcraft:plank_greatwood@0"
+		},
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:stick@0",
+			"amount": 4
+        }
+    ]
+}

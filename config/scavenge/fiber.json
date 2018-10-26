@@ -1,0 +1,319 @@
+{
+	"block_pools" :
+	[
+		{
+			"name": "fiber_leaves",
+			"type":
+			{
+				"type": "ore",
+				"name": "treeLeaves"
+			},
+			"clicktype": "right",
+			"properties":
+			[
+				{
+					"type": "require_sneak"
+				},
+				{
+					"type": "require_item",
+					"name": "farmsteadforest:flaked_stick"
+				},
+				{
+					"type": "damage_item",
+					"disableJEI": true,
+					"amount": 2
+				},
+				{
+					"type": "add_hunger",
+					"amount": 0.25,
+					"disableJEI": true
+				},
+				{
+					"type": "consume_block",
+					"chance": 50,
+					"name": "minecraft:air",
+					"disableJEI": true
+				},
+				{
+					"type": "spawn_particles",
+					"disableJEI": true,
+					"name": "crit",
+					"amount": 15
+				},
+				{
+					"type": "play_sound",
+					"disableJEI": true,
+					"name": "block.grass.hit"
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "primal:plant_fiber",
+					"amount": "1",
+					"weight": 60
+				},
+				{
+					"name": "minecraft:stick",
+					"amount": "1",
+					"weight": 20
+				},
+				{
+					"name": "minecraft:air",
+					"amount": "1",
+					"weight": 20
+				}
+			]
+		},
+		
+		
+		
+		{
+			"name": "grass_stuff",
+			"type":
+			{
+				"type": "block",
+				"name": "minecraft:tallgrass",
+				"meta": 1
+			},
+			"clicktype": "right",
+			"properties":
+			[
+				{
+					"type": "require_sneak"
+				},
+				{
+					"type": "require_item",
+					"name": "farmsteadforest:flaked_stick"
+				},
+				{
+					"type": "damage_item",
+					"disableJEI": true,
+					"amount": 2
+				},
+				{
+					"type": "add_hunger",
+					"amount": 0.25,
+					"disableJEI": true
+				},
+				{
+					"type": "consume_block",
+					"chance": 65,
+					"name": "minecraft:air",
+					"disableJEI": true
+				},
+				{
+					"type": "spawn_particles",
+					"disableJEI": true,
+					"name": "crit",
+					"amount": 15
+				},
+				{
+					"type": "play_sound",
+					"disableJEI": true,
+					"name": "block.grass.hit"
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "primal:plant_fiber",
+					"amount": "3",
+					"weight": 40
+				},
+				{
+					"name": "minecraft:wheat_seeds",
+					"amount": "2",
+					"weight": 10
+				},
+				{
+					"name": "rustic:chili_pepper_seeds",
+					"amount": "2",
+					"weight": 10
+				},
+				{
+					"name": "rustic:tomato_seeds",
+					"amount": "2",
+					"weight": 10
+				},
+				{
+					"name": "immersiveengineering:seed",
+					"amount": "2",
+					"weight": 10
+				},
+				{
+					"name": "minecraft:air",
+					"amount": "1",
+					"weight": 20
+				}
+			]
+		},
+		
+		
+		
+		{
+			"name": "grass_stuff_2",
+			"type":
+			{
+				"type": "block",
+				"name": "traverse:dead_grass",
+				"meta": 0
+			},
+			"clicktype": "right",
+			"properties":
+			[
+				{
+					"type": "require_sneak"
+				},
+				{
+					"type": "require_item",
+					"name": "farmsteadforest:flaked_stick"
+				},
+				{
+					"type": "damage_item",
+					"disableJEI": true,
+					"amount": 2
+				},
+				{
+					"type": "add_hunger",
+					"amount": 0.25,
+					"disableJEI": true
+				},
+				{
+					"type": "consume_block",
+					"chance": 65,
+					"name": "minecraft:air",
+					"disableJEI": true
+				},
+				{
+					"type": "spawn_particles",
+					"disableJEI": true,
+					"name": "crit",
+					"amount": 15
+				},
+				{
+					"type": "play_sound",
+					"disableJEI": true,
+					"name": "block.grass.hit"
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "primal:plant_fiber",
+					"amount": "3",
+					"weight": 40
+				},
+				{
+					"name": "minecraft:wheat_seeds",
+					"amount": "2",
+					"weight": 10
+				},
+				{
+					"name": "rustic:chili_pepper_seeds",
+					"amount": "2",
+					"weight": 10
+				},
+				{
+					"name": "rustic:tomato_seeds",
+					"amount": "2",
+					"weight": 10
+				},
+				{
+					"name": "immersiveengineering:seed",
+					"amount": "2",
+					"weight": 10
+				},
+				{
+					"name": "minecraft:air",
+					"amount": "1",
+					"weight": 20
+				}
+			]
+		},
+		
+		
+		
+		{
+			"name": "grass_stuff_3",
+			"type":
+			{
+				"type": "block",
+				"name": "traverse:cold_grass",
+				"meta": 0
+			},
+			"clicktype": "right",
+			"properties":
+			[
+				{
+					"type": "require_sneak"
+				},
+				{
+					"type": "require_item",
+					"name": "farmsteadforest:flaked_stick"
+				},
+				{
+					"type": "damage_item",
+					"disableJEI": true,
+					"amount": 2
+				},
+				{
+					"type": "add_hunger",
+					"amount": 0.25,
+					"disableJEI": true
+				},
+				{
+					"type": "consume_block",
+					"chance": 65,
+					"name": "minecraft:air",
+					"disableJEI": true
+				},
+				{
+					"type": "spawn_particles",
+					"disableJEI": true,
+					"name": "crit",
+					"amount": 15
+				},
+				{
+					"type": "play_sound",
+					"disableJEI": true,
+					"name": "block.grass.hit"
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "primal:plant_fiber",
+					"amount": "3",
+					"weight": 40
+				},
+				{
+					"name": "minecraft:wheat_seeds",
+					"amount": "2",
+					"weight": 10
+				},
+				{
+					"name": "rustic:chili_pepper_seeds",
+					"amount": "2",
+					"weight": 10
+				},
+				{
+					"name": "rustic:tomato_seeds",
+					"amount": "2",
+					"weight": 10
+				},
+				{
+					"name": "immersiveengineering:seed",
+					"amount": "2",
+					"weight": 10
+				},
+				{
+					"name": "minecraft:air",
+					"amount": "1",
+					"weight": 20
+				}
+			]
+		}
+	]
+}
+ 

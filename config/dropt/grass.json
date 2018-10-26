@@ -1,0 +1,21 @@
+{
+	"rules": [
+		{
+			"match": {
+				"blocks": {
+					"blocks": [
+						"minecraft:tallgrass:1",
+						"traverse:cold_grass",
+						"traverse:dead_grass"
+					]
+				}
+			},
+			"replaceStrategy": "REPLACE_ALL",
+			"drops": [
+				{
+					
+				}
+			]
+		}
+	]
+}

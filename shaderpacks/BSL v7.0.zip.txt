@@ -1,0 +1,15 @@
+#Fri Aug 24 13:03:32 CEST 2018
+RoundSunMoon=true
+RPSFormat=2
+WaterG=224
+SkyCS=0.90
+WaterDistantWave=true
+Saturation=0.8
+AverageExposure=true
+WaterB=208
+ShadowLeakFix=true
+WaterCaustic=true
+WaterS=0.20
+WaterR=144
+MotionBlur=true
+BumpyEdge=true

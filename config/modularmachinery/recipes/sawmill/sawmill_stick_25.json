@@ -1,0 +1,23 @@
+{
+    "machine": "sawmill",
+    "registryName": "sawmill_stick_25",
+    "recipeTime": 80,
+    "requirements": [
+		{
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 45
+        },
+		{
+			"type": "item",
+			"io-type": "input",
+			"item": "primal:planks@2"
+		},
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "primal:lacquer_stick@0",
+			"amount": 4
+        }
+    ]
+}

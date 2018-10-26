@@ -1,0 +1,30 @@
+{
+    "machine": "log_splitter",
+    "registryName": "log_splitter_ironwood",
+    "recipeTime": 300,
+    "requirements": [
+		{
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 50
+        },
+		{
+			"type": "item",
+			"io-type": "input",
+			"item": "primal:logs@0"
+		},
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "primal:logs_split_ironwood@0",
+			"amount": 6
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "primal:bark_ironwood@0",
+			"amount": 3,
+			"chance": 0.33
+        }
+    ]
+}

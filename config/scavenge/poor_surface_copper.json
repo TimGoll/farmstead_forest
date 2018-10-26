@@ -1,0 +1,68 @@
+{
+	"block_pools" :
+	[
+		{
+			"name": "poor_surface_copper",
+			"disableJEI": true,
+			"type":
+			{
+				"type": "block",
+				"name": "simpleoresamples:sampleblockcopper"
+			},
+			"clicktype": "right",
+			"properties":
+			[
+				{
+					"type": "require_sneak"
+				},
+				{
+					"type": "require_item",
+					"name": "minecraft:stick"
+				},
+				{
+					"type": "add_hunger",
+					"amount": 0.15,
+					"disableJEI": true
+				},
+				{
+					"type": "consume_block",
+					"chance": 100,
+					"name": "minecraft:air",
+					"meta": 0,
+					"disableJEI": true
+				},
+				{
+					"type": "spawn_particles",
+					"disableJEI": true,
+					"name": "crit",
+					"amount": 10,
+					"speed": 0.5
+				},
+				{
+					"type": "play_sound",
+					"disableJEI": true,
+					"name": "block.stone.hit"
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "farmsteadforest:tiny_pile_of_poor_copper_ore",
+					"amount": "1",
+					"weight": 60
+				},
+				{
+					"name": "farmsteadforest:tiny_pile_of_poor_copper_ore",
+					"amount": "2",
+					"weight": 30
+				},
+				{
+					"name": "farmsteadforest:tiny_pile_of_poor_copper_ore",
+					"amount": "3",
+					"weight": 10
+				}
+			]
+		}
+	]
+}
+ 

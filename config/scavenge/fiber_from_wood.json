@@ -1,0 +1,66 @@
+{
+	"block_pools" :
+	[
+		{
+			"name": "fiber_from_wood",
+			"disableJEI": true,
+			"type":
+			{
+				"type": "ore",
+				"name": "logWood"
+			},
+			"clicktype": "right",
+			"properties":
+			[
+				{
+					"type": "require_sneak"
+				},
+				{
+					"type": "require_item",
+					"name": "farmsteadforest:flaked_stick_with_rock"
+				},
+				{
+					"type": "damage_item",
+					"amount": 4
+				},
+				{
+					"type": "add_hunger",
+					"amount": 0.25,
+					"disableJEI": true
+				},
+				{
+					"type": "consume_block",
+					"chance": 34,
+					"name": "biomesoplenty:log_4",
+					"meta": 5,
+					"disableJEI": true
+				},
+				{
+					"type": "spawn_particles",
+					"disableJEI": true,
+					"name": "crit",
+					"amount": 15
+				},
+				{
+					"type": "play_sound",
+					"disableJEI": true,
+					"name": "block.wood.place"
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "farmsteadforest:bark_fiber",
+					"amount": "1",
+					"weight": 33
+				},
+				{
+					"name": "minecraft:air",
+					"amount": "0",
+					"weight": 66
+				}
+			]
+		}
+	]
+}
+ 

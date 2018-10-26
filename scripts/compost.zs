@@ -1,0 +1,2 @@
+recipes.remove(<composter:compost_bin>);
+recipes.addShaped(<composter:compost_bin>, [[<ore:logSplit>, null, <ore:logSplit>], [<ore:logSplit>, <ore:stickWood>, <ore:logSplit>], [<ore:logSplit>, <ore:slabWood>, <ore:logSplit>]]);

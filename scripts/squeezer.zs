@@ -1,0 +1,1 @@
+mods.forestry.Squeezer.addRecipe(<liquid:slop> *1000, [<minecraft:potato>, <minecraft:carrot>, <minecraft:beetroot>], 150, <minecraft:poisonous_potato> % 5);

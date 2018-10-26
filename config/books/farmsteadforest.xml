@@ -1,0 +1,435 @@
+<book title="Farmstead Forest - Getting started" cover="gbook:farmsteadforest_title" fontSize="0.6" home="1:2">
+	<chapter id="01_welcome">
+		<page>
+			<p space="0" scale="1.5" bold="true" align="center">Welcome</p>
+			<p><image src="gbook:farmsteadforest" tw="170" th="170" /></p>
+			<p space="10">Thanks for playing Farmstead Forest. A modpack inspired by Stardew Valley and designed around farming, animals and light automation.</p>
+			<p space="10">If you find some bugs please update your pack and report them on <link href="http://github.com/TimGoll/farmstead_forest/issues">Github</link>.</p>
+		</page>
+		<page>
+			<p space="15" scale="1.5" bold="true" align="center">Index</p>
+			<p><link ref="02_questbook">1. Questbook</link></p>
+			<p><link ref="03_getting_started">2. Getting Started</link></p>
+			<p><link ref="04_charcoal">3. Charcoal</link></p>
+			<p><link ref="05_tools">4. Tools</link></p>
+			<p><link ref="06_water">5. Water</link></p>
+			<p><link ref="07_farming">6. Farming</link></p>
+			<p><link ref="08_automated_carts">7. Automated Carts</link></p>
+			<p><link ref="09_automated_farming">8. Advanced Farm Automation</link></p>
+		</page>
+	</chapter>
+	
+	<chapter id="02_questbook">
+		<page>
+			<p space="15" scale="1.5" bold="true" align="center">Questbook</p>
+			<p space="10">To help you through the game, a questing system was added. In the beginnning, basically all major steps are covered to help you not get lost. There are even nice rewards! The first quest is in the bottom center and is pentagonal.</p>
+			<p><image src="gbook:quests" tw="170" th="78" /></p>
+			<p space="10" scale="0.75" align="center" color="#383531">Questbookicon in the inventory GUI.</p>
+		</page>
+	</chapter>
+	
+	<chapter id="03_getting_started">
+		<page>
+			<p space="15" scale="1.5" bold="true" align="center">Getting Started</p>
+			<p space="10">After playing minecraft for years you think you know how to play this game. Use your fist, punch a tree and start your adventure. But this time it is a bit different.</p>
+			<p color="#af9c63" indent="15" space="10">While hitting the tree with your fist you start to feel a light pain in your hand. You realize that hitting trees with your bare hand isn't the best option...</p>
+			<p space="10">Before getting your first wood, you have to collect a few sticks by breaking leaves. They are needed to break rocks out of stone and get a larger yield of flint (Hint: you have to sneak + right klick) and to craft your primal tools.</p>
+			<p space="10" bold="true">Primitive Tools:</p> 
+			<p><stack item="minecraft:stick"/> <stack item="farmsteadforest:flaked_stick"/> <stack item="farmsteadforest:flaked_stick_with_rock"/></p>
+		</page>
+		<page>
+			<p space="10">Try these tools on (cobble)stone, gravel, leaves, grass, log and surface copper. Not always every tool works. The flaked tools even double as a crude weapon! You can get more information in JEI.</p> 
+			<p space="10">After you got hold of enough ingredients such as sticks, rocks, flint, plant- and barkfiber, there's nothing in the way of your first crafting table and even more so: flint tools!</p>
+			<recipe type="shaped">
+				<recipe.result>
+					<stack item="primal_tech:work_stump"/>
+				</recipe.result>
+			</recipe>
+			<p space="10"> </p>
+			<p space="10">But there's still one thing missing to craft your first proper tools. Hardened plant twines. You get them by cooking up some plant fibers. Therefore you need a furnace made out of cobblestone, in other words: sand, rocks and clay.</p>
+		</page>
+		<page>
+			<p space="10">To craft these tools, you need to flake flint on a stone. Simple left klicking does the job.</p>
+			<p space="10" bold="true">Available Tools:</p> 
+			<p space="10"><stack item="primal:flint_axe"/> <stack item="primal:flint_shovel"/> <stack item="primal:flint_hoe"/> <stack item="primal:flint_shears"/> <stack item="primal:flint_workblade"/> <stack item="primal:flint_saw"/> <stack item="primal:sword_crude_flint"/></p>
+			<p space="10">You are now able to craft basically everything. But to progress further you need to start mining. But charcoal is needed to to so.</p>
+			<p space="10" bold="true">Log Stripping:</p>
+			<p space="10">You can strip logs (only vanilla and primal) with every workblade, hatchet or axe in the game. The workblade drops multiple pieces of bark everytime you strip a piece. By using a hatchet or axe you get an overall smaller yield but you also get access to new and important crafting materials and earlygame food.</p>
+		</page>
+	</chapter>
+	
+	
+	<chapter id="04_charcoal">
+		<page>
+			<p space="15" scale="1.5" bold="true" align="center">Producing Charcoal</p>
+			<p space="10">For this step you need a few log pieces and a (flint) work blade. Place a piece of log in front of you and sneak right klick a few times on this block with your workblade until the bark is stripped down. Now take your hatchet or axe and sneak right klick this block until it breakes into several small log pieces. You need at least nine of them to progress further.</p>
+			<recipe type="shaped">
+				<recipe.result>
+					<stack item="primal:logs_stacked"/>
+				</recipe.result>
+			</recipe>
+			<p space="10"> </p>
+			<p space="10">Hint: Some types of wood create more charcoal than others.</p>
+			<p space="10" bold="true">Compatible log types:</p> 
+			<p><stack item="minecraft:log" meta="0"/> <stack item="minecraft:log" meta="1"/> <stack item="minecraft:log" meta="2"/> <stack item="minecraft:log" meta="3"/> <stack item="minecraft:log2" meta="0"/> <stack item="minecraft:log2" meta="1"/> <stack item="primal:logs" meta="0"/> <stack item="primal:logs" meta="1"/> <stack item="primal:corypha_stalk" meta="0"/></p>
+		</page>
+		<page>
+			<p space="10">You now have to burry one or more of these stacked logs in the ground and light it on fire. Therefore you have to craft a fire bow.</p>
+			<recipe type="shaped">
+				<recipe.result>
+					<stack item="primal:fire_bow"/>
+				</recipe.result>
+			</recipe>
+			<p space="10"> </p>
+			<p space="10">It works with sticks. Rightklick on the block you want to set on fire. Sometimes multiple clicks are needed. After setting it successful on fire smoke particles appear which even penetrate the dirt block you placed on top of it.</p>
+			<p><image src="gbook:charcoal_1" tw="170" th="78" /></p>
+			<p space="10" scale="0.75" align="center" color="#383531">Placement of multiple log stacks.</p>
+		</page>
+		<page>
+			<p><image src="gbook:charcoal_2" tw="170" th="78" /></p>
+			<p space="10" scale="0.75" align="center" color="#383531">Burning log stacks with smoke.</p>
+			<p><image src="gbook:charcoal_3" tw="170" th="78" /></p>
+			<p space="15" scale="0.75" align="center" color="#383531">You were to slow with closing up and produced ash.</p>
+			<p space="10">You can remove the block on top after the smoke particles have stopped rising and mine your first charcoal. You can use your fist.</p>
+		</page>
+		<page>
+			<p><image src="gbook:charcoal_4" tw="170" th="78" /></p>
+			<p space="15" scale="0.75" align="center" color="#383531">Successfull production of charcoal stacks.</p>
+
+			<p space="10">You're now able to craft unlit torches and progress with building tools.</p>
+			<recipe type="shaped" key="primal:unlit_torch_coal"/>
+			<p space="10"> </p>
+			<p space="10">You have to light these torches with a fire bow or other torches. And place them in a rain sheltered place.</p>
+		</page>
+	</chapter>
+	
+	<chapter id="05_tools">
+		<page>
+			<p space="15" scale="1.5" bold="true" align="center">Tools and Armor</p>
+			<p space="10">First off you have to craft about 15 blank patterns:</p>
+			<recipe type="shaped">
+				<recipe.result>
+					<stack item="tconstruct:pattern"/>
+				</recipe.result>
+			</recipe>
+			<p space="10"> </p>
+			<p space="10">Combined with some other wooden items and copper bars you have to craft these tables:</p>
+			<p space="10">
+				<stack item="tconstruct:tooltables" meta="0"/>
+				<stack item="tconstruct:tooltables" meta="1"/>
+				<stack item="tconstruct:tooltables" meta="2"/>
+				<stack item="tconstruct:tooltables" meta="3"/>
+				<stack item="conarm:armorstation"/>
+			</p>
+			<p space="10">These two special chests are very handy but not necessary:</p>
+			<p space="10">
+				<stack item="tconstruct:tooltables" meta="4"/>
+				<stack item="tconstruct:tooltables" meta="5"/>
+			</p>
+			<p space="10">You probably want to start with either wooden, stone or flint tools. Later on you can create more powerful tools with the use of a smeltery, wich is also your first way to double your ores.</p>
+		</page>
+		<page>
+			<p space="10" bold="true">You can find more information in these books:</p>
+			<recipe type="shaped">
+				<recipe.result>
+					<stack item="tconstruct:book"/>
+				</recipe.result>
+			</recipe>
+			<recipe type="shaped">
+				<recipe.result>
+					<stack item="conarm:book"/>
+				</recipe.result>
+			</recipe>
+			<p space="10"> </p>
+			<p space="10">Every new tool has three modifier slots to further improve the tool. Over time your tools gain XP which results in additional modifier slots.</p>
+			<p space="10">There's a tool belt (bauble) to unclutter your inventory. You can upgrade it on the anvil with a new pouch. By default you can switch between your tools with Y.</p>
+		</page>
+	</chapter>
+	
+	<chapter id="06_water">
+		<page>
+			<p space="15" scale="1.5" bold="true" align="center">Water</p>
+			<p space="10">In this world, water is a finite resource. You are not able to create infinite water sources like you are used to, but there are a few different options throughout your progress. Oceans and rivers have infinite water though.</p>
+			<p space="10">At first you’ll start with a simple wooden raincollector. Just place it outside and wait for the rain to fill it. Later on you can upgrade this to a multiblock structure which is also able to interact with piping systems.</p>
+			<p><image src="gbook:water_harvesting_passive" tw="170" th="78" /></p>
+			<p space="15" scale="0.75" align="center" color="#383531">Passive water harvesting. Early game barrel (left) and multiblock structure with pipe interaction (right). You have to activate this multiblock with a pipe wrench.</p>
+		</page>
+		<page>
+			<p space="10">After some time has passed you can upgrade your system again, depending on your base location. You can start pumping water from rivers or the ocean and pipe it to your base or you could build a ground pump, which pumps infinite amounts of water from the bedrock level into your tanks.</p>
+			<p space="10">Hint: The pump from Industrial Foregoing and the pump from Immersive Engineering replace every source block with cobblestone, even in infinite areas like the ocean. You can use the buildcraft pump here.</p>
+			<p><image src="gbook:water_harvesting_pump" tw="170" th="78" /></p>
+			<p space="15" scale="0.75" align="center" color="#383531">Offshore pumpstation.</p>
+		</page>
+		<page>
+			<p space="10">There’s an even better machine in the endgame. The condensator. Place it inbetween at least two sourceblocks and it starts producing water forever without the need of any power.</p>
+			<p space="10">Some blocks needed throughout the game:</p>
+			<p space="10">
+				<stack item="waterworks:rain_tank_wood"/>
+				<stack item="waterworks:rain_collector"/>
+				<stack item="waterworks:rain_collector_controller"/>
+				<stack item="buildcraftfactory:pump"/>
+				<stack item="immersiveengineering:metal_device0" meta="5"/>
+				<stack item="industrialforegoing:fluid_pump"/>
+				<stack item="waterworks:groundwater_pump"/>
+				<stack item="waterworks:water_pipe"/>
+				<stack item="industrialforegoing:water_condensator"/>
+			</p>
+		</page>
+	</chapter>
+	
+	<chapter id="07_farming">
+		<page>
+			<p space="15" scale="1.5" bold="true" align="center">Farming</p>
+			<p space="10">You start of by building your first hoe, probably out of flint. But you need seeds before you can start planting something. Break grass or use your hoe on grassblocks which are far enough away from water blocks.</p>
+			<p space="10" bold="true">Seeds that drop from breaking grass with a flaked stick or tilling dry land:</p>
+			<p space="10">
+				<stack item="minecraft:wheat_seeds"/>
+				<stack item="rustic:tomato_seeds"/>
+				<stack item="rustic:chili_pepper_seeds"/>
+				<stack item="immersiveengineering:seed"/>
+			</p>
+			<p space="10">You're now able to plant your first wheat on wet tilled farmland. Harvesting yields one to three crops and no new seeds. You have to craft the latter one out of your crops.</p>
+			<p space="10">At some point you have a few seeds, crops, wooden stuff or other natural raw materials on your hand. You can build one or more compost bins to recycle them.</p>
+		</page>
+		<page>
+			<p space="10" bold="true">Compost Bin:</p>
+			<recipe type="shaped">
+				<recipe.result>
+					<stack item="composter:compost_bin"/>
+				</recipe.result>
+			</recipe>
+			<p space="10"> </p>
+			<p space="10">After producing a few pieces of compost, you're able to craft fertilizers. This compost can additionally be used as bonemeal alternative.</p>
+			
+			<p space="10" bold="true">Anti Trample Fertilizer:</p>
+			<recipe type="shaped">
+				<recipe.result>
+					<stack item="farmingforblockheads:fertilizer" meta="2"/>
+				</recipe.result>
+			</recipe>
+			<p space="10"> </p>
+			<p space="15">This fertilizer prevents your farmlent from being destroyed by you or some strolling animals.</p>
+		</page>
+		<page>
+			<p space="10" bold="true">Growth Rate Fertilizer:</p>
+			<recipe type="shaped">
+				<recipe.result>
+					<stack item="farmingforblockheads:fertilizer" meta="0"/>
+				</recipe.result>
+			</recipe>
+			<p space="10"> </p>
+			<p space="15">This fertilizer increases the growth speed of your crops. Every now and then a small particle effect is visible and the crop growth is boosted.</p>
+		
+			<p space="10" bold="true">More Yield Fertilizer:</p>
+			<recipe type="shaped">
+				<recipe.result>
+					<stack item="farmingforblockheads:fertilizer" meta="1"/>
+				</recipe.result>
+			</recipe>
+			<p space="10"> </p>
+			<p space="15">This fertilizer increases the yield about one.</p>
+
+			<p space="10">There's even the possibility to use farmland without nearby water. To do so, you have to craft fertile soil. It has no speed or yield</p>
+		</page>
+		<page>
+			<p space="10">benefits, but is untrampable and needs no water nearby.</p>
+			<recipe type="shaped">
+				<recipe.result>
+					<stack item="rustic:fertile_soil"/>
+				</recipe.result>
+			</recipe>
+			<p space="10"> </p>
+			<p space="15">You get the mud by breaking wet farmland.</p>
+			<p space="10" bold="true">More Seeds:</p>
+			<p space="10">You can find a huge a variety of different seeds by collecting and breaking different gardens. There are six different gardens available:</p>
+			<p space="10">
+				<stack item="harvestcraft:aridgarden"/>
+				<stack item="harvestcraft:frostgarden"/>
+				<stack item="harvestcraft:shadedgarden"/>
+				<stack item="harvestcraft:soggygarden"/>
+				<stack item="harvestcraft:tropicalgarden"/>
+				<stack item="harvestcraft:windygarden"/>
+			</p>
+			<p space="10">Hint: These gardens spread over time. If you want to take them with you, you can sneak leftklick them and place them again in your base.</p>
+			<p space="10">Additionally there is a market where you can buy seeds.</p>
+		</page>
+		<page>
+			<p space="10" bold="true">Crops on Stakes:</p>
+			<p>In contrast to most of the crops, there are three crops that need stakes and ropes. They grow slow and do not benefit any fertilized soil. But harvesting the crops does not destroy the plant itself. Therefore it is a fast yield producer after an initial growth time.</p>
+			<recipe type="shaped">
+				<recipe.result>
+					<stack item="rustic:crop_stake"/>
+				</recipe.result>
+			</recipe>
+			<recipe type="shaped">
+				<recipe.result>
+					<stack item="rustic:rope"/>
+				</recipe.result>
+			</recipe>
+			<p space="10"> </p>
+			<p><image src="gbook:farming_grape" tw="170" th="78" /></p>
+			<p space="10" scale="0.75" align="center" color="#383531">Configuration for two grape vines.</p>
+		</page>
+		<page>
+			<p><image src="gbook:farming_tomatoe_chili" tw="170" th="78" /></p>
+			<p space="15" scale="0.75" align="center" color="#383531">Chili grows two and tomatoes three blocks up. One extra block needed for the rope.</p>
+			
+			<p space="10" bold="true">Treecrops:</p>
+			<p space="10">There are fruit trees in addition to farmland crops. Graft fruits with saplings to get a fruit tree sapling. Rightklick on the crops to harvest them.</p>
+			<p><image src="gbook:farming_appletree" tw="170" th="78" /></p>
+			<p space="15" scale="0.75" align="center" color="#383531">An apple tree with ripe apples.</p>
+		</page>
+		<page>
+			<p space="10">Creating these saplings is relatively easy, even earlygame. As soon as you have your first power generation, the most expensive part of this is the crafting of the cloth needed.</p>
+			<p><image src="gbook:plant_grafting" tw="170" th="78" /></p>
+			<p space="15" scale="0.75" align="center" color="#383531">Plant grafting to create two apple tree saplings.</p>
+		</page>
+	</chapter>
+	
+	<chapter id="08_automated_carts">
+		<page>
+			<p space="15" scale="1.5" bold="true" align="center">Automated Carts</p>
+			<p space="10">Early on you can start automating the most tasks with Steves Carts. The basic ones are fairly cheap and do not need any power besides sun or coal and drive on normal tracks.</p>
+			<p><image src="gbook:steves_carts_farm" tw="170" th="78" /></p>
+			<p space="15" scale="0.75" align="center" color="#383531">Early game automated crop farm.</p>
+			<p space="10">You need a coal powered "Cart Assembler" to build these carts. Craft a hull, an engine and some other parts and combine them in the assembler. Hint: There's an upgrade with the name "Cart Modifier" which you can attach to the assembly table. It allows you to add/remove parts from your cart at a later point.</p>
+		</page>
+		<page>
+			<recipe type="shaped">
+				<recipe.result>
+					<stack item="stevescarts:blockcartassembler"/>
+				</recipe.result>
+			</recipe>
+			<p space="10"> </p>
+			<p space="10">These Carts are easy to automate. In fact you only need three parts: a cargo manager, an advanced detector rail and the external distributor. The last one of these allows piping in and of of the inventory.</p>
+			<p><image src="gbook:steves_carts_farm_automation" tw="170" th="78" /></p>
+			<p space="15" scale="0.75" align="center" color="#383531">Piping interface.</p>
+		</page>
+		<page>
+			<p space="10">But there is so much more. You can build tunneldigger, automated mining systems, tree farms, ... There are hardly any limits!</p>
+			<p><image src="gbook:steves_carts_treefarm" tw="170" th="78" /></p>
+			<p space="15" scale="0.75" align="center" color="#383531">Example of a tree farm.</p>
+		</page>
+	</chapter>
+	
+	<chapter id="09_automated_farming">
+		<page>
+			<p space="15" scale="1.5" bold="true" align="center">Advanced Farm Automation</p>
+			<p space="10">There's a fancy multiblock structure from forestry to automate your crop and tree farms. Before you start building, you have to decide how big your farm should be. There are 5 different configurations.</p>
+			<p><image src="gbook:farm_size" tw="170" th="78" /></p>
+			<p space="15" scale="0.75" align="center" color="#383531">autmated farm configurations.</p>
+			
+			<p space="10">When you know the size of your footprint you have to place farm blocks 4 blocks high. Later on at least one of these has to be raplaced with a gearbox. But be careful, the second row from the top should not be replaced.</p>
+		</page>
+		<page>
+			<p space="10" bold="true">Farm block types:</p>
+			<p space="10">
+				<stack item="forestry:ffarm" meta="0" tag="FarmBlock:3"/>
+				<stack item="forestry:ffarm" meta="2" tag="FarmBlock:3"/>
+				<stack item="forestry:ffarm" meta="3" tag="FarmBlock:3"/>
+				<stack item="forestry:ffarm" meta="4" tag="FarmBlock:3"/>
+				<stack item="forestry:ffarm" meta="5" tag="FarmBlock:3"/>
+			</p>
+			<p space="10">In the image below is shown the max and min height of the base layer. You have to place this by hand and the size is not important. If it is bigger than the maximal supported size some parts will be unused.</p>
+			<p><image src="gbook:farm_example_config" tw="170" th="78" /></p>
+			<p space="15" scale="0.75" align="center" color="#383531">different base layer levels.</p>
+			<p space="10">After inserting a circuit board with the right tubes inside (you need a soldering iron) the farm is finished.</p>
+		</page>
+		<page>
+			<p><image src="gbook:complete_farm" tw="170" th="78" /></p>
+			<p space="15" scale="0.75" align="center" color="#383531">example of a very small automated wheat farm.</p>
+			<p space="10">These farms support multiple different production types. You can find all the necessary information in the forester's manual in the chapter farming - farm configuration.</p>
+			<recipe type="shaped">
+				<recipe.result>
+					<stack item="forestry:book_forester"/>
+				</recipe.result>
+			</recipe>
+		</page>
+	</chapter>
+	<chapter>
+		<page>
+			<p space="15" scale="1.5" bold="true" align="center">Animals</p>
+			<p space="10">ToDo</p>
+		</page>
+	</chapter>
+	<chapter>
+		<page>
+			<p space="15" scale="1.5" bold="true" align="center">Food</p>
+			<p space="10">ToDo</p>
+			best start food
+			start with bread
+			salt
+			automation (fishing, ...)
+			Cooking for blockheads
+		</page>
+	</chapter>
+	<chapter>
+		<page>
+			<p space="15" scale="1.5" bold="true" align="center">Hints and Tricks</p>
+			<p space="12" scale="1.2" bold="true" align="center">Leveling</p>
+			<p space="10">After reaching Level 5 you are able to press the 'L' key and select a profession. This profession defines where you get an XP boost. You can select different attributes and increase your level with your XP points. Your stats are consistant over your death.</p>
+		</page>
+		<page>
+			<p space="12" scale="1.2" bold="true" align="center">Item Storage</p>
+			<p space="10">Especially in modded Minecraft different storage solutions are really important. Alongside the default chests</p>
+			<p space="10">
+				<stack item="minecraft:chest"/>
+				<stack item="quark:custom_chest" meta="0"/>
+				<stack item="quark:custom_chest" meta="1"/>
+				<stack item="quark:custom_chest" meta="2"/>
+				<stack item="quark:custom_chest" meta="3"/>
+				<stack item="quark:custom_chest" meta="4"/>
+			</p>
+			<p space="10">are metal and gem chests with a bigger storage:</p>
+			<p space="10">
+				<stack item="metalchests:metal_chest" meta="0"/>
+				<stack item="metalchests:metal_chest" meta="1"/>
+				<stack item="metalchests:metal_chest" meta="2"/>
+				<stack item="metalchests:metal_chest" meta="3"/>
+				<stack item="metalchests:metal_chest" meta="4"/>
+				<stack item="metalchests:metal_chest" meta="5"/>
+			</p>
+			<p space="10">But there ist more! In this pack are really handy and immersive drawers, like the ones shown here:</p>
+			<p space="10">
+				<stack item="storagedrawers:basicdrawers" meta="0" tag="withTag({material:oak})"/>
+				<stack item="storagedrawers:basicdrawers" meta="1" tag="withTag({material:oak})"/>
+				<stack item="storagedrawers:basicdrawers" meta="2" tag="withTag({material:oak})"/>
+				<stack item="storagedrawers:basicdrawers" meta="3" tag="withTag({material:oak})"/>
+				<stack item="storagedrawers:compdrawers"/>
+				<stack item="compactdrawers:compact_drawer_half"/>
+			</p>
+			Furthermore there is a really powerful digital storage system. The 'Refined Storage'.
+		</page>
+	</chapter>
+	<chapter>
+		<page>
+			<p space="15" scale="1.5" bold="true" align="center">Fluid Storage</p>
+			<p space="10">ToDo</p>
+		</page>
+	</chapter>
+	<chapter>
+		<page>
+			<p space="15" scale="1.5" bold="true" align="center">Item Transportation</p>
+			<p space="10">ToDo</p>
+		</page>
+	</chapter>
+	<chapter>
+		<page>
+			<p space="15" scale="1.5" bold="true" align="center">Refined Storage</p>
+			<p space="10">ToDo</p>
+		</page>
+	</chapter>
+	<chapter>
+		<page>
+			<p space="15" scale="1.5" bold="true" align="center">Further Info</p>
+			<p space="10">You can find further information in these books:</p>
+			<p space="10">
+				<stack item="immersiveengineering:tool" meta="3"/>
+				<stack item="cookingforblockheads:recipe_book" meta="1"/>
+				<stack item="cookingforblockheads:recipe_book" meta="2"/>
+				<stack item="buildcraftlib:guide"/>
+				<stack item="thaumcraft:thaumonomicon"/>
+			</p>
+		</page>
+	</chapter>
+</book>

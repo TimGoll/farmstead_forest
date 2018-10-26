@@ -1,0 +1,30 @@
+{
+    "machine": "log_splitter",
+    "registryName": "log_splitter_yew",
+    "recipeTime": 300,
+    "requirements": [
+		{
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 50
+        },
+		{
+			"type": "item",
+			"io-type": "input",
+			"item": "primal:logs@1"
+		},
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "primal:logs_split_yew@0",
+			"amount": 6
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "primal:bark_yew@0",
+			"amount": 3,
+			"chance": 0.33
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "machine": "log_splitter",
+    "registryName": "log_splitter_oak",
+    "recipeTime": 300,
+    "requirements": [
+		{
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 50
+        },
+		{
+			"type": "item",
+			"io-type": "input",
+			"item": "minecraft:log@0"
+		},
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "primal:logs_split_oak@0",
+			"amount": 6
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "primal:bark_oak@0",
+			"amount": 3,
+			"chance": 0.33
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "farmsteadforest:worm@0",
+			"amount": 1,
+			"chance": 0.25
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "machine": "cokeoven",
+    "registryName": "cokeoven_sawdust",
+    "recipeTime": 1350,
+    "requirements": [
+		{
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 500
+        },
+		{
+			"type": "item",
+			"io-type": "input",
+			"item": "farmsteadforest:compressed_sawdust@0"
+		},
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "immersiveengineering:material@6",
+			"amount": 1
+        },
+		{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "creosote",
+			"amount": 125
+        }
+    ]
+}

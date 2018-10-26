@@ -1,0 +1,34 @@
+{
+	"rules": [
+		{	
+			"match": {
+				"blocks": {
+					"blocks": [
+						"minecraft:soul_sand"
+					]
+				},
+				"harvester": {
+					
+				}
+			},
+			"replaceStrategy": "REPLACE_ALL",
+			"drops": [
+				{
+					"selector": {
+
+					},
+					"item": {
+						"items": [
+							"farmsteadforest:soulsand_dust:0"
+						],
+						"quantity": {
+							"min": 2,
+							"max": 4
+						}
+					}
+				}
+				
+			]
+		}
+	]
+}

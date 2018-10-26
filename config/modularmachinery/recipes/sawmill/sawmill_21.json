@@ -1,0 +1,30 @@
+{
+    "machine": "sawmill",
+    "registryName": "sawmill_bop_16",
+    "recipeTime": 80,
+    "requirements": [
+		{
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 45
+        },
+		{
+			"type": "item",
+			"io-type": "input",
+			"item": "biomesoplenty:log_3@7"
+		},
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "biomesoplenty:planks_0@15",
+			"amount": 6
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "farmsteadforest:sawdust@0",
+			"amount": 1,
+			"chance": 0.5
+        }
+    ]
+}

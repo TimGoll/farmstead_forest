@@ -1,0 +1,29 @@
+{
+    "machine": "charcoal_furnace",
+    "registryName": "charcoal_furnace_yew",
+    "recipeTime": 900,
+    "requirements": [
+		{
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 120
+        },
+		{
+			"type": "item",
+			"io-type": "input",
+			"item": "primal:logs_stacked@7"
+		},
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:coal@1",
+			"amount": 5
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "primal:charcoal_fair@0",
+			"amount": 2
+        }
+    ]
+}

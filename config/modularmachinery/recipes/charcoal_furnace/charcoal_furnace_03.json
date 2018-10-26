@@ -1,0 +1,35 @@
+{
+    "machine": "charcoal_furnace",
+    "registryName": "charcoal_furnace_jungle",
+    "recipeTime": 900,
+    "requirements": [
+		{
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 120
+        },
+		{
+			"type": "item",
+			"io-type": "input",
+			"item": "primal:logs_stacked@3"
+		},
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "primal:charcoal_good@0",
+			"amount": 2
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "primal:charcoal_high@0",
+			"amount": 5
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "primal:charcoal_pure@0",
+			"amount": 2
+        }
+    ]
+}

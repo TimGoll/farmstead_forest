@@ -1,0 +1,17 @@
+/backups/
+/bendspacks/
+/crash-reports/
+/downloads/
+/libraries/
+/local/
+/logs/
+/mods/
+/saves/
+/screenshots/
+/server-resource-packs/
+/snapshot-server/
+*.log
+WailaErrorOutput.txt
+usercache.json
+usernamecache.json
+.curseclient

@@ -1,0 +1,37 @@
+{
+    "machine": "log_splitter",
+    "registryName": "log_splitter_jungle",
+    "recipeTime": 300,
+    "requirements": [
+		{
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 50
+        },
+		{
+			"type": "item",
+			"io-type": "input",
+			"item": "minecraft:log@3"
+		},
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "primal:logs_split_jungle@0",
+			"amount": 6
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "primal:bark_jungle@0",
+			"amount": 3,
+			"chance": 0.33
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "farmsteadforest:kapok_tuft@0",
+			"amount": 1,
+			"chance": 0.25
+        }
+    ]
+}
