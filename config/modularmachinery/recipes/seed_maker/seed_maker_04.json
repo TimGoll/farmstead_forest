@@ -1,0 +1,23 @@
+{
+    "machine": "seed_maker",
+    "registryName": "seed_maker_04",
+    "recipeTime": 50,
+    "requirements": [
+		{
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 25
+        },
+		{
+			"type": "item",
+			"io-type": "input",
+			"item": "gardenstuff:material@6"
+		},
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "gardenstuff:candelilla_seeds@0",
+			"amount": 2
+        }
+    ]
+}

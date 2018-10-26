@@ -1,0 +1,23 @@
+{
+    "machine": "seed_maker",
+    "registryName": "seed_maker_37",
+    "recipeTime": 50,
+    "requirements": [
+		{
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 25
+        },
+		{
+			"type": "item",
+			"io-type": "input",
+			"item": "harvestcraft:garlicitem@0"
+		},
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "harvestcraft:garlicseeditem@0",
+			"amount": 2
+        }
+    ]
+}

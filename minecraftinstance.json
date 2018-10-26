@@ -18,7 +18,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2018-10-26T12:59:38.5175311Z",
+  "lastPlayed": "2018-10-26T16:01:00.9549593Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -288,21 +288,6 @@
       "queryTimestamp": "2018-10-26T13:37:24.1080925Z",
       "fileCount": 1,
       "fileSize": 41586
-    },
-    {
-      "folderName": "creeperconfetti-1.4.2.jar",
-      "fingerprint": 858361417,
-      "fileDateHash": 1337839497,
-      "sectionID": 6,
-      "individualFingerprints": [
-        858361417
-      ],
-      "status": 1,
-      "timestamp": "2018-10-26T13:37:20.9190628Z",
-      "lastWriteTimeUtc": "2018-08-22T16:09:57.9724235Z",
-      "queryTimestamp": "2018-10-26T13:37:22.0934491Z",
-      "fileCount": 1,
-      "fileSize": 53439
     },
     {
       "folderName": "engineers_doors-1.12.2-0.8.0.jar",
@@ -1710,21 +1695,6 @@
       "queryTimestamp": "2018-10-26T13:37:22.0944465Z",
       "fileCount": 1,
       "fileSize": 577073
-    },
-    {
-      "folderName": "blockdrops-1.12.2-1.4.0.jar",
-      "fingerprint": 2072195003,
-      "fileDateHash": 1696498593,
-      "sectionID": 6,
-      "individualFingerprints": [
-        2072195003
-      ],
-      "status": 1,
-      "timestamp": "2018-10-26T13:37:20.5849559Z",
-      "lastWriteTimeUtc": "2018-08-19T16:41:47.40453Z",
-      "queryTimestamp": "2018-10-26T13:37:22.0944465Z",
-      "fileCount": 1,
-      "fileSize": 31143
     },
     {
       "folderName": "tc6aspects4jei-0.0.2a.jar",
@@ -3730,68 +3700,6 @@
           "1.12",
           "1.12.2",
           "1.12.1"
-        ],
-        "installMetadata": null
-      },
-      "dateInstalled": "2018-10-26T13:37:22.4445103Z",
-      "dateUpdated": "2017-10-26T13:37:22.4445103Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": []
-    },
-    {
-      "addonID": 222548,
-      "gameInstanceID": "e0a1d2dd-f4dc-483c-a49d-68ecd449997e",
-      "installedFile": {
-        "id": 2506542,
-        "fileName": "Creeper Confetti 1.4.2",
-        "fileNameOnDisk": "creeperconfetti-1.4.2.jar",
-        "fileDate": "2017-12-04T21:30:50.363",
-        "fileLength": 53439,
-        "releaseType": 1,
-        "fileStatus": 1,
-        "downloadUrl": "https://files.forgecdn.net/files/2506/542/creeperconfetti-1.4.2.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "folderName": "META-INF",
-            "fimgerprint": 2464251221
-          },
-          {
-            "folderName": "com",
-            "fimgerprint": 2694149631
-          },
-          {
-            "folderName": "assets",
-            "fimgerprint": 2448078876
-          },
-          {
-            "folderName": "logo.png",
-            "fimgerprint": 4189386736
-          },
-          {
-            "folderName": "mcmod.info",
-            "fimgerprint": 1838823965
-          },
-          {
-            "folderName": "pack.mcmeta",
-            "fimgerprint": 3609328038
-          }
-        ],
-        "packageFingerprint": 858361417,
-        "gameVersion": [
-          "1.12.2"
         ],
         "installMetadata": null
       },
@@ -6794,63 +6702,6 @@
           "1.12",
           "1.12.2",
           "1.12.1"
-        ],
-        "installMetadata": null
-      },
-      "dateInstalled": "2018-10-26T13:37:22.4534864Z",
-      "dateUpdated": "2017-10-26T13:37:22.4534864Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": []
-    },
-    {
-      "addonID": 244181,
-      "gameInstanceID": "e0a1d2dd-f4dc-483c-a49d-68ecd449997e",
-      "installedFile": {
-        "id": 2509046,
-        "fileName": "blockdrops-1.12.2-1.4.0.jar",
-        "fileNameOnDisk": "blockdrops-1.12.2-1.4.0.jar",
-        "fileDate": "2017-12-12T18:21:16.543",
-        "fileLength": 31143,
-        "releaseType": 1,
-        "fileStatus": 1,
-        "downloadUrl": "https://files.forgecdn.net/files/2509/46/blockdrops-1.12.2-1.4.0.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "addonId": 238222,
-            "type": 1
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "folderName": "META-INF",
-            "fimgerprint": 2464251221
-          },
-          {
-            "folderName": "mrriegel",
-            "fimgerprint": 2861143336
-          },
-          {
-            "folderName": "mcmod.info",
-            "fimgerprint": 2274954035
-          }
-        ],
-        "packageFingerprint": 2072195003,
-        "gameVersion": [
-          "1.12",
-          "1.12.1",
-          "1.12.2"
         ],
         "installMetadata": null
       },

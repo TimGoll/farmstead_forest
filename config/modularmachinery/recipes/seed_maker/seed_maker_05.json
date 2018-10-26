@@ -1,0 +1,23 @@
+{
+    "machine": "seed_maker",
+    "registryName": "seed_maker_05",
+    "recipeTime": 50,
+    "requirements": [
+		{
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 25
+        },
+		{
+			"type": "item",
+			"io-type": "input",
+			"item": "immersiveengineering:material@4"
+		},
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "immersiveengineering:seed@0",
+			"amount": 2
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "machine": "seed_maker",
+    "registryName": "seed_maker_09",
+    "recipeTime": 50,
+    "requirements": [
+		{
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 25
+        },
+		{
+			"type": "item",
+			"io-type": "input",
+			"item": "minecraft:carrot@0"
+		},
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "inspirations:carrot_seeds@0",
+			"amount": 2
+        }
+    ]
+}

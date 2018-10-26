@@ -1,0 +1,23 @@
+{
+    "machine": "seed_maker",
+    "registryName": "seed_maker_18",
+    "recipeTime": 50,
+    "requirements": [
+		{
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 25
+        },
+		{
+			"type": "item",
+			"io-type": "input",
+			"item": "harvestcraft:oatsitem@0"
+		},
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "harvestcraft:oatsseeditem@0",
+			"amount": 2
+        }
+    ]
+}

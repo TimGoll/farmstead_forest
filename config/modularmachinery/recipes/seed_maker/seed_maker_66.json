@@ -1,0 +1,23 @@
+{
+    "machine": "seed_maker",
+    "registryName": "seed_maker_66",
+    "recipeTime": 50,
+    "requirements": [
+		{
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 25
+        },
+		{
+			"type": "item",
+			"io-type": "input",
+			"item": "harvestcraft:sesameseedsitem@0"
+		},
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "harvestcraft:sesameseedsseeditem@0",
+			"amount": 2
+        }
+    ]
+}

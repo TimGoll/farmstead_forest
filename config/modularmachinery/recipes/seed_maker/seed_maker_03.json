@@ -1,0 +1,23 @@
+{
+    "machine": "seed_maker",
+    "registryName": "seed_maker_03",
+    "recipeTime": 50,
+    "requirements": [
+		{
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 25
+        },
+		{
+			"type": "item",
+			"io-type": "input",
+			"item": "minecraft:beetroot@0"
+		},
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:beetroot_seeds@0",
+			"amount": 2
+        }
+    ]
+}

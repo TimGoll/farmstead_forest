@@ -1,0 +1,23 @@
+{
+    "machine": "seed_maker",
+    "registryName": "seed_maker_08",
+    "recipeTime": 50,
+    "requirements": [
+		{
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 25
+        },
+		{
+			"type": "item",
+			"io-type": "input",
+			"item": "minecraft:reeds@0"
+		},
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "inspirations:sugar_cane_seeds@0",
+			"amount": 2
+        }
+    ]
+}

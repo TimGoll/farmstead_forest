@@ -1,0 +1,23 @@
+{
+    "machine": "seed_maker",
+    "registryName": "seed_maker_20",
+    "recipeTime": 50,
+    "requirements": [
+		{
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 25
+        },
+		{
+			"type": "item",
+			"io-type": "input",
+			"item": "harvestcraft:cornitem@0"
+		},
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "harvestcraft:cornseeditem@0",
+			"amount": 2
+        }
+    ]
+}

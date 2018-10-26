@@ -1,0 +1,23 @@
+{
+    "machine": "seed_maker",
+    "registryName": "seed_maker_65",
+    "recipeTime": 50,
+    "requirements": [
+		{
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 25
+        },
+		{
+			"type": "item",
+			"io-type": "input",
+			"item": "harvestcraft:curryleafitem@0"
+		},
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "harvestcraft:curryleafseeditem@0",
+			"amount": 2
+        }
+    ]
+}

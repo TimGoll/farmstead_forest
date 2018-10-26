@@ -1,0 +1,23 @@
+{
+    "machine": "seed_maker",
+    "registryName": "seed_maker_00",
+    "recipeTime": 50,
+    "requirements": [
+		{
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 25
+        },
+		{
+			"type": "item",
+			"io-type": "input",
+			"item": "minecraft:wheat@0"
+		},
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:wheat_seeds@0",
+			"amount": 2
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "machine": "seed_maker",
+    "registryName": "seed_maker_71",
+    "recipeTime": 50,
+    "requirements": [
+		{
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 25
+        },
+		{
+			"type": "item",
+			"io-type": "input",
+			"item": "rustic:tomato@0"
+		},
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "rustic:tomato_seeds@0",
+			"amount": 2
+        }
+    ]
+}
