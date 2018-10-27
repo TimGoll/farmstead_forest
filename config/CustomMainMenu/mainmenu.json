@@ -1,0 +1,192 @@
+{
+    "images":
+    {
+	
+		"black":
+        {
+            "image" : "custommainmenu:textures/bg_menu.png",
+            "posX" : 99,
+            "posY" : 0,
+            "width" : 155,
+            "height" : 800,
+            "alignment" : "top_left"
+        },
+		"logo":
+        {
+            "image" : "custommainmenu:textures/logo.png",
+            "posX" : 60,
+            "posY" : 0,
+            "width" : 225,
+            "height" : 225,
+            "alignment" : "top_left"
+        }
+	
+	},
+    
+    "buttons":
+    {     
+		"singleplayer":
+        {
+            "text" : "Singleplayer",
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 3125670,
+			"texture" : "custommainmenu:textures/btn.png",
+            "posX" : 100,
+            "posY" : -30,
+            "width" : 153,
+            "height" : 20,
+			"imageWidth" : 100,
+			"imageHeight" : 50,
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },		
+
+		"multiplayer":
+        {
+            "text" : "Multiplayer",			
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 3125670,
+			"texture" : "custommainmenu:textures/btn.png",
+            "posX" : 100,
+            "posY" : -10,
+            "width" : 153,
+            "height" : 20,
+			"imageWidth" : 100,
+			"imageHeight" : 50,
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+               
+		"options":
+        {
+            "text" : "Options",
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 3125670,
+			"texture" : "custommainmenu:textures/btn.png",
+            "posX" : 100,
+            "posY" : 10,
+            "width" : 153,
+            "height" : 20,
+			"imageWidth" : 100,
+			"imageHeight" : 50,
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+		        
+		"language":
+        {
+            "text" : "Language",
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 3125670,
+			"texture" : "custommainmenu:textures/btn.png",
+            "posX" : 100,
+            "posY" : 30,
+            "width" : 153,
+            "height" : 20,
+			"imageWidth" : 100,
+			"imageHeight" : 50,			
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+		
+		"bugreport":
+        {
+            "text" : "Report a Bug",
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 3125670,
+			"texture" : "custommainmenu:textures/btn.png",
+            "posX" : 100,
+            "posY" : 50,
+            "width" : 153,
+            "height" : 20,
+			"imageWidth" : 100,
+			"imageHeight" : 50,			
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://github.com/TimGoll/farmstead_forest/issues"
+            }
+        },
+                    
+        "quit":
+        {
+            "text" : "Quit",
+			"normalTextColor" : 16729156,
+			"hoverTextColor" : 14483456,
+			"texture" : "custommainmenu:textures/btn.png",
+            "posX" : 100,
+            "posY" : 70,
+            "width" : 153,
+            "height" : 20,
+			"imageWidth" : 100,
+			"imageHeight" : 50,
+			"alignment" : "left_center",
+			"hoverText" : "No! Don't leave!",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+		
+        "mods":
+        {
+            "text" : "Mods (#modsloaded#/#modsactive#)",
+			"normalTextColor" : 6710886,
+			"hoverTextColor" : 3125670,
+			"texture" : "custommainmenu:textures/btn.png",
+            "posX" : 100,
+            "posY" : 120,
+            "width" : 153,
+            "height" : 20,
+			"imageWidth" : 100,
+			"imageHeight" : 50,
+			"alignment" : "left_center",
+			"tooltip" : "Farmstead Forest 1.0.0\nMinecraft #mcversion# with Forge #forgeversion#",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+		
+		"refresh":
+        {
+            "text" : "",
+            "posX" : 250,
+            "posY" : 132,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "customcustommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
+	},
+	
+    "other":
+    {
+		"background":
+		{
+			"image" : "custommainmenu:textures/bg.png",
+			"mode" : "stretch"
+		}
+    }
+}
