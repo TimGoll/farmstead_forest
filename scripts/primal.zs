@@ -91,6 +91,17 @@ mods.primal.Cauldron.addRecipe(
     [<farmsteadforest:hardened_plant_cordage>]
 );
 
+//remove brass from oredict
+<ore:nuggetBrass>.remove(<primal:brass_nugget>);
+<ore:dustBrass>.remove(<primal:brass_dust>);
+<ore:ingotBrass>.remove(<primal:brass_ingot>);
+<ore:plateBrass>.remove(<primal:brass_plate>);
+
+mods.jei.JEI.hide(<primal:brass_nugget>);
+mods.jei.JEI.hide(<primal:brass_dust>);
+mods.jei.JEI.hide(<primal:brass_ingot>);
+mods.jei.JEI.hide(<primal:brass_plate>);
+
 //add missing molds
 // recipes.addShaped(<primal:brick_mold>.withTag({type: "oak"}), [[<ore:toolAxe>, <ore:plankOak>]]);
 // recipes.addShaped(<primal:brick_mold:1>.withTag({type: "spruce"}), [[<ore:toolAxe>, <ore:plankSpruce>]]);

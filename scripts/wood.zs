@@ -33,6 +33,9 @@ recipes.remove(<rustic:planks:1>);
 
 recipes.remove(<traverse:fir_planks>);
 
+recipes.remove(<extrautils2:ironwood_planks>);
+recipes.remove(<extrautils2:ironwood_planks:1>);
+
 
 //add 1 to 2 recipes
 recipes.addShapeless(<minecraft:planks:0> *2, [<minecraft:log:0>]);
@@ -73,6 +76,9 @@ recipes.addShapeless(<rustic:planks:1> *2, [<rustic:log:1>]);
 
 recipes.addShapeless(<traverse:fir_planks> *2, [<traverse:fir_log>]);
 
+recipes.addShapeless(<extrautils2:ironwood_planks> *2, [<extrautils2:ironwood_log>]);
+recipes.addShapeless(<extrautils2:ironwood_planks:1> *2, [<extrautils2:ironwood_log:1>]);
+
 <ore:plankWoodDefault>.add(<minecraft:planks:0>);
 <ore:plankWoodDefault>.add(<minecraft:planks:1>);
 <ore:plankWoodDefault>.add(<minecraft:planks:2>);
@@ -98,6 +104,8 @@ recipes.addShapeless(<traverse:fir_planks> *2, [<traverse:fir_log>]);
 <ore:plankWoodDefault>.add(<thaumcraft:plank_silverwood>);
 <ore:plankWoodDefault>.add(<thaumcraft:plank_greatwood>);
 <ore:plankWoodDefault>.add(<traverse:fir_planks>);
+<ore:plankWoodDefault>.add(<extrautils2:ironwood_planks>);
+<ore:plankWoodDefault>.add(<extrautils2:ironwood_planks:1>);
 
 <ore:plankWood>.add(<primal:planks:2>);
 <ore:plankWood>.add(<immersiveengineering:treated_wood:0>);

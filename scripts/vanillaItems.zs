@@ -116,7 +116,7 @@ recipes.addShaped(<immersiveengineering:connector:10>, [[<immersiveengineering:c
 
 recipes.remove(<minecraft:repeater>);
 mods.jei.JEI.hide(<minecraft:repeater>);
-
+recipes.replaceAllOccurences(<minecraft:repeater>, <projectred-integration:gate:10>);
 
 
 recipes.remove(<storagedrawers:upgrade_status:1>);
@@ -133,6 +133,7 @@ recipes.addShaped(<cookingforblockheads:preservation_chamber>, [[<ore:dustRedsto
 
 recipes.remove(<minecraft:comparator>);
 mods.jei.JEI.hide(<minecraft:comparator>);
+recipes.replaceAllOccurences(<minecraft:comparator>, <projectred-integration:gate:26>);
 
 //all eggs to vanilla egg
 recipes.addShapeless(<minecraft:egg>, [<ore:egg>]);

@@ -18,6 +18,13 @@
             "io-type": "output",
             "item": "primal:yew_stick@0",
 			"amount": 4
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "farmsteadforest:sawdust@0",
+			"amount": 1,
+			"chance": 0.33
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "machine": "sawmill",
-    "registryName": "sawmill_stick_32",
+    "registryName": "sawmill_stick_33",
     "recipeTime": 80,
     "requirements": [
 		{
@@ -11,12 +11,12 @@
 		{
 			"type": "item",
 			"io-type": "input",
-			"item": "immersiveengineering:treated_wood@2"
+			"item": "extrautils2:ironwood_planks@0"
 		},
         {
             "type": "item",
             "io-type": "output",
-            "item": "immersiveengineering:material@0",
+            "item": "primal:ironwood_stick@0",
 			"amount": 4
         },
 		{
