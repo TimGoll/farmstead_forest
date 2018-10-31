@@ -103,3 +103,9 @@ recipes.addShapeless(<gardenstuff:candelilla_seeds>, [<gardenstuff:material:6>])
 //disable infinite water source
 recipes.remove(<harvestcraft:well>);
 mods.jei.JEI.hide(<harvestcraft:well>);
+
+//use sawdust in bait
+recipes.addShapeless(<harvestcraft:fruitbaititem> *6, [<minecraft:string>, <minecraft:string>, <farmsteadforest:sawdust>, <minecraft:string>, <ore:listAllfruit>, <farmsteadforest:sawdust>]);
+recipes.addShapeless(<harvestcraft:grainbaititem> *6, [<minecraft:string>, <minecraft:string>, <farmsteadforest:sawdust>, <minecraft:string>, <ore:listAllgrain>, <farmsteadforest:sawdust>]);
+recipes.addShapeless(<harvestcraft:veggiebaititem> *6, [<minecraft:string>, <minecraft:string>, <farmsteadforest:sawdust>, <minecraft:string>, <ore:listAllveggie>, <farmsteadforest:sawdust>]);
+recipes.addShapeless(<harvestcraft:fishtrapbaititem> *6, [<minecraft:string>, <minecraft:string>, <farmsteadforest:sawdust>, <minecraft:string>, <ore:listAllfishraw>, <farmsteadforest:sawdust>]);

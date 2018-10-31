@@ -31,7 +31,7 @@ recipes.addShaped(<immersiveengineering:stone_decoration> *3, [[<primal:mortar>,
 recipes.addShaped(<immersiveengineering:stone_decoration> *3, [[<primal:mortar>, <minecraft:brick>, <primal:mortar>], [<immersiveengineering:material>, <ore:sandstone>, <immersiveengineering:material>], [<primal:mortar>, <minecraft:brick>, <primal:mortar>]]);
 
 recipes.removeByRecipeName("immersiveengineering:stone_decoration/blastbrick");
-recipes.addShaped(<immersiveengineering:stone_decoration:1> *3, [[<farmsteadforest:nether_crafting_compound>, <minecraft:brick>, <farmsteadforest:nether_crafting_compound>], [<minecraft:brick>, <minecraft:blaze_powder>, <minecraft:brick>], [<farmsteadforest:nether_crafting_compound>, <minecraft:brick>, <farmsteadforest:nether_crafting_compound>]]);
+recipes.addShaped(<immersiveengineering:stone_decoration:1> *3, [[<farmsteadforest:nether_crafting_compound>, <minecraft:brick>, <farmsteadforest:nether_crafting_compound>], [<minecraft:brick>, <minecraft:magma_cream>, <minecraft:brick>], [<farmsteadforest:nether_crafting_compound>, <minecraft:brick>, <farmsteadforest:nether_crafting_compound>]]);
 
 //earlygame iron mechanical components are crafted in a sariras, later on in a press
 recipes.remove(<immersiveengineering:material:8>);

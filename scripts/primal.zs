@@ -126,6 +126,22 @@ mods.jei.JEI.hide(<primal:flint_hatchet>);
 mods.jei.JEI.addDescription(<primal:rock_stone>, "Early game rocks can be optained by sneak + rightklicking stone/cobblestone with a stick, a flaked stick or a flaked stick with rock. Stone rocks are nesessary to progress through the game.");
 mods.jei.JEI.addDescription(<minecraft:flint>, "Next to breaking gravel, flint can be optained by sneak + rightklicking gravel with a stick, a flaked stick or a flaked stick with rock.");
 
+//remove ground wheat
+mods.primal.Hibachi.removeRecipe("ground_wheat");
+furnace.remove(<minecraft:bread>, <primal:wheat_ground>);
+recipes.remove(<primal:wheat_ground>);
+mods.jei.JEI.hide(<primal:wheat_ground>);
+
+//hide corn stuff
+mods.primal.Hibachi.removeRecipe("ground_corn");
+furnace.remove(<primal:corn_bread>);
+mods.jei.JEI.hide(<primal:corn_ground>);
+mods.jei.JEI.hide(<primal:corn_seeds>);
+<ore:seed>.remove(<primal:corn_seeds>);
+<ore:seedCorn>.remove(<primal:corn_seeds>);
+mods.jei.JEI.hide(<primal:corn_bread>);
+<ore:foodBread>.remove(<primal:corn_bread>);
+
 //remove most of the tools
 recipes.remove(<primal:bone_pickaxe>);
 mods.jei.JEI.hide(<primal:bone_pickaxe>);
