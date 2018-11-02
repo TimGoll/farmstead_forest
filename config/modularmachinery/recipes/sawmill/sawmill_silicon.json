@@ -1,0 +1,23 @@
+{
+    "machine": "sawmill",
+    "registryName": "sawmill_silicon",
+    "recipeTime": 80,
+    "requirements": [
+		{
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 90
+        },
+		{
+			"type": "item",
+			"io-type": "input",
+			"item": "teckle:siliconboule@0"
+		},
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "teckle:siliconwafer@0",
+			"amount": 8
+        }
+    ]
+}

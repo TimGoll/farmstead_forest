@@ -170,3 +170,13 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<teckle:ingot:1>, <ore:dustCopper
 
 mods.immersiveengineering.ArcFurnace.addRecipe(<teckle:ingot:2>, <ore:ingotSilver>, null, 100, 512, [<teckle:nikolite> *4], "Alloying");
 mods.immersiveengineering.ArcFurnace.addRecipe(<teckle:ingot:2>, <ore:dustSilver>, null, 100, 512, [<teckle:nikolite> *4], "Alloying");
+
+//silicon in alloy furnace
+mods.immersiveengineering.AlloySmelter.addRecipe(<teckle:siliconboule>, <ore:sand> *8, <minecraft:coal> *8, 2000);
+mods.immersiveengineering.ArcFurnace.addRecipe(<teckle:siliconboule>, <ore:sand> *8, null, 100, 512, [<minecraft:coal> *8], "Alloying");
+
+mods.immersiveengineering.AlloySmelter.addRecipe(<teckle:siliconwafer:1>, <teckle:siliconwafer>, <ore:dustRedstone> *4, 2000);
+mods.immersiveengineering.ArcFurnace.addRecipe(<teckle:siliconwafer:1>, <teckle:siliconwafer>, null, 100, 512, [<ore:dustRedstone> *4], "Alloying");
+
+mods.immersiveengineering.AlloySmelter.addRecipe(<teckle:siliconwafer:2>, <teckle:siliconwafer>, <teckle:nikolite> *4, 2000);
+mods.immersiveengineering.ArcFurnace.addRecipe(<teckle:siliconwafer:2>, <teckle:siliconwafer>, null, 100, 512, [<teckle:nikolite> *4], "Alloying");

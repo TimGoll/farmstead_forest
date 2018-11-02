@@ -1,0 +1,30 @@
+{
+    "machine": "butchery",
+    "registryName": "butchery_ground_duck_00",
+    "recipeTime": 900,
+    "requirements": [
+		{
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 20
+        },
+		{
+			"type": "item",
+			"io-type": "input",
+			"item": "harvestcraft:duckrawitem@0"
+		},
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "harvestcraft:groundduckitem@0",
+			"amount": 3
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:bone@0",
+			"amount": 1,
+			"chance": 0.1
+        }
+    ]
+}

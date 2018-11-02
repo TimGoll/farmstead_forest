@@ -1,0 +1,2 @@
+recipes.remove(<antiqueatlas:empty_antique_atlas>);
+recipes.addShaped(<antiqueatlas:empty_antique_atlas>, [[<ore:paper>, <ore:leather>, <ore:paper>], [<minecraft:compass>.withTag({"quark:compass_calculated": 1 as byte, "quark:compass_in_nether": 0 as byte}), <ore:book>, <minecraft:compass>.withTag({"quark:compass_calculated": 1 as byte, "quark:compass_in_nether": 0 as byte})], [<ore:paper>, <ore:leather>, <ore:paper>]]);

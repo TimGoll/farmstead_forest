@@ -1,0 +1,30 @@
+{
+    "machine": "butchery",
+    "registryName": "butchery_ground_beef_03",
+    "recipeTime": 900,
+    "requirements": [
+		{
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 20
+        },
+		{
+			"type": "item",
+			"io-type": "input",
+			"item": "animania:raw_prime_chevon@0"
+		},
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "harvestcraft:groundbeefitem@0",
+			"amount": 2
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:bone@0",
+			"amount": 1,
+			"chance": 0.1
+        }
+    ]
+}

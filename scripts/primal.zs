@@ -6,6 +6,9 @@
 (<ore:barkWoodJungle>).add(<primal:bark_jungle>);
 (<ore:barkWoodAcacia>).add(<primal:bark_acacia>);
 
+furnace.addRecipe(<primal:animal_fat>, <ore:listAllmeatrotten>);
+recipes.addShaped(<primal:torch_wood> *2, [[<primal:tallow>], [<ore:cordageGeneral>], [<ore:stickWood>]]);
+
 //remove charcoal recipe
 furnace.remove(<minecraft:coal:1>);
 mods.immersiveengineering.CokeOven.removeRecipe(<minecraft:coal:1>);
@@ -182,6 +185,9 @@ mods.jei.JEI.hide(<primal:sword_crude_quartz>);
 recipes.remove(<primal:sword_crude_bone>);
 mods.jei.JEI.hide(<primal:sword_crude_bone>);
 
+//dont use pins
+recipes.replaceAllOccurences(<ore:pinBasic>, <ore:stickWood>);
+
 //log-plank recipe
 // recipes.remove(<biomesoplenty:planks_0>);
 // recipes.addShaped(<biomesoplenty:planks_0> *2, [[<ore:toolAxe>],       [<biomesoplenty:log_0:4>]]);
@@ -336,3 +342,4 @@ mods.jei.JEI.hide(<primal:sword_crude_bone>);
 // recipes.addShaped(<minecraft:planks:3> *4, [[<ore:toolSawFlint>],  [<harvestcraft:pampaperbark>]]);
 // recipes.addShaped(<minecraft:planks:3> *5, [[<ore:toolSawMetal>],  [<harvestcraft:pampaperbark>]]);
 // recipes.addShaped(<minecraft:planks:3> *6, [[<ore:toolSawGem>],    [<harvestcraft:pampaperbark>]]);
+

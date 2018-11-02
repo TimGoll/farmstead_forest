@@ -7,11 +7,18 @@ recipes.addShaped(<farmsteadforest:railing:5> *3, [[<minecraft:planks:5>, <minec
 
 recipes.addShaped(<farmsteadforest:refiningfilter> *2, [[null, <harvestcraft:wovencottonitem>, null], [<harvestcraft:wovencottonitem>, <farmsteadforest:charcoal_dust>, <harvestcraft:wovencottonitem>]]);
 
-recipes.addShaped(<farmsteadforest:combinedflesh> *2, [[null, <ore:itemSalt>, null], [<ore:listAllmeatrotten>, <ore:itemSalt>, <ore:listAllmeatrotten>], [<ore:string>, <ore:listAllmeatrotten>, <ore:string>]]);
-furnace.addRecipe(<minecraft:leather>, <farmsteadforest:combinedflesh>);
+recipes.addShaped(<farmsteadforest:combinedflesh> *2, [[<ore:listAllmeatrotten>, <ore:itemSalt>, <ore:listAllmeatrotten>], [<ore:string>, <ore:listAllmeatrotten>, <ore:string>]]);
+recipes.addShaped(<primal:hide_raw> *3, [[<ore:itemFoodCutter>], [<farmsteadforest:combinedflesh>]]);
 
 recipes.addShaped(<farmsteadforest:barkfiber>, [[<ore:barkWood>, <ore:barkWood>], [<ore:string>, <ore:string>], [<ore:barkWood>, <ore:barkWood>]]);
-<ore:leather>.add(<farmsteadforest:barkfiber>);
+mods.primal.Cauldron.addRecipe(
+    "bark_fiber_to_leather", 
+    3.0, 
+    <liquid:tannin> *250, 
+    null, 
+    [<farmsteadforest:barkfiber>], 
+    [<primal:hide_tanned>]
+);
 
 //recipes.remove(<primal:salt_dust_netjry>);
 //mods.unidict.removalByKind.get("Crafting").remove("salt");

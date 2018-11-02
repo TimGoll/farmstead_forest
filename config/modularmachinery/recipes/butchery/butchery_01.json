@@ -1,6 +1,6 @@
 {
     "machine": "butchery",
-    "registryName": "longhorn",
+    "registryName": "prime_pork",
     "recipeTime": 50,
     "requirements": [
 		{
@@ -11,12 +11,12 @@
 		{
 			"type": "item",
 			"io-type": "input",
-			"item": "animania:raw_longhorn_beef@0"
+			"item": "animania:raw_prime_pork@0"
 		},
         {
             "type": "item",
             "io-type": "output",
-            "item": "animania:raw_longhorn_steak@0",
+            "item": "animania:raw_prime_bacon@0",
 			"amount": 6
         },
 		{

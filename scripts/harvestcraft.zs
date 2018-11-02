@@ -109,3 +109,6 @@ recipes.addShapeless(<harvestcraft:fruitbaititem> *6, [<minecraft:string>, <mine
 recipes.addShapeless(<harvestcraft:grainbaititem> *6, [<minecraft:string>, <minecraft:string>, <farmsteadforest:sawdust>, <minecraft:string>, <ore:listAllgrain>, <farmsteadforest:sawdust>]);
 recipes.addShapeless(<harvestcraft:veggiebaititem> *6, [<minecraft:string>, <minecraft:string>, <farmsteadforest:sawdust>, <minecraft:string>, <ore:listAllveggie>, <farmsteadforest:sawdust>]);
 recipes.addShapeless(<harvestcraft:fishtrapbaititem> *6, [<minecraft:string>, <minecraft:string>, <farmsteadforest:sawdust>, <minecraft:string>, <ore:listAllfishraw>, <farmsteadforest:sawdust>]);
+
+//cooking oil out of tallow
+recipes.addShapeless(<harvestcraft:oliveoilitem>, [<harvestcraft:juiceritem>, <primal:tallow>]);

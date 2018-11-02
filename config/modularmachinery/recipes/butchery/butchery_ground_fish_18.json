@@ -1,0 +1,30 @@
+{
+    "machine": "butchery",
+    "registryName": "butchery_ground_fish_18",
+    "recipeTime": 900,
+    "requirements": [
+		{
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 20
+        },
+		{
+			"type": "item",
+			"io-type": "input",
+			"item": "harvestcraft:rawtofishitem@0"
+		},
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "harvestcraft:groundfishitem@0",
+			"amount": 3
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:bone@0",
+			"amount": 1,
+			"chance": 0.1
+        }
+    ]
+}

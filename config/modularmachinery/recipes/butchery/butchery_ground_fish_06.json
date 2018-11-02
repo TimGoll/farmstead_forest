@@ -1,23 +1,23 @@
 {
     "machine": "butchery",
-    "registryName": "old_spot",
-    "recipeTime": 50,
+    "registryName": "butchery_ground_fish_06",
+    "recipeTime": 900,
     "requirements": [
 		{
             "type": "energy",
             "io-type": "input",
-            "energyPerTick": 25
+            "energyPerTick": 20
         },
 		{
 			"type": "item",
 			"io-type": "input",
-			"item": "animania:raw_old_spot_pork@0"
+			"item": "harvestcraft:charrrawitem@0"
 		},
         {
             "type": "item",
             "io-type": "output",
-            "item": "animania:raw_old_spot_bacon@0",
-			"amount": 6
+            "item": "harvestcraft:groundfishitem@0",
+			"amount": 3
         },
 		{
             "type": "item",

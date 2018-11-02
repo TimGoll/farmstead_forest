@@ -1,23 +1,23 @@
 {
     "machine": "butchery",
-    "registryName": "prime_pork",
-    "recipeTime": 50,
+    "registryName": "butchery_ground_mutton_02",
+    "recipeTime": 900,
     "requirements": [
 		{
             "type": "energy",
             "io-type": "input",
-            "energyPerTick": 25
+            "energyPerTick": 20
         },
 		{
 			"type": "item",
 			"io-type": "input",
-			"item": "animania:raw_prime_pork@0"
+			"item": "primal:ovis_meat_raw@0"
 		},
         {
             "type": "item",
             "io-type": "output",
-            "item": "animania:raw_prime_bacon@0",
-			"amount": 6
+            "item": "harvestcraft:groundmuttonitem@0",
+			"amount": 3
         },
 		{
             "type": "item",

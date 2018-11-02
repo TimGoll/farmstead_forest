@@ -143,3 +143,6 @@ mods.jei.JEI.hide(<minecraft:command_block>);
 mods.jei.JEI.hide(<minecraft:repeating_command_block>);
 mods.jei.JEI.hide(<minecraft:chain_command_block>);
 mods.jei.JEI.hide(<minecraft:command_block_minecart>);
+
+//remove leather recipes in favor of primal crafting way
+recipes.remove(<minecraft:leather>);

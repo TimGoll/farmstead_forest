@@ -39,9 +39,6 @@ mods.jei.JEI.hide(<primal_tech:clay_kiln>);
 recipes.remove(<primal_tech:fibre_torch>);
 mods.jei.JEI.hide(<primal_tech:fibre_torch>);
 
-recipes.remove(<primal_tech:charcoal_hopper>);
-mods.jei.JEI.hide(<primal_tech:charcoal_hopper>);
-
 recipes.remove(<primal_tech:fibre_torch_lit>);
 mods.jei.JEI.hide(<primal_tech:fibre_torch_lit>);
 <ore:firesource>.remove(<primal_tech:fibre_torch_lit>);
@@ -67,6 +64,7 @@ mods.jei.JEI.hide(<primal_tech:stick_bundle>);
 
 //rename Wopper
 <primal_tech:wooden_hopper>.displayName = "Wooden Hopper";
+<primal_tech:charcoal_hopper>.displayName = "Fireproof Hopper";
 
 //add hints
 mods.jei.JEI.addDescription(<primal_tech:water_saw>, "Place on top of a flowing water source block. The flow of the water has to match the direction of the water mill.");
@@ -88,3 +86,7 @@ recipes.addShapedMirrored(<primal_tech:rock>, [[<primal:rock_stone>, <minecraft:
 //saw blade
 recipes.remove(<primal_tech:flint_edged_disc>);
 recipes.addShaped(<primal_tech:flint_edged_disc>, [[<minecraft:flint>, null, <minecraft:flint>], [null, <immersiveengineering:material:8>, null], [<minecraft:flint>, null, <minecraft:flint>]]);
+
+//hoppper
+recipes.remove(<primal_tech:charcoal_hopper>);
+recipes.addShaped(<primal_tech:charcoal_hopper>, [[<primal:shark_tooth>, null, <primal:shark_tooth>], [<primal:shark_tooth>, <ore:chest>, <primal:shark_tooth>], [null, <ore:blockCharcoal>, null]]);

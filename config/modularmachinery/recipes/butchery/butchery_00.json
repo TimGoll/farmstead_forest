@@ -1,6 +1,6 @@
 {
     "machine": "butchery",
-    "registryName": "hereford",
+    "registryName": "prime_beef",
     "recipeTime": 50,
     "requirements": [
 		{
@@ -11,12 +11,12 @@
 		{
 			"type": "item",
 			"io-type": "input",
-			"item": "animania:raw_hereford_beef@0"
+			"item": "animania:raw_prime_beef@0"
 		},
         {
             "type": "item",
             "io-type": "output",
-            "item": "animania:raw_hereford_steak@0",
+            "item": "animania:raw_prime_steak@0",
 			"amount": 6
         },
 		{

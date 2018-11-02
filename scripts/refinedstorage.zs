@@ -13,6 +13,14 @@ recipes.addShapedMirrored(<refinedstorage:interface>, [[<refinedstorage:importer
 recipes.remove(<refinedstorage:fluid_interface>);
 recipes.addShapeless(<refinedstorage:fluid_interface>, [<refinedstorage:fluid_interface>, <refinedstorage:core>, <farmsteadforest:reinforced_sealant>]);
 
-//use other comparator
-recipes.remove(<refinedstorage:detector>);
-recipes.addShaped(<refinedstorage:detector>, [[<refinedstorage:quartz_enriched_iron>, <minecraft:redstone_torch>, <refinedstorage:quartz_enriched_iron>], [<projectred-integration:gate:26>, <refinedstorage:machine_casing>, <projectred-integration:gate:26>], [<refinedstorage:quartz_enriched_iron>, <refinedstorage:processor:4>, <refinedstorage:quartz_enriched_iron>]]);
+//replace silicon
+recipes.replaceAllOccurences(<refinedstorage:silicon>, <teckle:siliconwafer:2>);
+
+//harder processor binding
+recipes.remove(<refinedstorage:processor_binding>);
+recipes.addShaped(<refinedstorage:processor_binding> *2, [[<minecraft:string>, <ore:slimeball>, <minecraft:string>]]);
+
+//remove silicon
+furnace.remove(<refinedstorage:silicon>);
+mods.jei.JEI.hide(<refinedstorage:silicon>);
+<ore:itemSilicon>.remove(<refinedstorage:silicon>);

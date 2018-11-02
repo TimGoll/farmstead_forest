@@ -1,23 +1,23 @@
 {
     "machine": "butchery",
-    "registryName": "duroc",
-    "recipeTime": 50,
+    "registryName": "butchery_ground_venison_03",
+    "recipeTime": 900,
     "requirements": [
 		{
             "type": "energy",
             "io-type": "input",
-            "energyPerTick": 25
+            "energyPerTick": 20
         },
 		{
 			"type": "item",
 			"io-type": "input",
-			"item": "animania:raw_duroc_pork@0"
+			"item": "familiarfauna:venison_raw@0"
 		},
         {
             "type": "item",
             "io-type": "output",
-            "item": "animania:raw_duroc_bacon@0",
-			"amount": 6
+            "item": "harvestcraft:groundvenisonitem@0",
+			"amount": 3
         },
 		{
             "type": "item",

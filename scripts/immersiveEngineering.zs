@@ -131,3 +131,6 @@ recipes.addShaped(<immersiveengineering:metal_device1:6> *8, [[<ore:plateIron>, 
 mods.immersiveengineering.CokeOven.removeRecipe(<immersiveengineering:material:6>);
 mods.immersiveengineering.CokeOven.addRecipe(<immersiveengineering:material:6>, 125, <farmsteadforest:compressed_sawdust>, 2700);
 mods.immersiveengineering.CokeOven.addRecipe(<immersiveengineering:material:6>, 250, <minecraft:coal>, 900);
+
+//use tallow for bio diesel
+mods.forestry.Squeezer.addRecipe(<liquid:biodiesel> * 25, [<primal:tallow>], 120);

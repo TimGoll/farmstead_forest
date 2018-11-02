@@ -1,23 +1,23 @@
 {
     "machine": "butchery",
-    "registryName": "large_black",
-    "recipeTime": 50,
+    "registryName": "butchery_ground_fish_09",
+    "recipeTime": 900,
     "requirements": [
 		{
             "type": "energy",
             "io-type": "input",
-            "energyPerTick": 25
+            "energyPerTick": 20
         },
 		{
 			"type": "item",
 			"io-type": "input",
-			"item": "animania:raw_large_black_pork@0"
+			"item": "harvestcraft:walleyerawitem@0"
 		},
         {
             "type": "item",
             "io-type": "output",
-            "item": "animania:raw_large_black_bacon@0",
-			"amount": 7
+            "item": "harvestcraft:groundfishitem@0",
+			"amount": 3
         },
 		{
             "type": "item",

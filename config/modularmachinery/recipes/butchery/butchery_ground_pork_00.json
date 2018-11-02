@@ -1,23 +1,23 @@
 {
     "machine": "butchery",
-    "registryName": "hampshire",
-    "recipeTime": 50,
+    "registryName": "butchery_ground_pork_00",
+    "recipeTime": 900,
     "requirements": [
 		{
             "type": "energy",
             "io-type": "input",
-            "energyPerTick": 25
+            "energyPerTick": 20
         },
 		{
 			"type": "item",
 			"io-type": "input",
-			"item": "animania:raw_hampshire_pork@0"
+			"item": "minecraft:porkchop@0"
 		},
         {
             "type": "item",
             "io-type": "output",
-            "item": "animania:raw_hampshire_bacon@0",
-			"amount": 6
+            "item": "harvestcraft:groundporkitem@0",
+			"amount": 3
         },
 		{
             "type": "item",
