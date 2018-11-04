@@ -27,7 +27,7 @@
 				},
 				{
 					"type": "add_hunger",
-					"amount": 0.25,
+					"amount": 0.15,
 					"disableJEI": true
 				},
 				{
@@ -53,12 +53,12 @@
 				{
 					"name": "primal:rock_stone",
 					"amount": "1",
-					"weight": 34
+					"weight": 66
 				},
 				{
 					"name": "minecraft:air",
 					"amount": "0",
-					"weight": 66
+					"weight": 34
 				}
 			]
 		},
@@ -86,11 +86,11 @@
 				},
 				{
 					"type": "damage_item",
-					"amount": 4
+					"amount": 2
 				},
 				{
 					"type": "add_hunger",
-					"amount": 0.25,
+					"amount": 0.15,
 					"disableJEI": true
 				},
 				{
@@ -116,12 +116,12 @@
 				{
 					"name": "primal:rock_stone",
 					"amount": "2",
-					"weight": 50
+					"weight": 75
 				},
 				{
 					"name": "minecraft:air",
 					"amount": "0",
-					"weight": 50
+					"weight": 25
 				}
 			]
 		},
@@ -148,11 +148,11 @@
 				},
 				{
 					"type": "damage_item",
-					"amount": 4
+					"amount": 2
 				},
 				{
 					"type": "add_hunger",
-					"amount": 0.25,
+					"amount": 0.15,
 					"disableJEI": true
 				},
 				{
@@ -178,12 +178,12 @@
 				{
 					"name": "primal:rock_stone",
 					"amount": "3",
-					"weight": 66
+					"weight": 100
 				},
 				{
 					"name": "minecraft:air",
 					"amount": "0",
-					"weight": 34
+					"weight": 0
 				}
 			]
 		}

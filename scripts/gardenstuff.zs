@@ -15,4 +15,4 @@ recipes.addShaped(<gardenstuff:metal_lattice:1> *16, [[null, <ore:ingotWroughtIr
 //add missing recipe display
 mods.jei.JEI.addDescription(<gardenstuff:material:4>, "Wrought iron is produced by combining sand and iron in a Bloomery Furnace.");
 
-recipes.addShaped(<gardenstuff:candelabra> *2, [[<minecraft:string>], [<primal:tallow>], [<primal:tallow>]])
+recipes.addShaped(<gardenstuff:candelabra> *2, [[<minecraft:string>], [<primal:tallow>], [<primal:tallow>]]);

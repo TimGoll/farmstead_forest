@@ -18,11 +18,17 @@ recipes.remove(<primal:flint_pickaxe>);
 mods.jei.JEI.hide(<primal:flint_pickaxe>);
 
 //add description to mud
-mods.jei.JEI.addDescription(<primal:mud_clump>, "Drops by breaking wet farmland.");
+mods.jei.JEI.addDescription(<primal:mud_clump>, "Drops by breaking wet farmland or wet mud blocks.");
+
+//add description to thatching
+mods.jei.JEI.addDescription(<primal:thatching_dry>, "You don't need a drying rack, you can also just place a block of wet thatching and let it dry in world.");
 
 //make mortar harder
 recipes.remove(<primal:mortar>);
-recipes.addShaped(<primal:mortar> *2, [[<ore:mortalIngredient>, <ore:clayball>, <ore:mortalIngredient>], [<ore:clayball>, <ore:mortalIngredient>, <ore:clayball>], [<ore:mortalIngredient>, <ore:clayball>, <ore:mortalIngredient>]]);
+recipes.addShaped(<primal:mortar> *4, [[<farmsteadforest:sand_pile>, <ore:clayball>, <farmsteadforest:sand_pile>], [<ore:clayball>, <primal:thatching_dry>, <ore:clayball>], [<farmsteadforest:sand_pile>, <ore:clayball>, <farmsteadforest:sand_pile>]]);
+recipes.addShaped(<primal:mortar> *6, [[<ore:dustAsh>, <ore:clayball>, <ore:dustAsh>], [<ore:clayball>, <primal:thatching_dry>, <ore:clayball>], [<ore:dustAsh>, <ore:clayball>, <ore:dustAsh>]]);
+
+<primal:cauldron>.displayName = "Fired Cauldron";
 
 //rock to stone
 recipes.removeShaped(<minecraft:cobblestone>);
@@ -144,6 +150,59 @@ mods.jei.JEI.hide(<primal:corn_seeds>);
 <ore:seedCorn>.remove(<primal:corn_seeds>);
 mods.jei.JEI.hide(<primal:corn_bread>);
 <ore:foodBread>.remove(<primal:corn_bread>);
+
+//cauldron early game usage
+recipes.remove(<primal:cauldron>);
+furnace.addRecipe(<primal:cauldron>, <ceramics:clay_bucket:2>);
+furnace.addRecipe(<primal:cauldron>, <ceramics:clay_bucket:3>);
+
+//make brine cheaper
+mods.primal.Cauldron.removeRecipe("cauldron_brine_netjry_salt");
+mods.primal.Cauldron.addRecipe(
+    "cauldron_brine_dust_salt_new", 
+    6.0, 
+    <liquid:water> *250, 
+    <liquid:brine_netjry> *250, 
+    [<ore:itemSalt>], 
+    [null]
+);
+
+//remove default thin slab recipe
+recipes.remove(<primal:thin_slab_acacia>);
+recipes.remove(<primal:thin_slab_bigoak>);
+recipes.remove(<primal:thin_slab_birch>);
+recipes.remove(<primal:thin_slab_oak>);
+recipes.remove(<primal:thin_slab_jungle>);
+recipes.remove(<primal:thin_slab_spruce>);
+recipes.remove(<primal:thin_slab_ironwood>);
+recipes.remove(<primal:thin_slab_corypha>);
+recipes.remove(<primal:thin_slab_lacquer>);
+recipes.remove(<primal:thin_slab_yew>);
+
+//other paper production
+recipes.removeByRecipeName("minecraft:paper");
+recipes.removeByRecipeName("primal:paper");
+mods.immersiveengineering.MetalPress.addRecipe(<minecraft:paper>, <minecraft:reeds>, <immersiveengineering:mold>, 500, 2);
+mods.immersiveengineering.MetalPress.addRecipe(<minecraft:paper>, <ore:plantPaper>, <immersiveengineering:mold>, 500, 2);
+mods.primal.Cauldron.addRecipe(
+    "paper_bark", 
+    3.0, 
+    <liquid:water> *1000, 
+    <liquid:water> *750, 
+    [<farmsteadforest:bark_fiber> * 4], 
+    [<farmsteadforest:paper_pulp>]
+);
+
+mods.primal.Cauldron.addRecipe(
+    "paper_paper_bark", 
+    3.0, 
+    <liquid:water> *1000, 
+    <liquid:water> *750, 
+    [<farmsteadforest:wet_birch_paperbark> * 2], 
+    [<farmsteadforest:paper_pulp>]
+);
+
+mods.tconstruct.Drying.addRecipe(<minecraft:paper>, <farmsteadforest:paper_pulp>, 2400);
 
 //remove most of the tools
 recipes.remove(<primal:bone_pickaxe>);

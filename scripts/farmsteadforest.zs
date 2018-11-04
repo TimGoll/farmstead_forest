@@ -65,10 +65,6 @@ recipes.addShaped(<minecraft:string>, [[<farmsteadforest:bark_fiber>, <farmstead
 //tofu
 recipes.addShapeless(<harvestcraft:firmtofuitem>, [<farmsteadforest:bark_tissue>, <farmsteadforest:bark_tissue>, <farmsteadforest:bark_tissue>]);
 
-//paperbark
-furnace.addRecipe(<minecraft:paper>, <farmsteadforest:combined_wet_birch_paperbark>);
-recipes.addShapeless(<farmsteadforest:combined_wet_birch_paperbark>, [<farmsteadforest:natural_epoxy>, <farmsteadforest:wet_birch_paperbark>, <farmsteadforest:wet_birch_paperbark>, <farmsteadforest:wet_birch_paperbark>]);
-
 //worms
 recipes.addShapeless(<harvestcraft:groundporkitem>, [<farmsteadforest:worm>, <farmsteadforest:worm>, <farmsteadforest:worm>, <farmsteadforest:worm>, <farmsteadforest:worm>, <farmsteadforest:worm>, <farmsteadforest:worm>, <farmsteadforest:worm>, <farmsteadforest:worm>]);
 
@@ -137,15 +133,25 @@ recipes.addShaped(<farmsteadforest:book_yew>, [[<farmsteadforest:cover_yew>, <or
 <ore:book>.add(<farmsteadforest:book_yew>);
 
 //poor copper
-recipes.addShaped(<farmsteadforest:poor_copper_ore>, [[<farmsteadforest:tiny_pile_of_poor_copper_ore>, <farmsteadforest:tiny_pile_of_poor_copper_ore>], [<farmsteadforest:tiny_pile_of_poor_copper_ore>, <farmsteadforest:tiny_pile_of_poor_copper_ore>]]);
+mods.rustic.CrushingTub.addRecipe(<liquid:oliveoil> *25, <farmsteadforest:poor_copper_ore>, <farmsteadforest:tiny_pile_of_poor_copper_ore> *4);
+mods.rustic.EvaporatingBasin.addRecipe(<farmsteadforest:dust_tiny_copper> *1, <liquid:oliveoil> * 200);
 
 mods.jei.JEI.addDescription(<farmsteadforest:tiny_pile_of_poor_copper_ore>, "Obtained by sneak + rightklicking surface copper ore samples with a stick.");
+
+mods.primal.Cauldron.addRecipe(
+    "liquify_copper", 
+    3.0, 
+    <liquid:brine_netjry> *500, 
+    <liquid:oliveoil> *500, 
+    [<farmsteadforest:poor_copper_ore> *4], 
+    [<primal:rock_stone> *2]
+);
 
 mods.primal.Smelter.addRecipe(
     "poor_copper_to_ingot", 
     10, 
-    [<farmsteadforest:poor_copper_ore>, <primal:charcoal_mote> *5], 
-    [<immersiveengineering:metal:20> *3, <primal:slag>, <primal:rock_stone>]
+    [<farmsteadforest:dust_tiny_copper>, <primal:charcoal_mote> *5], 
+    [<immersiveengineering:metal:20> *3, <primal:slag>]
 );
 
 //flaked tools
@@ -192,3 +198,20 @@ recipes.addShaped(<immersiveengineering:material:7> *2, [[null, <farmsteadforest
 
 recipes.addShapeless(<farmsteadforest:sawdust>, [<immersiveengineering:tool>, <ore:plankWood>, <ore:plankWood>]);
 mods.immersiveengineering.Crusher.addRecipe(<farmsteadforest:sawdust> *3, <ore:plankWood>, 2048);
+
+//sand pile
+recipes.addShapeless(<farmsteadforest:sand_pile> *4, [<ore:sand>]);
+recipes.addShaped(<minecraft:sand>, [[<farmsteadforest:sand_pile>, <farmsteadforest:sand_pile>], [<farmsteadforest:sand_pile>, <farmsteadforest:sand_pile>]]);
+
+//sticky thatching
+mods.primal.Cauldron.addRecipe(
+    "sticky_thatching", 
+    3.0, 
+    <liquid:water> *250, 
+    null, 
+    [<primal:thatching_dry> *2, <farmsteadforest:resin>], 
+    [<farmsteadforest:thatching_sticky>]
+);
+
+//waxed paper
+recipes.addShapeless(<farmsteadforest:waxed_paper>, [<minecraft:paper>, <primal:tallow>]);

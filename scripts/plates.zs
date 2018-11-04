@@ -44,9 +44,6 @@
 mods.jei.JEI.hide(<forestry:can:1>.withTag({Fluid: {FluidName: "zinc", Amount: 1000}}));
 mods.jei.JEI.hide(<forestry:refractory:1>.withTag({Fluid: {FluidName: "zinc", Amount: 1000}}));
 mods.jei.JEI.hide(<forge:bucketfilled>.withTag({FluidName: "zinc", Amount: 1000}));
-mods.jei.JEI.hide(<primal:bucket_clay>.withTag({Fluid: {FluidName: "zinc", Amount: 1000}}));
-mods.jei.JEI.hide(<primal:bucket_terra>.withTag({Fluid: {FluidName: "zinc", Amount: 1000}}));
-mods.jei.JEI.hide(<primal:bucket_cinis>.withTag({Fluid: {FluidName: "zinc", Amount: 1000}}));
 mods.jei.JEI.hide(<liquid:zinc>);
 
 //vanadium
@@ -148,9 +145,6 @@ mods.tconstruct.Casting.removeTableRecipe(<tconstruct:ingots:5>);
 mods.tconstruct.Casting.removeTableRecipe(<tconstruct:metal:5>);
 mods.tconstruct.Alloy.removeRecipe(<liquid:brass>);
 
-mods.jei.JEI.hide(<primal:bucket_clay>.withTag({Fluid: {FluidName: "alubrass", Amount: 1000}}));
-mods.jei.JEI.hide(<primal:bucket_terra>.withTag({Fluid: {FluidName: "alubrass", Amount: 1000}}));
-mods.jei.JEI.hide(<primal:bucket_cinis>.withTag({Fluid: {FluidName: "alubrass", Amount: 1000}}));
 mods.jei.JEI.hide(<forge:bucketfilled>.withTag({FluidName: "alubrass", Amount: 1000}));
 mods.jei.JEI.hide(<forestry:refractory:1>.withTag({Fluid: {FluidName: "alubrass", Amount: 1000}}));
 mods.jei.JEI.hide(<forestry:can:1>.withTag({Fluid: {FluidName: "alubrass", Amount: 1000}}));

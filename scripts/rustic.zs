@@ -35,8 +35,6 @@ mods.jei.JEI.hide(<rustic:leaves_apple>);
 recipes.remove(<rustic:crop_stake>);
 recipes.addShaped(<rustic:crop_stake> *3, [[<ore:plankWood>],[<ore:plankWood>],[<ore:plankWood>]]);
 
-//remove olive oil alltogether
-mods.rustic.CrushingTub.removeRecipe(<liquid:oliveoil>, <rustic:olives>);
 
 //change recipe of fertile soil
 recipes.remove(<rustic:fertile_soil>);
@@ -53,3 +51,27 @@ recipes.addShaped(<rustic:chain> *12, [[<gardenstuff:material:1>], [<gardenstuff
 
 mods.rustic.CrushingTub.removeRecipe(<liquid:applejuice>, <minecraft:apple>);
 mods.jei.JEI.hide(<rustic:apple_seeds>);
+
+//change recipes to be used eary game
+recipes.remove(<rustic:evaporating_basin>);
+recipes.addShaped(<rustic:evaporating_basin>, [[<tconstruct:materials:2>, null, <tconstruct:materials:2>], [<tconstruct:materials:2>, <tconstruct:materials:2>, <tconstruct:materials:2>]]);
+
+recipes.remove(<rustic:crushing_tub>);
+recipes.addShaped(<rustic:crushing_tub>, [[<ore:slabWood>, null, <ore:slabWood>], [<ore:thinWood>, <ore:thinWood>, <ore:thinWood>]]);
+
+//rename olive oil to be used for copper
+mods.rustic.CrushingTub.removeRecipe(<liquid:oliveoil>, <rustic:olives>);
+mods.forestry.Squeezer.removeRecipe(<liquid:oliveoil>, [<rustic:olives>]);
+
+//alchemic condenser
+recipes.remove(<rustic:condenser>);
+recipes.addShaped(<rustic:condenser>, [[null, <minecraft:brick>, null], [<minecraft:brick>, <primal:adobe_brick>, <minecraft:brick>], [<minecraft:brick>, <primal:adobe_brick>, <minecraft:brick>]]);
+
+recipes.remove(<rustic:retort>);
+recipes.addShaped(<rustic:retort>, [[<minecraft:brick>], [<primal:adobe_brick>], [<minecraft:brick>]]);
+
+recipes.remove(<rustic:condenser_advanced>);
+recipes.addShaped(<rustic:condenser_advanced>, [[null, <minecraft:netherbrick>, null], [<minecraft:netherbrick>, <ore:plateSteel>, <minecraft:netherbrick>], [<minecraft:netherbrick>, <ore:plateSteel>, <minecraft:netherbrick>]]);
+
+recipes.remove(<rustic:retort_advanced>);
+recipes.addShaped(<rustic:retort_advanced>, [[<minecraft:netherbrick>], [<ore:plateSteel>], [<minecraft:netherbrick>]]);

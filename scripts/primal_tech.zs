@@ -27,12 +27,6 @@ mods.jei.JEI.hide(<primal_tech:stone_mallet>);
 recipes.remove(<primal_tech:leaf_bed>);
 mods.jei.JEI.hide(<primal_tech:leaf_bed>);
 
-recipes.remove(<primal_tech:flint_block>);
-mods.jei.JEI.hide(<primal_tech:flint_block>);
-
-recipes.remove(<primal_tech:charcoal_block>);
-mods.jei.JEI.hide(<primal_tech:charcoal_block>);
-
 recipes.remove(<primal_tech:clay_kiln>);
 mods.jei.JEI.hide(<primal_tech:clay_kiln>);
 
@@ -85,8 +79,18 @@ recipes.addShapedMirrored(<primal_tech:rock>, [[<primal:rock_stone>, <minecraft:
 
 //saw blade
 recipes.remove(<primal_tech:flint_edged_disc>);
-recipes.addShaped(<primal_tech:flint_edged_disc>, [[<minecraft:flint>, null, <minecraft:flint>], [null, <immersiveengineering:material:8>, null], [<minecraft:flint>, null, <minecraft:flint>]]);
+recipes.addShaped(<primal_tech:flint_edged_disc>, [[<minecraft:flint>, <farmsteadforest:thatching_sticky>, <minecraft:flint>], [<farmsteadforest:thatching_sticky>, <primal:thatch>, <farmsteadforest:thatching_sticky>], [<minecraft:flint>, <farmsteadforest:thatching_sticky>, <minecraft:flint>]]);
 
 //hoppper
 recipes.remove(<primal_tech:charcoal_hopper>);
 recipes.addShaped(<primal_tech:charcoal_hopper>, [[<primal:shark_tooth>, null, <primal:shark_tooth>], [<primal:shark_tooth>, <ore:chest>, <primal:shark_tooth>], [null, <ore:blockCharcoal>, null]]);
+
+//flint block
+recipes.remove(<primal_tech:flint_block>);
+furnace.addRecipe(<primal_tech:flint_block>, <minecraft:gravel>);
+recipes.addShapeless(<minecraft:flint> *3, [<primal_tech:flint_block>]);
+
+//charcoal burning
+recipes.remove(<primal_tech:charcoal_block>);
+furnace.addRecipe(<primal_tech:charcoal_block>, <ore:blockCharcoal>);
+<primal_tech:charcoal_block>.displayName = "Burnable Charcoal Block";

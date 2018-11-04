@@ -21,11 +21,11 @@
 				},
 				{
 					"type": "damage_item",
-					"amount": 4
+					"amount": 2
 				},
 				{
 					"type": "add_hunger",
-					"amount": 0.25,
+					"amount": 0.15,
 					"disableJEI": true
 				},
 				{
@@ -51,13 +51,13 @@
 			[
 				{
 					"name": "farmsteadforest:bark_fiber",
-					"amount": "1",
-					"weight": 33
+					"amount": "2",
+					"weight": 90
 				},
 				{
 					"name": "minecraft:air",
 					"amount": "0",
-					"weight": 66
+					"weight": 10
 				}
 			]
 		}

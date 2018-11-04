@@ -112,3 +112,5 @@ recipes.addShapeless(<harvestcraft:fishtrapbaititem> *6, [<minecraft:string>, <m
 
 //cooking oil out of tallow
 recipes.addShapeless(<harvestcraft:oliveoilitem>, [<harvestcraft:juiceritem>, <primal:tallow>]);
+
+<ore:listAllwater>.add(<ceramics:clay_bucket>.withTag({fluids: {FluidName: "water", Amount: 1000}}));

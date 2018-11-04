@@ -27,8 +27,8 @@ recipes.addShaped(<immersiveengineering:metal_decoration0:5> *2, [[<ore:plateSte
 
 //you need primal lacquer wood for the coke oven
 recipes.removeByRecipeName("immersiveengineering:stone_decoration/cokebrick");
-recipes.addShaped(<immersiveengineering:stone_decoration> *3, [[<primal:mortar>, <minecraft:brick>, <primal:mortar>], [<primal:lacquer_stick>, <ore:sandstone>, <primal:lacquer_stick>], [<primal:mortar>, <minecraft:brick>, <primal:mortar>]]);
-recipes.addShaped(<immersiveengineering:stone_decoration> *3, [[<primal:mortar>, <minecraft:brick>, <primal:mortar>], [<immersiveengineering:material>, <ore:sandstone>, <immersiveengineering:material>], [<primal:mortar>, <minecraft:brick>, <primal:mortar>]]);
+recipes.addShaped(<immersiveengineering:stone_decoration> *4, [[<minecraft:brick>, <minecraft:brick>, <minecraft:brick>], [<primal:mortar>, <ore:plankLacquer>, <primal:mortar>], [<minecraft:brick>, <minecraft:brick>, <minecraft:brick>]]);
+recipes.addShaped(<immersiveengineering:stone_decoration> *4, [[<minecraft:brick>, <minecraft:brick>, <minecraft:brick>], [<primal:mortar>, <ore:plankTreatedWood>, <primal:mortar>], [<minecraft:brick>, <minecraft:brick>, <minecraft:brick>]]);
 
 recipes.removeByRecipeName("immersiveengineering:stone_decoration/blastbrick");
 recipes.addShaped(<immersiveengineering:stone_decoration:1> *3, [[<farmsteadforest:nether_crafting_compound>, <minecraft:brick>, <farmsteadforest:nether_crafting_compound>], [<minecraft:brick>, <minecraft:magma_cream>, <minecraft:brick>], [<farmsteadforest:nether_crafting_compound>, <minecraft:brick>, <farmsteadforest:nether_crafting_compound>]]);
