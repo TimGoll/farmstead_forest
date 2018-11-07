@@ -157,9 +157,9 @@ furnace.addRecipe(<primal:cauldron>, <ceramics:clay_bucket:2>);
 furnace.addRecipe(<primal:cauldron>, <ceramics:clay_bucket:3>);
 
 //make brine cheaper
-mods.primal.Cauldron.removeRecipe("cauldron_brine_netjry_salt");
+mods.primal.Cauldron.removeRecipe("primal:brine_dust_salt");
 mods.primal.Cauldron.addRecipe(
-    "cauldron_brine_dust_salt_new", 
+    "primal:brine_dust_salt_new", 
     6.0, 
     <liquid:water> *250, 
     <liquid:brine_netjry> *250, 
