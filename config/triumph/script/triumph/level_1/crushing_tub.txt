@@ -1,0 +1,11 @@
+setIcon(<rustic:crushing_tub>)
+setTitle("Crushing Tub")
+setDescription("Crush fruits and poor ores in here.")
+
+addParent("triumph:level_1/saw")
+
+criteria = addCriteria("crushing_tub", "minecraft:inventory_changed")
+criteria.addItem(<rustic:crushing_tub>)
+
+setFrameType("GOAL")
+setRewardItem(<rustic:book>)

@@ -1,0 +1,11 @@
+setIcon(<primal:rock_stone>)
+setTitle("Rocks")
+setDescription("Use a stick to break rocks out of stones and cobblestone.")
+
+addParent("triumph:level_0/sticks")
+
+//setFrameType("GOAL")
+
+criteria = addCriteria("rock_stone", "minecraft:inventory_changed")
+criteria.addItem(<primal:rock_stone>)
+criteria.setCount(10)

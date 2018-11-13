@@ -1,0 +1,8 @@
+setIcon(<primal_tech:charcoal_block>)
+setTitle("Burnable Charcoal Block")
+setDescription("This block is a blend of sand and charcoal and is the perfect netherrack alternative.")
+
+addParent("triumph:level_1/charcoal")
+
+criteria = addCriteria("charcoal_block", "minecraft:inventory_changed")
+criteria.addItem(<primal_tech:charcoal_block>)

@@ -1,0 +1,17 @@
+setIcon(<minecraft:wheat_seeds>)
+setTitle("Seeds")
+setDescription("Use your sharp tool on grass to obtain seeds.")
+
+addParent("triumph:level_0/flaked_with_rock")
+
+criteria = addCriteria("minecraft:wheat_seeds", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:wheat_seeds>)
+
+criteria = addCriteria("tomato_seeds", "minecraft:inventory_changed")
+criteria.addItem(<rustic:tomato_seeds>)
+
+criteria = addCriteria("chili_pepper_seeds", "minecraft:inventory_changed")
+criteria.addItem(<rustic:chili_pepper_seeds>)
+
+criteria = addCriteria("IE_seed", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:seed>)

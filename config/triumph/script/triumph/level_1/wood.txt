@@ -1,0 +1,11 @@
+setIcon(<minecraft:log>)
+setTitle("Getting Wood")
+setDescription("Chop your first tree.")
+
+addParent("triumph:level_1/root")
+
+criteria = addCriteria("log_wood", "minecraft:inventory_changed")
+criteria.addItem(<ore:logWood>)
+
+setFrameType("GOAL")
+setRewardItem(<patchouli:guide_book, nbt:{"patchouli:book": "naturesaura:book"}>)

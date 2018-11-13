@@ -1,0 +1,10 @@
+setIcon(<primal:flint_axe>)
+setTitle("Flint Axe")
+setDescription("Craft a flint axe.")
+
+addParent("triumph:level_0/furnace")
+
+setFrameType("CHALLENGE")
+
+criteria = addCriteria("flint_axe", "minecraft:inventory_changed")
+criteria.addItem(<primal:flint_axe>)

@@ -1,0 +1,8 @@
+setIcon(<naturesaura:gold_powder>)
+setTitle("Magical Golden Powder")
+setDescription("By crushing the golden leaves in your hand they break down into a dust.")
+
+addParent("triumph:level_1/golden_leaves")
+
+criteria = addCriteria("gold_powder", "minecraft:inventory_changed")
+criteria.addItem(<naturesaura:gold_powder>)

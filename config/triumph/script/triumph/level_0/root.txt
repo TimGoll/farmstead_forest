@@ -1,0 +1,9 @@
+setIcon(<minecraft:grass>)
+setTitle("Farmstead Forest")
+setDescription("Welcome to Farmstead Forest, a quest based modpack. Progress through the quests to learn new things.")
+setBackground("minecraft:textures/blocks/dirt.png")
+setShowToast(false)
+setAnnounceToChat(false)
+//setPos(11,17)
+
+addCriteria("location", "minecraft:location") //instantly done!

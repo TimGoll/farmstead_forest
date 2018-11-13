@@ -99,7 +99,7 @@ recipes.addShaped(<gardenstuff:candelabra> *2, [[<minecraft:string>], [<farmstea
 <ore:slimeball>.add(<farmsteadforest:natural_epoxy>);
 
 //reinforced sealant
-recipes.addShapeless(<farmsteadforest:reinforced_sealant>, [<buildcrafttransport:waterproof>, <lanolin:lanolin>, <farmsteadforest:chopped_plastic>]);
+recipes.addShapeless(<farmsteadforest:reinforced_sealant>, [<farmsteadforest:pipe_sealant>, <lanolin:lanolin>, <farmsteadforest:chopped_plastic>]);
 
 //barkbooks
 recipes.addShaped(<farmsteadforest:cover_acacia>, [[<primal:bark_acacia>, <primal:bark_acacia>], [<primal:bark_acacia>, <primal:bark_acacia>]]);
@@ -215,3 +215,31 @@ mods.primal.Cauldron.addRecipe(
 
 //waxed paper
 recipes.addShapeless(<farmsteadforest:waxed_paper>, [<minecraft:paper>, <primal:tallow>]);
+
+//gears
+recipes.addShaped(<farmsteadforest:gear_wood>, [[null, <ore:stickWood>, null], [<ore:stickWood>, null, <ore:stickWood>], [null, <ore:stickWood>, null]]);
+recipes.addShaped(<farmsteadforest:gear_diamond>, [[null, <ore:gemDiamond>, null], [<ore:gemDiamond>, <farmsteadforest:gear_wood>, <ore:gemDiamond>], [null, <ore:gemDiamond>, null]]);
+recipes.addShaped(<farmsteadforest:gear_stone>, [[null, <primal:rock_stone>, null], [<primal:rock_stone>, <farmsteadforest:gear_wood>, <primal:rock_stone>], [null, <primal:rock_stone>, null]]);
+
+mods.immersiveengineering.MetalPress.addRecipe(<farmsteadforest:gear_stone>, <ore:cobblestone>, <immersiveengineering:mold:1>, 2000, 1);
+mods.immersiveengineering.MetalPress.addRecipe(<farmsteadforest:gear_iron>, <ore:ingotIron>, <immersiveengineering:mold:1>, 2000, 4);
+mods.immersiveengineering.MetalPress.addRecipe(<farmsteadforest:gear_gold>, <ore:ingotGold>, <immersiveengineering:mold:1>, 2000, 4);
+
+//pipe sealant
+recipes.addShapeless(<farmsteadforest:pipe_sealant>, [<minecraft:dye:2>]);
+recipes.addShapeless(<farmsteadforest:pipe_sealant> *2, [<ore:itemBeeswax>]);
+
+<ore:gearWood>.add(<farmsteadforest:gear_wood>);
+<ore:gearStone>.add(<farmsteadforest:gear_stone>);
+<ore:gearIron>.add(<farmsteadforest:gear_iron>);
+<ore:gearGold>.add(<farmsteadforest:gear_gold>);
+<ore:gearDiamond>.add(<farmsteadforest:gear_diamond>);
+
+//add oredict to tree goods
+
+<ore:treeBarkGood>.add(<farmsteadforest:kapok_tuft>);
+<ore:treeBarkGood>.add(<farmsteadforest:bark_tissue>);
+<ore:treeBarkGood>.add(<farmsteadforest:resin>);
+<ore:treeBarkGood>.add(<farmsteadforest:wet_birch_paperbark>);
+<ore:treeBarkGood>.add(<farmsteadforest:drop_of_fresh_water>);
+<ore:treeBarkGood>.add(<farmsteadforest:worm>);

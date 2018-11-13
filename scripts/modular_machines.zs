@@ -30,19 +30,19 @@ recipes.addShaped(<modularmachinery:blockoutputbus:2>, [[<teckle:ingot:2>, <ore:
 recipes.addShaped(<modularmachinery:blockoutputbus:4>, [[<immersiveengineering:metal:6>, <ore:chest>, <immersiveengineering:metal:6>], [null, <modularmachinery:blockoutputbus:2>, null], [<immersiveengineering:metal:6>, <minecraft:hopper>, <immersiveengineering:metal:6>]]);
 
 recipes.remove(<modularmachinery:blockfluidinputhatch:1>);
-recipes.addShaped(<modularmachinery:blockfluidinputhatch:1>, [[null, <minecraft:hopper>, null], [<buildcraftfactory:tank>, <modularmachinery:blockcasing>, <buildcraftfactory:tank>], [<farmsteadforest:reinforced_sealant>, <farmsteadforest:reinforced_sealant>, <farmsteadforest:reinforced_sealant>]]);
+recipes.addShaped(<modularmachinery:blockfluidinputhatch:1>, [[null, <minecraft:hopper>, null], [<gadgetrymachines:fluid_tank>, <modularmachinery:blockcasing>, <gadgetrymachines:fluid_tank>], [<farmsteadforest:reinforced_sealant>, <farmsteadforest:reinforced_sealant>, <farmsteadforest:reinforced_sealant>]]);
 
-recipes.addShaped(<modularmachinery:blockfluidinputhatch:2>, [[<teckle:ingot:2>, <minecraft:hopper>, <teckle:ingot:2>], [null, <modularmachinery:blockfluidinputhatch:1>, null], [<teckle:ingot:2>, <buildcraftfactory:tank>, <teckle:ingot:2>]]);
+recipes.addShaped(<modularmachinery:blockfluidinputhatch:2>, [[<teckle:ingot:2>, <minecraft:hopper>, <teckle:ingot:2>], [null, <modularmachinery:blockfluidinputhatch:1>, null], [<teckle:ingot:2>, <gadgetrymachines:fluid_tank>, <teckle:ingot:2>]]);
 
-recipes.addShaped(<modularmachinery:blockfluidinputhatch:4>, [[<immersiveengineering:metal:6>, <minecraft:hopper>, <immersiveengineering:metal:6>], [null, <modularmachinery:blockfluidinputhatch:2>, null], [<immersiveengineering:metal:6>, <buildcraftfactory:tank>, <immersiveengineering:metal:6>]]);
+recipes.addShaped(<modularmachinery:blockfluidinputhatch:4>, [[<immersiveengineering:metal:6>, <minecraft:hopper>, <immersiveengineering:metal:6>], [null, <modularmachinery:blockfluidinputhatch:2>, null], [<immersiveengineering:metal:6>, <gadgetrymachines:fluid_tank>, <immersiveengineering:metal:6>]]);
 
 
 recipes.remove(<modularmachinery:blockfluidoutputhatch:1>);
-recipes.addShaped(<modularmachinery:blockfluidoutputhatch:1>, [[<farmsteadforest:reinforced_sealant>, <farmsteadforest:reinforced_sealant>, <farmsteadforest:reinforced_sealant>], [<buildcraftfactory:tank>, <modularmachinery:blockcasing>, <buildcraftfactory:tank>], [null, <minecraft:hopper>, null]]);
+recipes.addShaped(<modularmachinery:blockfluidoutputhatch:1>, [[<farmsteadforest:reinforced_sealant>, <farmsteadforest:reinforced_sealant>, <farmsteadforest:reinforced_sealant>], [<gadgetrymachines:fluid_tank>, <modularmachinery:blockcasing>, <gadgetrymachines:fluid_tank>], [null, <minecraft:hopper>, null]]);
 
-recipes.addShaped(<modularmachinery:blockfluidoutputhatch:2>, [[<teckle:ingot:2>, <buildcraftfactory:tank>, <teckle:ingot:2>], [null, <modularmachinery:blockfluidoutputhatch:1>, null], [<teckle:ingot:2>, <minecraft:hopper>, <teckle:ingot:2>]]);
+recipes.addShaped(<modularmachinery:blockfluidoutputhatch:2>, [[<teckle:ingot:2>, <gadgetrymachines:fluid_tank>, <teckle:ingot:2>], [null, <modularmachinery:blockfluidoutputhatch:1>, null], [<teckle:ingot:2>, <minecraft:hopper>, <teckle:ingot:2>]]);
 
-recipes.addShaped(<modularmachinery:blockfluidoutputhatch:4>, [[<immersiveengineering:metal:6>, <buildcraftfactory:tank>, <immersiveengineering:metal:6>], [null, <modularmachinery:blockfluidoutputhatch:2>, null], [<immersiveengineering:metal:6>, <minecraft:hopper>, <immersiveengineering:metal:6>]]);
+recipes.addShaped(<modularmachinery:blockfluidoutputhatch:4>, [[<immersiveengineering:metal:6>, <gadgetrymachines:fluid_tank>, <immersiveengineering:metal:6>], [null, <modularmachinery:blockfluidoutputhatch:2>, null], [<immersiveengineering:metal:6>, <minecraft:hopper>, <immersiveengineering:metal:6>]]);
 
 recipes.remove(<modularmachinery:blockenergyinputhatch:1>);
 recipes.addShaped(<modularmachinery:blockenergyinputhatch:1>, [[<projectred-core:resource_item:400>, <projectred-core:resource_item:400>, <projectred-core:resource_item:400>], [<projectred-core:resource_item:400>, <modularmachinery:blockcasing>, <projectred-core:resource_item:400>], [<projectred-core:resource_item:400>, <projectred-core:resource_item:400>, <projectred-core:resource_item:400>]]);

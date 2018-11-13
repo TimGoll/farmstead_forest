@@ -146,3 +146,4 @@ mods.jei.JEI.hide(<minecraft:command_block_minecart>);
 
 //remove leather recipes in favor of primal crafting way
 recipes.remove(<minecraft:leather>);
+furnace.remove(<minecraft:leather>);

@@ -1,0 +1,8 @@
+setIcon(<primal:plant_fiber>)
+setTitle("Fiber")
+setDescription("Get plant fiber by breaking grass or leaves.")
+
+addParent("triumph:level_0/root")
+
+criteria = addCriteria("plant_fiber", "minecraft:inventory_changed")
+criteria.addItem(<primal:plant_fiber>)

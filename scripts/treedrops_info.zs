@@ -5,4 +5,4 @@ mods.jei.JEI.addDescription(<farmsteadforest:bark_tissue>, "Bark tissue can be o
 mods.jei.JEI.addDescription(<farmsteadforest:drop_of_fresh_water>, "Drops of fresh water can be obtained by sneak + rightklicking dark oak wood with an axe and are an easy early game way of getting fresh water.");
 mods.jei.JEI.addDescription(<farmsteadforest:kapok_tuft>, "Kapok tuft can be obtained by sneak + rightklicking jungle wood with an axe and is a good and easy way to get hold of wool.");
 
-mods.jei.JEI.addDescription(<farmsteadforest:bark_fiber>, "Bark fiber can be obtained by sneak + rightklicking any wood with an flaked stick with a rock and is needed to create your first crafting table.");
+mods.jei.JEI.addDescription(<farmsteadforest:bark_fiber>, "Bark fiber can be obtained by sneak + rightklicking any log with an flaked stick with a rock and is needed to create your first crafting table.");

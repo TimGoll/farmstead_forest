@@ -1,0 +1,8 @@
+setIcon(<minecraft:stick>)
+setTitle("Sticks")
+setDescription("Get some sticks by breaking leaves.")
+
+addParent("triumph:level_0/root")
+
+criteria = addCriteria("stick", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:stick>)

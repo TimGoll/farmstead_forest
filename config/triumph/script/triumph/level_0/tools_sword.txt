@@ -1,0 +1,8 @@
+setIcon(<primal:sword_crude_flint>)
+setTitle("Flint Sword")
+setDescription("Craft a flint sword.")
+
+addParent("triumph:level_0/furnace")
+
+criteria = addCriteria("sword_crude_flint", "minecraft:inventory_changed")
+criteria.addItem(<primal:sword_crude_flint>)

@@ -1,0 +1,10 @@
+setIcon(<minecraft:cobblestone>)
+setTitle("It's Wood Time")
+setDescription("Now that you have your first crude tools, it's time to move on to new adventures.")
+setBackground("minecraft:textures/blocks/cobblestone.png")
+setShowToast(false)
+setAnnounceToChat(false)
+//setPos(11,17)
+
+criteria = addCriteria("completed_level_0", "triumph:completed_advancement")
+criteria.setString("triumph:level_0/tools_axe")

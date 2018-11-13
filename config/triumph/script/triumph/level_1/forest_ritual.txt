@@ -1,0 +1,8 @@
+setIcon(<naturesaura:wood_stand>)
+setTitle("Ritual of the Forest")
+setDescription("Build the structure for the ritual of the forest.")
+
+addParent("triumph:level_1/golden_leaves")
+
+criteria = addCriteria("wood_stand", "minecraft:inventory_changed")
+criteria.addItem(<naturesaura:wood_stand>)

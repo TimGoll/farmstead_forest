@@ -1,0 +1,8 @@
+setIcon(<waterworks:rain_tank_wood>)
+setTitle("Wooden Rain Tank")
+setDescription("Collect rain water.")
+
+addParent("triumph:level_1/saw")
+
+criteria = addCriteria("rain_tank_wood", "minecraft:inventory_changed")
+criteria.addItem(<waterworks:rain_tank_wood>)

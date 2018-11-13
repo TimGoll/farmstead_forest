@@ -53,7 +53,7 @@ recipes.addShaped(<harvestcraft:mortarandpestleitem> *1, [[<ore:mortar>, <ore:st
 
 //change machine recipes
 recipes.remove(<harvestcraft:waterfilter>);
-recipes.addShaped(<harvestcraft:waterfilter>, [[<ore:stickIron>, <minecraft:iron_bars>, <ore:stickIron>], [<industrialforegoing:plastic>, <buildcraftfactory:tank>, <industrialforegoing:plastic>], [<farmsteadforest:reinforced_sealant>, <minecraft:iron_bars>, <farmsteadforest:reinforced_sealant>]]);
+recipes.addShaped(<harvestcraft:waterfilter>, [[<ore:stickIron>, <minecraft:iron_bars>, <ore:stickIron>], [<industrialforegoing:plastic>, <gadgetrymachines:fluid_tank>, <industrialforegoing:plastic>], [<farmsteadforest:reinforced_sealant>, <minecraft:iron_bars>, <farmsteadforest:reinforced_sealant>]]);
 
 recipes.remove(<harvestcraft:grinder>);
 recipes.addShaped(<harvestcraft:grinder>, [[<ore:plateIron>, <minecraft:flint>, <ore:plateIron>], [<industrialforegoing:plastic>, null, <industrialforegoing:plastic>], [<immersiveengineering:treated_wood_slab>, <immersiveengineering:treated_wood_slab>, <immersiveengineering:treated_wood_slab>]]);

@@ -1,0 +1,39 @@
+{
+  "bookGuiScale": 4,
+  "clickedVisualize": true,
+  "bookData": {
+    "naturesaura:book": {
+      "viewedEntries": [
+        "naturesaura:intro/aura",
+        "naturesaura:intro/baubles",
+        "naturesaura:intro/botany",
+        "naturesaura:practices/gold_trees",
+        "naturesaura:practices/tree_ritual",
+        "naturesaura:collecting/aura_bottle",
+        "naturesaura:creating/ancient_tree",
+        "naturesaura:using/altar",
+        "naturesaura:items/color_changer",
+        "naturesaura:items/aura_cache",
+        "naturesaura:collecting/altar",
+        "naturesaura:creating/flower_generator",
+        "naturesaura:creating/potion_generator"
+      ],
+      "bookmarks": [],
+      "history": [
+        "naturesaura:practices/gold_trees",
+        "naturesaura:practices/tree_ritual",
+        "naturesaura:creating/potion_generator",
+        "naturesaura:creating/flower_generator",
+        "naturesaura:collecting/aura_bottle",
+        "naturesaura:collecting/altar",
+        "naturesaura:items/aura_cache",
+        "naturesaura:items/color_changer",
+        "naturesaura:using/altar",
+        "naturesaura:intro/botany",
+        "naturesaura:intro/aura",
+        "naturesaura:creating/ancient_tree",
+        "naturesaura:intro/baubles"
+      ]
+    }
+  }
+}

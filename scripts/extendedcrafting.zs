@@ -250,9 +250,9 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <refinedstorage:controller>, [
 mods.extendedcrafting.TableCrafting.addShaped(0, <industrialforegoing:water_condensator>, [
 	[null, null, <farmsteadforest:reinforced_sealant>, <farmsteadforest:reinforced_sealant>, <farmsteadforest:reinforced_sealant>, null, null], 
 	[null, <stevescarts:modulecomponents:49>, <extendedcrafting:material:48>, <immersiveengineering:metal_device1:1>, <extendedcrafting:material:48>, <stevescarts:modulecomponents:49>, null], 
-	[<farmsteadforest:reinforced_sealant>, <extendedcrafting:material:48>, <buildcraftfactory:tank>, <buildcraftfactory:tank>, <buildcraftfactory:tank>, <extendedcrafting:material:48>, <farmsteadforest:reinforced_sealant>], 
-	[<farmsteadforest:reinforced_sealant>, <immersiveengineering:metal_device1:1>, <buildcraftfactory:tank>, <farmsteadforest:casing_dense_metal>, <buildcraftfactory:tank>, <immersiveengineering:metal_device1:1>, <farmsteadforest:reinforced_sealant>], 
-	[<farmsteadforest:reinforced_sealant>, <extendedcrafting:material:48>, <buildcraftcore:engine>, <buildcraftfactory:pump>, <buildcraftcore:engine>, <extendedcrafting:material:48>, <farmsteadforest:reinforced_sealant>], 
+	[<farmsteadforest:reinforced_sealant>, <extendedcrafting:material:48>, <gadgetrymachines:fluid_tank>, <gadgetrymachines:fluid_tank>, <gadgetrymachines:fluid_tank>, <extendedcrafting:material:48>, <farmsteadforest:reinforced_sealant>], 
+	[<farmsteadforest:reinforced_sealant>, <immersiveengineering:metal_device1:1>, <gadgetrymachines:fluid_tank>, <farmsteadforest:casing_dense_metal>, <gadgetrymachines:fluid_tank>, <immersiveengineering:metal_device1:1>, <farmsteadforest:reinforced_sealant>], 
+	[<farmsteadforest:reinforced_sealant>, <extendedcrafting:material:48>, <minecraft:piston>, <gadgetrymachines:pump>, <minecraft:piston>, <extendedcrafting:material:48>, <farmsteadforest:reinforced_sealant>], 
 	[null, <stevescarts:modulecomponents:49>, <extendedcrafting:material:48>, <immersiveengineering:metal_device1:1>, <extendedcrafting:material:48>, <stevescarts:modulecomponents:49>, null], 
 	[null, null, <farmsteadforest:reinforced_sealant>, <farmsteadforest:reinforced_sealant>, <farmsteadforest:reinforced_sealant>, null, null]
 ]);
@@ -260,22 +260,11 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <industrialforegoing:water_cond
 mods.extendedcrafting.TableCrafting.addShaped(0, <industrialforegoing:mob_duplicator>, [
 	[null, null, <industrialforegoing:plastic>, <industrialforegoing:plastic>, <industrialforegoing:plastic>, null, null], 
 	[null, null, <stevescarts:modulecomponents:49>, <ore:plateIron>, <stevescarts:modulecomponents:49>, null, null], 
-	[<industrialforegoing:plastic>, <ore:gearTin>, <ore:plateIron>, <buildcraftfactory:tank>, <ore:plateIron>, <ore:gearTin>, <industrialforegoing:plastic>], 
-	[<industrialforegoing:plastic>, <minecraft:magma_cream>, <buildcraftfactory:tank>, <farmsteadforest:casing_dense_metal>, <buildcraftfactory:tank>, <minecraft:magma_cream>, <industrialforegoing:plastic>], 
-	[<industrialforegoing:plastic>, <ore:gearTin>, <ore:plateIron>, <buildcraftfactory:tank>, <ore:plateIron>, <ore:gearTin>, <industrialforegoing:plastic>], 
+	[<industrialforegoing:plastic>, <ore:gearTin>, <ore:plateIron>, <gadgetrymachines:fluid_tank>, <ore:plateIron>, <ore:gearTin>, <industrialforegoing:plastic>], 
+	[<industrialforegoing:plastic>, <minecraft:magma_cream>, <gadgetrymachines:fluid_tank>, <farmsteadforest:casing_dense_metal>, <gadgetrymachines:fluid_tank>, <minecraft:magma_cream>, <industrialforegoing:plastic>], 
+	[<industrialforegoing:plastic>, <ore:gearTin>, <ore:plateIron>, <gadgetrymachines:fluid_tank>, <ore:plateIron>, <ore:gearTin>, <industrialforegoing:plastic>], 
 	[null, null, <stevescarts:modulecomponents:49>, <ore:plateIron>, <stevescarts:modulecomponents:49>, null, null], 
 	[null, null, <industrialforegoing:plastic>, <industrialforegoing:plastic>, <industrialforegoing:plastic>, null, null]
-]);
-
-//BUILDCRAFT
-mods.extendedcrafting.TableCrafting.addShaped(0, <buildcraftbuilders:quarry>, [
-	[null, <stevescarts:modulecomponents:22>, null, <industrialforegoing:plastic>, null, <stevescarts:modulecomponents:22>, null], 
-	[<stevescarts:modulecomponents:22>, <forestry:chipsets:1>, <ore:brickPeat>, <industrialforegoing:plastic>, <ore:brickPeat>, <forestry:chipsets:1>, <stevescarts:modulecomponents:22>], 
-	[null, <ore:brickPeat>, <ore:gearGold>, <industrialforegoing:plastic>, <ore:gearGold>, <ore:brickPeat>, null], 
-	[<industrialforegoing:plastic>, <industrialforegoing:plastic>, <industrialforegoing:plastic>, <forestry:hardened_machine>, <industrialforegoing:plastic>, <industrialforegoing:plastic>, <industrialforegoing:plastic>], 
-	[null, <ore:brickPeat>, <ore:gearDiamond>, <industrialforegoing:plastic>, <ore:gearDiamond>, <ore:brickPeat>, null], 
-	[<stevescarts:modulecomponents:22>, <forestry:chipsets:1>, <ore:brickPeat>, <industrialforegoing:plastic>, <ore:brickPeat>, <forestry:chipsets:1>, <stevescarts:modulecomponents:22>], 
-	[null, <stevescarts:modulecomponents:22>, null, <industrialforegoing:plastic>, null, <stevescarts:modulecomponents:22>, null]
 ]);
 
 

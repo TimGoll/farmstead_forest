@@ -1,0 +1,8 @@
+setIcon(<primal_tech:water_saw>)
+setTitle("Water Powered Saw")
+setDescription("Get a higher yield of every piece of wood.")
+
+addParent("triumph:level_1/wood")
+
+criteria = addCriteria("saw", "minecraft:inventory_changed")
+criteria.addItem(<primal_tech:water_saw>)

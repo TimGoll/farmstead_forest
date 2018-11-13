@@ -1,0 +1,8 @@
+setIcon(<minecraft:flint>)
+setTitle("Flint")
+setDescription("Get flint out of gravel.")
+
+addParent("triumph:level_0/root")
+
+criteria = addCriteria("flint", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:flint>)

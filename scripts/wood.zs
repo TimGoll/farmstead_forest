@@ -36,6 +36,8 @@ recipes.remove(<traverse:fir_planks>);
 recipes.remove(<extrautils2:ironwood_planks>);
 recipes.remove(<extrautils2:ironwood_planks:1>);
 
+recipes.remove(<naturesaura:ancient_planks>);
+
 
 //add 1 to 2 recipes
 recipes.addShapeless(<minecraft:planks:0> *2, [<minecraft:log:0>]);
@@ -79,6 +81,9 @@ recipes.addShapeless(<traverse:fir_planks> *2, [<traverse:fir_log>]);
 recipes.addShapeless(<extrautils2:ironwood_planks> *2, [<extrautils2:ironwood_log>]);
 recipes.addShapeless(<extrautils2:ironwood_planks:1> *2, [<extrautils2:ironwood_log:1>]);
 
+recipes.addShapeless(<naturesaura:ancient_planks> *2, [<naturesaura:ancient_bark>]);
+recipes.addShapeless(<naturesaura:ancient_planks> *2, [<naturesaura:ancient_log>]);
+
 <ore:plankWoodDefault>.add(<minecraft:planks:0>);
 <ore:plankWoodDefault>.add(<minecraft:planks:1>);
 <ore:plankWoodDefault>.add(<minecraft:planks:2>);
@@ -120,6 +125,7 @@ recipes.remove(<primal:corypha_stick>);
 recipes.remove(<primal:yew_stick>);
 recipes.remove(<primal:ironwood_stick>);
 recipes.remove(<immersiveengineering:material>);
+recipes.remove(<naturesaura:ancient_stick>);
 
 recipes.addShaped(<minecraft:stick> *2, [[<ore:plankWoodDefault>], [<ore:plankWoodDefault>]]);
 recipes.addShaped(<primal:lacquer_stick> *2, [[<ore:plankLacquer>], [<ore:plankLacquer>]]);
@@ -127,3 +133,4 @@ recipes.addShaped(<primal:corypha_stick> *2, [[<ore:plankCorypha>], [<ore:plankC
 recipes.addShaped(<primal:yew_stick> *2, [[<ore:plankYew>], [<ore:plankYew>]]);
 recipes.addShaped(<primal:ironwood_stick> *2, [[<ore:plankIronwood>], [<ore:plankIronwood>]]);
 recipes.addShaped(<immersiveengineering:material> *2, [[<ore:plankTreatedWood>], [<ore:plankTreatedWood>]]);
+recipes.addShaped(<naturesaura:ancient_stick> *2, [[<naturesaura:ancient_planks>], [<naturesaura:ancient_planks>]]);

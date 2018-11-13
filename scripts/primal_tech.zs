@@ -92,5 +92,6 @@ recipes.addShapeless(<minecraft:flint> *3, [<primal_tech:flint_block>]);
 
 //charcoal burning
 recipes.remove(<primal_tech:charcoal_block>);
-furnace.addRecipe(<primal_tech:charcoal_block>, <ore:blockCharcoal>);
+recipes.addShaped(<primal_tech:charcoal_block>, [[<minicoal:minicharcoal>, <farmsteadforest:sand_pile>, <minicoal:minicharcoal>], [<farmsteadforest:sand_pile>, <minicoal:minicharcoal>, <farmsteadforest:sand_pile>], [<minicoal:minicharcoal>, <farmsteadforest:sand_pile>, <minicoal:minicharcoal>]]);
+furnace.setFuel(<primal_tech:charcoal_block>, 800);
 <primal_tech:charcoal_block>.displayName = "Burnable Charcoal Block";

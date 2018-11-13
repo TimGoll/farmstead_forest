@@ -1,0 +1,8 @@
+setIcon(<animania:raw_prime_mutton>)
+setTitle("Meat")
+setDescription("Kill an animal and get something to eat.")
+
+addParent("triumph:level_0/flaked_with_rock")
+
+criteria = addCriteria("meat_raw", "minecraft:inventory_changed")
+criteria.addItem(<ore:listAllmeatraw>)

@@ -1,0 +1,12 @@
+setIcon(<minecraft:furnace>)
+setTitle("Furnace")
+setDescription("Use rocks and mortar to craft a furnace")
+
+addParent("triumph:level_0/work_stump")
+
+setFrameType("GOAL")
+
+criteria = addCriteria("furnace", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:furnace>)
+
+setRewardItem("harvestcraft:applejellysandwichitem", 0, 1)

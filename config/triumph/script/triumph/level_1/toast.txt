@@ -1,0 +1,8 @@
+setIcon(<harvestcraft:toastitem>)
+setTitle("Toast")
+setDescription("Throw a bread into a furnace to get a tastier variant.")
+
+addParent("triumph:level_1/dough")
+
+criteria = addCriteria("toastitem", "minecraft:inventory_changed")
+criteria.addItem(<harvestcraft:toastitem>)

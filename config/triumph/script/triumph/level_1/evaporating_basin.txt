@@ -1,0 +1,8 @@
+setIcon(<rustic:evaporating_basin>)
+setTitle("Evaporating Basin")
+setDescription("Put your copper ore solution in here.")
+
+addParent("triumph:level_1/crushing_tub")
+
+criteria = addCriteria("evaporating_basin", "minecraft:inventory_changed")
+criteria.addItem(<rustic:evaporating_basin>)

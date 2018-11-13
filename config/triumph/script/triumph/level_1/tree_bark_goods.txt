@@ -1,0 +1,8 @@
+setIcon(<farmsteadforest:resin>)
+setTitle("Goods from Tree Bark")
+setDescription("Sneak right klick with an axe on fresh logs to strip them down and get some nice goods found under the bark.")
+
+addParent("triumph:level_1/wood")
+
+criteria = addCriteria("treeBarkGood", "minecraft:inventory_changed")
+criteria.addItem(<ore:treeBarkGood>)

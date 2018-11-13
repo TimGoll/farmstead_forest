@@ -1,0 +1,8 @@
+setIcon(<minecraft:wheat>)
+setTitle("Farmer")
+setDescription("Getting your first self grown crop.")
+
+addParent("triumph:level_1/root")
+
+criteria = addCriteria("wheat", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:wheat>)

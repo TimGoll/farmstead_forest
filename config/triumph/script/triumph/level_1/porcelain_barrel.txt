@@ -1,0 +1,8 @@
+setIcon(<ceramics:porcelain_barrel>)
+setTitle("Porcelain Barrel")
+setDescription("Pipe water using faucets and channels from your collectors into this tank.")
+
+addParent("triumph:level_1/water_collector")
+
+criteria = addCriteria("porcelain_barrel", "minecraft:inventory_changed")
+criteria.addItem(<ceramics:porcelain_barrel>)

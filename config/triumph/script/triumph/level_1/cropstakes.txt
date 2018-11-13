@@ -1,0 +1,8 @@
+setIcon(<rustic:crop_stake>)
+setTitle("Crop Stake")
+setDescription("Use them in combination of ropes to plant tomatoes, chili and grapes.")
+
+addParent("triumph:level_1/wheat")
+
+criteria = addCriteria("crop_stake", "minecraft:inventory_changed")
+criteria.addItem(<rustic:crop_stake>)

@@ -10,9 +10,6 @@ recipes.addShaped(<inspirations:torch_lever>, [[<minecraft:torch>], [<ore:rock>]
 recipes.remove(<tconstruct:stone_stick>);
 recipes.addShaped(<tconstruct:stone_stick>, [[<ore:rock>], [<ore:rock>]]);
 
-recipes.remove(<buildcraftcore:gear_stone>);
-recipes.addShaped(<buildcraftcore:gear_stone>, [[null, <ore:rock>, null], [<ore:rock>, <buildcraftcore:gear_wood>, <ore:rock>], [null, <ore:rock>, null]]);
-
 recipes.remove(<harvestcraft:cobblestonecobbleritem>);
 recipes.addShapedMirrored(<harvestcraft:cobblestonecobbleritem>, [[<ore:toolBakeware>, <ore:foodDough>, <ore:foodButter>], [<ore:stone>, <ore:stone>, <ore:stone>], [<ore:stone>, <ore:stone>, <ore:stone>]]);
 

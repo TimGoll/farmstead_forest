@@ -1,0 +1,8 @@
+setIcon(<ceramics:porcelain_barrel_extension>)
+setTitle("Porcelain Barrel Extension")
+setDescription("Put one or more extensions on top of an existing barrel to increase its size.")
+
+addParent("triumph:level_1/porcelain_barrel")
+
+criteria = addCriteria("porcelain_barrel_extension", "minecraft:inventory_changed")
+criteria.addItem(<ceramics:porcelain_barrel_extension>)

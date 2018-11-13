@@ -1,0 +1,30 @@
+{
+    "machine": "sawmill",
+    "registryName": "natures_aura_02",
+    "recipeTime": 80,
+    "requirements": [
+		{
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 45
+        },
+		{
+			"type": "item",
+			"io-type": "input",
+			"item": "naturesaura:ancient_log@0"
+		},
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "naturesaura:ancient_planks@0",
+			"amount": 6
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "farmsteadforest:sawdust@0",
+			"amount": 1,
+			"chance": 0.5
+        }
+    ]
+}

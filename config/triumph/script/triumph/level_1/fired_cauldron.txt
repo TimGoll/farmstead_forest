@@ -1,0 +1,8 @@
+setIcon(<primal:cauldron>)
+setTitle("Fired Cauldron")
+setDescription("The perfect way of creating liquid based resources.")
+
+addParent("triumph:level_1/charcoal")
+
+criteria = addCriteria("cauldron", "minecraft:inventory_changed")
+criteria.addItem(<primal:cauldron>)

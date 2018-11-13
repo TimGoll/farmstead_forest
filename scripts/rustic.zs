@@ -57,7 +57,7 @@ recipes.remove(<rustic:evaporating_basin>);
 recipes.addShaped(<rustic:evaporating_basin>, [[<tconstruct:materials:2>, null, <tconstruct:materials:2>], [<tconstruct:materials:2>, <tconstruct:materials:2>, <tconstruct:materials:2>]]);
 
 recipes.remove(<rustic:crushing_tub>);
-recipes.addShaped(<rustic:crushing_tub>, [[<ore:slabWood>, null, <ore:slabWood>], [<ore:thinWood>, <ore:thinWood>, <ore:thinWood>]]);
+recipes.addShaped(<rustic:crushing_tub>, [[<naturesaura:ancient_slab>, null, <naturesaura:ancient_slab>], [<ore:thinWood>, <ore:thinWood>, <ore:thinWood>]]);
 
 //rename olive oil to be used for copper
 mods.rustic.CrushingTub.removeRecipe(<liquid:oliveoil>, <rustic:olives>);

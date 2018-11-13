@@ -1,0 +1,2 @@
+recipes.remove(<feederhelmet:feeder_helmet_module>);
+recipes.addShaped(<feederhelmet:feeder_helmet_module>, [[<gardenstuff:material:1>, <gardenstuff:material:1>, <gardenstuff:material:1>], [<gardenstuff:material:1>, <minecraft:ender_eye>, <gardenstuff:material:1>], [<gardenstuff:material:2>, <gardenstuff:material:2>, <gardenstuff:material:2>]]);
