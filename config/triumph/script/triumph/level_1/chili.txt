@@ -1,0 +1,8 @@
+setIcon(<rustic:chili_pepper>)
+setTitle("Chili")
+setDescription("Something spicy!")
+
+addParent("triumph:level_1/tomato")
+
+criteria = addCriteria("chili_pepper", "minecraft:inventory_changed")
+criteria.addItem(<rustic:chili_pepper>)

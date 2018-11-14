@@ -1,0 +1,8 @@
+setIcon(<waterstrainer:strainer_base>)
+setTitle("Water Strainer")
+setDescription("Strain water to get free resources.")
+
+addParent("triumph:level_1/wood")
+
+criteria = addCriteria("strainer_base", "minecraft:inventory_changed")
+criteria.addItem(<waterstrainer:strainer_base>)

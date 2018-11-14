@@ -1,6 +1,6 @@
 setIcon(<primal:cauldron>)
 setTitle("Fired Cauldron")
-setDescription("The perfect way of creating liquid based resources.")
+setDescription("The perfect way of creating liquid based resources. You can move the cauldron, like the most entities, by sneak right klicking it.")
 
 addParent("triumph:level_1/charcoal")
 

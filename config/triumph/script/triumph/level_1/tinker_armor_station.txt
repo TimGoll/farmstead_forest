@@ -1,0 +1,11 @@
+setIcon(<conarm:armorstation>)
+setTitle("Stencil Table")
+setDescription("A table to combine your primitive armor parts.")
+
+addParent("triumph:level_1/pattern")
+
+criteria = addCriteria("armorstation", "minecraft:inventory_changed")
+criteria.addItem(<conarm:armorstation>)
+
+setFrameType("GOAL")
+setRewardItem(<conarm:book, nbt:{mantle: {book: {page: "armory.repairing"}}}>)

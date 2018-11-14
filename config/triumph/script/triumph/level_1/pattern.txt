@@ -1,0 +1,11 @@
+setIcon(<tconstruct:pattern>)
+setTitle("Pattern")
+setDescription("The first step into proper tools.")
+
+addParent("triumph:level_1/waxed_paper")
+
+criteria = addCriteria("pattern", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:pattern>)
+
+setFrameType("GOAL")
+setRewardItem(<tconstruct:book>)

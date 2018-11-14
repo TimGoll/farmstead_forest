@@ -1,0 +1,8 @@
+setIcon(<rustic:grapes>)
+setTitle("Grapes")
+setDescription("Grapes. You find the seeds in vines.")
+
+addParent("triumph:level_1/chili")
+
+criteria = addCriteria("grapes", "minecraft:inventory_changed")
+criteria.addItem(<rustic:grapes>)

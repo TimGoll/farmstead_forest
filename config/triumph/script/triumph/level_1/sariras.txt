@@ -1,0 +1,8 @@
+setIcon(<primal:smelter>)
+setTitle("Sariras")
+setDescription("Smelt your tiny piles of copper dust to nuggets in this small smelter.")
+
+addParent("triumph:level_1/evaporating_basin")
+
+criteria = addCriteria("smelter_sariras", "minecraft:inventory_changed")
+criteria.addItem(<primal:smelter>)

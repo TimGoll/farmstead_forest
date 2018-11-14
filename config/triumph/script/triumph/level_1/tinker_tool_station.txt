@@ -1,0 +1,10 @@
+setIcon(<tconstruct:tooltables:3>)
+setTitle("Tool Station")
+setDescription("A table to combine your primitive tool parts.")
+
+addParent("triumph:level_1/pattern")
+
+criteria = addCriteria("table_3", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:tooltables:3>)
+
+setFrameType("CHALLENGE")

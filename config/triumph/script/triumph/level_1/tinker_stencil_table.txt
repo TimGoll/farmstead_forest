@@ -1,0 +1,8 @@
+setIcon(<tconstruct:tooltables:1>)
+setTitle("Stencil Table")
+setDescription("A table to craft your patterns at.")
+
+addParent("triumph:level_1/pattern")
+
+criteria = addCriteria("table_1", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:tooltables:1>)

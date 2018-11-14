@@ -1,0 +1,8 @@
+setIcon(<tconstruct:tooltables:0>)
+setTitle("Crafting Station")
+setDescription("An improved crafting table.")
+
+addParent("triumph:level_1/pattern")
+
+criteria = addCriteria("table_0", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:tooltables:0>)

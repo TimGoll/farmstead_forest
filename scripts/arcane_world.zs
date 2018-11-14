@@ -18,6 +18,7 @@ mods.ArcaneWorld.remove("arcaneworld:summon_magma_cube");
 mods.ArcaneWorld.remove("arcaneworld:summon_shulker");
 mods.ArcaneWorld.remove("arcaneworld:summon_silverfish");
 mods.ArcaneWorld.remove("arcaneworld:summon_slime");
+mods.ArcaneWorld.remove("arcaneworld:summon_slimeball");
 mods.ArcaneWorld.remove("arcaneworld:summon_witch");
 mods.ArcaneWorld.remove("arcaneworld:summon_vindicator");
 mods.ArcaneWorld.remove("arcaneworld:summon_evoker");

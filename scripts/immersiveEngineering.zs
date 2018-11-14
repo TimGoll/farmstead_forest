@@ -33,25 +33,6 @@ recipes.addShaped(<immersiveengineering:stone_decoration> *4, [[<minecraft:brick
 recipes.removeByRecipeName("immersiveengineering:stone_decoration/blastbrick");
 recipes.addShaped(<immersiveengineering:stone_decoration:1> *3, [[<farmsteadforest:nether_crafting_compound>, <minecraft:brick>, <farmsteadforest:nether_crafting_compound>], [<minecraft:brick>, <minecraft:magma_cream>, <minecraft:brick>], [<farmsteadforest:nether_crafting_compound>, <minecraft:brick>, <farmsteadforest:nether_crafting_compound>]]);
 
-//earlygame iron mechanical components are crafted in a sariras, later on in a press
-recipes.remove(<immersiveengineering:material:8>);
-mods.primal.Smelter.addRecipe(
-    "iron_mechanical_component_sariras", 
-    10, 
-    [<ore:plateIron> *4, <immersiveengineering:metal>, <primal:charcoal_mote> *5], 
-    [<immersiveengineering:material:8>, <primal:slag> *4]
-);
-mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:material:8>, <ore:plateIron>, <immersiveengineering:mold>, 2000, 4);
-
-recipes.remove(<immersiveengineering:material:9>);
-mods.primal.Smelter.addRecipe(
-    "steel_mechanical_component_sariras", 
-    10, 
-    [<ore:plateSteel> *4, <ore:ingotCopper>, <primal:charcoal_mote> *5], 
-    [<immersiveengineering:material:9>, <primal:slag> *4]
-);
-mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:material:9>, <ore:plateSteel>, <immersiveengineering:mold>, 2000, 4);
-
 //early game items should use iron mechanical components
 recipes.remove(<immersiveengineering:metal_device1:2>);
 recipes.addShaped(<immersiveengineering:metal_device1:2>, [[<ore:dustRedstone>, <immersiveengineering:metal_decoration0>, <ore:dustRedstone>], [<ore:ingotIron>, <immersiveengineering:material:8>, <ore:ingotIron>]]);

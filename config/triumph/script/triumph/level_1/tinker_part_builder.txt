@@ -1,0 +1,8 @@
+setIcon(<tconstruct:tooltables:2>)
+setTitle("Part Builder")
+setDescription("A table to create your primitive tool and armor parts.")
+
+addParent("triumph:level_1/pattern")
+
+criteria = addCriteria("table_2", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:tooltables:2>)

@@ -1,0 +1,8 @@
+setIcon(<tconstruct:tooltables:4>)
+setTitle("Pattern Chest")
+setDescription("You can store your finished patterns in here.")
+
+addParent("triumph:level_1/tinker_stencil_table")
+
+criteria = addCriteria("table_4", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:tooltables:4>)
