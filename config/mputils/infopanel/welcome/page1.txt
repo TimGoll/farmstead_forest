@@ -1,0 +1,9 @@
+§lWelcome to Farmstead Forest§r
+
+This modback vastly changes the overall game progression. But there are plenty of advancements to help you from getting lost. Press §lV§r to open the advancement tree.
+
+Additionally there is a guidebook which explains the basics of everything. You should look into it to learn how to play.
+
+You can skill your character with levels. As soon as you reach level 5, you're able to open a new interface with the §lL§r key and select a profession.
+
+If you encounter any bugs or problems please report them on GitHub. There's a link in your guidebook and in the main menu. Have fun!
