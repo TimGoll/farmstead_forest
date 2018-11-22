@@ -1,0 +1,8 @@
+setIcon(<minecraft:chest>)
+setTitle("Chests")
+setDescription("Store your stuff the old way.")
+
+addParent("triumph:level_1/wood")
+
+criteria = addCriteria("chestWood", "minecraft:inventory_changed")
+criteria.addItem(<ore:chestWood>)

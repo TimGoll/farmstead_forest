@@ -38,6 +38,13 @@ furnace.addRecipe(<gadgetrycore:silicon>, <teckle:siliconwafer>);
 <ore:matSilicon>.remove(<gadgetrycore:silicon>);
 <ore:silicon>.remove(<gadgetrycore:silicon>);
 
+//make the stuff with hardened silicon
+recipes.remove(<gadgetrymachines:circuit>);
+recipes.addShaped(<gadgetrymachines:circuit>, [[<ore:nuggetGold>, null, <ore:nuggetGold>], [null, <gadgetrycore:silicon>, null], [null, <ore:nuggetGold>, null]]);
+
+recipes.remove(<gadgetrymachines:solar_panel>);
+recipes.addShaped(<gadgetrymachines:solar_panel>, [[<gadgetrycore:silicon>, <gadgetrycore:silicon>, <gadgetrycore:silicon>], [<gadgetrycore:silicon>, <gadgetrycore:silicon>, <gadgetrycore:silicon>], [<ore:ingotIron>, <gadgetrycore:redmetal_ingot>, <ore:ingotIron>]]);
+
 mods.jei.JEI.hide(<gadgetrycore:multiblock_slave_empty>);
 mods.jei.JEI.hide(<gadgetrycore:multiblock_slave_modular>);
 

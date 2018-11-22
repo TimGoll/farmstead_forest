@@ -1,0 +1,8 @@
+setIcon(<immersiveengineering:treated_wood>)
+setTitle("Treated Wood")
+setDescription("The byproduct of coke production is creosote oil. It's used to treat wood.")
+
+addParent("triumph:level_2/coke_oven")
+
+criteria = addCriteria("treated_wood", "minecraft:inventory_changed")
+criteria.addItem(<ore:plankTreatedWood>)

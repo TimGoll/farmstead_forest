@@ -1,0 +1,13 @@
+setIcon(<tcomplement:porcelain_melter>)
+setTitle("Melter")
+setDescription("You can melt down some ores in here, but it's not hot enough for every ore. [You can use the porcelain or the seared melter]")
+
+addParent("triumph:level_2/cobblestone")
+
+criteria = addCriteria("abc", "minecraft:inventory_changed")
+criteria.addItem(<tcomplement:porcelain_melter>)
+
+criteria = addCriteria("seared_melter", "minecraft:inventory_changed")
+criteria.addItem(<tcomplement:melter>)
+
+setRequirements("any")

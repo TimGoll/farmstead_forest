@@ -1,0 +1,13 @@
+setIcon(<ceramics:faucet>)
+setTitle("Casting Basin")
+setDescription("This is needed to empty out the molten ore into a table or basin. [You can use the porcelain or the seared melter]")
+
+addParent("triumph:level_2/heater")
+
+criteria = addCriteria("porcelain_casting_faucet", "minecraft:inventory_changed")
+criteria.addItem(<ceramics:faucet>)
+
+criteria = addCriteria("seared_casting_faucet", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:faucet>)
+
+setRequirements("any")

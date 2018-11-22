@@ -1,0 +1,13 @@
+setIcon(<tcomplement:porcelain_casting:1>)
+setTitle("Casting Basin")
+setDescription("This is needed to cast blocks. [You can use the porcelain or the seared melter]")
+
+addParent("triumph:level_2/heater")
+
+criteria = addCriteria("porcelain_casting_basin", "minecraft:inventory_changed")
+criteria.addItem(<tcomplement:porcelain_casting:1>)
+
+criteria = addCriteria("seared_casting_basin", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:casting:1>)
+
+setRequirements("any")

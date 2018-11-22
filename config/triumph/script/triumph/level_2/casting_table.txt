@@ -1,0 +1,13 @@
+setIcon(<tcomplement:porcelain_casting>)
+setTitle("Casting Table")
+setDescription("This is needed to cast ingots and toolparts. [You can use the porcelain or the seared melter]")
+
+addParent("triumph:level_2/heater")
+
+criteria = addCriteria("porcelain_casting_table", "minecraft:inventory_changed")
+criteria.addItem(<tcomplement:porcelain_casting>)
+
+criteria = addCriteria("seared_casting_table", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:casting>)
+
+setRequirements("any")

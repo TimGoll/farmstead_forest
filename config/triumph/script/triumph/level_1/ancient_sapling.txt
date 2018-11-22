@@ -1,6 +1,6 @@
 setIcon(<naturesaura:ancient_sapling>)
 setTitle("Ancient Sapling")
-setDescription("Use the ritual of the forest to get this sapling.")
+setDescription("Use the ritual of the forest to get this sapling. These trees help you to keep the surrounding aura at a base level.")
 
 addParent("triumph:level_1/forest_ritual")
 

@@ -1,0 +1,8 @@
+setIcon(<fortunate:copper_chunk>)
+setTitle("Copper Ore")
+setDescription("Mine your first copper ore.")
+
+addParent("triumph:level_2/cobblestone")
+
+criteria = addCriteria("copperOre", "minecraft:inventory_changed")
+criteria.addItem(<fortunate:copper_chunk>)

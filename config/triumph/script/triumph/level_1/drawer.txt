@@ -1,0 +1,8 @@
+setIcon(<storagedrawers:basicdrawers, nbt:{material: "oak"}>)
+setTitle("Drawer")
+setDescription("Store your stuff the new way.")
+
+addParent("triumph:level_1/chest")
+
+criteria = addCriteria("drawerBasic", "minecraft:inventory_changed")
+criteria.addItem(<ore:drawerBasic>)

@@ -1,0 +1,8 @@
+setIcon(<tconstruct:pickaxe, nbt:{TinkerData: {Materials: ["wood", "wood", "wood"], Modifiers: ["toolleveling"]}}>)
+setTitle("Time to Mine")
+setDescription("A neat way to break stones, build a pickaxe of your choice from tinkers construct.")
+
+addParent("triumph:level_2/root")
+
+criteria = addCriteria("tc_pickaxe", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:pickaxe>)

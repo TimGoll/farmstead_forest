@@ -1,0 +1,13 @@
+setIcon(<tcomplement:porcelain_melter:8>)
+setTitle("Heater")
+setDescription("You need this to heat up the melter. [You can use the porcelain or the seared melter]")
+
+addParent("triumph:level_2/melter")
+
+criteria = addCriteria("porcelain_heater", "minecraft:inventory_changed")
+criteria.addItem(<tcomplement:porcelain_melter:8>)
+
+criteria = addCriteria("seared_heater", "minecraft:inventory_changed")
+criteria.addItem(<tcomplement:melter:8>)
+
+setRequirements("any")

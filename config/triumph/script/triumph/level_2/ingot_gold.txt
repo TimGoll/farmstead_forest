@@ -1,0 +1,8 @@
+setIcon(<minecraft:gold_ingot>)
+setTitle("Gold Ingot")
+setDescription("Gold. A more or less useful ore which is needed to create better casts for your smeltery.")
+
+addParent("triumph:level_2/pickaxe2")
+
+criteria = addCriteria("ingotGold", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:gold_ingot>)

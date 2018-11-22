@@ -6,3 +6,6 @@ addParent("triumph:level_1/chili")
 
 criteria = addCriteria("grapes", "minecraft:inventory_changed")
 criteria.addItem(<rustic:grapes>)
+
+setFrameType("GOAL")
+setRewardItem(<cookingforblockheads:recipe_book:1>)

@@ -1,0 +1,8 @@
+setIcon(<immersiveengineering:metal>)
+setTitle("Copper Ingot")
+setDescription("Just a copper ingot.")
+
+addParent("triumph:level_2/casting_basin")
+
+criteria = addCriteria("ingotCopper", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotCopper>)

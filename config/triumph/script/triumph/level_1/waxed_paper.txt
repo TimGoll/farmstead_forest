@@ -2,7 +2,7 @@ setIcon(<farmsteadforest:waxed_paper>)
 setTitle("Waxed Paper")
 setDescription("If you impregnate paper with fat, it gets water resistant!")
 
-addParent("triumph:level_1/fired_cauldron")
+addParent("triumph:level_1/paper_pulp")
 
 criteria = addCriteria("waxed_paper", "minecraft:inventory_changed")
 criteria.addItem(<farmsteadforest:waxed_paper>)

@@ -1,0 +1,11 @@
+setIcon(<immersiveengineering:tool>)
+setTitle("Engineer's Hammer")
+setDescription("Your tool to another world!")
+
+addParent("triumph:level_2/casting_basin")
+
+criteria = addCriteria("engineersHammer", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:tool>)
+
+setFrameType("GOAL")
+setRewardItem(<immersiveengineering:tool:3>)

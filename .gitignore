@@ -10,9 +10,11 @@
 /screenshots/
 /server-resource-packs/
 /snapshot-server/
+/mputils/
 *.log
 WailaErrorOutput.txt
 usercache.json
 usernamecache.json
 .curseclient
 minecraftinstance.json
+patchouli_data.json

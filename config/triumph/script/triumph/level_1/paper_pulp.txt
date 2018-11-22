@@ -1,0 +1,8 @@
+setIcon(<farmsteadforest:paper_pulp>)
+setTitle("Paper Pulp")
+setDescription("Producing paper without machines is not that easy.")
+
+addParent("triumph:level_1/fired_cauldron")
+
+criteria = addCriteria("paper_pulp", "minecraft:inventory_changed")
+criteria.addItem(<farmsteadforest:paper_pulp>)

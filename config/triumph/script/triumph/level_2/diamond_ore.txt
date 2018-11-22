@@ -1,0 +1,8 @@
+setIcon(<minecraft:diamond>)
+setTitle("DIAMONDS")
+setDescription("Mine your first diamonds.")
+
+addParent("triumph:level_2/pickaxe2")
+
+criteria = addCriteria("diamonds", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:diamond>)

@@ -1,4 +1,4 @@
-#Fri Aug 24 13:03:32 CEST 2018
+#Mon Nov 19 18:23:03 CET 2018
 RoundSunMoon=true
 RPSFormat=2
 WaterG=224
@@ -11,5 +11,4 @@ ShadowLeakFix=true
 WaterCaustic=true
 WaterS=0.20
 WaterR=144
-MotionBlur=true
 BumpyEdge=true

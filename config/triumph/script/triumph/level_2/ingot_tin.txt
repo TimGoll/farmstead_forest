@@ -1,0 +1,8 @@
+setIcon(<forestry:ingot_tin>)
+setTitle("Tin Ingot")
+setDescription("Just a tin ingot.")
+
+addParent("triumph:level_2/casting_basin")
+
+criteria = addCriteria("ingotTin", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotTin>)

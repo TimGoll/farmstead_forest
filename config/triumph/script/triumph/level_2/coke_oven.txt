@@ -1,0 +1,10 @@
+Parser.addRequiredMod("immersiveengineering")
+
+setIcon(<immersiveengineering:stone_device, meta:0>)
+setTitle("Coke Oven")
+setDescription("27 coke bricks in a 3x3x3 shape result in a coke oven. Activate it with an engineering hammer.")
+
+addParent("triumph:level_2/casting_basin")
+
+criteria = addCriteria("coke_brick", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:stone_decoration>)

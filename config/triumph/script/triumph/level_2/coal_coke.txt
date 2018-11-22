@@ -1,0 +1,8 @@
+setIcon(<immersiveengineering:material:6>)
+setTitle("Coal Coke")
+setDescription("Coal coke is an efficient way to power furnaces and necessary to create steel.")
+
+addParent("triumph:level_2/coke_oven")
+
+criteria = addCriteria("coal_coke", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:material:6>)

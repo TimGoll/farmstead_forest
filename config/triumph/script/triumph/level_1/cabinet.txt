@@ -1,0 +1,8 @@
+setIcon(<rustic:cabinet>)
+setTitle("Cabinet")
+setDescription("Make your chests a bit more pretty.")
+
+addParent("triumph:level_1/chest")
+
+criteria = addCriteria("drawerBasic", "minecraft:inventory_changed")
+criteria.addItem(<rustic:cabinet>)

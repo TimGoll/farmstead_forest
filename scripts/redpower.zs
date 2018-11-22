@@ -46,6 +46,9 @@ recipes.addShaped(<teckle:tube.item> *8, [[<teckle:ingot>, <ore:blockGlassColorl
 <ore:dustNikolite>.remove(<quacklib:component:23>);
 <ore:dyeCyan>.remove(<quacklib:component:23>);
 
+//silicon
+<ore:itemSilicon>.add(<teckle:siliconwafer>);
+
 mods.immersiveengineering.AlloySmelter.removeRecipe(<quacklib:component:20>);
 mods.immersiveengineering.AlloySmelter.removeRecipe(<quacklib:component:21>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<quacklib:component:20>);

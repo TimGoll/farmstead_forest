@@ -1,0 +1,8 @@
+setIcon(<tconstruct:smeltery_controller>)
+setTitle("Smeltery Controller")
+setDescription("Upgrade your current melter to a real smeltery.")
+
+addParent("triumph:level_2/gear_bronze")
+
+criteria = addCriteria("smeltery_controller", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:smeltery_controller>)

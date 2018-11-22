@@ -6,4 +6,6 @@ Additionally there is a guidebook which explains the basics of everything. You s
 
 You can skill your character with levels. As soon as you reach level 5, you're able to open a new interface with the §lL§r key and select a profession.
 
+The data on the F3 has been removed on purpose. The advancements are going to explain you how to get this data back.
+
 If you encounter any bugs or problems please report them on GitHub. There's a link in your guidebook and in the main menu. Have fun!
