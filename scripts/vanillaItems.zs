@@ -92,8 +92,8 @@ recipes.addShaped(<minecraft:glowstone_dust>, [[<ore:dyeYellow>, <ore:dustRedsto
 //recipes.addShaped(<minecraft:skull:1>, [[null, <minecraft:name_tag>, null], [<ore:gemDiamond>, <ore:blockWoolBlack>, <ore:gemEmerald>], [null, <industrialforegoing:mob_imprisonment_tool>, null]]);
 //recipes.addShaped(<minecraft:skull>, [[null, <minecraft:name_tag>, null], [<ore:bone>, <ore:blockWoolWhite>, <minecraft:bone>], [null, <industrialforegoing:mob_imprisonment_tool>, null]]);
 
-recipes.remove(<quark:charcoal_block>);
-recipes.addShaped(<quark:charcoal_block>, [[<ore:charcoal>, <ore:charcoal>, <ore:charcoal>], [<ore:charcoal>, <ore:charcoal>, <ore:charcoal>], [<ore:charcoal>, <ore:charcoal>, <ore:charcoal>]]);
+recipes.remove(<actuallyadditions:block_misc:5>);
+recipes.addShaped(<actuallyadditions:block_misc:5>, [[<ore:charcoal>, <ore:charcoal>, <ore:charcoal>], [<ore:charcoal>, <ore:charcoal>, <ore:charcoal>], [<ore:charcoal>, <ore:charcoal>, <ore:charcoal>]]);
 
 //make rails out of steel
 recipes.remove(<minecraft:rail>);

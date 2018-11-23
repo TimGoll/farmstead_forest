@@ -243,3 +243,7 @@ recipes.addShapeless(<farmsteadforest:pipe_sealant> *2, [<ore:itemBeeswax>]);
 <ore:treeBarkGood>.add(<farmsteadforest:wet_birch_paperbark>);
 <ore:treeBarkGood>.add(<farmsteadforest:drop_of_fresh_water>);
 <ore:treeBarkGood>.add(<farmsteadforest:worm>);
+
+//mechaincal controller
+recipes.addShaped(<farmsteadforest:primitive_mechanical_controller>, [[<farmsteadforest:sand_pile>, <minecraft:brick>, <farmsteadforest:sand_pile>], [<minecraft:brick>, <farmsteadforest:gear_stone>, <minecraft:brick>], [<farmsteadforest:sand_pile>, <minecraft:brick>, <farmsteadforest:sand_pile>]]);
+recipes.addShaped(<farmsteadforest:mechanical_controller>, [[<primal:shark_tooth>, <tconstruct:materials>, <primal:shark_tooth>], [<tconstruct:materials>, <forestry:gear_bronze>, <tconstruct:materials>], [<primal:shark_tooth>, <tconstruct:materials>, <primal:shark_tooth>]]);

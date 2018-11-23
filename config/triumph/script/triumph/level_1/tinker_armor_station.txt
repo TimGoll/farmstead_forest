@@ -1,5 +1,5 @@
 setIcon(<conarm:armorstation>)
-setTitle("Stencil Table")
+setTitle("Armor Station")
 setDescription("A table to combine your primitive armor parts.")
 
 addParent("triumph:level_1/pattern")

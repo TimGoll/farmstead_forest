@@ -1,0 +1,8 @@
+setIcon(<minecraft:blaze_rod>)
+setTitle("Blaze Rod")
+setDescription("A blazing thing dropped by fiery evil creatures.")
+
+addParent("triumph:level_2/fortress")
+
+criteria = addCriteria("blaze_rod", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:blaze_rod>)

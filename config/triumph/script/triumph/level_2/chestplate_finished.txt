@@ -1,0 +1,8 @@
+setIcon(<conarm:chestplate, nbt:{TinkerData: {Materials: ["wood", "iron", "lead"]}}>)
+setTitle("Suit Up")
+setDescription("Combine the necessary armor parts to create the first usable armor piece!")
+
+addParent("triumph:level_2/chestplate")
+
+criteria = addCriteria("tc_armor_finished", "minecraft:inventory_changed")
+criteria.addItem(<conarm:chestplate>)

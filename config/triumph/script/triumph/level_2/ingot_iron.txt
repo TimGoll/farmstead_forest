@@ -1,6 +1,6 @@
 setIcon(<minecraft:iron_ingot>)
 setTitle("Iron Ingot")
-setDescription("Gold. A more or less useful ore which is needed to create better casts for your smeltery.")
+setDescription("Iron. The most importan ore in this game.")
 
 addParent("triumph:level_2/smeltery_controller")
 

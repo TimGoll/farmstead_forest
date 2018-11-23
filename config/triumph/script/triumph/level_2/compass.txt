@@ -1,0 +1,8 @@
+setIcon(<minecraft:compass>)
+setTitle("Compass")
+setDescription("This one prevents you from getting lost. And it adds your coordinates to the F3 screen.")
+
+addParent("triumph:level_2/ingot_iron")
+
+criteria = addCriteria("ingotIron", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:compass>)

@@ -1,0 +1,8 @@
+setIcon(<inspirations:pipe>)
+setTitle("Hopper Pipe")
+setDescription("Connect these pipes to hoppers to extend their range. You have to start at the destination.")
+
+addParent("triumph:level_2/hopper")
+
+criteria = addCriteria("hopper_pipe", "minecraft:inventory_changed")
+criteria.addItem(<inspirations:pipe>)

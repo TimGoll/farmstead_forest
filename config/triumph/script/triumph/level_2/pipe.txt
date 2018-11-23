@@ -1,0 +1,11 @@
+setIcon(<extrautils2:pipe>)
+setTitle("Pipe")
+setDescription("Advanced but slow item/fluid transportation.")
+
+addParent("triumph:level_2/ingot_iron")
+
+criteria = addCriteria("pipe", "minecraft:inventory_changed")
+criteria.addItem(<extrautils2:pipe>)
+
+setFrameType("GOAL")
+setRewardItem(<extrautils2:book>)

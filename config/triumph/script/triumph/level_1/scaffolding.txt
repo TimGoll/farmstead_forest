@@ -1,0 +1,8 @@
+setIcon(<notenoughscaffold:wooden_scaffold>)
+setTitle("Wooden Scaffolding")
+setDescription("Stop using dirt blocks to reach your buildings. These scaffoldings are vastly superior.")
+
+addParent("triumph:level_1/wood")
+
+criteria = addCriteria("saw", "minecraft:inventory_changed")
+criteria.addItem(<notenoughscaffold:wooden_scaffold>)

@@ -4,6 +4,6 @@ recipes.addShaped(<naturesaura:gold_fiber> *4, [[<farmsteadforest:worm>, <farmst
 recipes.remove(<naturesaura:farming_stencil>);
 recipes.addShaped(<naturesaura:farming_stencil>, [[<ore:plankWood>, <naturesaura:infused_iron>, <ore:plankWood>], [<ore:plankWood>, <naturesaura:infused_iron>, <ore:plankWood>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
 
-mods.jei.JEI.addDescription(<naturesaura:aura_bottle>.withTag({type: "END"}), "Use a bottle in the end ...");
-mods.jei.JEI.addDescription(<naturesaura:aura_bottle>.withTag({type: "OVERWORLD"}), "Use a bottle in the overworld ...");
-mods.jei.JEI.addDescription(<naturesaura:aura_bottle>.withTag({type: "NETHER"}), "Use a bottle in the nether ...");
+mods.jei.JEI.addDescription(<naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:end"}), "Use a bottle in the end ...");
+mods.jei.JEI.addDescription(<naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:overworld"}), "Use a bottle in the overworld ...");
+mods.jei.JEI.addDescription(<naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:nether"}), "Use a bottle in the nether ...");

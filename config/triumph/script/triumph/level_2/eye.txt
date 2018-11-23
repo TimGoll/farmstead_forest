@@ -1,0 +1,8 @@
+setIcon(<naturesaura:eye>)
+setTitle("Environmental Eye")
+setDescription("Add this bauble into your baubles inventory to observe the surrounding aura value.")
+
+addParent("triumph:level_2/ingot_gold")
+
+criteria = addCriteria("eye", "minecraft:inventory_changed")
+criteria.addItem(<naturesaura:eye>)

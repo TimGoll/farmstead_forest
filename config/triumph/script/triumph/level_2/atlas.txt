@@ -1,0 +1,8 @@
+setIcon(<antiqueatlas:empty_antique_atlas>)
+setTitle("Antique Atlas")
+setDescription("Keep track of your jurney. Keep in hotbar to be viewed as minimap, map can be copied to new book. Rightklick in air to enable.")
+
+addParent("triumph:level_2/compass")
+
+criteria = addCriteria("empty_antique_atlas", "minecraft:inventory_changed")
+criteria.addItem(<antiqueatlas:empty_antique_atlas>)

@@ -1,0 +1,12 @@
+setIcon(<minecraft:shield>)
+setTitle("Not Today")
+setDescription("Use a shield to deflect an arrow.")
+
+addParent("triumph:level_2/chestplate_finished")
+
+criteria = addCriteria("deflected_projectile", "minecraft:entity_hurt_player")
+damage = criteria.getDamageData()
+damage.setBlocked(true)
+
+damageSource = damage.getDamageSourceData()
+damageSource.isProjectile(true)

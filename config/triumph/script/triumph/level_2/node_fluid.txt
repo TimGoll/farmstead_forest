@@ -1,0 +1,8 @@
+setIcon(<extrautils2:grocket:2>)
+setTitle("Fluid Transfer Node")
+setDescription("Extracts fluid and inserts it into a pipe.")
+
+addParent("triumph:level_2/pipe")
+
+criteria = addCriteria("node_fluid", "minecraft:inventory_changed")
+criteria.addItem(<extrautils2:grocket:2>)

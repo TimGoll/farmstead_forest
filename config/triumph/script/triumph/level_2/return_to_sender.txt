@@ -1,0 +1,14 @@
+setIcon(<minecraft:fire_charge>)
+setTitle("Return to Sender")
+setDescription("Destroy a ghast with a fireball.")
+
+addParent("triumph:level_2/nether")
+
+
+criteria = addCriteria("killed_ghast", "minecraft:player_killed_entity")
+criteria.setEntityType("minecraft:ghast")
+
+damageSource = criteria.getDamageSourceData()
+damageSource.isProjectile(true)
+immediateSource = damageSource.getImmediateSourceData()
+immediateSource.setType("minecraft:fireball")

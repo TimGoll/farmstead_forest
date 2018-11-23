@@ -1,4 +1,4 @@
-setIcon(<tconstruct:tooltables:1>)
+setIcon(<tconstruct:tooltables:1, nbt: {textureBlock: {id: "immersiveengineering:storage", Count: 1, Damage: 0}}>)
 setTitle("Stencil Table")
 setDescription("A table to craft your patterns at.")
 

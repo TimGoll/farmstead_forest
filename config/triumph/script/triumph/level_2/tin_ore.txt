@@ -1,8 +1,8 @@
-setIcon(<fortunate:tin_chunk>)
+setIcon(<farmsteadforest:o_tin>)
 setTitle("Tin Ore")
 setDescription("Mine your first tin ore.")
 
 addParent("triumph:level_2/cobblestone")
 
 criteria = addCriteria("tinOre", "minecraft:inventory_changed")
-criteria.addItem(<fortunate:tin_chunk>)
+criteria.addItem(<farmsteadforest:o_tin>)

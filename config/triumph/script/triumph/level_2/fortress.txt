@@ -1,0 +1,8 @@
+setIcon(<minecraft:nether_brick>)
+setTitle("A Terrible Fortress")
+setDescription("Break your way into a Nether Fortress.")
+
+addParent("triumph:level_2/nether")
+
+criteria = addCriteria("fortress", "minecraft:location")
+criteria.setFeature("Fortress")

@@ -1,0 +1,8 @@
+setIcon(<infoaccessories:info_accessory:2>)
+setTitle("Depth Meter")
+setDescription("Adds the height value to the F3 screen.")
+
+addParent("triumph:level_2/compass")
+
+criteria = addCriteria("depth_meter", "minecraft:inventory_changed")
+criteria.addItem(<infoaccessories:info_accessory:2>)

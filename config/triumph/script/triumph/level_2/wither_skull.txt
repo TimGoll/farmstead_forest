@@ -1,0 +1,8 @@
+setIcon(<minecraft:skull:1>)
+setTitle("Spooky Scary Skeleton")
+setDescription("Obtain a wither skeleton's skull.")
+
+addParent("triumph:level_2/fortress")
+
+criteria = addCriteria("wither_skull", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:skull:1>)

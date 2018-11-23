@@ -1,0 +1,8 @@
+setIcon(<farmsteadforest:natural_epoxy>)
+setTitle("Natural Expoxy")
+setDescription("A small step into a modern world.")
+
+addParent("triumph:level_2/hammer")
+
+criteria = addCriteria("natural_epoxy", "minecraft:inventory_changed")
+criteria.addItem(<farmsteadforest:natural_epoxy>)

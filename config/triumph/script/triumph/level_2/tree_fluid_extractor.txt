@@ -1,0 +1,10 @@
+setIcon(<industrialforegoing:tree_fluid_extractor>)
+setTitle("Tree Fluid Extractor")
+setDescription("Extracts a fluid from trees. A better way of creating plastic.")
+
+addParent("triumph:level_2/pipe")
+
+criteria = addCriteria("tree_fluid_extractor", "minecraft:inventory_changed")
+criteria.addItem(<industrialforegoing:tree_fluid_extractor>)
+
+setFrameType("CHALLENGE")

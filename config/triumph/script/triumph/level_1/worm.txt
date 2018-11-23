@@ -1,0 +1,11 @@
+setIcon(<actuallyadditions:item_worm>)
+setTitle("Worm")
+setDescription("Place this worm on your farmland to increase the crop growth rate in a 3x3 area a bit.")
+
+addParent("triumph:level_1/wheat")
+
+criteria = addCriteria("crop_stake", "minecraft:inventory_changed")
+criteria.addItem(<actuallyadditions:item_worm>)
+
+setFrameType("GOAL")
+setRewardItem(<actuallyadditions:item_booklet>)

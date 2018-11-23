@@ -29,3 +29,6 @@ recipes.addShapedMirrored(<inspirations:mulch:5> *4, [[<ore:barkWoodSpruce>, <co
 recipes.remove(<inspirations:mulch:6>);
 recipes.addShapedMirrored(<inspirations:mulch:6> *4, [[<ore:barkWoodDarkOak>, <composter:compost>], [<composter:compost>, <ore:barkWoodDarkOak>]]);
 <inspirations:mulch:6>.displayName = "Dark Oak Mulch";
+
+recipes.remove(<inspirations:pipe>);
+recipes.addShaped(<inspirations:pipe> *12, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);

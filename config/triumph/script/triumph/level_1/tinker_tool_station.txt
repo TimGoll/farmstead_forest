@@ -1,4 +1,4 @@
-setIcon(<tconstruct:tooltables:3>)
+setIcon(<tconstruct:tooltables:3, nbt: {textureBlock: {id: "immersiveengineering:storage", Count: 1, Damage: 0}}>)
 setTitle("Tool Station")
 setDescription("A table to combine your primitive tool parts.")
 

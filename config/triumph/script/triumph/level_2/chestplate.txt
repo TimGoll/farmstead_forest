@@ -1,0 +1,8 @@
+setIcon(<conarm:chest_core, nbt:{Material: "pigiron"}>)
+setTitle("Chestplate Core")
+setDescription("To start building an armor you have to craft a core of every armor part.")
+
+addParent("triumph:level_2/root")
+
+criteria = addCriteria("tc_armor", "minecraft:inventory_changed")
+criteria.addItem(<conarm:chest_core>)

@@ -1,0 +1,8 @@
+setIcon(<infoaccessories:info_accessory:6>)
+setTitle("Biome Analyzer")
+setDescription("Adds the biome name to the F3 screen.")
+
+addParent("triumph:level_2/compass")
+
+criteria = addCriteria("biome_analyzer", "minecraft:inventory_changed")
+criteria.addItem(<infoaccessories:info_accessory:6>)

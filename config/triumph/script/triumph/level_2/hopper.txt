@@ -1,0 +1,8 @@
+setIcon(<minecraft:hopper>)
+setTitle("Hopper")
+setDescription("Simple item transportation.")
+
+addParent("triumph:level_2/ingot_iron")
+
+criteria = addCriteria("hopper", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:hopper>)

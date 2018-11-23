@@ -183,3 +183,5 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<teckle:siliconwafer:1>, <teckle:
 
 mods.immersiveengineering.AlloySmelter.addRecipe(<teckle:siliconwafer:2>, <teckle:siliconwafer>, <teckle:nikolite> *4, 2000);
 mods.immersiveengineering.ArcFurnace.addRecipe(<teckle:siliconwafer:2>, <teckle:siliconwafer>, null, 100, 512, [<teckle:nikolite> *4], "Alloying");
+
+recipes.addShaped(<teckle:blade>, [[<ore:ingotCopper>], [<ore:stickWood>]]);

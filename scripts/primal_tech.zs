@@ -56,6 +56,9 @@ mods.jei.JEI.hide(<primal_tech:twine>);
 recipes.remove(<primal_tech:stick_bundle>);
 mods.jei.JEI.hide(<primal_tech:stick_bundle>);
 
+recipes.remove(<primal_tech:charcoal_hopper>);
+mods.jei.JEI.hide(<primal_tech:charcoal_hopper>);
+
 //rename Wopper
 <primal_tech:wooden_hopper>.displayName = "Wooden Hopper";
 <primal_tech:charcoal_hopper>.displayName = "Fireproof Hopper";
@@ -80,10 +83,6 @@ recipes.addShapedMirrored(<primal_tech:rock>, [[<primal:rock_stone>, <minecraft:
 //saw blade
 recipes.remove(<primal_tech:flint_edged_disc>);
 recipes.addShaped(<primal_tech:flint_edged_disc>, [[<minecraft:flint>, <farmsteadforest:thatching_sticky>, <minecraft:flint>], [<farmsteadforest:thatching_sticky>, <primal:thatch>, <farmsteadforest:thatching_sticky>], [<minecraft:flint>, <farmsteadforest:thatching_sticky>, <minecraft:flint>]]);
-
-//hoppper
-recipes.remove(<primal_tech:charcoal_hopper>);
-recipes.addShaped(<primal_tech:charcoal_hopper>, [[<primal:shark_tooth>, null, <primal:shark_tooth>], [<primal:shark_tooth>, <ore:chest>, <primal:shark_tooth>], [null, <ore:blockCharcoal>, null]]);
 
 //flint block
 recipes.remove(<primal_tech:flint_block>);

@@ -1,0 +1,8 @@
+setIcon(<minecraft:obsidian>)
+setTitle("Formed Obsidian")
+setDescription("Create obsidian by emptying a water bucket on lava source blocks. You may want to add a diamond to your pickaxe to increase its mining level.")
+
+addParent("triumph:level_2/pickaxe2")
+
+criteria = addCriteria("obsidian", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:obsidian>)

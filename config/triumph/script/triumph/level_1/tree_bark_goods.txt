@@ -1,6 +1,6 @@
 setIcon(<farmsteadforest:resin>)
 setTitle("Goods from Tree Bark")
-setDescription("Sneak right klick with an axe on fresh logs to strip them down and get some nice goods found under the bark.")
+setDescription("Sneak right klick with an axe on fresh logs to strip them down and get some nice goods found under the bark. Any good from a vanilla tree will do it for now.")
 
 addParent("triumph:level_1/wood")
 

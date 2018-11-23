@@ -1,0 +1,11 @@
+setIcon(<farmsteadforest:plastic_sheet>)
+setTitle("Plastic Sheet")
+setDescription("It's a plastic world!")
+
+addParent("triumph:level_2/epoxy")
+
+criteria = addCriteria("plastic_sheet", "minecraft:inventory_changed")
+criteria.addItem(<farmsteadforest:plastic_sheet>)
+
+setFrameType("GOAL")
+setRewardItem(<industrialforegoing:book_manual>)
