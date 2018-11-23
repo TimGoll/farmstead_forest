@@ -1,0 +1,8 @@
+setIcon(<actuallyadditions:block_coal_generator>)
+setTitle("Coal Generator")
+setDescription("Create energy from burning coal.")
+
+addParent("triumph:level_3/root")
+
+criteria = addCriteria("coal_generator", "minecraft:inventory_changed")
+criteria.addItem(<actuallyadditions:block_coal_generator>)

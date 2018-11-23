@@ -1,0 +1,15 @@
+setIcon(<minecraft:arrow>)
+setTitle("Sniper Duel")
+setDescription("Kill a skeleton from more than 50 meters away.")
+
+addParent("triumph:level_2/shoot_arrow")
+
+criteria = addCriteria("killed_skeleton", "minecraft:player_killed_entity")
+
+criteria.setEntityType("skeleton")
+entityData = criteria.getEntityData()
+distanceData = entityData.getDistanceData()
+distanceData.setHorizontalMin(50)
+
+damageSource = criteria.getDamageSourceData()
+damageSource.isProjectile(true)

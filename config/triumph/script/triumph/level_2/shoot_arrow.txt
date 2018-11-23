@@ -1,0 +1,12 @@
+setIcon(<minecraft:bow>)
+setTitle("Take Aim")
+setDescription("Shoot something with a bow and arrow.")
+
+addParent("triumph:level_2/chestplate_finished")
+
+criteria = addCriteria("shot_arrow", "minecraft:player_hurt_entity")
+damage = criteria.getDamageData()
+damageSource = damage.getDamageSourceData()
+damageSource.isProjectile(true)
+immediateSource = damageSource.getImmediateSourceData()
+immediateSource.setType("minecraft:arrow")

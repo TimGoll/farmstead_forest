@@ -1,0 +1,9 @@
+setIcon(<immersiveengineering:metal_decoration0>)
+setTitle("Energy")
+setDescription("Harness the power of the nature to work for you!")
+setBackground("immersiveengineering:textures/blocks/storage_steel.png")
+setShowToast(false)
+setAnnounceToChat(false)
+
+criteria = addCriteria("completed_level_2", "triumph:completed_advancement")
+criteria.setString("triumph:level_2/tree_fluid_extractor")

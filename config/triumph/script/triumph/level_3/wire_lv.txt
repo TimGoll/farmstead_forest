@@ -1,0 +1,8 @@
+setIcon(<immersiveengineering:wirecoil>)
+setTitle("LV Wire Coil")
+setDescription("A power line for low voltages.")
+
+addParent("triumph:level_3/capacitor_lv")
+
+criteria = addCriteria("wire_lv", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:wirecoil>)

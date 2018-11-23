@@ -1,0 +1,8 @@
+setIcon(<immersiveengineering:stone_device:1>)
+setTitle("Blast Furnace")
+setDescription("27 blast bricks in a 3x3x3 shape result in a blast furnace. Activate it with an engineering hammer.")
+
+addParent("triumph:level_3/root")
+
+criteria = addCriteria("formed", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IE:BlastFurnace")

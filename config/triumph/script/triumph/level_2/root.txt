@@ -5,5 +5,5 @@ setBackground("minecraft:textures/blocks/stone_diorite.png")
 setShowToast(false)
 setAnnounceToChat(false)
 
-criteria = addCriteria("completed_level_2", "triumph:completed_advancement")
+criteria = addCriteria("completed_level_1", "triumph:completed_advancement")
 criteria.setString("triumph:level_1/tinker_tool_station")

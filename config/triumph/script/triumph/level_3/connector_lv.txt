@@ -1,0 +1,8 @@
+setIcon(<immersiveengineering:connector>)
+setTitle("LV Wire Connector")
+setDescription("The in and output of your power lines.")
+
+addParent("triumph:level_3/capacitor_lv")
+
+criteria = addCriteria("connector_lv", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:connector>)

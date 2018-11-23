@@ -1,0 +1,8 @@
+setIcon(<immersiveengineering:metal_device1:2>)
+setTitle("Kinetic Dynamo")
+setDescription("Turn nit to produce energy.")
+
+addParent("triumph:level_3/root")
+
+criteria = addCriteria("kinetic_dynamo", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:metal_device1:2>)

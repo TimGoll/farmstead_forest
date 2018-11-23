@@ -1,0 +1,8 @@
+setIcon(<immersiveengineering:wooden_device1:1>)
+setTitle("Windmill")
+setDescription("Add this in front og a dynamo and get free energy.")
+
+addParent("triumph:level_3/dynamo")
+
+criteria = addCriteria("windmill", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:wooden_device1:1>)

@@ -1,0 +1,8 @@
+setIcon(<immersiveengineering:material:12>)
+setTitle("Windmill Sail")
+setDescription("More drag equals a higher speed equals a greater energy output.")
+
+addParent("triumph:level_3/windmill")
+
+criteria = addCriteria("windmill", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:material:12>)
