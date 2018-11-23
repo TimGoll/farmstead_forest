@@ -247,6 +247,9 @@ mods.jei.JEI.hide(<primal:sword_crude_bone>);
 //dont use pins
 recipes.replaceAllOccurences(<ore:pinBasic>, <ore:stickWood>);
 
+//remvoe tin dost from oredict
+//<ore:dustTin>.remove(<primal:tin_dust>);
+
 //log-plank recipe
 // recipes.remove(<biomesoplenty:planks_0>);
 // recipes.addShaped(<biomesoplenty:planks_0> *2, [[<ore:toolAxe>],       [<biomesoplenty:log_0:4>]]);

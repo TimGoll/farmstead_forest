@@ -71,3 +71,12 @@ recipes.addShaped(<gadgetrytransmission:fluid_io> *2, [[null, <ore:ingotIron>, n
 
 recipes.remove(<gadgetrytransmission:item_io>);
 recipes.addShaped(<gadgetrytransmission:item_io> *2, [[null, <industrialforegoing:plastic>, null], [<industrialforegoing:plastic>, <ore:blockGlass>, <industrialforegoing:plastic>]]);
+
+
+recipes.addShapeless(<gadgetrymachines:dust_redmetal>, [<immersiveengineering:tool>, <ore:ingotRedmetal>]);
+mods.immersiveengineering.Crusher.addRecipe(<gadgetrymachines:dust_redmetal>, <ore:ingotRedmetal>, 2048);
+
+mods.immersiveengineering.AlloySmelter.addRecipe(<gadgetrycore:redmetal_ingot> *2, <ore:ingotGold>, <ore:dustRedstone> *4, 2000);
+mods.immersiveengineering.AlloySmelter.addRecipe(<gadgetrycore:redmetal_ingot> *2, <ore:dustGold>, <ore:dustRedstone> *4, 2000);
+mods.immersiveengineering.ArcFurnace.addRecipe(<gadgetrycore:redmetal_ingot> *2, <ore:ingotGold>, null, 2000, 2048, [<ore:dustRedstone> *4], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(<gadgetrycore:redmetal_ingot> *2, <ore:dustGold>, null, 2000, 2048, [<ore:dustRedstone> *4], "Alloying");
