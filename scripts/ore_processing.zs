@@ -156,3 +156,22 @@ furnace.addRecipe(<immersiveengineering:metal:5>, <farmsteadforest:c_uranium>);
 
 //quicksilver direct in furnace
 furnace.addRecipe(<thaumcraft:quicksilver>, <farmsteadforest:o_cinnabar>);
+
+//remove unidict stuff
+recipes.remove(<ore:oreCopper>);
+recipes.remove(<ore:oreAluminum>);
+recipes.remove(<ore:oreAluminium>);
+recipes.remove(<ore:oreArdite>);
+recipes.remove(<ore:oreBoron>);
+recipes.remove(<ore:oreCinnabar>);
+recipes.remove(<ore:oreCobalt>);
+recipes.remove(<ore:oreGold>);
+recipes.remove(<ore:oreIron>);
+recipes.remove(<ore:oreLead>);
+recipes.remove(<ore:oreUranium>);
+recipes.remove(<ore:oreTin>);
+recipes.remove(<ore:oreThorium>);
+recipes.remove(<ore:oreSilver>);
+recipes.remove(<ore:oreNickel>);
+recipes.remove(<ore:oreMagnesium>);
+recipes.remove(<ore:oreLithium>);

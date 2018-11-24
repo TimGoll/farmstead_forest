@@ -1,0 +1,8 @@
+setIcon(<waterworks:rain_collector>)
+setTitle("Rain Collector")
+setDescription("Add as many rain collectors to the controller and activate them by righklicking the controller with the pipe wrench.")
+
+addParent("triumph:level_2/rain_collector_controller")
+
+criteria = addCriteria("rain_collector", "minecraft:inventory_changed")
+criteria.addItem(<waterworks:rain_collector>)

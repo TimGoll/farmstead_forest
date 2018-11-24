@@ -1,0 +1,8 @@
+setIcon(<stevescarts:blockcartassembler>)
+setTitle("Cart Assembler")
+setDescription("Assemble automated carts that work for you.")
+
+addParent("triumph:level_3/rail")
+
+criteria = addCriteria("blockcartassembler", "minecraft:inventory_changed")
+criteria.addItem(<stevescarts:blockcartassembler>)

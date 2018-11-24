@@ -1,0 +1,8 @@
+setIcon(<minecraft:rail>)
+setTitle("Rail")
+setDescription("A neat transportation system.")
+
+addParent("triumph:level_3/ingot_steel")
+
+criteria = addCriteria("rail", "minecraft:inventory_changed")
+criteria.addItem(<ore:rail>)

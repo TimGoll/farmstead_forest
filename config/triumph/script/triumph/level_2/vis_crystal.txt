@@ -1,0 +1,8 @@
+setIcon(<thaumcraft:crystal_essence, nbt:{Aspects: [{amount: 1, key: "ignis"}]}>)
+setTitle("Vis Crystal")
+setDescription("Get started with thaumcraft by mining vis crystals. Follow the thaumcraft advancement tree.")
+
+addParent("triumph:level_2/cobblestone")
+
+criteria = addCriteria("visCrystal", "minecraft:inventory_changed")
+criteria.addItem(<thaumcraft:crystal_essence>)

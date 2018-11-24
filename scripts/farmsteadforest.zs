@@ -247,3 +247,28 @@ recipes.addShapeless(<farmsteadforest:pipe_sealant> *2, [<ore:itemBeeswax>]);
 //mechaincal controller
 recipes.addShaped(<farmsteadforest:primitive_mechanical_controller>, [[<farmsteadforest:sand_pile>, <minecraft:brick>, <farmsteadforest:sand_pile>], [<minecraft:brick>, <farmsteadforest:gear_stone>, <minecraft:brick>], [<farmsteadforest:sand_pile>, <minecraft:brick>, <farmsteadforest:sand_pile>]]);
 recipes.addShaped(<farmsteadforest:mechanical_controller>, [[<primal:shark_tooth>, <tconstruct:materials>, <primal:shark_tooth>], [<tconstruct:materials>, <forestry:gear_bronze>, <tconstruct:materials>], [<primal:shark_tooth>, <tconstruct:materials>, <primal:shark_tooth>]]);
+
+//rails
+recipes.addShaped(<farmsteadforest:bundle_railbed> *4, [[<ore:stickTreatedWood>, <ore:stickTreatedWood>, <ore:stickTreatedWood>], [<ore:stickTreatedWood>, <ore:stickTreatedWood>, <ore:stickTreatedWood>], [<ore:stickTreatedWood>, <ore:stickTreatedWood>, <ore:stickTreatedWood>]]);
+recipes.addShaped(<farmsteadforest:bundle_tracks> *4, [[<ore:stickSteel>, <ore:stickSteel>, <ore:stickSteel>], [<ore:stickSteel>, <ore:stickSteel>, <ore:stickSteel>], [<ore:stickSteel>, <ore:stickSteel>, <ore:stickSteel>]]);
+
+recipes.remove(<minecraft:rail>);
+recipes.addShapedMirrored(<minecraft:rail> *12, [[<farmsteadforest:bundle_tracks>, <farmsteadforest:bundle_railbed>, <farmsteadforest:bundle_tracks>], [<farmsteadforest:bundle_tracks>, null, <farmsteadforest:bundle_tracks>], [<farmsteadforest:bundle_tracks>, <farmsteadforest:bundle_railbed>, <farmsteadforest:bundle_tracks>]]);
+
+recipes.remove(<minecraft:activator_rail>);
+recipes.addShapeless(<minecraft:activator_rail>, [<minecraft:rail>, <minecraft:redstone_torch>]);
+
+recipes.remove(<minecraft:detector_rail>);
+recipes.addShapeless(<minecraft:detector_rail>, [<minecraft:rail>, <ore:pressurePlateWood>]);
+
+recipes.remove(<minecraft:golden_rail>);
+recipes.addShapeless(<minecraft:golden_rail>, [<ore:ingotGold>, <minecraft:rail>, <ore:dustRedstone>]);
+
+recipes.remove(<stevescarts:blockadvdetector>);
+recipes.addShaped(<stevescarts:blockadvdetector>, [[<ore:gemLapis>], [<minecraft:detector_rail>], [<ore:gemLapis>]]);
+
+recipes.remove(<tconstruct:wood_rail>);
+recipes.addShaped(<tconstruct:wood_rail> *4, [[<ore:plankWood>, <farmsteadforest:bundle_railbed>, <ore:plankWood>], [<ore:plankWood>, null, <ore:plankWood>], [<ore:plankWood>, <farmsteadforest:bundle_railbed>, <ore:plankWood>]]);
+
+recipes.remove(<tconstruct:wood_rail_trapdoor>);
+recipes.addShaped(<tconstruct:wood_rail_trapdoor>, [[<ore:trapdoorWood>], [<tconstruct:wood_rail>]]);

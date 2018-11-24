@@ -1,0 +1,8 @@
+setIcon(<immersiveengineering:wooden_device1:0>)
+setTitle("Water Wheel")
+setDescription("Passively produce power by harnessing the power of water.")
+
+addParent("triumph:level_3/ingot_steel")
+
+criteria = addCriteria("water_wheel", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:wooden_device1:0>)

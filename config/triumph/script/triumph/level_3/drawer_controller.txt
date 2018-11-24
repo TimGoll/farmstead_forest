@@ -1,0 +1,8 @@
+setIcon(<storagedrawers:controller>)
+setTitle("Drawer Controller")
+setDescription("Interface your storage system with pipes or empty out your inventory with one click.")
+
+addParent("triumph:level_3/compacting_drawer")
+
+criteria = addCriteria("controller", "minecraft:inventory_changed")
+criteria.addItem(<storagedrawers:controller>)

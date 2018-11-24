@@ -1,0 +1,11 @@
+setIcon(<waterworks:rain_collector_controller>)
+setTitle("Rain Collector Controller")
+setDescription("The main part of your passive water collection system.")
+
+addParent("triumph:level_2/ingot_iron")
+
+criteria = addCriteria("rain_collector_controller", "minecraft:inventory_changed")
+criteria.addItem(<waterworks:rain_collector_controller>)
+
+setFrameType("GOAL")
+setRewardItem(<waterworks:pipe_wrench>)

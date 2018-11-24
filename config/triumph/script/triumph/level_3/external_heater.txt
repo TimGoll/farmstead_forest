@@ -1,0 +1,8 @@
+setIcon(<immersiveengineering:metal_device1:1>)
+setTitle("External Heater")
+setDescription("This fabulous block interacts with your furnace and heats it up without using coal.")
+
+addParent("triumph:level_3/connector_lv")
+
+criteria = addCriteria("external_heater", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:metal_device1:1>)

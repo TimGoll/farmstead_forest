@@ -95,19 +95,6 @@ recipes.addShaped(<minecraft:glowstone_dust>, [[<ore:dyeYellow>, <ore:dustRedsto
 recipes.remove(<actuallyadditions:block_misc:5>);
 recipes.addShaped(<actuallyadditions:block_misc:5>, [[<ore:charcoal>, <ore:charcoal>, <ore:charcoal>], [<ore:charcoal>, <ore:charcoal>, <ore:charcoal>], [<ore:charcoal>, <ore:charcoal>, <ore:charcoal>]]);
 
-//make rails out of steel
-recipes.remove(<minecraft:rail>);
-recipes.addShapedMirrored(<minecraft:rail> *8, [[<ore:ingotSteel>, null, <ore:ingotSteel>], [<ore:ingotSteel>, <ore:stickWood>, <ore:ingotSteel>], [<ore:ingotSteel>, null, <ore:ingotSteel>]]);
-
-recipes.remove(<minecraft:activator_rail>);
-recipes.addShapeless(<minecraft:activator_rail>, [<minecraft:rail>, <minecraft:redstone_torch>]);
-
-recipes.remove(<minecraft:detector_rail>);
-recipes.addShapeless(<minecraft:detector_rail>, [<minecraft:rail>, <ore:pressurePlateWood>]);
-
-recipes.remove(<minecraft:golden_rail>);
-recipes.addShapeless(<minecraft:golden_rail>, [<ore:ingotGold>, <minecraft:rail>, <ore:dustRedstone>]);
-
 //<entity:itemFrame>.name = "Item Frame";
 
 //use charset repeater and comperator in favor of vanilla one

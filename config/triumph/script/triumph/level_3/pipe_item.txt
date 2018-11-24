@@ -1,0 +1,8 @@
+setIcon(<gadgetrytransmission:item_pipe>)
+setTitle("Item Pipe")
+setDescription("A fast and easy way to transport items.")
+
+addParent("triumph:level_3/external_distributor")
+
+criteria = addCriteria("item_pipe", "minecraft:inventory_changed")
+criteria.addItem(<gadgetrytransmission:item_pipe>)

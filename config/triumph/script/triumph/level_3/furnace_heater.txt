@@ -1,0 +1,8 @@
+setIcon(<naturesaura:furnace_heater>)
+setTitle("Extraneous Firestarter")
+setDescription("Heats your oven with aura. But be careful that the aura doesn't drop too low.")
+
+addParent("triumph:level_3/root")
+
+criteria = addCriteria("furnace_heater", "minecraft:inventory_changed")
+criteria.addItem(<naturesaura:furnace_heater>)

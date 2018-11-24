@@ -1,0 +1,8 @@
+setIcon(<stevescarts:cartmodule:38>)
+setTitle("Standard Hull")
+setDescription("A more advanced type of a cart hull.")
+
+addParent("triumph:level_3/cart_wood")
+
+criteria = addCriteria("standard_hull", "minecraft:inventory_changed")
+criteria.addItem(<stevescarts:cartmodule:38>)

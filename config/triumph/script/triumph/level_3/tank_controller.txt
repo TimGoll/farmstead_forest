@@ -1,0 +1,8 @@
+setIcon(<tconstruct:tinker_tank_controller>)
+setTitle("Tinker Tank Controller")
+setDescription("Build a multiblock tank as big as you like to.")
+
+addParent("triumph:level_3/pipe_fluid_io")
+
+criteria = addCriteria("tinker_tank_controller", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:tinker_tank_controller>)

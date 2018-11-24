@@ -1,0 +1,8 @@
+setIcon(<forestry:carpenter>)
+setTitle("Carpenter")
+setDescription("Despite the name it is a very powerful technical machine.")
+
+addParent("triumph:level_3/external_heater")
+
+criteria = addCriteria("carpenter", "minecraft:inventory_changed")
+criteria.addItem(<forestry:carpenter>)

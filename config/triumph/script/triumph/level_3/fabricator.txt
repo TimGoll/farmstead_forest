@@ -1,0 +1,8 @@
+setIcon(<forestry:fabricator>)
+setTitle("Thermionic Fabricator")
+setDescription("Tubes and stuff.")
+
+addParent("triumph:level_3/external_heater")
+
+criteria = addCriteria("carpenter", "minecraft:inventory_changed")
+criteria.addItem(<forestry:fabricator>)

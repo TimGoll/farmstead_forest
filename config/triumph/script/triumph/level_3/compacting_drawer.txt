@@ -1,0 +1,8 @@
+setIcon(<storagedrawers:compdrawers>)
+setTitle("Compacting Drawer")
+setDescription("A perfect way to store your ingots.")
+
+addParent("triumph:level_3/ingot_steel")
+
+criteria = addCriteria("compdrawers", "minecraft:inventory_changed")
+criteria.addItem(<storagedrawers:compdrawers>)
