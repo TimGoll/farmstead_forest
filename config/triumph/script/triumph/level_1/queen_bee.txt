@@ -1,0 +1,8 @@
+setIcon(<harvestcraft:queenbeeitem>)
+setTitle("Queen Bee")
+setDescription("Find and break a harvestcraft beehive.")
+
+addParent("triumph:level_1/tree_bark_goods")
+
+criteria = addCriteria("pam_bee", "minecraft:inventory_changed")
+criteria.addItem(<harvestcraft:queenbeeitem>)

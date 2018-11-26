@@ -1,0 +1,8 @@
+setIcon(<harvestcraft:grinder>)
+setTitle("Grinder")
+setDescription("Who doesn't like ground meat?")
+
+addParent("triumph:level_2/presser")
+
+criteria = addCriteria("grinder", "minecraft:inventory_changed")
+criteria.addItem(<harvestcraft:grinder>)

@@ -1,0 +1,8 @@
+setIcon(<extrautils2:passivegenerator:3>)
+setTitle("Water Mill")
+setDescription("Produce grid power from water.")
+
+addParent("triumph:level_3/EU_resonator")
+
+criteria = addCriteria("mill_water", "minecraft:inventory_changed")
+criteria.addItem(<extrautils2:passivegenerator:3>)

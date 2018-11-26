@@ -169,7 +169,7 @@ mods.immersiveengineering.Crusher.removeRecipe(<actuallyadditions:item_dust:3>);
 
 
 recipes.remove(<actuallyadditions:block_misc:9>);
-recipes.addShaped(<actuallyadditions:block_misc:9>, [[<ore:plateIron>, <ore:plankTreatedWood>, <ore:plateIron>], [<ore:plankTreatedWood>, <actuallyadditions:item_misc:5>, <ore:plankTreatedWood>], [<ore:plateIron>, <ore:plankTreatedWood>, <ore:plateIron>]]);
+recipes.addShaped(<actuallyadditions:block_misc:9>, [[<ore:plateIron>, <ore:plankTreatedWood>, <ore:plateIron>], [<extrautils2:decorativesolid:3>, <actuallyadditions:item_misc:5>, <extrautils2:decorativesolid:3>], [<ore:plateIron>, <ore:plankTreatedWood>, <ore:plateIron>]]);
 
 recipes.remove(<actuallyadditions:item_booklet>);
 recipes.addShapeless(<actuallyadditions:item_booklet>, [<ore:book>, <actuallyadditions:item_misc:5>]);

@@ -1,0 +1,8 @@
+setIcon(<extendedcrafting:crafting_core>)
+setTitle("Crafting Core")
+setDescription("The base for your grafting.")
+
+addParent("triumph:level_3/external_heater")
+
+criteria = addCriteria("crafting_core", "minecraft:inventory_changed")
+criteria.addItem(<extendedcrafting:crafting_core>)

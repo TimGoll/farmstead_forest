@@ -1,0 +1,8 @@
+setIcon(<naturesaura:pickup_stopper>)
+setTitle("Item Grounder")
+setDescription("Prevents players from picking up items on the ground.")
+
+addParent("triumph:level_3/furnace_heater")
+
+criteria = addCriteria("pickup_stopper", "minecraft:inventory_changed")
+criteria.addItem(<naturesaura:pickup_stopper>)

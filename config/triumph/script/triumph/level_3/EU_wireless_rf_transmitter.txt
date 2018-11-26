@@ -1,0 +1,8 @@
+setIcon(<extrautils2:powertransmitter>)
+setTitle("Wireless RF Transmitter")
+setDescription("These transmitters receive the wireless power and send them to consumers in a radius of 4 blocks.")
+
+addParent("triumph:level_3/EU_wireless_rf_battery")
+
+criteria = addCriteria("powertransmitter", "minecraft:inventory_changed")
+criteria.addItem(<extrautils2:powertransmitter>)

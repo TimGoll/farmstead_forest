@@ -1,0 +1,8 @@
+setIcon(<extrautils2:passivegenerator:0>)
+setTitle("Solar Panel")
+setDescription("Passive generation of grid power. But only when the sun is shining.")
+
+addParent("triumph:level_3/fabricator")
+
+criteria = addCriteria("passivegenerator", "minecraft:inventory_changed")
+criteria.addItem(<extrautils2:passivegenerator:0>)

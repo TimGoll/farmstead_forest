@@ -1,0 +1,8 @@
+setIcon(<extrautils2:resonator>)
+setTitle("Resonator")
+setDescription("A grid power powered production facility.")
+
+addParent("triumph:level_3/EU_solar")
+
+criteria = addCriteria("resonator", "minecraft:inventory_changed")
+criteria.addItem(<extrautils2:resonator>)

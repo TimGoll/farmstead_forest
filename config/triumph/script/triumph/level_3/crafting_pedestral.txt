@@ -1,0 +1,8 @@
+setIcon(<extendedcrafting:pedestal>)
+setTitle("Crafting Pedestral")
+setDescription("You need eight of them around a crafting core to graft tree saplings.")
+
+addParent("triumph:level_3/crafting_core")
+
+criteria = addCriteria("crafting_pedestal", "minecraft:inventory_changed")
+criteria.addItem(<extendedcrafting:pedestal>)

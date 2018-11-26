@@ -1,0 +1,8 @@
+setIcon(<primal:hide_tanned>)
+setTitle("Tanned Hide")
+setDescription("The hide must be tougher to be usable as leather.")
+
+addParent("triumph:level_1/dried_hide")
+
+criteria = addCriteria("hide_tanned", "minecraft:inventory_changed")
+criteria.addItem(<primal:hide_tanned>)

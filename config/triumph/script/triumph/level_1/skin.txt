@@ -1,0 +1,19 @@
+setIcon(<minecraft:rabbit_hide>)
+setTitle("Animal Slaughter")
+setDescription("Animal skin. Kill an animal and use their skin.")
+
+addParent("triumph:level_1/wood")
+
+criteria = addCriteria("hide1", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:rabbit_hide>)
+
+criteria = addCriteria("hide2", "minecraft:inventory_changed")
+criteria.addItem(<farmsteadforest:combinedflesh>)
+
+criteria = addCriteria("hide3", "minecraft:inventory_changed")
+criteria.addItem(<ore:peltLarge>)
+
+criteria = addCriteria("hide4", "minecraft:inventory_changed")
+criteria.addItem(<ore:peltMedium>)
+
+setRequirements("any")

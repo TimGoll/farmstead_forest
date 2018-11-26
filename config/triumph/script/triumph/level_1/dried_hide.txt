@@ -1,0 +1,8 @@
+setIcon(<primal:hide_dried>)
+setTitle("Dried Hide")
+setDescription("Salted hide and time result in dried hide.")
+
+addParent("triumph:level_1/salted_hide")
+
+criteria = addCriteria("hide_dried", "minecraft:inventory_changed")
+criteria.addItem(<primal:hide_dried>)

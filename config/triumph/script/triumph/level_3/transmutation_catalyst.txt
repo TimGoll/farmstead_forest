@@ -1,0 +1,8 @@
+setIcon(<naturesaura:conversion_catalyst>)
+setTitle("Transmutation Catalyst")
+setDescription("Placed on top of one of the mossy stone bricks of your natural altar it increases its power.")
+
+addParent("triumph:level_3/furnace_heater")
+
+criteria = addCriteria("conversion_catalyst", "minecraft:inventory_changed")
+criteria.addItem(<naturesaura:conversion_catalyst>)

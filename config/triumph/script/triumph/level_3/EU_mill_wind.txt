@@ -1,0 +1,8 @@
+setIcon(<extrautils2:passivegenerator:4>)
+setTitle("Wind Mill")
+setDescription("Produce grid power from wind.")
+
+addParent("triumph:level_3/EU_resonator")
+
+criteria = addCriteria("mill_wind", "minecraft:inventory_changed")
+criteria.addItem(<extrautils2:passivegenerator:4>)

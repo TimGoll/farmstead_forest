@@ -5,13 +5,13 @@ recipes.remove(<extendedcrafting:interface>);
 recipes.addShaped(<extendedcrafting:interface>, [[<industrialforegoing:plastic>, <industrialforegoing:plastic>, <industrialforegoing:plastic>], [<ore:ingotIron>, <extendedcrafting:frame>, <ore:ingotIron>], [null, <ore:chestWood>, null]]);
 
 recipes.remove(<extendedcrafting:crafting_core>);
-recipes.addShaped(<extendedcrafting:crafting_core>, [[<projectred-core:resource_item:421>, <ore:workbench>, <projectred-core:resource_item:421>], [<ore:plankWood>, <immersiveengineering:metal_device0>, <ore:plankWood>], [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);
+recipes.addShaped(<extendedcrafting:crafting_core>, [[<projectred-core:resource_item:421>, <ore:workbench>, <projectred-core:resource_item:421>], [<ore:plankWood>, <immersiveengineering:metal_device0>, <ore:plankWood>], [<naturesaura:infused_stone>, <naturesaura:infused_stone>, <naturesaura:infused_stone>]]);
 
 recipes.remove(<extendedcrafting:pedestal>);
-recipes.addShaped(<extendedcrafting:pedestal> *2, [[<projectred-core:resource_item:421>], [<ore:cobblestone>], [<ore:cobblestone>]]);
+recipes.addShaped(<extendedcrafting:pedestal> *2, [[<projectred-core:resource_item:421>], [<naturesaura:infused_stone>], [<naturesaura:infused_stone>]]);
 
 recipes.remove(<extendedcrafting:table_elite>);
-recipes.addShaped(<extendedcrafting:table_elite>, [[<projectred-core:resource_item:421>, <ore:workbench>, <projectred-core:resource_item:421>], [<immersiveengineering:material>, null, <immersiveengineering:material>], [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);
+recipes.addShaped(<extendedcrafting:table_elite>, [[<projectred-core:resource_item:421>, <ore:workbench>, <projectred-core:resource_item:421>], [<immersiveengineering:material>, null, <immersiveengineering:material>], [<naturesaura:infused_stone>, <naturesaura:infused_stone>, <naturesaura:infused_stone>]]);
 
 recipes.remove(<extendedcrafting:compressor>);
 recipes.addShaped(<extendedcrafting:compressor>, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], [<ore:plateSteel>, <forestry:gear_bronze>, <ore:plateSteel>], [<ore:plateSteel>, <minecraft:piston>, <ore:plateSteel>]]);

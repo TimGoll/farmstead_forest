@@ -1,0 +1,8 @@
+setIcon(<actuallyadditions:block_atomic_reconstructor>)
+setTitle("Atomic Reconstructor")
+setDescription("A neat device which reorders atomic structures.")
+
+addParent("triumph:level_3/EU_eternal_glass")
+
+criteria = addCriteria("block_atomic_reconstructor", "minecraft:inventory_changed")
+criteria.addItem(<actuallyadditions:block_atomic_reconstructor>)

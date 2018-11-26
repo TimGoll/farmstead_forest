@@ -1,0 +1,8 @@
+setIcon(<extrautils2:powerbattery>)
+setTitle("Wireless RF Battery")
+setDescription("The base station of your wireless RF system.")
+
+addParent("triumph:level_3/EU_eternal_glass")
+
+criteria = addCriteria("powerbattery", "minecraft:inventory_changed")
+criteria.addItem(<extrautils2:powerbattery>)

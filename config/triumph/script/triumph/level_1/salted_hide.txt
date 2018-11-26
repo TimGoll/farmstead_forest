@@ -1,0 +1,8 @@
+setIcon(<primal:hide_salted>)
+setTitle("Salted Hide")
+setDescription("Raw hide and salt result in salted hide.")
+
+addParent("triumph:level_1/raw_hide")
+
+criteria = addCriteria("hide_salted", "minecraft:inventory_changed")
+criteria.addItem(<primal:hide_salted>)

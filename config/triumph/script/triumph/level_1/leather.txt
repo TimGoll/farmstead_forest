@@ -1,0 +1,8 @@
+setIcon(<minecraft:leather>)
+setTitle("Leather")
+setDescription("Finally.")
+
+addParent("triumph:level_1/tanned_hide")
+
+criteria = addCriteria("leather", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:leather>)

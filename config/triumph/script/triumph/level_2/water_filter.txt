@@ -1,0 +1,8 @@
+setIcon(<harvestcraft:waterfilter>)
+setTitle("Water Filter")
+setDescription("A source of fresh water and salt.")
+
+addParent("triumph:level_2/ingot_iron")
+
+criteria = addCriteria("waterfilter", "minecraft:inventory_changed")
+criteria.addItem(<harvestcraft:waterfilter>)

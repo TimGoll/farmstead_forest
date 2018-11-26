@@ -1,0 +1,8 @@
+setIcon(<primal:hide_raw>)
+setTitle("Raw Hide")
+setDescription("Use a worblade to cut down hide into usable pieces.")
+
+addParent("triumph:level_1/skin")
+
+criteria = addCriteria("hide_raw", "minecraft:inventory_changed")
+criteria.addItem(<primal:hide_raw>)

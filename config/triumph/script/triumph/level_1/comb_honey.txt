@@ -1,0 +1,8 @@
+setIcon(<harvestcraft:honeycombitem>)
+setTitle("Honey Comb")
+setDescription("A sweet bee good. It's so delicious.")
+
+addParent("triumph:level_1/apiary")
+
+criteria = addCriteria("pam_comb_honey", "minecraft:inventory_changed")
+criteria.addItem(<harvestcraft:honeycombitem>)

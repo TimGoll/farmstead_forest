@@ -1,0 +1,8 @@
+setIcon(<cookingforblockheads:cooking_table>)
+setTitle("Cooking Table")
+setDescription("The start of your multiblock kitchen.")
+
+addParent("triumph:level_2/diamond_ore")
+
+criteria = addCriteria("cooking_table", "minecraft:inventory_changed")
+criteria.addItem(<cookingforblockheads:cooking_table>)

@@ -1,0 +1,8 @@
+setIcon(<harvestcraft:waxcombitem>)
+setTitle("Wax Comb")
+setDescription("A meltable bee good. It's so useful.")
+
+addParent("triumph:level_1/apiary")
+
+criteria = addCriteria("pam_comb_wax", "minecraft:inventory_changed")
+criteria.addItem(<harvestcraft:waxcombitem>)

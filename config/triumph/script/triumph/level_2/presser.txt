@@ -1,0 +1,8 @@
+setIcon(<harvestcraft:presser>)
+setTitle("Presser")
+setDescription("Processes wax, crops and other goods.")
+
+addParent("triumph:level_2/water_filter")
+
+criteria = addCriteria("presser", "minecraft:inventory_changed")
+criteria.addItem(<harvestcraft:presser>)

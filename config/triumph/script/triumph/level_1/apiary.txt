@@ -1,0 +1,8 @@
+setIcon(<harvestcraft:apiary>)
+setTitle("Apiary")
+setDescription("A new place to live.")
+
+addParent("triumph:level_1/queen_bee")
+
+criteria = addCriteria("pam_apiary", "minecraft:inventory_changed")
+criteria.addItem(<harvestcraft:apiary>)

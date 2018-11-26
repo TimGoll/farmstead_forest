@@ -1,0 +1,8 @@
+setIcon(<extrautils2:ineffableglass:0>)
+setTitle("Eternal Glass")
+setDescription("You can walk though this glass. But mobs can't.")
+
+addParent("triumph:level_3/EU_resonator")
+
+criteria = addCriteria("eternal_glass", "minecraft:inventory_changed")
+criteria.addItem(<extrautils2:ineffableglass:0>)
