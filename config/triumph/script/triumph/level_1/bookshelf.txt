@@ -1,0 +1,8 @@
+setIcon(<inspirations:bookshelf>)
+setTitle("Bookshelf")
+setDescription("A neat way to store your guidebooks.")
+
+addParent("triumph:level_1/cabinet")
+
+criteria = addCriteria("bookshelf", "minecraft:inventory_changed")
+criteria.addItem(<inspirations:bookshelf>)

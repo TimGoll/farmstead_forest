@@ -1,0 +1,8 @@
+setIcon(<farmingforblockheads:fertilizer:0>)
+setTitle("Growth Rate Fertilizer")
+setDescription("Apply it to your farmland to get a faster growth rate.")
+
+addParent("triumph:level_1/compost")
+
+criteria = addCriteria("fertilizer_0", "minecraft:inventory_changed")
+criteria.addItem(<farmingforblockheads:fertilizer:0>)

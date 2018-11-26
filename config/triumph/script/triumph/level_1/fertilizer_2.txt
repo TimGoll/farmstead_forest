@@ -1,0 +1,8 @@
+setIcon(<farmingforblockheads:fertilizer:2>)
+setTitle("Anti Trample Fertilizer")
+setDescription("Apply it to your farmland to get a trample safe farmland.")
+
+addParent("triumph:level_1/compost")
+
+criteria = addCriteria("fertilizer_2", "minecraft:inventory_changed")
+criteria.addItem(<farmingforblockheads:fertilizer:2>)

@@ -1,0 +1,8 @@
+setIcon(<farmsteadforest:tiny_pile_of_poor_copper_ore>)
+setTitle("Poor Copper Ore")
+setDescription("Use a stick to pick up tiny piles of poor copper ore from ore samples.")
+
+addParent("triumph:level_0/sticks")
+
+criteria = addCriteria("tiny_pile_of_poor_copper_ore", "minecraft:inventory_changed")
+criteria.addItem(<farmsteadforest:tiny_pile_of_poor_copper_ore>)

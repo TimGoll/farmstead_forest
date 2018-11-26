@@ -1,0 +1,8 @@
+setIcon(<primal:torch_wood>)
+setTitle("Wooden Torch")
+setDescription("Craft these wooden torches to light up your home, but protect them from rain. You can pick them up again with sneak klicking.")
+
+addParent("triumph:level_1/charcoal")
+
+criteria = addCriteria("torch_wood", "minecraft:inventory_changed")
+criteria.addItem(<primal:torch_wood>)

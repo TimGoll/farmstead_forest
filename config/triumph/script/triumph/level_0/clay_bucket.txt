@@ -1,0 +1,8 @@
+setIcon(<ceramics:clay_bucket>)
+setTitle("Clay Bucket")
+setDescription("Transport fluids without the need of iron.")
+
+addParent("triumph:level_0/furnace")
+
+criteria = addCriteria("clay_bucket", "minecraft:inventory_changed")
+criteria.addItem(<ceramics:clay_bucket>)

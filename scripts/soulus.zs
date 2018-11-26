@@ -31,8 +31,9 @@ recipes.addShapeless(<soulus:bone_meal_nether>, [<immersiveengineering:tool>, <s
 mods.immersiveengineering.Crusher.addRecipe(<soulus:bone_meal_nether>, <soulus:bone_chunk_nether>, 2048);
 
 recipes.removeByRecipeName("soulus:bone_chunks/bone_meal_normal");
+recipes.addShapeless(<minecraft:dye:15>, [<soulus:bone_chunk_normal>]);
 recipes.addShapeless(<minecraft:dye:15>, [<immersiveengineering:tool>, <soulus:bone_chunk_normal>, <soulus:bone_chunk_normal>]);
-mods.immersiveengineering.Crusher.addRecipe(<minecraft:dye:15>, <soulus:bone_chunk_normal>, 2048);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:dye:15> *2, <soulus:bone_chunk_normal>, 2048);
 
 
 

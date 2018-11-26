@@ -1,5 +1,5 @@
 recipes.remove(<tconstruct:pattern>);
-recipes.addShapedMirrored(<tconstruct:pattern> *2, [[<farmsteadforest:waxed_paper>, <ore:charcoal>], [<ore:charcoal>, <farmsteadforest:waxed_paper>]]);
+recipes.addShapedMirrored(<tconstruct:pattern> *4, [[<farmsteadforest:waxed_paper>, <ore:charcoal>], [<ore:charcoal>, <farmsteadforest:waxed_paper>]]);
 
 recipes.remove(<tconstruct:stone_torch>);
 mods.jei.JEI.hide(<tconstruct:stone_torch>);

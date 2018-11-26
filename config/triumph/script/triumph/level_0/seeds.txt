@@ -15,3 +15,6 @@ criteria.addItem(<rustic:chili_pepper_seeds>)
 
 criteria = addCriteria("IE_seed", "minecraft:inventory_changed")
 criteria.addItem(<immersiveengineering:seed>)
+
+setFrameType("GOAL")
+setRewardItem("harvestcraft:mixedsaladitem", 0, 2)

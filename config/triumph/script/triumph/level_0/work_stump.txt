@@ -1,6 +1,6 @@
 setIcon(<primal_tech:work_stump>)
-setTitle("Flaked Tools")
-setDescription("Build your first improved tool to gather resources faster and to slay your enemies.")
+setTitle("Work Stump")
+setDescription("Finally. A 3x3 crafting array.")
 
 addParent("triumph:level_0/bark_fiber")
 

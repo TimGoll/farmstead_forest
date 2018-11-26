@@ -10,7 +10,6 @@
 							"*"
 						],
 						"blacklisted_drops": [
-							"minecraft:bone"
 						]
 					}
 				}
@@ -24,7 +23,6 @@
 							"*"
 						],
 						"blacklisted_drops": [
-							"minecraft:bone"
 						]
 					}
 				}
@@ -38,7 +36,6 @@
 							"*"
 						],
 						"blacklisted_drops": [
-							"minecraft:bone"
 						]
 					}
 				}

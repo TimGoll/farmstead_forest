@@ -140,7 +140,7 @@ mods.jei.JEI.addDescription(<farmsteadforest:tiny_pile_of_poor_copper_ore>, "Obt
 
 mods.primal.Cauldron.addRecipe(
     "liquify_copper", 
-    3.0, 
+    1.0, 
     <liquid:brine_netjry> *500, 
     <liquid:oliveoil> *500, 
     [<farmsteadforest:poor_copper_ore> *4], 
@@ -206,7 +206,7 @@ recipes.addShaped(<minecraft:sand>, [[<farmsteadforest:sand_pile>, <farmsteadfor
 //sticky thatching
 mods.primal.Cauldron.addRecipe(
     "sticky_thatching", 
-    3.0, 
+    1.0, 
     <liquid:water> *250, 
     null, 
     [<primal:thatching_dry> *2, <farmsteadforest:resin>], 

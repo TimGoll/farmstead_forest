@@ -1,0 +1,8 @@
+setIcon(<composter:compost_bin>)
+setTitle("Compost Bin")
+setDescription("Compost your natural goods to get compost, a very good fertilizer.")
+
+addParent("triumph:level_1/wheat")
+
+criteria = addCriteria("compost_bin", "minecraft:inventory_changed")
+criteria.addItem(<composter:compost_bin>)

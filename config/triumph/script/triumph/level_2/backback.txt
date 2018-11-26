@@ -1,0 +1,8 @@
+setIcon(<wearablebackpacks:backpack>)
+setTitle("Backpack")
+setDescription("A simple backback to be worn on your chestplate slot, which can be opened with a hotkey, in world and by other players while it is on your back.")
+
+addParent("triumph:level_2/root")
+
+criteria = addCriteria("backpack", "minecraft:inventory_changed")
+criteria.addItem(<wearablebackpacks:backpack>)

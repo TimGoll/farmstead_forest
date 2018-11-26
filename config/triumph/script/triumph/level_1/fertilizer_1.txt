@@ -1,0 +1,8 @@
+setIcon(<farmingforblockheads:fertilizer:1>)
+setTitle("More Yield Fertilizer")
+setDescription("Apply it to your farmland to get a higher yield.")
+
+addParent("triumph:level_1/compost")
+
+criteria = addCriteria("fertilizer_1", "minecraft:inventory_changed")
+criteria.addItem(<farmingforblockheads:fertilizer:1>)

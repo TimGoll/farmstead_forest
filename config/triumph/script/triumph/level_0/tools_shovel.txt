@@ -2,7 +2,7 @@ setIcon(<primal:flint_shovel>)
 setTitle("Flint Shovel")
 setDescription("Craft a flint shovel.")
 
-addParent("triumph:level_0/furnace")
+addParent("triumph:level_0/plant_twine")
 
 criteria = addCriteria("flint_shovel", "minecraft:inventory_changed")
 criteria.addItem(<primal:flint_shovel>)

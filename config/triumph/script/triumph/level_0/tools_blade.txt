@@ -2,7 +2,7 @@ setIcon(<primal:flint_workblade>)
 setTitle("Flint Work Blade")
 setDescription("Craft a flint work blade.")
 
-addParent("triumph:level_0/furnace")
+addParent("triumph:level_0/plant_twine")
 
 criteria = addCriteria("flint_workblade", "minecraft:inventory_changed")
 criteria.addItem(<primal:flint_workblade>)

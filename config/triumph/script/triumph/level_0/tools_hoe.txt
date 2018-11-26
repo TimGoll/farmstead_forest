@@ -2,7 +2,7 @@ setIcon(<primal:flint_hoe>)
 setTitle("Flint Hoe")
 setDescription("Craft a flint hoe.")
 
-addParent("triumph:level_0/furnace")
+addParent("triumph:level_0/plant_twine")
 
 criteria = addCriteria("flint_hoe", "minecraft:inventory_changed")
 criteria.addItem(<primal:flint_hoe>)

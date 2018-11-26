@@ -138,3 +138,19 @@ recipes.addShaped(<forestry:ffarm>.withTag({FarmBlock: 10}), [[<forestry:thermio
 //remove manual recipes
 recipes.removeByRecipeName("forestry:book_tree");
 recipes.removeByRecipeName("forestry:book_butterfly");
+
+//oredict backpacks
+<ore:forestryBackpack>.add(<forestry:apiarist_bag>);
+<ore:forestryBackpack>.add(<forestry:miner_bag>);
+<ore:forestryBackpack>.add(<forestry:digger_bag>);
+<ore:forestryBackpack>.add(<forestry:forester_bag>);
+<ore:forestryBackpack>.add(<forestry:hunter_bag>);
+<ore:forestryBackpack>.add(<forestry:adventurer_bag>);
+<ore:forestryBackpack>.add(<forestry:builder_bag>);
+
+<ore:forestryBackpackBig>.add(<forestry:miner_bag_t2>);
+<ore:forestryBackpackBig>.add(<forestry:digger_bag_t2>);
+<ore:forestryBackpackBig>.add(<forestry:forester_bag_t2>);
+<ore:forestryBackpackBig>.add(<forestry:hunter_bag_t2>);
+<ore:forestryBackpackBig>.add(<forestry:adventurer_bag_t2>);
+<ore:forestryBackpackBig>.add(<forestry:builder_bag_t2>);

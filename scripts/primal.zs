@@ -32,7 +32,7 @@ recipes.addShaped(<primal:mortar> *6, [[<ore:dustAsh>, <ore:clayball>, <ore:dust
 
 //rock to stone
 recipes.removeShaped(<minecraft:cobblestone>);
-recipes.addShaped(<minecraft:cobblestone>, [[<primal:rock_stone>, <primal:mortar>, <primal:rock_stone>], [<primal:mortar>, <primal:rock_stone>, <primal:mortar>], [<primal:rock_stone>, <primal:mortar>, <primal:rock_stone>]]);
+recipes.addShaped(<minecraft:cobblestone> *4, [[<primal:rock_stone>, <primal:mortar>, <primal:rock_stone>], [<primal:mortar>, <primal:rock_stone>, <primal:mortar>], [<primal:rock_stone>, <primal:mortar>, <primal:rock_stone>]]);
 
 recipes.removeShaped(<minecraft:stone:5>);
 recipes.addShaped(<minecraft:stone:5>, [[<primal:rock_andesite>, <primal:mortar>, <primal:rock_andesite>], [<primal:mortar>, <primal:rock_andesite>, <primal:mortar>], [<primal:rock_andesite>, <primal:mortar>, <primal:rock_andesite>]]);
@@ -135,6 +135,9 @@ mods.jei.JEI.hide(<primal:flint_hatchet>);
 mods.jei.JEI.addDescription(<primal:rock_stone>, "Early game rocks can be optained by sneak + rightklicking stone/cobblestone with a stick, a flaked stick or a flaked stick with rock. Stone rocks are nesessary to progress through the game.");
 mods.jei.JEI.addDescription(<minecraft:flint>, "Next to breaking gravel, flint can be optained by sneak + rightklicking gravel with a stick, a flaked stick or a flaked stick with rock.");
 
+//salt info
+mods.jei.JEI.addDescription(<ore:itemSalt>, "Aside of these crafting methods, salt can be found in dried out lakebeds deserts.");
+
 //remove ground wheat
 mods.primal.Hibachi.removeRecipe("ground_wheat");
 furnace.remove(<minecraft:bread>, <primal:wheat_ground>);
@@ -160,9 +163,9 @@ furnace.addRecipe(<primal:cauldron>, <ceramics:clay_bucket:3>);
 mods.primal.Cauldron.removeRecipe("primal:brine_dust_salt");
 mods.primal.Cauldron.addRecipe(
     "primal:brine_dust_salt_new", 
-    6.0, 
-    <liquid:water> *250, 
-    <liquid:brine_netjry> *250, 
+    1.0, 
+    <liquid:water> *500, 
+    <liquid:brine_netjry> *500, 
     [<ore:itemSalt>], 
     [null]
 );
@@ -186,20 +189,20 @@ mods.immersiveengineering.MetalPress.addRecipe(<minecraft:paper>, <minecraft:ree
 mods.immersiveengineering.MetalPress.addRecipe(<minecraft:paper>, <ore:plantPaper>, <immersiveengineering:mold>, 500, 2);
 mods.primal.Cauldron.addRecipe(
     "paper_bark", 
-    3.0, 
-    <liquid:water> *1000, 
-    <liquid:water> *750, 
+    1.5, 
+    <liquid:water> *250, 
+    null, 
     [<farmsteadforest:bark_fiber> * 4], 
-    [<farmsteadforest:paper_pulp>]
+    [<farmsteadforest:paper_pulp> *2]
 );
 
 mods.primal.Cauldron.addRecipe(
     "paper_paper_bark", 
-    3.0, 
-    <liquid:water> *1000, 
-    <liquid:water> *750, 
+    1.5, 
+    <liquid:water> *250, 
+    null, 
     [<farmsteadforest:wet_birch_paperbark> * 2], 
-    [<farmsteadforest:paper_pulp>]
+    [<farmsteadforest:paper_pulp> *2]
 );
 
 mods.tconstruct.Drying.addRecipe(<minecraft:paper>, <farmsteadforest:paper_pulp>, 2400);

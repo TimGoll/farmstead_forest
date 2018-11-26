@@ -1,0 +1,8 @@
+setIcon(<primal:cauldron_ladle_bone>)
+setTitle("Ladle")
+setDescription("Right klick on any side of the cauldron to get the current state and rightklick on the top to pull out the items.")
+
+addParent("triumph:level_1/fired_cauldron")
+
+criteria = addCriteria("ladle", "minecraft:inventory_changed")
+criteria.addItem(<ore:ladle>)

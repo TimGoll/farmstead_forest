@@ -1,6 +1,6 @@
 setIcon(<actuallyadditions:item_worm>)
-setTitle("Worm")
-setDescription("Place this worm on your farmland to increase the crop growth rate in a 3x3 area a bit.")
+setTitle("Worm              ")
+setDescription("Place this worm on your farmland to increase the crop growth rate in a 3x3 area a bit. Till grass around water to obtain them.")
 
 addParent("triumph:level_1/wheat")
 

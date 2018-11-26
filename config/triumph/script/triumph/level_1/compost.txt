@@ -1,0 +1,8 @@
+setIcon(<composter:compost>)
+setTitle("Compost")
+setDescription("Fertilize it!")
+
+addParent("triumph:level_1/composter")
+
+criteria = addCriteria("compost", "minecraft:inventory_changed")
+criteria.addItem(<composter:compost>)

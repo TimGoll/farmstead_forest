@@ -1,0 +1,11 @@
+setIcon(<primal_tech:rock>)
+setTitle("Crafting Rock")
+setDescription("Hit your workstump with this rock to craft!")
+
+addParent("triumph:level_0/work_stump")
+
+criteria = addCriteria("craftingrock", "minecraft:inventory_changed")
+criteria.addItem(<primal_tech:rock>)
+
+setFrameType("GOAL")
+setRewardItem("harvestcraft:toastitem", 0, 4)
