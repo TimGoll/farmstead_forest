@@ -10,7 +10,7 @@ mods.jei.JEI.hide(<tconstruct:tooltables:1>.withTag({textureBlock: {id: "minecra
 mods.jei.JEI.addItem(<tconstruct:tooltables:1>.withTag({textureBlock: {id: "immersiveengineering:storage", Count: 1 as byte, Damage: 0 as short}}));
 recipes.addShaped(<tconstruct:tooltables:1>.withTag({textureBlock: {id: "immersiveengineering:storage", Count: 1 as byte, Damage: 0 as short}}), [[<tconstruct:pattern>, <tconstruct:pattern>, <tconstruct:pattern>], [<ore:ingotCopper>, null, <ore:ingotCopper>], [<ore:ingotCopper>, null, <ore:ingotCopper>]]);
 
-//harder part builder to gate behin copper
+//harder part builder to gate behind copper
 recipes.remove(<tconstruct:tooltables:2>);
 mods.jei.JEI.hide(<tconstruct:tooltables:2>.withTag({textureBlock: {id: "minecraft:log", Count: 1 as byte, Damage: 0 as short}}));
 mods.jei.JEI.addItem(<tconstruct:tooltables:2>.withTag({textureBlock: {id: "immersiveengineering:storage", Count: 1 as byte, Damage: 0 as short}}));
@@ -43,4 +43,32 @@ recipes.remove(<tcomplement:melter:8>);
 recipes.addShaped(<tcomplement:melter:8>, [[null, <farmsteadforest:primitive_mechanical_controller>, null], [<tconstruct:materials>, <minecraft:furnace>, <tconstruct:materials>], [<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>]]);
 
 recipes.remove(<conarm:travel_sack>);
-recipes.addShapeless(<conarm:travel_sack>, [<wearablebackpacks:backpack>]);
+recipes.addShaped(<conarm:travel_sack>, [[<ore:stickIron>, <ore:leather>, <ore:stickIron>], [<ore:leather>, <ore:chest>, <ore:leather>], [<ore:stickIron>, <ore:leather>, <ore:stickIron>]]);
+
+//create cast from stone gear
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, <farmsteadforest:gear_stone>, <liquid:gold>, 288, true);
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, <farmsteadforest:gear_stone>, <liquid:brass>, 144, true);
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, <farmsteadforest:gear_stone>, <liquid:alubrass>, 144, true);
+
+
+//harder tool forge to gate behind steel
+recipes.remove(<tconstruct:toolforge>);
+mods.jei.JEI.hide(<tconstruct:toolforge>.withTag({textureBlock: {id: "minecraft:iron_block", Count: 1 as byte, Damage: 0 as short}}));
+mods.jei.JEI.addItem(<tconstruct:toolforge>.withTag({textureBlock: {id: "immersiveengineering:storage:8", Count: 1 as byte, Damage: 0 as short}}));
+recipes.addShaped(<tconstruct:toolforge>.withTag({textureBlock: {id: "immersiveengineering:storage:8", Count: 1 as byte, Damage: 0 as short}}), [[<ore:blockSeared>, <ore:blockSeared>, <ore:blockSeared>], [<ore:blockSteel>, <tconstruct:tooltables:3>, <ore:blockSteel>], [<ore:blockSteel>, null, <ore:blockSteel>]]);
+
+//harder armor forge to gate behind steel
+recipes.remove(<conarm:armorforge>);
+mods.jei.JEI.hide(<conarm:armorforge>.withTag({textureBlock: {id: "minecraft:iron_block", Count: 1 as byte, Damage: 0 as short}}));
+mods.jei.JEI.addItem(<conarm:armorforge>.withTag({textureBlock: {id: "immersiveengineering:storage:8", Count: 1 as byte, Damage: 0 as short}}));
+recipes.addShaped(<conarm:armorforge>.withTag({textureBlock: {id: "immersiveengineering:storage:8", Count: 1 as byte, Damage: 0 as short}}), [[<ore:blockSeared>, <ore:blockSeared>, <ore:blockSeared>], [<ore:blockSteel>, <conarm:armorstation>, <ore:blockSteel>], [<ore:blockSteel>, null, <ore:blockSteel>]]);
+
+//remove classic chisel in favor of tcomplement chisel
+recipes.remove(<chisel:chisel_iron>);
+mods.jei.JEI.hide(<chisel:chisel_iron>);
+
+recipes.remove(<chisel:chisel_diamond>);
+mods.jei.JEI.hide(<chisel:chisel_diamond>);
+
+recipes.remove(<chisel:chisel_hitech>);
+mods.jei.JEI.hide(<chisel:chisel_hitech>);

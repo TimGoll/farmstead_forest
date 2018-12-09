@@ -1,0 +1,8 @@
+setIcon(<tcomplement:chisel, nbt:{TinkerData: {Materials: ["wood", "wood", "wood"], Modifiers: ["toolleveling"]}}>)
+setTitle("Chisel it!")
+setDescription("Start chiseling blocks to change their appearance.")
+
+addParent("triumph:level_2/root")
+
+criteria = addCriteria("tc_chisel", "minecraft:inventory_changed")
+criteria.addItem(<tcomplement:chisel>)

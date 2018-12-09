@@ -1,0 +1,8 @@
+setIcon(<projectred-integration:gate:17>)
+setTitle("Timer")
+setDescription("Add this next to a faucet to automate your ingot production. A hopper beneath the vasting table/basin pulls the finished items out.")
+
+addParent("triumph:level_2/smeltery_controller")
+
+criteria = addCriteria("timer", "minecraft:inventory_changed")
+criteria.addItem(<projectred-integration:gate:17>)

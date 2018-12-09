@@ -1,8 +1,8 @@
 setIcon(<naturesaura:gold_leaf>)
 setTitle("Golden Leaves")
-setDescription("Embrace the nature of the golden worms spreading through the tree.")
+setDescription("Embrace the nature of the golden worms spreading through the tree. Study your 'Book of Natural Aura' for more information.")
 
-addParent("triumph:level_1/wood")
+addParent("triumph:level_1/brilliant_fiber")
 
 criteria = addCriteria("gold_leaf", "minecraft:inventory_changed")
 criteria.addItem(<naturesaura:gold_leaf>)

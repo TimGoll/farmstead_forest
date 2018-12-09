@@ -1,0 +1,8 @@
+setIcon(<actuallyadditions:block_greenhouse_glass>)
+setTitle("Greenhouse Glass")
+setDescription("Place this glass on top of your farmland to increase the plant growth speed.")
+
+addParent("triumph:level_3/atomic_reconstructor")
+
+criteria = addCriteria("block_greenhouse_glass", "minecraft:inventory_changed")
+criteria.addItem(<actuallyadditions:block_greenhouse_glass>)

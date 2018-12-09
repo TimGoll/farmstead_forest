@@ -1,5 +1,5 @@
-#Mon Nov 19 18:23:04 CET 2018
-shaderPack=BSL v7.0.zip
+#Mon Dec 03 14:59:09 CET 2018
+shaderPack=BSL v7.1p4.zip
 antialiasingLevel=0
 normalMapEnabled=true
 specularMapEnabled=true

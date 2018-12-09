@@ -1,0 +1,8 @@
+setIcon(<tconstruct:lumberaxe, nbt:{TinkerData: {Materials: ["wood", "iron", "iron", "iron"], Modifiers: ["toolleveling"]}}>)
+setTitle("Lumberaxe")
+setDescription("Fell whole trees in one hit.")
+
+addParent("triumph:level_3/tool_forge")
+
+criteria = addCriteria("tc_lumberaxe", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:lumberaxe>)

@@ -1,0 +1,8 @@
+setIcon(<logisticspipes:crafting_table>)
+setTitle("Logistics Crafting Table")
+setDescription("Connected to the system, it allows you to autocraft as many items as you wish. Add a recipe to the crafting table and import it into you crafting pipe to be accessed from the system.")
+
+addParent("triumph:level_3/logistic_crafting_pipe")
+
+criteria = addCriteria("crafting_table", "minecraft:inventory_changed")
+criteria.addItem(<logisticspipes:crafting_table>)

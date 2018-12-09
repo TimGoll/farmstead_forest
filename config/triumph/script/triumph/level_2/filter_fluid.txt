@@ -1,0 +1,8 @@
+setIcon(<extrautils2:filterfluids>)
+setTitle("Filter Fluids")
+setDescription("Add fluids to this filter and add it to a fluid node.")
+
+addParent("triumph:level_2/node_fluid")
+
+criteria = addCriteria("filterfluids", "minecraft:inventory_changed")
+criteria.addItem(<extrautils2:filterfluids>)

@@ -27,19 +27,25 @@
 //mods.jei.JEI.hide(<chisel:blockplatinum>);
 
 //zinc
-//recipes.remove(<primal:metalblock:8>);
-//recipes.remove(<primal:zinc_ingot>);
-//furnace.remove(<primal:zinc_ingot>);
-//mods.immersiveengineering.ArcFurnace.removeRecipe(<primal:zinc_ingot>);
-//mods.immersiveengineering.Crusher.removeRecipe(<primal:zinc_dust>);
-//recipes.remove(<primal:zinc_plate>);
-//mods.immersiveengineering.MetalPress.removeRecipe(<primal:zinc_plate>);
-//mods.jei.JEI.hide(<primal:zinc_ingot>);
-//mods.jei.JEI.hide(<primal:zinc_dust>);
-//mods.jei.JEI.hide(<primal:zinc_nugget>);
-//mods.jei.JEI.hide(<primal:zinc_plate>);
-//mods.jei.JEI.hide(<primal:metalblock:8>);
-//mods.tconstruct.Melting.removeRecipe(<liquid:zinc>);
+recipes.remove(<primal:metalblock:8>);
+recipes.remove(<primal:zinc_ingot>);
+furnace.remove(<primal:zinc_ingot>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<primal:zinc_ingot>);
+mods.immersiveengineering.Crusher.removeRecipe(<primal:zinc_dust>);
+recipes.remove(<primal:zinc_plate>);
+mods.immersiveengineering.MetalPress.removeRecipe(<primal:zinc_plate>);
+mods.jei.JEI.hide(<primal:zinc_ingot>);
+mods.jei.JEI.hide(<primal:zinc_dust>);
+mods.jei.JEI.hide(<primal:zinc_nugget>);
+mods.jei.JEI.hide(<primal:zinc_plate>);
+mods.jei.JEI.hide(<primal:metalblock:8>);
+mods.tconstruct.Melting.removeRecipe(<liquid:zinc>);
+
+<ore:blockZinc>.remove(<primal:metalblock:8>);
+<ore:ingotZinc>.remove(<primal:zinc_ingot>);
+<ore:dustZinc>.remove(<primal:zinc_dust>);
+<ore:nuggetZinc>.remove(<primal:zinc_nugget>);
+<ore:plateZinc>.remove(<primal:zinc_plate>);
 
 mods.jei.JEI.hide(<forestry:can:1>.withTag({Fluid: {FluidName: "zinc", Amount: 1000}}));
 mods.jei.JEI.hide(<forestry:refractory:1>.withTag({Fluid: {FluidName: "zinc", Amount: 1000}}));
@@ -138,15 +144,15 @@ furnace.remove(<primal:crude_iron_ingot>, <primal:crude_iron_plate>);
 
 
 //Thaumcraft Plates in TC
-mods.tconstruct.Melting.removeRecipe(<liquid:alubrass>);
-mods.tconstruct.Alloy.removeRecipe(<liquid:alubrass>);
-mods.tconstruct.Casting.removeTableRecipe(<tconstruct:nuggets:5>);
-mods.tconstruct.Casting.removeTableRecipe(<tconstruct:ingots:5>);
-mods.tconstruct.Casting.removeTableRecipe(<tconstruct:metal:5>);
-mods.tconstruct.Alloy.removeRecipe(<liquid:brass>);
+// mods.tconstruct.Melting.removeRecipe(<liquid:alubrass>);
+// mods.tconstruct.Alloy.removeRecipe(<liquid:alubrass>);
+// mods.tconstruct.Casting.removeTableRecipe(<tconstruct:nuggets:5>);
+// mods.tconstruct.Casting.removeTableRecipe(<tconstruct:ingots:5>);
+// mods.tconstruct.Casting.removeTableRecipe(<tconstruct:metal:5>);
+// mods.tconstruct.Alloy.removeRecipe(<liquid:brass>);
 
-mods.jei.JEI.hide(<forge:bucketfilled>.withTag({FluidName: "alubrass", Amount: 1000}));
-mods.jei.JEI.hide(<forestry:refractory:1>.withTag({Fluid: {FluidName: "alubrass", Amount: 1000}}));
-mods.jei.JEI.hide(<forestry:can:1>.withTag({Fluid: {FluidName: "alubrass", Amount: 1000}}));
-mods.jei.JEI.hide(<liquid:alubrass>);
+// mods.jei.JEI.hide(<forge:bucketfilled>.withTag({FluidName: "alubrass", Amount: 1000}));
+// mods.jei.JEI.hide(<forestry:refractory:1>.withTag({Fluid: {FluidName: "alubrass", Amount: 1000}}));
+// mods.jei.JEI.hide(<forestry:can:1>.withTag({Fluid: {FluidName: "alubrass", Amount: 1000}}));
+// mods.jei.JEI.hide(<liquid:alubrass>);
 

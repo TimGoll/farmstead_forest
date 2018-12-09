@@ -1,0 +1,8 @@
+setIcon(<lanolin:lanolin>)
+setTitle("Lanolin")
+setDescription("Add up to 15 lanolin to each part of your armor to give you water breathing. It will be weashed off over time.")
+
+addParent("triumph:level_2/chestplate_finished")
+
+criteria = addCriteria("lanolin", "minecraft:inventory_changed")
+criteria.addItem(<lanolin:lanolin>)

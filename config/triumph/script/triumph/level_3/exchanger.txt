@@ -1,0 +1,8 @@
+setIcon(<exchangers:lv_exchanger>)
+setTitle("LV Exchanegr")
+setDescription("A neat way to build.")
+
+addParent("triumph:level_3/capacitor_lv")
+
+criteria = addCriteria("lv_exchanger", "minecraft:inventory_changed")
+criteria.addItem(<exchangers:lv_exchanger>)

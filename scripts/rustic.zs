@@ -42,8 +42,7 @@ recipes.addShapeless(<rustic:fertile_soil>, [<composter:compost>, <ore:mud>, <or
 
 //change string recipe
 recipes.remove(<rustic:rope>);
-recipes.addShaped(<rustic:rope> *4, [[<ore:string>], [<ore:string>], [<ore:string>]]);
-recipes.addShaped(<rustic:rope> *4, [[<ore:cordageGeneral>], [<ore:cordageGeneral>], [<ore:cordageGeneral>]]);
+recipes.addShaped(<rustic:rope> *8, [[<ore:cordageGeneral>], [<ore:cordageGeneral>], [<ore:cordageGeneral>]]);
 
 //change metal chain recipe
 recipes.remove(<rustic:chain>);

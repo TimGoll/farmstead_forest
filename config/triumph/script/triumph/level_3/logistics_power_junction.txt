@@ -1,0 +1,8 @@
+setIcon(<logisticspipes:power_junction>)
+setTitle("Logistics Power Junction")
+setDescription("Place this block connected to your logistics system and supply it with power.")
+
+addParent("triumph:level_3/basic_logistic_pipe")
+
+criteria = addCriteria("power_junction", "minecraft:inventory_changed")
+criteria.addItem(<logisticspipes:power_junction>)

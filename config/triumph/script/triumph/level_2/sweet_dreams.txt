@@ -1,7 +1,0 @@
-setIcon(<minecraft:bed:14>)
-setTitle("Sweet Dreams")
-setDescription("Change your respawn point by sleeping in a bed.")
-
-addParent("triumph:level_2/root")
-
-addCriteria("slept_in_bed", "minecraft:slept_in_bed")

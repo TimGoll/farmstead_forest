@@ -1,6 +1,6 @@
 setIcon(<minecraft:furnace>)
 setTitle("Furnace")
-setDescription("Use rocks and mortar to craft a furnace")
+setDescription("Use rocks and mortar to craft a furnace.")
 
 addParent("triumph:level_0/work_stump")
 

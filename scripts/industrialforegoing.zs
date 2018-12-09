@@ -119,7 +119,7 @@ recipes.remove(<industrialforegoing:tree_fluid_extractor>);
 recipes.addShaped(<industrialforegoing:tree_fluid_extractor>, [[<farmsteadforest:plastic_sheet>, <gadgetrymachines:fluid_tank>, <farmsteadforest:plastic_sheet>], [<farmsteadforest:reinforced_sealant>, <minecraft:furnace>, <farmsteadforest:reinforced_sealant>], [<farmsteadforest:plastic_sheet>, <farmsteadforest:gear_iron>, <farmsteadforest:plastic_sheet>]]);
 
 recipes.remove(<industrialforegoing:latex_processing_unit>);
-recipes.addShaped(<industrialforegoing:latex_processing_unit>, [[<gadgetrymachines:fluid_tank>, <farmsteadforest:reinforced_sealant>, <gadgetrymachines:fluid_tank>], [<industrialforegoing:plastic>, <minecraft:furnace>, <industrialforegoing:plastic>], [<ore:plateIron>, <farmsteadforest:gear_iron>, <ore:plateIron>]]);
+recipes.addShaped(<industrialforegoing:latex_processing_unit>, [[<gadgetrymachines:fluid_tank>, <farmsteadforest:reinforced_sealant>, <gadgetrymachines:fluid_tank>], [<farmsteadforest:plastic_sheet>, <minecraft:furnace>, <farmsteadforest:plastic_sheet>], [<ore:plateIron>, <farmsteadforest:gear_iron>, <ore:plateIron>]]);
 
 recipes.remove(<industrialforegoing:sewage_composter_solidifier>);
 recipes.addShaped(<industrialforegoing:sewage_composter_solidifier>, [[<industrialforegoing:plastic>, <minecraft:furnace>, <industrialforegoing:plastic>], [<minecraft:piston>, <forestry:sturdy_machine>, <minecraft:piston>], [<minecraft:brick>, <gadgetrymachines:fluid_tank>, <minecraft:brick>]]);

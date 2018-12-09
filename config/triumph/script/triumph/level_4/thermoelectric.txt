@@ -1,0 +1,8 @@
+setIcon(<immersiveengineering:metal_device1:3>)
+setTitle("Thermoelectric Generator")
+setDescription("Generate Power with a temperature gradient.")
+
+addParent("triumph:level_4/root")
+
+criteria = addCriteria("thermoelectric", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:metal_device1:3>)

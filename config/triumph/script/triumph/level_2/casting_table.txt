@@ -1,6 +1,6 @@
 setIcon(<tcomplement:porcelain_casting>)
 setTitle("Casting Table")
-setDescription("This is needed to cast ingots and toolparts. [You can use the porcelain or the seared melter]")
+setDescription("This is needed to cast ingots and toolparts. You can use one time use clay casts until you have gold. [You can use the porcelain or the seared melter]")
 
 addParent("triumph:level_2/heater")
 

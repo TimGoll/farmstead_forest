@@ -1,0 +1,8 @@
+setIcon(<extrautils2:filter>)
+setTitle("Filter Items")
+setDescription("Add items to this filter and add it to a item node.")
+
+addParent("triumph:level_2/node_items")
+
+criteria = addCriteria("filteritems", "minecraft:inventory_changed")
+criteria.addItem(<extrautils2:filter>)

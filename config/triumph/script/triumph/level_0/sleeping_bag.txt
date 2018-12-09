@@ -1,0 +1,8 @@
+setIcon(<comforts:sleeping_bag>)
+setTitle("Sleeping Bag")
+setDescription("It's time to sleep.")
+
+addParent("triumph:level_0/work_stump")
+
+criteria = addCriteria("sleeping_bag", "minecraft:inventory_changed")
+criteria.addItem(<comforts:sleeping_bag>)

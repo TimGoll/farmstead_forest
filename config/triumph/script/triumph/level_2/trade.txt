@@ -2,6 +2,6 @@ setIcon(<minecraft:emerald>)
 setTitle("What a Deal!")
 setDescription("Successfully trade with a Villager.")
 
-addParent("triumph:level_2/sweet_dreams")
+addParent("triumph:level_2/root")
 
 addCriteria("traded", "minecraft:villager_trade")

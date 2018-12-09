@@ -1,6 +1,6 @@
 setIcon(<rustic:crushing_tub>)
 setTitle("Crushing Tub")
-setDescription("Crush fruits and poor ores in here. This one is needed to process your poor copper.")
+setDescription("Crush fruits and poor ores in here. This one is needed to process your poor copper. Use a faucet and channels to move liquids to the drying basin.")
 
 addParent("triumph:level_1/saw")
 

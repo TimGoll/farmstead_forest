@@ -12,6 +12,7 @@ mods.immersiveengineering.Crusher.removeRecipe(<immersiveengineering:metal:12>);
 mods.immersiveengineering.Crusher.removeRecipe(<nuclearcraft:dust:3>);
 mods.immersiveengineering.Crusher.removeRecipe(<nuclearcraft:dust:1>);
 mods.immersiveengineering.Crusher.removeRecipe(<immersiveengineering:metal:14>);
+mods.immersiveengineering.Crusher.removeRecipe(<primal:tin_dust>);
 
 //add ore to crushed recipes
 mods.immersiveengineering.Crusher.addRecipe(<farmsteadforest:c_aluminum> *2, <farmsteadforest:o_aluminum>, 2048, <immersiveengineering:metal:18>, 0.1);
@@ -175,3 +176,59 @@ recipes.remove(<ore:oreSilver>);
 recipes.remove(<ore:oreNickel>);
 recipes.remove(<ore:oreMagnesium>);
 recipes.remove(<ore:oreLithium>);
+
+furnace.remove(<notenoughroofs:copper_ingot>);
+
+//problem with unidict copper
+recipes.addShapeless(<immersiveengineering:metal> *9, [<immersiveengineering:storage>]);
+recipes.removeByRecipeName("unidict:ingotcopper_x9_size.1");
+
+
+
+furnace.remove(<minecraft:iron_ingot>, <minecraft:iron_ore>);
+recipes.addShapeless(<farmsteadforest:o_iron>, [<minecraft:iron_ore>]);
+
+furnace.remove(<minecraft:gold_ingot>, <minecraft:gold_ore>);
+recipes.addShapeless(<farmsteadforest:o_gold>, [<minecraft:gold_ore>]);
+
+furnace.remove(<tconstruct:ingots>, <tconstruct:ore>);
+recipes.addShapeless(<farmsteadforest:o_cobalt>, [<tconstruct:ore>]);
+
+furnace.remove(<tconstruct:ingots:1>, <tconstruct:ore:1>);
+recipes.addShapeless(<farmsteadforest:o_ardite>, [<tconstruct:ore:1>]);
+
+furnace.remove(<forestry:ingot_tin>, <forestry:resources:2>);
+recipes.addShapeless(<farmsteadforest:o_tin>, [<forestry:resources:2>]);
+
+furnace.remove(<nuclearcraft:ingot:3>, <nuclearcraft:ore:3>);
+recipes.addShapeless(<farmsteadforest:o_thorium>, [<nuclearcraft:ore:3>]);
+
+furnace.remove(<immersiveengineering:metal:5>, <nuclearcraft:ore:4>);
+recipes.addShapeless(<farmsteadforest:o_uranium>, [<nuclearcraft:ore:4>]);
+
+furnace.remove(<nuclearcraft:ingot:5>, <nuclearcraft:ore:5>);
+recipes.addShapeless(<farmsteadforest:o_boron>, [<nuclearcraft:ore:5>]);
+
+furnace.remove(<nuclearcraft:ingot:6>, <nuclearcraft:ore:6>);
+recipes.addShapeless(<farmsteadforest:o_lithium>, [<nuclearcraft:ore:6>]);
+
+furnace.remove(<nuclearcraft:ingot:7>, <nuclearcraft:ore:7>);
+recipes.addShapeless(<farmsteadforest:o_magnesium>, [<nuclearcraft:ore:7>]);
+
+furnace.remove(<immersiveengineering:metal>, <immersiveengineering:ore>);
+recipes.addShapeless(<farmsteadforest:o_copper>, [<immersiveengineering:ore>]);
+
+furnace.remove(<immersiveengineering:metal:1>, <immersiveengineering:ore:1>);
+recipes.addShapeless(<farmsteadforest:o_aluminum>, [<immersiveengineering:ore:1>]);
+
+furnace.remove(<immersiveengineering:metal:2>, <immersiveengineering:ore:2>);
+recipes.addShapeless(<farmsteadforest:o_lead>, [<immersiveengineering:ore:2>]);
+
+furnace.remove(<immersiveengineering:metal:3>, <immersiveengineering:ore:3>);
+recipes.addShapeless(<farmsteadforest:o_silver>, [<immersiveengineering:ore:3>]);
+
+furnace.remove(<immersiveengineering:metal:4>, <immersiveengineering:ore:4>);
+recipes.addShapeless(<farmsteadforest:o_nickel>, [<immersiveengineering:ore:4>]);
+
+furnace.remove(<thaumcraft:quicksilver>, <thaumcraft:ore_cinnabar>);
+recipes.addShapeless(<farmsteadforest:o_cinnabar>, [<thaumcraft:ore_cinnabar>]);

@@ -1,6 +1,6 @@
 setIcon(<primal:logs_stacked:3>)
 setTitle("Stacked Logs")
-setDescription("Build a stock out of chopped logs to be burned into charcoal.")
+setDescription("Build a stock out of chopped logs to be burned into charcoal. Be careful, the log stacks must be completely surrounded by dirt.")
 
 addParent("triumph:level_1/wood")
 

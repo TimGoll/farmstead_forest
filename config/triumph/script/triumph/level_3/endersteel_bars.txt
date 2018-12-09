@@ -1,0 +1,8 @@
+setIcon(<soulus:bars_endersteel>)
+setTitle("Endersteel Bars")
+setDescription("Needed to craft summoners and to build multiblock structures.")
+
+addParent("triumph:level_3/ender_dust")
+
+criteria = addCriteria("bars_endersteel", "minecraft:inventory_changed")
+criteria.addItem(<soulus:bars_endersteel>)

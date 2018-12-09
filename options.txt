@@ -2,7 +2,7 @@ version:1343
 invertYMouse:false
 mouseSensitivity:0.5
 fov:0.0
-gamma:-0.356
+gamma:-0.5
 saturation:0.0
 renderDistance:10
 guiScale:3
@@ -14,7 +14,7 @@ fboEnable:true
 difficulty:2
 fancyGraphics:true
 ao:2
-renderClouds:false
+renderClouds:true
 resourcePacks:["FarmsteadForestResources.zip"]
 incompatibleResourcePacks:[]
 lastServer:localhost
@@ -89,16 +89,6 @@ key_of.key.zoom:46
 key_Change Caster Focus:0
 key_Misc Caster Toggle:0
 key_keybind.baublesinventory:0
-key_quark.keybind.dropoff:0
-key_quark.keybind.changeHotbar:44
-key_quark.keybind.chestSort:0
-key_quark.keybind.chestDropoff:0
-key_quark.keybind.chestMerge:0
-key_quark.keybind.chestRestock:0
-key_quark.keybind.chestExtract:0
-key_quark.keybind.playerSort:0
-key_quark.keybind.lockBuilding:37
-key_quark.keybind.toggleAutojump:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -111,9 +101,24 @@ key_quark.emote.shrug:0
 key_quark.emote.headbang:0
 key_quark.emote.weep:0
 key_quark.emote.facepalm:0
+key_quark.emote.dance:0
+key_quark.emote.tpose:0
+key_quark.emote.dab:0
+key_quark.emote.jet:0
+key_quark.emote.exorcist:0
+key_quark.emote.zombie:0
+key_quark.keybind.toggleAutojump:0
+key_quark.keybind.lockBuilding:37
+key_quark.keybind.dropoff:0
+key_quark.keybind.changeHotbar:44
+key_quark.keybind.chestSort:0
+key_quark.keybind.chestDropoff:0
+key_quark.keybind.chestMerge:0
+key_quark.keybind.chestRestock:0
+key_quark.keybind.chestExtract:0
 key_key.betterfoliage.gui:66
 key_key.conarm.toggle_helm.desc:34
-key_key.conarm.toggle_chest.desc:35
+key_key.conarm.toggle_chest.desc:48
 key_key.conarm.toggle_leg.desc:36
 key_key.next_item.desc:0
 key_key.previous_item.desc:0
@@ -125,7 +130,12 @@ key_key.exchanger_force_drop_items:52
 key_key.xu2.searchforitems:20
 key_key.ftbutilities.warp:0
 key_key.ftbutilities.nbt:0
-key_key.wearablebackpacks.open:48
+key_key.inventorysorter.itemout:-201
+key_key.inventorysorter.itemin:-200
+key_key.inventorysorter.sort:-98
+key_key.ironbackpacks.equip:35
+key_key.ironbackpacks.open:23
+key_key.toastcontrol.clear:36
 key_smoothfont.key.guiOpen:199
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
@@ -135,6 +145,8 @@ key_key.jei.showUses:22
 key_key.jei.recipeBack:-97
 key_key.jei.previousPage:201
 key_key.jei.nextPage:209
+key_key.jei.bookmark:30
+key_key.jei.toggleBookmarkOverlay:0
 key_key.immersiveengineering.magnetEquip:31
 key_key.immersiveengineering.chemthrowerSwitch:0
 key_key.carry.desc:42
@@ -166,6 +178,7 @@ key_mod.chiselsandbits.other.offgrid:0
 key_mod.chiselsandbits.other.undo:0
 key_mod.chiselsandbits.other.redo:0
 key_mod.chiselsandbits.other.add_to_clipboard:0
+key_key.toggleCleanView:0
 key_waila.keybind.wailaconfig:82
 key_waila.keybind.wailadisplay:79
 key_waila.keybind.liquid:80
@@ -188,6 +201,10 @@ key_key.craftingtweaks.refill_last:0
 key_key.craftingtweaks.refill_last_stack:0
 key_key.refinedstorage.focusSearchBar:15
 key_key.refinedstorage.clearGridCraftingMatrix:0
+key_key.itemzoom.toggle:44:SHIFT
+key_key.itemzoom.hold:0
+key_key.itemzoom.zoom.in:0
+key_key.itemzoom.zoom.out:0
 key_LevelUpGUI:38
 key_Mo'Bends Menu:0
 key_Quick Commands:83
@@ -204,7 +221,7 @@ key_key.control:0
 soundCategory_master:0.5070422
 soundCategory_music:0.0
 soundCategory_record:1.0
-soundCategory_weather:0.5070422
+soundCategory_weather:1.0
 soundCategory_block:1.0
 soundCategory_hostile:1.0
 soundCategory_neutral:1.0

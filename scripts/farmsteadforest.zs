@@ -93,7 +93,7 @@ recipes.addShapeless(<farmsteadforest:coal_dust>, [<immersiveengineering:tool>, 
 recipes.addShapeless(<farmsteadforest:charcoal_dust>, [<immersiveengineering:tool>, <ore:charcoal>]);
 
 //resin
-recipes.addShapeless(<farmsteadforest:natural_epoxy>, [<farmsteadforest:charcoal_dust>, <farmsteadforest:resin>, <farmsteadforest:resin>]);
+recipes.addShapeless(<farmsteadforest:natural_epoxy> *2, [<farmsteadforest:charcoal_dust>, <farmsteadforest:resin>, <farmsteadforest:resin>]);
 recipes.addShaped(<primal:torch_wood> *2, [[<farmsteadforest:resin>], [<ore:cordageGeneral>], [<ore:stickWood>]]);
 recipes.addShaped(<gardenstuff:candelabra> *2, [[<minecraft:string>], [<farmsteadforest:resin>], [<farmsteadforest:resin>]]);
 <ore:slimeball>.add(<farmsteadforest:natural_epoxy>);
@@ -149,7 +149,7 @@ mods.primal.Cauldron.addRecipe(
 
 mods.primal.Smelter.addRecipe(
     "poor_copper_to_ingot", 
-    10, 
+    3, 
     [<farmsteadforest:dust_tiny_copper>, <primal:charcoal_mote> *5], 
     [<immersiveengineering:metal:20> *3, <primal:slag>]
 );
@@ -213,8 +213,10 @@ mods.primal.Cauldron.addRecipe(
     [<farmsteadforest:thatching_sticky>]
 );
 
+recipes.addShapeless(<farmsteadforest:thatching_sticky>, [<primal:thatching_dry>, <farmsteadforest:resin>, <primal:thatching_dry>]);
+
 //waxed paper
-recipes.addShapeless(<farmsteadforest:waxed_paper>, [<minecraft:paper>, <primal:tallow>]);
+recipes.addShapeless(<farmsteadforest:waxed_paper> *2, [<minecraft:paper>, <primal:tallow>, <minecraft:paper>]);
 
 //gears
 recipes.addShaped(<farmsteadforest:gear_wood>, [[null, <ore:stickWood>, null], [<ore:stickWood>, null, <ore:stickWood>], [null, <ore:stickWood>, null]]);

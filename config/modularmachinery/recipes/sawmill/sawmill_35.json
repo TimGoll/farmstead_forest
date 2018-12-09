@@ -1,0 +1,30 @@
+{
+    "machine": "sawmill",
+    "registryName": "dead_wppd",
+    "recipeTime": 80,
+    "requirements": [
+		{
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 45
+        },
+		{
+			"type": "item",
+			"io-type": "input",
+			"item": "biomesoplenty:log_4@5"
+		},
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:stick@0",
+			"amount": 16
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "farmsteadforest:sawdust@0",
+			"amount": 2,
+			"chance": 1
+        }
+    ]
+}

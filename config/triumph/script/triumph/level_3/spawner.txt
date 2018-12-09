@@ -1,0 +1,8 @@
+setIcon(<soulus:summoner>)
+setTitle("Empty Summoner")
+setDescription("An empty shell. YOu have to stand close to spawn mobs.")
+
+addParent("triumph:level_3/endersteel_bars")
+
+criteria = addCriteria("summoner", "minecraft:inventory_changed")
+criteria.addItem(<soulus:summoner:0>)

@@ -1,0 +1,8 @@
+setIcon(<logisticspipes:module_item_sink>)
+setTitle("ItemSink Module")
+setDescription("Inserted into a chassis pipe, this will will allow the system to insert specific items into the adjacent inventoy. It can have a whileist or be the default route for everything else. If you have multiple default routes, the one with the shortest route will be chosen.")
+
+addParent("triumph:level_3/logistic_chassis_mk2")
+
+criteria = addCriteria("module_item_sink", "minecraft:inventory_changed")
+criteria.addItem(<logisticspipes:module_item_sink>)

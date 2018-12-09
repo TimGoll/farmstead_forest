@@ -1,0 +1,8 @@
+setIcon(<logisticspipes:pipe_transport_basic>)
+setTitle("Unrouted Transport Pipe")
+setDescription("Your basic transport pipe. Items will travel through them, but you'll run into problems at intersections.")
+
+addParent("triumph:level_3/atomic_reconstructor")
+
+criteria = addCriteria("pipe_transport_basic", "minecraft:inventory_changed")
+criteria.addItem(<logisticspipes:pipe_transport_basic>)

@@ -52,7 +52,7 @@ recipes.remove(<gadgetrymachines:ranged_collector>);
 recipes.addShaped(<gadgetrymachines:ranged_collector>, [[<ore:ingotIron>, <minecraft:ender_pearl>, <ore:ingotIron>], [<ore:ingotIron>, <ore:chest>, <ore:ingotIron>], [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]]);
 
 recipes.remove(<gadgetrymachines:fluid_tank>);
-recipes.addShaped(<gadgetrymachines:fluid_tank>, [[<extrautils2:decorativeglass>, <farmsteadforest:reinforced_sealant>, <extrautils2:decorativeglass>], [<extrautils2:decorativeglass>, null, <extrautils2:decorativeglass>], [<extrautils2:decorativeglass>, <farmsteadforest:reinforced_sealant>, <extrautils2:decorativeglass>]]);
+recipes.addShaped(<gadgetrymachines:fluid_tank>, [[<extrautils2:decorativeglass>, <extrautils2:decorativeglass>, <extrautils2:decorativeglass>], [<extrautils2:decorativeglass>, null, <extrautils2:decorativeglass>], [<extrautils2:decorativeglass>, <extrautils2:decorativeglass>, <extrautils2:decorativeglass>]]);
 
 recipes.remove(<gadgetrytransmission:energy_cable>);
 recipes.addShaped(<gadgetrytransmission:energy_cable> *8, [[<ore:ingotRedmetal>], [<ore:dustRedstone>], [<ore:ingotRedmetal>]]);

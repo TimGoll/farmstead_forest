@@ -116,3 +116,7 @@ recipes.addShapeless(<harvestcraft:oliveoilitem>, [<harvestcraft:juiceritem>, <p
 //fresh water
 recipes.removeByRecipeName("harvestcraft:freshwateritem_listallwater");
 recipes.addShapeless(<harvestcraft:freshwateritem>, [<ceramics:clay_bucket>.withTag({fluids: {FluidName: "water", Amount: 1000}})]);
+
+//wax recipes
+recipes.remove(<harvestcraft:beeswaxitem>);
+recipes.addShapeless(<harvestcraft:beeswaxitem> *9, [<harvestcraft:pressedwax>]);

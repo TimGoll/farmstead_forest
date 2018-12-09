@@ -1,0 +1,11 @@
+setIcon(<naturesaura:gold_fiber>)
+setTitle("Brilliant Fiber")
+setDescription("This fiber makes leaves golden.")
+
+addParent("triumph:level_1/wood")
+
+criteria = addCriteria("gold_fiber", "minecraft:inventory_changed")
+criteria.addItem(<naturesaura:gold_fiber>)
+
+setFrameType("GOAL")
+setRewardItem(<patchouli:guide_book, nbt:{"patchouli:book": "naturesaura:book"}>)

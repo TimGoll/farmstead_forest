@@ -1,0 +1,8 @@
+setIcon(<soulus:emerald_burnt>)
+setTitle("Burned Emerald")
+setDescription("Why would you do this?")
+
+addParent("triumph:level_3/spawner")
+
+criteria = addCriteria("emerald_burnt", "minecraft:inventory_changed")
+criteria.addItem(<soulus:emerald_burnt>)

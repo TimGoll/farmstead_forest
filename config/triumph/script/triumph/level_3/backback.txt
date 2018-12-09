@@ -1,0 +1,8 @@
+setIcon(<conarm:travel_sack>)
+setTitle("Traveller's Knapsack")
+setDescription("A backback, which can be connected to your chestplate and is per default opened by pressing B.")
+
+addParent("triumph:level_3/armor_forge")
+
+criteria = addCriteria("travel_sack", "minecraft:inventory_changed")
+criteria.addItem(<conarm:travel_sack>)

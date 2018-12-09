@@ -1,6 +1,7 @@
 <ore:powderBlaze>.add(<minecraft:blaze_powder>);
 <ore:materialEnderPearl>.add(<minecraft:ender_pearl>);
 <ore:pearlEnderEye>.add(<minecraft:ender_eye>);
+<ore:red_sandstone>.add(<minecraft:red_sandstone>);
 
 //changing default recipes
 recipes.remove(<minecraft:shears>);
@@ -83,7 +84,6 @@ recipes.addShaped(<minecraft:string>, [[null, <minecraft:reeds>], [<minecraft:re
 recipes.addShaped(<minecraft:waterlily> * 3, [[<minecraft:wheat_seeds>, null, <minecraft:wheat_seeds>], [<minecraft:wheat_seeds>, <ore:dyeWhite>, <minecraft:wheat_seeds>], [<minecraft:wheat_seeds>, <minecraft:wheat_seeds>, <minecraft:wheat_seeds>]]);
 recipes.addShaped(<minecraft:mycelium>, [[null, <ore:listAllmushroom>, null], [<ore:dyeWhite>, <ore:podzol>, <ore:dyeWhite>]]);
 recipes.addShaped(<minecraft:red_sandstone> * 8, [[<ore:sandstone>, <ore:sandstone>, <ore:sandstone>], [<ore:sandstone>, <ore:dyeRed>, <ore:sandstone>], [<ore:sandstone>, <ore:sandstone>, <ore:sandstone>]]);
-recipes.remove(<minecraft:sandstone>);
 recipes.addShaped(<minecraft:sandstone> * 8, [[<ore:red_sandstone>, <ore:red_sandstone>, <ore:red_sandstone>], [<ore:red_sandstone>, <ore:dyeYellow>, <ore:red_sandstone>], [<ore:red_sandstone>, <ore:red_sandstone>, <ore:red_sandstone>]]);
 recipes.addShaped(<minecraft:glowstone_dust>, [[<ore:dyeYellow>, <ore:dustRedstone>], [<ore:dustRedstone>, <ore:dustDiamond>]]);
 //recipes.addShaped(<minecraft:skull:5>, [[null, <minecraft:name_tag>, null], [<minecraft:ender_eye>, <ore:blockWoolGray>, <ore:rodBlaze>], [null, <industrialforegoing:mob_imprisonment_tool>, null]]);
@@ -134,3 +134,4 @@ mods.jei.JEI.hide(<minecraft:command_block_minecart>);
 //remove leather recipes in favor of primal crafting way
 recipes.remove(<minecraft:leather>);
 furnace.remove(<minecraft:leather>);
+

@@ -1,0 +1,8 @@
+setIcon(<logisticspipes:pipe_crafting>)
+setTitle("Crafting Logistics Pipe")
+setDescription("Besides the general purose chassis pipes, there are specific pipes like this one which allows you to connect a crafter to your system.")
+
+addParent("triumph:level_3/logistic_request_table")
+
+criteria = addCriteria("pipe_crafting", "minecraft:inventory_changed")
+criteria.addItem(<logisticspipes:pipe_crafting:0>)

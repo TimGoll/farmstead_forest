@@ -1,0 +1,8 @@
+setIcon(<primal_tech:wooden_hopper>)
+setTitle("Wooden Hopper")
+setDescription("Use a few of them to autmate your saw. It pulls items from inventories and items dropped on top of it.")
+
+addParent("triumph:level_1/saw")
+
+criteria = addCriteria("wooden_hopper", "minecraft:inventory_changed")
+criteria.addItem(<primal_tech:wooden_hopper>)

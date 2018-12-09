@@ -1,0 +1,8 @@
+setIcon(<soulus:orb_murky, meta:0, nbt:{essence_quantity:128}>)
+setTitle("Murky Orb")
+setDescription("Add it to a summoner to increase its spawn range.")
+
+addParent("triumph:level_3/spawner")
+
+criteria = addCriteria("orb_murky", "minecraft:inventory_changed")
+criteria.addItem(<soulus:orb_murky>)

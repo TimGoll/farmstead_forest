@@ -1,0 +1,8 @@
+setIcon(<soulus:gear_oscillating>)
+setTitle("Oscillating Gear")
+setDescription("Add it to a summoner to increase its spawn speed.")
+
+addParent("triumph:level_3/spawner")
+
+criteria = addCriteria("gear_oscillating", "minecraft:inventory_changed")
+criteria.addItem(<soulus:gear_oscillating>)

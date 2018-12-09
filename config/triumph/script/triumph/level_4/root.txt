@@ -1,0 +1,9 @@
+setIcon(<immersiveengineering:metal_decoration0:3>)
+setTitle("Tech Up!")
+setDescription("With all this power and autocrafting setups it's time to start getting into the bigger things.")
+setBackground("immersiveengineering:textures/blocks/sheetmetal_uranium.png")
+setShowToast(false)
+setAnnounceToChat(false)
+
+criteria = addCriteria("completed_level_3", "triumph:completed_advancement")
+criteria.setString("triumph:level_3/logistic_satellite_pipe")

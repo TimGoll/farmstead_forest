@@ -1,0 +1,8 @@
+setIcon(<danknull:danknull_dock>)
+setTitle("/dank/null/ Docking Station")
+setDescription("Interface between your /dank/null/ and your inventory management system.")
+
+addParent("triumph:level_2/dank_null")
+
+criteria = addCriteria("danknull_dock", "minecraft:inventory_changed")
+criteria.addItem(<danknull:danknull_dock>)

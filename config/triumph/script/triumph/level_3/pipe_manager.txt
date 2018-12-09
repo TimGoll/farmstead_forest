@@ -1,0 +1,8 @@
+setIcon(<logisticspipes:pipe_manager>)
+setTitle("Pipe Manager")
+setDescription("The 'wrench' of logistics pipes. It allows you to edit the module configs inside of chassis and other pipes.")
+
+addParent("triumph:level_3/logistic_request_table")
+
+criteria = addCriteria("pipe_manager", "minecraft:inventory_changed")
+criteria.addItem(<logisticspipes:pipe_manager>)

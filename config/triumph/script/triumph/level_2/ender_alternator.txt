@@ -1,0 +1,8 @@
+setIcon(<extendedcrafting:ender_alternator>)
+setTitle("Ender Alternator")
+setDescription("At least one alternator is needed to power your ender crafter.")
+
+addParent("triumph:level_2/ender_crafter")
+
+criteria = addCriteria("ender_alternator", "minecraft:inventory_changed")
+criteria.addItem(<extendedcrafting:ender_alternator>)

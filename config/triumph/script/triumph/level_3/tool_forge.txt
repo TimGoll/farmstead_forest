@@ -1,0 +1,8 @@
+setIcon(<tconstruct:toolforge>)
+setTitle("Tool Forge")
+setDescription("Build bigger tools in here.")
+
+addParent("triumph:level_3/ingot_steel")
+
+criteria = addCriteria("toolforge", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:toolforge:0>)

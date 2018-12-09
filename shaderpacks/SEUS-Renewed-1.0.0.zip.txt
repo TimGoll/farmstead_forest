@@ -1,0 +1,2 @@
+#Mon Dec 03 14:59:23 CET 2018
+MOTION_BLUR=false

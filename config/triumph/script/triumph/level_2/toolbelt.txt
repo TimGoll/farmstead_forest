@@ -1,0 +1,8 @@
+setIcon(<toolbelt:belt:0>)
+setTitle("Tool Belt")
+setDescription("This handy thing helps you to keep your inventory organised. Add tools and switch through them by presssing X.")
+
+addParent("triumph:level_2/ingot_iron")
+
+criteria = addCriteria("toolbelt", "minecraft:inventory_changed")
+criteria.addItem(<toolbelt:belt:0>)

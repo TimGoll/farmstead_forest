@@ -1,0 +1,8 @@
+setIcon(<feederhelmet:feeder_helmet_module>)
+setTitle("Feeder Helmet Module")
+setDescription("Add this to a helmet to automatically feed you with food from your inventory. It destroys the helmet over time.")
+
+addParent("triumph:level_2/chestplate_finished")
+
+criteria = addCriteria("feeder_helmet_module", "minecraft:inventory_changed")
+criteria.addItem(<feederhelmet:feeder_helmet_module>)

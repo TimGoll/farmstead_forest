@@ -84,6 +84,17 @@ recipes.addShapeless(<extrautils2:ironwood_planks:1> *2, [<extrautils2:ironwood_
 recipes.addShapeless(<naturesaura:ancient_planks> *2, [<naturesaura:ancient_bark>]);
 recipes.addShapeless(<naturesaura:ancient_planks> *2, [<naturesaura:ancient_log>]);
 
+
+recipes.addShapeless(<minecraft:planks:0> *2, [<primal:logs_stripped>]);
+recipes.addShapeless(<minecraft:planks:1> *2, [<primal:logs_stripped:1>]);
+recipes.addShapeless(<minecraft:planks:2> *2, [<primal:logs_stripped:2>]);
+recipes.addShapeless(<minecraft:planks:3> *2, [<primal:logs_stripped:3>]);
+recipes.addShapeless(<minecraft:planks:4> *2, [<primal:logs_stripped:4>]);
+recipes.addShapeless(<minecraft:planks:5> *2, [<primal:logs_stripped:5>]);
+recipes.addShapeless(<primal:planks:0> *2, [<primal:logs_stripped:6>]);
+recipes.addShapeless(<primal:planks:1> *2, [<primal:logs_stripped:7>]);
+recipes.addShapeless(<primal:planks:3> *1, [<primal:corypha_stalk:1>]);
+
 <ore:plankWoodDefault>.add(<minecraft:planks:0>);
 <ore:plankWoodDefault>.add(<minecraft:planks:1>);
 <ore:plankWoodDefault>.add(<minecraft:planks:2>);
@@ -117,6 +128,10 @@ recipes.addShapeless(<naturesaura:ancient_planks> *2, [<naturesaura:ancient_log>
 <ore:plankWood>.add(<immersiveengineering:treated_wood:1>);
 <ore:plankWood>.add(<immersiveengineering:treated_wood:2>);
 
+<ore:plankWood>.add(<naturesaura:ancient_planks>);
+<ore:stairWood>.add(<naturesaura:ancient_stairs>);
+<ore:slabWood>.add(<naturesaura:ancient_slab>);
+
 <ore:plankIronwood>.add(<rustic:planks:1>);
 
 recipes.remove(<minecraft:stick>);
@@ -134,3 +149,6 @@ recipes.addShaped(<primal:yew_stick> *2, [[<ore:plankYew>], [<ore:plankYew>]]);
 recipes.addShaped(<primal:ironwood_stick> *2, [[<ore:plankIronwood>], [<ore:plankIronwood>]]);
 recipes.addShaped(<immersiveengineering:material> *2, [[<ore:plankTreatedWood>], [<ore:plankTreatedWood>]]);
 recipes.addShaped(<naturesaura:ancient_stick> *2, [[<naturesaura:ancient_planks>], [<naturesaura:ancient_planks>]]);
+
+
+recipes.addShaped(<minecraft:stick> *4, [[<biomesoplenty:log_4:5>]]);

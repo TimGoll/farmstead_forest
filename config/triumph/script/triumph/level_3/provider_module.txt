@@ -1,0 +1,8 @@
+setIcon(<logisticspipes:module_provider>)
+setTitle("Provider Module")
+setDescription("Inserted into a chassis pipe, this will provide all items in the adjacent inventory to your system.")
+
+addParent("triumph:level_3/logistic_chassis_mk2")
+
+criteria = addCriteria("module_provider", "minecraft:inventory_changed")
+criteria.addItem(<logisticspipes:module_provider>)

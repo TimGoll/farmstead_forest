@@ -1,0 +1,8 @@
+setIcon(<logisticspipes:pipe_basic>)
+setTitle("Basic Logistics Pipe")
+setDescription("Your basic logistics pipe. You don't need to use them everywhere, but they are mendatory for intersections.")
+
+addParent("triumph:level_3/unrouted_transport_pipe")
+
+criteria = addCriteria("pipe_basic", "minecraft:inventory_changed")
+criteria.addItem(<logisticspipes:pipe_basic>)

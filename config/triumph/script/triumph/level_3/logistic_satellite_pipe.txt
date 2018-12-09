@@ -1,0 +1,10 @@
+setIcon(<logisticspipes:pipe_satellite>)
+setTitle("Logistics Satellite Pipe")
+setDescription("Make your auto crafting setups way more powerful!")
+
+addParent("triumph:level_3/logistic_crafting_table")
+
+criteria = addCriteria("pipe_satellite", "minecraft:inventory_changed")
+criteria.addItem(<logisticspipes:pipe_satellite>)
+
+setFrameType("CHALLENGE")

@@ -69,7 +69,7 @@
 				{
 					"name": "minecraft:air",
 					"amount": "0",
-					"weight": 150
+					"weight": 80
 				}
 			]
 		}

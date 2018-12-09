@@ -1,0 +1,13 @@
+setIcon(<ceramics:channel>)
+setTitle("Channel")
+setDescription("Use this to transport fluids and put them into inventories. [You can use the porcelain or the seared channel]")
+
+addParent("triumph:level_1/faucet")
+
+criteria = addCriteria("porcelain_casting_channel", "minecraft:inventory_changed")
+criteria.addItem(<ceramics:channel>)
+
+criteria = addCriteria("seared_casting_channel", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:channel>)
+
+setRequirements("any")

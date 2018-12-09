@@ -1,6 +1,6 @@
 setIcon(<primal_tech:water_saw>)
 setTitle("Water Powered Saw")
-setDescription("Get a higher yield of every piece of wood.")
+setDescription("Get a higher yield of every piece of wood. Put it of top of a flowing sourceblock. It is placed correctly when the arms start to rotate.")
 
 addParent("triumph:level_1/wood")
 

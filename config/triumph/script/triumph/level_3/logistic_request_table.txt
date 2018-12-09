@@ -1,0 +1,8 @@
+setIcon(<logisticspipes:pipe_request_table>)
+setTitle("Logistics Request Pipe")
+setDescription("Your interface to the system.")
+
+addParent("triumph:level_3/basic_logistic_pipe")
+
+criteria = addCriteria("pipe_request_table", "minecraft:inventory_changed")
+criteria.addItem(<logisticspipes:pipe_request_table>)

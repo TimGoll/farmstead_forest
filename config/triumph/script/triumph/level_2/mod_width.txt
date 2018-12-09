@@ -1,0 +1,8 @@
+setIcon(<tconstruct:materials:12>)
+setTitle("Expander Horizontal")
+setDescription("Expand the area of affect of your chisel. Works with other AOE tools too.")
+
+addParent("triumph:level_2/chisel")
+
+criteria = addCriteria("tc_width++", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:materials:12>)

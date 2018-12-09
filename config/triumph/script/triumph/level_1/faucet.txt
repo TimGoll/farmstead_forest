@@ -1,0 +1,13 @@
+setIcon(<ceramics:faucet>)
+setTitle("Faucet")
+setDescription("Use this to get fluids out of inventories. [You can use the porcelain or the seared faucet]")
+
+addParent("triumph:level_1/water_collector")
+
+criteria = addCriteria("porcelain_casting_faucet", "minecraft:inventory_changed")
+criteria.addItem(<ceramics:faucet>)
+
+criteria = addCriteria("seared_casting_faucet", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:faucet>)
+
+setRequirements("any")

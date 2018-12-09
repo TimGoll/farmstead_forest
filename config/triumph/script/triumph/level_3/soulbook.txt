@@ -1,0 +1,8 @@
+setIcon(<soulus:soulbook, meta:0, nbt:{essence_quantity:16,essence_type:"minecraft:cave_spider"}>)
+setTitle("Soulbook")
+setDescription("Load this book with souls. You can insert it into your summoner to start spawning mobs.")
+
+addParent("triumph:level_3/spawner")
+
+criteria = addCriteria("soulbook", "minecraft:inventory_changed")
+criteria.addItem(<soulus:soulbook>)

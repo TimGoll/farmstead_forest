@@ -129,3 +129,6 @@ mods.immersiveengineering.Crusher.addRecipe(<nuclearcraft:part:6>, <ore:sugarcan
 mods.immersiveengineering.Crusher.addRecipe(<nuclearcraft:ground_cocoa_nibs>, <nuclearcraft:roasted_cocoa_beans>, 2048);
 mods.immersiveengineering.Crusher.addRecipe(<nuclearcraft:gelatin>, <ore:listAllmeatraw>, 2048);
 mods.immersiveengineering.Crusher.addRecipe(<nuclearcraft:gelatin>, <ore:listAllfishraw>, 2048);
+
+//disable steel from alloying
+mods.tconstruct.Alloy.removeRecipe(<liquid:steel>);

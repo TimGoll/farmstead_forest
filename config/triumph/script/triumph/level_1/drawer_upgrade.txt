@@ -1,0 +1,8 @@
+setIcon(<storagedrawers:upgrade_template>)
+setTitle("Upgrade Template")
+setDescription("The base of every drawer upgrade.")
+
+addParent("triumph:level_1/drawer")
+
+criteria = addCriteria("upgrade_template", "minecraft:inventory_changed")
+criteria.addItem(<storagedrawers:upgrade_template>)

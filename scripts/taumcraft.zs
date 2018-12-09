@@ -7,4 +7,4 @@
 <ore:ingotBrass>.remove(<quacklib:component:22>);
 mods.jei.JEI.hide(<quacklib:component:22>);
 
-//TODO: plates
+mods.immersiveengineering.AlloySmelter.removeRecipe(<thaumcraft:ingot:2>);

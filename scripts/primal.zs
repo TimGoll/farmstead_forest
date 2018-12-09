@@ -35,16 +35,20 @@ recipes.removeShaped(<minecraft:cobblestone>);
 recipes.addShaped(<minecraft:cobblestone> *4, [[<primal:rock_stone>, <primal:mortar>, <primal:rock_stone>], [<primal:mortar>, <primal:rock_stone>, <primal:mortar>], [<primal:rock_stone>, <primal:mortar>, <primal:rock_stone>]]);
 
 recipes.removeShaped(<minecraft:stone:5>);
-recipes.addShaped(<minecraft:stone:5>, [[<primal:rock_andesite>, <primal:mortar>, <primal:rock_andesite>], [<primal:mortar>, <primal:rock_andesite>, <primal:mortar>], [<primal:rock_andesite>, <primal:mortar>, <primal:rock_andesite>]]);
+recipes.addShaped(<minecraft:stone:5> *4, [[<primal:rock_andesite>, <primal:mortar>, <primal:rock_andesite>], [<primal:mortar>, <primal:rock_andesite>, <primal:mortar>], [<primal:rock_andesite>, <primal:mortar>, <primal:rock_andesite>]]);
 
 recipes.removeShaped(<minecraft:stone:3>);
-recipes.addShaped(<minecraft:stone:3>, [[<primal:rock_diorite>, <primal:mortar>, <primal:rock_diorite>], [<primal:mortar>, <primal:rock_diorite>, <primal:mortar>], [<primal:rock_diorite>, <primal:mortar>, <primal:rock_diorite>]]);
+recipes.addShaped(<minecraft:stone:3> *4, [[<primal:rock_diorite>, <primal:mortar>, <primal:rock_diorite>], [<primal:mortar>, <primal:rock_diorite>, <primal:mortar>], [<primal:rock_diorite>, <primal:mortar>, <primal:rock_diorite>]]);
 
 recipes.removeShaped(<minecraft:stone:1>);
-recipes.addShaped(<minecraft:stone:1>, [[<primal:rock_granite>, <primal:mortar>, <primal:rock_granite>], [<primal:mortar>, <primal:rock_granite>, <primal:mortar>], [<primal:rock_granite>, <primal:mortar>, <primal:rock_granite>]]);
+recipes.addShaped(<minecraft:stone:1> *4, [[<primal:rock_granite>, <primal:mortar>, <primal:rock_granite>], [<primal:mortar>, <primal:rock_granite>, <primal:mortar>], [<primal:rock_granite>, <primal:mortar>, <primal:rock_granite>]]);
 
 recipes.removeShaped(<minecraft:netherrack>);
-recipes.addShaped(<minecraft:netherrack>, [[<primal:rock_netherrack>, <primal:mortar>, <primal:rock_netherrack>], [<primal:mortar>, <primal:rock_netherrack>, <primal:mortar>], [<primal:rock_netherrack>, <primal:mortar>, <primal:rock_netherrack>]]);
+recipes.addShaped(<minecraft:netherrack> *4, [[<primal:rock_netherrack>, <primal:mortar>, <primal:rock_netherrack>], [<primal:mortar>, <primal:rock_netherrack>, <primal:mortar>], [<primal:rock_netherrack>, <primal:mortar>, <primal:rock_netherrack>]]);
+
+//basin
+recipes.remove(<primal:stone_basin>);
+recipes.addShaped(<primal:stone_basin>, [[<ore:rock>, null, <ore:rock>], [null, <ore:rock>, null]]);
 
 //interchange twines
 furnace.addRecipe(<farmsteadforest:hardened_plant_cordage>, <primal:plant_cordage>);
@@ -252,6 +256,16 @@ recipes.replaceAllOccurences(<ore:pinBasic>, <ore:stickWood>);
 
 //remvoe tin dost from oredict
 //<ore:dustTin>.remove(<primal:tin_dust>);
+
+
+recipes.remove(<primal:ironwood_bow>);
+mods.jei.JEI.hide(<primal:ironwood_bow>);
+
+recipes.remove(<primal:yew_bow>);
+mods.jei.JEI.hide(<primal:yew_bow>);
+
+recipes.remove(<primal:corypha_bow>);
+mods.jei.JEI.hide(<primal:corypha_bow>);
 
 //log-plank recipe
 // recipes.remove(<biomesoplenty:planks_0>);

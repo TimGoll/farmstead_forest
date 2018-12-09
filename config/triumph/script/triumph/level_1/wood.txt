@@ -8,4 +8,4 @@ criteria = addCriteria("log_wood", "minecraft:inventory_changed")
 criteria.addItem(<ore:logWood>)
 
 setFrameType("GOAL")
-setRewardItem(<patchouli:guide_book, nbt:{"patchouli:book": "naturesaura:book"}>)
+setRewardItem(<minecraft:sapling, ore:treeSapling, meta:1, count:8>)

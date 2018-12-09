@@ -41,3 +41,5 @@ mods.jei.JEI.hide(<soulus:bark>);
 
 recipes.remove(<soulus:barket>);
 recipes.addShaped(<soulus:barket>, [[<farmsteadforest:bark_fiber>, <farmsteadforest:bark_fiber>], [<farmsteadforest:bark_fiber>, <farmsteadforest:bark_fiber>]]);
+
+recipes.addShapeless(<soulus:ash>, [<ore:ash>]);

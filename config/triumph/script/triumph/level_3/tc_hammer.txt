@@ -1,0 +1,8 @@
+setIcon(<tconstruct:hammer, nbt:{TinkerData: {Materials: ["wood", "iron", "iron", "iron"], Modifiers: ["toolleveling"]}}>)
+setTitle("Hammer")
+setDescription("Mine blocks in an area around you.")
+
+addParent("triumph:level_3/tool_forge")
+
+criteria = addCriteria("tc_hammer", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:hammer>)

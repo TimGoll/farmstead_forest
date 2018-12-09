@@ -1,0 +1,8 @@
+setIcon(<jlgm_chatbox:chatbox>)
+setTitle("Chatbox")
+setDescription("Sends a chatmessage when it gets activated with a redstone signal.")
+
+addParent("triumph:level_2/ingot_iron")
+
+criteria = addCriteria("chatbox", "minecraft:inventory_changed")
+criteria.addItem(<jlgm_chatbox:chatbox>)

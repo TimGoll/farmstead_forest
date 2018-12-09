@@ -1,0 +1,8 @@
+setIcon(<projectred-transmission:wire>)
+setTitle("Red Alloy Wire")
+setDescription("Make your redstone more advanced.")
+
+addParent("triumph:level_2/ingot_iron")
+
+criteria = addCriteria("red_alloy_wire", "minecraft:inventory_changed")
+criteria.addItem(<projectred-transmission:wire>)
