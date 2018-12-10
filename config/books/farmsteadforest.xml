@@ -8,18 +8,23 @@
 		</page>
 		<page>
 			<p space="15" scale="1.5" bold="true" align="center">Index</p>
-			<p><link ref="02_general_info">0. General Information</link></p>
-			<p><link ref="03_getting_started">1. Getting Started</link></p>
-			<p><link ref="04_charcoal">2. Charcoal</link></p>
-			<p><link ref="05_tools">3. Tools</link></p>
-			<p><link ref="06_water">4. Water</link></p>
-			<p><link ref="07_farming">5. Farming</link></p>
-			<p><link ref="08_automated_carts">6. Automated Carts</link></p>
-			<p><link ref="09_automated_farming">7. Advanced Farm Automation</link></p>
+			<p><link ref="general_info">0. General Information</link></p>
+			<p><link ref="getting_started">1. Getting Started</link></p>
+			<p><link ref="charcoal">2. Charcoal</link></p>
+			<p><link ref="primal">3. Early Processing</link></p>
+			<p><link ref="tools">4. Tools</link></p>
+			<p><link ref="water">5. Water</link></p>
+			<p><link ref="farming">6. Farming</link></p>
+			<p><link ref="animals">7. Animals</link></p>
+			<p><link ref="cooking">8. Cooking</link></p>
+			<p><link ref="soulus">9. Soulus</link></p>
+			<p><link ref="automated_carts">10. Automated Carts</link></p>
+			<p><link ref="logistics_pipes">11. Lopistics Pipes</link></p>
+			<p><link ref="automated_farming">12. Advanced Farm Automation</link></p>
 		</page>
 	</chapter>
 	
-	<chapter id="02_general_info">
+	<chapter id="general_info">
 		<page>
 			<p space="15" scale="1.5" bold="true" align="center">Genral Information</p>
 			<p space="10">To help you through the game, a questing system was added in the advancement tree. In the beginnning, basically all major steps are covered to help you not get lost. There are even nice rewards! You open the advancement tree by pressing V.</p>
@@ -28,7 +33,7 @@
 		</page>
 	</chapter>
 	
-	<chapter id="03_getting_started">
+	<chapter id="getting_started">
 		<page>
 			<p space="15" scale="1.5" bold="true" align="center">Getting Started</p>
 			<p space="10">After playing minecraft for years you think you know how to play this game. Use your fist, punch a tree and start your adventure. But this time it is a bit different.</p>
@@ -59,7 +64,7 @@
 	</chapter>
 	
 	
-	<chapter id="04_charcoal">
+	<chapter id="charcoal">
 		<page>
 			<p space="15" scale="1.5" bold="true" align="center">Producing Charcoal</p>
 			<p space="10">For this step you need a few log pieces and a (flint) work blade. Place a piece of log in front of you and sneak right klick a few times on this block with your workblade until the bark is stripped down. Now take your hatchet or axe and sneak right klick this block until it breakes into several small log pieces. You need at least nine of them to progress further.</p>
@@ -103,7 +108,24 @@
 		</page>
 	</chapter>
 	
-	<chapter id="05_tools">
+	<chapter id="primal">
+		<page>
+			<p space="15" scale="1.5" bold="true" align="center">Early Processing</p>
+			<p space="10">Early on you need a cauldron for many crafting recipes. It is crafted by smelting a clay bucket filled with sand.</p>
+			<p><image src="gbook:primal_cauldron" tw="170" th="78" /></p>
+			<p space="15" scale="0.75" align="center" color="#383531">Cauldron with burning block of charcoal underneath.</p>
+			<p space="10">Craft a ladle to check the state of your cauldron (it has to be hot in order to process stuff) and to pull out items. You can pick it up and move it by sneak right klicking it.</p>
+		</page>
+		<page>
+			<p space="10">After creating a good amount of tiny piles of copper dust, you have to smelt it. A (mud) sariras is a great way to do so.</p>
+			<p><image src="gbook:primal_sariras" tw="170" th="78" /></p>
+			<p space="15" scale="0.75" align="center" color="#383531">A few sariras with a closed lid.</p>
+			<p space="10">Throw the needed items into it before closing the lid. Light it up with any burning item.</p>
+			<p space="10">You can check the state of the sariras by sneak righklicking with an empty hand on any side (not the top) of the sariras. Get the finished items by removing the lid and pulling the items out from the top.</p>
+		</page>
+	</chapter>
+	
+	<chapter id="tools">
 		<page>
 			<p space="15" scale="1.5" bold="true" align="center">Tools and Armor</p>
 			<p space="10">First off you have to craft about 15 blank patterns:</p>
@@ -146,7 +168,7 @@
 		</page>
 	</chapter>
 	
-	<chapter id="06_water">
+	<chapter id="water">
 		<page>
 			<p space="15" scale="1.5" bold="true" align="center">Water</p>
 			<p space="10">In this world, water is a finite resource. You are not able to create infinite water sources like you are used to, but there are a few different options throughout your progress. Oceans and rivers have infinite water though.</p>
@@ -177,7 +199,7 @@
 		</page>
 	</chapter>
 	
-	<chapter id="07_farming">
+	<chapter id="farming">
 		<page>
 			<p space="15" scale="1.5" bold="true" align="center">Farming</p>
 			<p space="10">You start of by building your first hoe, probably out of flint. But you need seeds before you can start planting something. Break grass or use your hoe on grassblocks which are far enough away from water blocks.</p>
@@ -286,7 +308,40 @@
 		</page>
 	</chapter>
 	
-	<chapter id="08_automated_carts">
+	<chapter id="animals">
+		<page>
+			<p space="15" scale="1.5" bold="true" align="center">Animals</p>
+			<p space="10">ToDo</p>
+		</page>
+	</chapter>
+	<chapter id="cooking">
+		<page>
+			<p space="15" scale="1.5" bold="true" align="center">Cooking</p>
+			<p space="10">ToDo</p>
+			best start food
+			start with bread
+			salt
+			automation (fishing, ...)
+			Cooking for blockheads
+		</page>
+	</chapter>
+	
+	<chapter id="soulus">
+		<page>
+			<p space="15" scale="1.5" bold="true" align="center">Soulus</p>
+			<p space="10">Soulus is a mod about creating life and then exploiting it. It provides functionality for almost every aspect of mob farms, and late-game functionality for Beyond the Mob Farm.</p>
+			<p space="10">You may want to check out this <link href="https://github.com/Yuudaari/soulus/blob/master/README.md">mod documentation</link>.</p>
+			<p space="10">You start by collecting bone chunks from mob drops or by harvesting fossils in the ground. Stick to the advancements or check out the guide online to learn more.</p>
+		</page>
+		<page>
+			<p><image src="gbook:soulus_composer" tw="170" th="78" /></p>
+			<p space="15" scale="0.75" align="center" color="#383531">Mutiblock structure of the composer.</p>
+			<p space="10">The following blocks are needed to build a composer: 4 Endersteel Blocks, 8 Obsidian Blocks, 9 Composer Cells, 1 Composer, 20 Endersteel Bars</p>
+			<p space="10">If the structure is correct, a connection appears between the composer and the composer cells. You need an animal next to the table.</p>
+		</page>
+	</chapter>
+	
+	<chapter id="automated_carts">
 		<page>
 			<p space="15" scale="1.5" bold="true" align="center">Automated Carts</p>
 			<p space="10">Early on you can start automating the most tasks with Steves Carts. The basic ones are fairly cheap and do not need any power besides sun or coal and drive on normal tracks.</p>
@@ -312,7 +367,14 @@
 		</page>
 	</chapter>
 	
-	<chapter id="09_automated_farming">
+	<chapter id="logistics_pipes">
+		<page>
+			<p space="15" scale="1.5" bold="true" align="center">Logistics Pipes</p>
+			<p space="10">TBD</p>
+		</page>
+	</chapter>
+	
+	<chapter id="automated_farming">
 		<page>
 			<p space="15" scale="1.5" bold="true" align="center">Advanced Farm Automation</p>
 			<p space="10">There's a fancy multiblock structure from forestry to automate your crop and tree farms. Before you start building, you have to decide how big your farm should be. There are 5 different configurations.</p>
@@ -344,92 +406,6 @@
 					<stack item="forestry:book_forester"/>
 				</recipe.result>
 			</recipe>
-		</page>
-	</chapter>
-	<chapter>
-		<page>
-			<p space="15" scale="1.5" bold="true" align="center">Animals</p>
-			<p space="10">ToDo</p>
-		</page>
-	</chapter>
-	<chapter>
-		<page>
-			<p space="15" scale="1.5" bold="true" align="center">Food</p>
-			<p space="10">ToDo</p>
-			best start food
-			start with bread
-			salt
-			automation (fishing, ...)
-			Cooking for blockheads
-		</page>
-	</chapter>
-	<chapter>
-		<page>
-			<p space="15" scale="1.5" bold="true" align="center">Hints and Tricks</p>
-			<p space="12" scale="1.2" bold="true" align="center">Leveling</p>
-			<p space="10">After reaching Level 5 you are able to press the 'L' key and select a profession. This profession defines where you get an XP boost. You can select different attributes and increase your level with your XP points. Your stats are consistant over your death.</p>
-		</page>
-		<page>
-			<p space="12" scale="1.2" bold="true" align="center">Item Storage</p>
-			<p space="10">Especially in modded Minecraft different storage solutions are really important. Alongside the default chests</p>
-			<p space="10">
-				<stack item="minecraft:chest"/>
-				<stack item="quark:custom_chest" meta="0"/>
-				<stack item="quark:custom_chest" meta="1"/>
-				<stack item="quark:custom_chest" meta="2"/>
-				<stack item="quark:custom_chest" meta="3"/>
-				<stack item="quark:custom_chest" meta="4"/>
-			</p>
-			<p space="10">are metal and gem chests with a bigger storage:</p>
-			<p space="10">
-				<stack item="metalchests:metal_chest" meta="0"/>
-				<stack item="metalchests:metal_chest" meta="1"/>
-				<stack item="metalchests:metal_chest" meta="2"/>
-				<stack item="metalchests:metal_chest" meta="3"/>
-				<stack item="metalchests:metal_chest" meta="4"/>
-				<stack item="metalchests:metal_chest" meta="5"/>
-			</p>
-			<p space="10">But there ist more! In this pack are really handy and immersive drawers, like the ones shown here:</p>
-			<p space="10">
-				<stack item="storagedrawers:basicdrawers" meta="0" tag="withTag({material:oak})"/>
-				<stack item="storagedrawers:basicdrawers" meta="1" tag="withTag({material:oak})"/>
-				<stack item="storagedrawers:basicdrawers" meta="2" tag="withTag({material:oak})"/>
-				<stack item="storagedrawers:basicdrawers" meta="3" tag="withTag({material:oak})"/>
-				<stack item="storagedrawers:compdrawers"/>
-				<stack item="compactdrawers:compact_drawer_half"/>
-			</p>
-			Furthermore there is a really powerful digital storage system. The 'Refined Storage'.
-		</page>
-	</chapter>
-	<chapter>
-		<page>
-			<p space="15" scale="1.5" bold="true" align="center">Fluid Storage</p>
-			<p space="10">ToDo</p>
-		</page>
-	</chapter>
-	<chapter>
-		<page>
-			<p space="15" scale="1.5" bold="true" align="center">Item Transportation</p>
-			<p space="10">ToDo</p>
-		</page>
-	</chapter>
-	<chapter>
-		<page>
-			<p space="15" scale="1.5" bold="true" align="center">Refined Storage</p>
-			<p space="10">ToDo</p>
-		</page>
-	</chapter>
-	<chapter>
-		<page>
-			<p space="15" scale="1.5" bold="true" align="center">Further Info</p>
-			<p space="10">You can find further information in these books:</p>
-			<p space="10">
-				<stack item="immersiveengineering:tool" meta="3"/>
-				<stack item="cookingforblockheads:recipe_book" meta="1"/>
-				<stack item="cookingforblockheads:recipe_book" meta="2"/>
-				<stack item="buildcraftlib:guide"/>
-				<stack item="thaumcraft:thaumonomicon"/>
-			</p>
 		</page>
 	</chapter>
 </book>

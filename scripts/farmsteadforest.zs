@@ -24,7 +24,9 @@ mods.primal.Cauldron.addRecipe(
 //mods.unidict.removalByKind.get("Crafting").remove("salt");
 recipes.remove(<harvestcraft:saltitem>);
 furnace.addRecipe(<primal:salt_dust_netjry>, <farmsteadforest:wetsalt>);
-recipes.addShapeless(<farmsteadforest:wetsalt>, [<harvestcraft:potitem>, <ore:listAllwater>]);
+recipes.addShapeless(<farmsteadforest:wetsalt>, [<harvestcraft:potitem>, <minecraft:water_bucket>]);
+recipes.addShapeless(<farmsteadforest:wetsalt>, [<harvestcraft:potitem>, <ceramics:clay_bucket>.withTag({fluids: {FluidName: "water", Amount: 1000}})]);
+recipes.addShapeless(<farmsteadforest:wetsalt>, [<harvestcraft:potitem>, <harvestcraft:freshwateritem>]);
 
 //book
 recipes.addShapeless(<gbook:guidebook>.withTag({Book: "gbook:farmsteadforest.xml"}), [<minecraft:book>, <minecraft:book>]);

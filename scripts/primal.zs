@@ -173,6 +173,14 @@ mods.primal.Cauldron.addRecipe(
     [<ore:itemSalt>], 
     [null]
 );
+mods.primal.Cauldron.addRecipe(
+    "primal:brine_dust_salt_new_wet", 
+    1.0, 
+    <liquid:water> *500, 
+    <liquid:brine_netjry> *500, 
+    [<farmsteadforest:wetsalt>], 
+    [null]
+);
 
 //remove default thin slab recipe
 recipes.remove(<primal:thin_slab_acacia>);

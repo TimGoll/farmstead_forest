@@ -1,6 +1,6 @@
 setIcon(<soulus:dust_ender>)
 setTitle("Ender Dust")
-setDescription("A magic dust from ender bones.")
+setDescription("A magic dust from ender bones. You find more information in the 'Farmstead Forest' book.")
 
 addParent("triumph:level_3/root")
 
