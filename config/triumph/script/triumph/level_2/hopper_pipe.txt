@@ -1,6 +1,6 @@
 setIcon(<inspirations:pipe>)
 setTitle("Hopper Pipe")
-setDescription("Connect these pipes to hoppers to extend their range. You have to start at the destination.")
+setDescription("Connect these pipes to hoppers to extend their range. You have to start at the destination. They only work downhill.")
 
 addParent("triumph:level_2/hopper")
 

@@ -1,8 +1,8 @@
-setIcon(<gadgetrytransmission:item_io>)
-setTitle("Item IO")
+setIcon(<cyclicmagic:item_pump>)
+setTitle("Item Extraction Cable")
 setDescription("Pull from item storage.")
 
 addParent("triumph:level_3/pipe_item")
 
 criteria = addCriteria("item_io", "minecraft:inventory_changed")
-criteria.addItem(<gadgetrytransmission:item_io>)
+criteria.addItem(<cyclicmagic:item_pump>)

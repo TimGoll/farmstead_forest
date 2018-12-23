@@ -1,8 +1,8 @@
-setIcon(<gadgetrytransmission:energy_io>)
-setTitle("Energy IO")
+setIcon(<cyclicmagic:energy_pump>)
+setTitle("Energy Extraction Cable")
 setDescription("Pull from engery storage.")
 
 addParent("triumph:level_3/pipe_energy")
 
 criteria = addCriteria("energy_io", "minecraft:inventory_changed")
-criteria.addItem(<gadgetrytransmission:energy_io>)
+criteria.addItem(<cyclicmagic:energy_pump>)

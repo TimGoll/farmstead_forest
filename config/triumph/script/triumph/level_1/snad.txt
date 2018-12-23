@@ -1,0 +1,8 @@
+setIcon(<justanothersnad:snad>)
+setTitle("Snad")
+setDescription("Speeds up everything that grows on sand.")
+
+addParent("triumph:level_1/wheat")
+
+criteria = addCriteria("snad", "minecraft:inventory_changed")
+criteria.addItem(<justanothersnad:snad>)

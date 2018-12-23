@@ -1,0 +1,11 @@
+setIcon(<integrateddynamics:squeezer>)
+setTitle("Squeezer")
+setDescription("Squeeze menril wood in this machine. You have to jump on it. Reset it with a redstone signal.")
+
+addParent("triumph:level_3/atomic_reconstructor")
+
+criteria = addCriteria("squeezer", "minecraft:inventory_changed")
+criteria.addItem(<integrateddynamics:squeezer>)
+
+setFrameType("GOAL")
+setRewardItem(<integrateddynamics:on_the_dynamics_of_integration>)

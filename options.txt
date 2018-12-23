@@ -89,6 +89,7 @@ key_of.key.zoom:46
 key_Change Caster Focus:0
 key_Misc Caster Toggle:0
 key_keybind.baublesinventory:0
+key_quark.keybind.toggleAutojump:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -107,8 +108,6 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.toggleAutojump:0
-key_quark.keybind.lockBuilding:37
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:44
 key_quark.keybind.chestSort:0
@@ -116,6 +115,7 @@ key_quark.keybind.chestDropoff:0
 key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
+key_quark.keybind.lockBuilding:37
 key_key.betterfoliage.gui:66
 key_key.conarm.toggle_helm.desc:34
 key_key.conarm.toggle_chest.desc:48
@@ -130,9 +130,9 @@ key_key.exchanger_force_drop_items:52
 key_key.xu2.searchforitems:20
 key_key.ftbutilities.warp:0
 key_key.ftbutilities.nbt:0
-key_key.inventorysorter.itemout:-201
 key_key.inventorysorter.itemin:-200
 key_key.inventorysorter.sort:-98
+key_key.inventorysorter.itemout:-201
 key_key.ironbackpacks.equip:35
 key_key.ironbackpacks.open:23
 key_key.toastcontrol.clear:36
@@ -199,8 +199,13 @@ key_key.craftingtweaks.decompressStack:0
 key_key.craftingtweaks.decompressAll:0
 key_key.craftingtweaks.refill_last:0
 key_key.craftingtweaks.refill_last_stack:0
+key_key.keyExtraInvo:45
+key_key.keyWheel:19
+key_key.keyExtraCraftin:46
 key_key.refinedstorage.focusSearchBar:15
 key_key.refinedstorage.clearGridCraftingMatrix:0
+key_key.integrateddynamics.logic_programmer_focus_search:33:ALT
+key_key.integrateddynamics.logic_programmer_open_rename:19:ALT
 key_key.itemzoom.toggle:44:SHIFT
 key_key.itemzoom.hold:0
 key_key.itemzoom.zoom.in:0

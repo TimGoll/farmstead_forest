@@ -38,6 +38,8 @@ recipes.remove(<extrautils2:ironwood_planks:1>);
 
 recipes.remove(<naturesaura:ancient_planks>);
 
+recipes.remove(<integrateddynamics:menril_planks>);
+
 
 //add 1 to 2 recipes
 recipes.addShapeless(<minecraft:planks:0> *2, [<minecraft:log:0>]);
@@ -83,6 +85,8 @@ recipes.addShapeless(<extrautils2:ironwood_planks:1> *2, [<extrautils2:ironwood_
 
 recipes.addShapeless(<naturesaura:ancient_planks> *2, [<naturesaura:ancient_bark>]);
 recipes.addShapeless(<naturesaura:ancient_planks> *2, [<naturesaura:ancient_log>]);
+
+recipes.addShapeless(<integrateddynamics:menril_planks> *2, [<integrateddynamics:menril_log>]);
 
 
 recipes.addShapeless(<minecraft:planks:0> *2, [<primal:logs_stripped>]);

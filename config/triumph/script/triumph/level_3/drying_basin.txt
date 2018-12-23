@@ -1,0 +1,8 @@
+setIcon(<integrateddynamics:drying_basin>)
+setTitle("Drying Basin")
+setDescription("Place it next to a squeezer. Make sure the channels line up.")
+
+addParent("triumph:level_3/squeezer")
+
+criteria = addCriteria("drying_basin_2", "minecraft:inventory_changed")
+criteria.addItem(<integrateddynamics:drying_basin>)
