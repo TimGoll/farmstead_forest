@@ -1,0 +1,8 @@
+setIcon(<integrateddynamics:cable>)
+setTitle("Logic Cable")
+setDescription("The base cable for all integrated systems. It can transport anything.")
+
+addParent("triumph:level_3/drying_basin")
+
+criteria = addCriteria("logiccable", "minecraft:inventory_changed")
+criteria.addItem(<integrateddynamics:cable>)

@@ -35,7 +35,8 @@ recipes.addShapeless(<minecraft:dye:15>, [<soulus:bone_chunk_normal>]);
 recipes.addShapeless(<minecraft:dye:15>, [<immersiveengineering:tool>, <soulus:bone_chunk_normal>, <soulus:bone_chunk_normal>]);
 mods.immersiveengineering.Crusher.addRecipe(<minecraft:dye:15> *2, <soulus:bone_chunk_normal>, 2048);
 
-
+recipes.remove(<soulus:bars_endersteel>);
+recipes.addShaped(<soulus:bars_endersteel> *8, [[<soulus:ingot_endersteel>, <stevescarts:modulecomponents:22>, <soulus:ingot_endersteel>], [<stevescarts:modulecomponents:22>, <stevescarts:modulecomponents:22>, <stevescarts:modulecomponents:22>], [<soulus:ingot_endersteel>, <stevescarts:modulecomponents:22>, <soulus:ingot_endersteel>]]);
 
 mods.jei.JEI.hide(<soulus:bark>);
 

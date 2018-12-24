@@ -1,0 +1,8 @@
+setIcon(<integratedtunnels:part_exporter_item_item>)
+setTitle("Item Exporter")
+setDescription("Placed on the other end of the cable and connected to a second inventory it will insert all the items into the adjacent inventory from the inventory connected with the item interface. You need a variable card in it.")
+
+addParent("triumph:level_3/item_interface")
+
+criteria = addCriteria("part_exporter_item_item", "minecraft:inventory_changed")
+criteria.addItem(<integratedtunnels:part_exporter_item_item>)

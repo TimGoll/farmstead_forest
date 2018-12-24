@@ -1,0 +1,8 @@
+setIcon(<actuallyadditions:block_giant_chest>)
+setTitle("Small Storage Crate")
+setDescription("SPAAAAAAACEE.")
+
+addParent("triumph:level_1/bookshelf")
+
+criteria = addCriteria("storage_crate", "minecraft:inventory_changed")
+criteria.addItem(<actuallyadditions:block_giant_chest>)

@@ -1,0 +1,8 @@
+setIcon(<integratedtunnels:part_interface_item_item>)
+setTitle("Item Interface")
+setDescription("Place this on one end of your logic cable connected to an inventory.")
+
+addParent("triumph:level_3/logic_cable")
+
+criteria = addCriteria("iteminterface", "minecraft:inventory_changed")
+criteria.addItem(<integratedtunnels:part_interface_item_item>)

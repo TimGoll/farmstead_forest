@@ -1,0 +1,8 @@
+setIcon(<integrateddynamics:variable>)
+setTitle("Variable Card")
+setDescription("The base of all integrated systems. Place it into the first slot of your importer/exporter to get the basic system up and running. But this is only the beginning. You can bild huge advanced systems with these cables, check out the book.")
+
+addParent("triumph:level_3/item_interface")
+
+criteria = addCriteria("variablecard", "minecraft:inventory_changed")
+criteria.addItem(<integrateddynamics:variable>)
