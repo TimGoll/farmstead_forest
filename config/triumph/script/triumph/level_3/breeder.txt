@@ -1,0 +1,8 @@
+setIcon(<roost:breeder>)
+setTitle("Chicken Breeder")
+setDescription("Put catched chickens in here to breed them.")
+
+addParent("triumph:level_3/bunch_block")
+
+criteria = addCriteria("breeder", "minecraft:inventory_changed")
+criteria.addItem(<roost:breeder>)

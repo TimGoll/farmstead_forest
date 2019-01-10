@@ -1,0 +1,25 @@
+setIcon(<chickens:colored_egg:1>)
+setTitle("Coloured Chicken Egg")
+setDescription("Create a coloured egg from dyes. [blue, green, yellow, red, black, white]")
+
+addParent("triumph:level_3/crafting_pedestral")
+
+criteria = addCriteria("colored_egg_1a", "minecraft:inventory_changed")
+criteria.addItem(<chickens:colored_egg:0>)
+
+criteria = addCriteria("colored_egg_1b", "minecraft:inventory_changed")
+criteria.addItem(<chickens:colored_egg:1>)
+
+criteria = addCriteria("colored_egg_1c", "minecraft:inventory_changed")
+criteria.addItem(<chickens:colored_egg:2>)
+
+criteria = addCriteria("colored_egg_1d", "minecraft:inventory_changed")
+criteria.addItem(<chickens:colored_egg:4>)
+
+criteria = addCriteria("colored_egg_1e", "minecraft:inventory_changed")
+criteria.addItem(<chickens:colored_egg:11>)
+
+criteria = addCriteria("colored_egg_1f", "minecraft:inventory_changed")
+criteria.addItem(<chickens:colored_egg:15>)
+
+setRequirements("any")

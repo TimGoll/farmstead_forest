@@ -1,0 +1,8 @@
+setIcon(<roost:roost>)
+setTitle("Roost")
+setDescription("Put catched chickens in here to produce goods way easier.")
+
+addParent("triumph:level_3/bunch_block")
+
+criteria = addCriteria("roost", "minecraft:inventory_changed")
+criteria.addItem(<roost:roost>)

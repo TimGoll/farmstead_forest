@@ -1,0 +1,37 @@
+setIcon(<chickens:colored_egg:10>)
+setTitle("Coloured Bread Chicken Egg")
+setDescription("Create a coloured egg by breading chickens. [cyan, light gray, light blue, pink, orange, gray, lime, purple, brown, magenta]")
+
+addParent("triumph:level_3/colored_egg_1")
+
+criteria = addCriteria("colored_egg_2a", "minecraft:inventory_changed")
+criteria.addItem(<chickens:colored_egg:3>)
+
+criteria = addCriteria("colored_egg_2b", "minecraft:inventory_changed")
+criteria.addItem(<chickens:colored_egg:5>)
+
+criteria = addCriteria("colored_egg_2c", "minecraft:inventory_changed")
+criteria.addItem(<chickens:colored_egg:6>)
+
+criteria = addCriteria("colored_egg_2d", "minecraft:inventory_changed")
+criteria.addItem(<chickens:colored_egg:7>)
+
+criteria = addCriteria("colored_egg_2e", "minecraft:inventory_changed")
+criteria.addItem(<chickens:colored_egg:8>)
+
+criteria = addCriteria("colored_egg_2f", "minecraft:inventory_changed")
+criteria.addItem(<chickens:colored_egg:9>)
+
+criteria = addCriteria("colored_egg_2g", "minecraft:inventory_changed")
+criteria.addItem(<chickens:colored_egg:10>)
+
+criteria = addCriteria("colored_egg_2h", "minecraft:inventory_changed")
+criteria.addItem(<chickens:colored_egg:12>)
+
+criteria = addCriteria("colored_egg_2i", "minecraft:inventory_changed")
+criteria.addItem(<chickens:colored_egg:13>)
+
+criteria = addCriteria("colored_egg_2j", "minecraft:inventory_changed")
+criteria.addItem(<chickens:colored_egg:14>)
+
+setRequirements("any")

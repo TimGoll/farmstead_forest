@@ -1,0 +1,55 @@
+setIcon(<roost:chicken, meta:0, count:1, nbt:{Growth:1,Chicken:"chickens:redchicken",Gain:1,Strength:1}>)
+setTitle("Coloured Chicken Catcher")
+setDescription("Catch a spawned coloured chicken with 10, 10, 10 stats.")
+
+addParent("triumph:level_3/colored_egg_2")
+
+criteria = addCriteria("colored_catcher_a", "minecraft:inventory_changed")
+criteria.addItem(<roost:chicken, nbt:{Chicken:"chickens:blackchicken",Growth:10,Gain:10,Strength:10}>)
+
+criteria = addCriteria("colored_catcher_b", "minecraft:inventory_changed")
+criteria.addItem(<roost:chicken, nbt:{Chicken:"chickens:redchicken",Growth:10,Gain:10,Strength:10}>)
+
+criteria = addCriteria("colored_catcher_c", "minecraft:inventory_changed")
+criteria.addItem(<roost:chicken, nbt:{Chicken:"chickens:greenchicken",Growth:10,Gain:10,Strength:10}>)
+
+criteria = addCriteria("colored_catcher_d", "minecraft:inventory_changed")
+criteria.addItem(<roost:chicken, nbt:{Chicken:"chickens:brownchicken",Growth:10,Gain:10,Strength:10}>)
+
+criteria = addCriteria("colored_catcher_e", "minecraft:inventory_changed")
+criteria.addItem(<roost:chicken, nbt:{Chicken:"chickens:bluechicken",Growth:10,Gain:10,Strength:10}>)
+
+criteria = addCriteria("colored_catcher_f", "minecraft:inventory_changed")
+criteria.addItem(<roost:chicken, nbt:{Chicken:"chickens:purplechicken",Growth:10,Gain:10,Strength:10}>)
+
+criteria = addCriteria("colored_catcher_g", "minecraft:inventory_changed")
+criteria.addItem(<roost:chicken, nbt:{Chicken:"chickens:cyanchicken",Growth:10,Gain:10,Strength:10}>)
+
+criteria = addCriteria("colored_catcher_h", "minecraft:inventory_changed")
+criteria.addItem(<roost:chicken, nbt:{Chicken:"chickens:silverdyechicken",Growth:10,Gain:10,Strength:10}>)
+
+criteria = addCriteria("colored_catcher_i", "minecraft:inventory_changed")
+criteria.addItem(<roost:chicken, nbt:{Chicken:"chickens:graychicken",Growth:10,Gain:10,Strength:10}>)
+
+criteria = addCriteria("colored_catcher_j", "minecraft:inventory_changed")
+criteria.addItem(<roost:chicken, nbt:{Chicken:"chickens:pinkchicken",Growth:10,Gain:10,Strength:10}>)
+
+criteria = addCriteria("colored_catcher_k", "minecraft:inventory_changed")
+criteria.addItem(<roost:chicken, nbt:{Chicken:"chickens:limechicken",Growth:10,Gain:10,Strength:10}>)
+
+criteria = addCriteria("colored_catcher_l", "minecraft:inventory_changed")
+criteria.addItem(<roost:chicken, nbt:{Chicken:"chickens:yellowchicken",Growth:10,Gain:10,Strength:10}>)
+
+criteria = addCriteria("colored_catcher_m", "minecraft:inventory_changed")
+criteria.addItem(<roost:chicken, nbt:{Chicken:"chickens:lightbluechicken",Growth:10,Gain:10,Strength:10}>)
+
+criteria = addCriteria("colored_catcher_n", "minecraft:inventory_changed")
+criteria.addItem(<roost:chicken, nbt:{Chicken:"chickens:magentachicken",Growth:10,Gain:10,Strength:10}>)
+
+criteria = addCriteria("colored_catcher_o", "minecraft:inventory_changed")
+criteria.addItem(<roost:chicken, nbt:{Chicken:"chickens:orangechicken",Growth:10,Gain:10,Strength:10}>)
+
+criteria = addCriteria("colored_catcher_p", "minecraft:inventory_changed")
+criteria.addItem(<roost:chicken, nbt:{Chicken:"chickens:whitechicken",Growth:10,Gain:10,Strength:10}>)
+
+setRequirements("any")

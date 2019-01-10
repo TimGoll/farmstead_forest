@@ -1,5 +1,4 @@
 recipes.remove(<compresseditems:bunchblock>);
-recipes.addShaped(<compresseditems:bunchblock>, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 
 recipes.addShapeless(<minecraft:leather> *9, [<compresseditems:leatherblock>]);
 //recipes.addShapeless(<minecraft:feather> *9, [<compresseditems:pillow>]);
