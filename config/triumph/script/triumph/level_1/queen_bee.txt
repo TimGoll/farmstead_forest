@@ -6,3 +6,5 @@ addParent("triumph:level_1/tree_bark_goods")
 
 criteria = addCriteria("pam_bee", "minecraft:inventory_changed")
 criteria.addItem(<harvestcraft:queenbeeitem>)
+
+setRewardExperience(4)

@@ -1,10 +1,12 @@
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<compresseditems:bunchblock>, <minecraft:hay_block>, 1200);
+//mods.actuallyadditions.AtomicReconstructor.addRecipe(<ci:branches_block>, <minecraft:hay_block>, 1200);
 
-recipes.remove(<roost:roost>);
-recipes.addShaped(<roost:roost>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:plankWood>, null, <ore:plankWood>], [<compresseditems:bunchblock>, <compresseditems:bunchblock>, <compresseditems:bunchblock>]]);
+//recipes.remove(<roost:roost>);
+//recipes.addShaped(<roost:roost>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:plankWood>, null, <ore:plankWood>], [<ci:branches_block>, <ci:branches_block>, <ci:branches_block>]]);
 
-recipes.remove(<roost:breeder>);
-recipes.addShaped(<roost:breeder>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:plankWood>, <minecraft:wheat_seeds>, <ore:plankWood>], [<compresseditems:bunchblock>, <compresseditems:bunchblock>, <compresseditems:bunchblock>]]);
+//recipes.remove(<roost:breeder>);
+//recipes.addShaped(<roost:breeder>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:plankWood>, <minecraft:wheat_seeds>, <ore:plankWood>], [<ci:branches_block>, <ci:branches_block>, <ci:branches_block>]]);
+
+recipes.addShapeless(<roost:breeder>, [<roost:roost>, <minecraft:wheat_seeds>]);
 
 recipes.remove(<chickens:henhouse>);
 mods.jei.JEI.hide(<chickens:henhouse>);

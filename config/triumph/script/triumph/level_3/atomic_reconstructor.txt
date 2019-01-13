@@ -6,3 +6,5 @@ addParent("triumph:level_3/EU_eternal_glass")
 
 criteria = addCriteria("block_atomic_reconstructor", "minecraft:inventory_changed")
 criteria.addItem(<actuallyadditions:block_atomic_reconstructor>)
+
+setRewardExperience(4)

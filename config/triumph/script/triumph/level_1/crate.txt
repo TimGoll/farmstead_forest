@@ -6,3 +6,5 @@ addParent("triumph:level_1/bookshelf")
 
 criteria = addCriteria("storage_crate", "minecraft:inventory_changed")
 criteria.addItem(<actuallyadditions:block_giant_chest>)
+
+setRewardExperience(4)

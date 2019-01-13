@@ -6,3 +6,5 @@ addParent("triumph:level_1/water_strainer_base")
 
 criteria = addCriteria("strainer_fisherman", "minecraft:inventory_changed")
 criteria.addItem(<waterstrainer:strainer_fisherman>)
+
+setRewardExperience(4)

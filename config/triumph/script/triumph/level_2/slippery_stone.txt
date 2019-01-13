@@ -1,0 +1,10 @@
+setIcon(<trapexpansion:slippery_stone>)
+setTitle("Slippery Stone")
+setDescription("Acts like ice.")
+
+addParent("triumph:level_2/chatbox")
+
+criteria = addCriteria("slippery_stone", "minecraft:inventory_changed")
+criteria.addItem(<trapexpansion:slippery_stone>)
+
+setRewardExperience(4)

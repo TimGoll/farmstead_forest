@@ -10,3 +10,5 @@ criteria = addCriteria("flaked_stick_with_rock", "minecraft:inventory_changed")
 criteria.addItem(<farmsteadforest:flaked_stick_with_rock>)
 
 setRewardItem("harvestcraft:caramelappleitem", 0, 4)
+
+setRewardExperience(4)

@@ -6,3 +6,5 @@ addParent("triumph:level_1/brilliant_fiber")
 
 criteria = addCriteria("gold_leaf", "minecraft:inventory_changed")
 criteria.addItem(<naturesaura:gold_leaf>)
+
+setRewardExperience(4)

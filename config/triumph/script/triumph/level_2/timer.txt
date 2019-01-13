@@ -6,3 +6,5 @@ addParent("triumph:level_2/smeltery_controller")
 
 criteria = addCriteria("timer", "minecraft:inventory_changed")
 criteria.addItem(<projectred-integration:gate:17>)
+
+setRewardExperience(4)

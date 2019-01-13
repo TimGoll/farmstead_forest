@@ -6,3 +6,5 @@ addParent("triumph:level_3/EU_resonator")
 
 criteria = addCriteria("mill_lava", "minecraft:inventory_changed")
 criteria.addItem(<extrautils2:passivegenerator:2>)
+
+setRewardExperience(4)

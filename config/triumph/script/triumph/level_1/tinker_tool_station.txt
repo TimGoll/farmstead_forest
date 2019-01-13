@@ -8,3 +8,5 @@ criteria = addCriteria("table_3", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:tooltables:3>)
 
 setFrameType("CHALLENGE")
+
+setRewardExperience(50)

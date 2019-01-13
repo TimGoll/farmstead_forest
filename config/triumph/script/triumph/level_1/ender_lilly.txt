@@ -1,0 +1,10 @@
+setIcon(<extrautils2:enderlilly>)
+setTitle("Ender Lilly")
+setDescription("Find a ender lilly seed and plant it to produce ender pearls over time. Grows very slow on dirt and relative fast on endstone.")
+
+addParent("triumph:level_1/wheat")
+
+criteria = addCriteria("enderlilly", "minecraft:inventory_changed")
+criteria.addItem(<extrautils2:enderlilly>)
+
+setRewardExperience(4)

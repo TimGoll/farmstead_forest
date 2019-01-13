@@ -6,3 +6,5 @@ addParent("triumph:level_0/plant_twine")
 
 criteria = addCriteria("flint_shovel", "minecraft:inventory_changed")
 criteria.addItem(<primal:flint_shovel>)
+
+setRewardExperience(4)

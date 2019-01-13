@@ -1,0 +1,10 @@
+setIcon(<immersiveengineering:metal_multiblock:1>)
+setTitle("Crusher")
+setDescription("Used for proper ore doubling.")
+
+addParent("triumph:level_4/root")
+
+criteria = addCriteria("crusher", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IE:Crusher")
+
+setRewardExperience(4)

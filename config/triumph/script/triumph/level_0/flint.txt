@@ -6,3 +6,5 @@ addParent("triumph:level_0/root")
 
 criteria = addCriteria("flint", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:flint>)
+
+setRewardExperience(4)

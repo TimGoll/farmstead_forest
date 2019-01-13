@@ -6,3 +6,5 @@ addParent("triumph:level_1/fertilizer_2")
 
 criteria = addCriteria("fertile_soil", "minecraft:inventory_changed")
 criteria.addItem(<rustic:fertile_soil>)
+
+setRewardExperience(4)

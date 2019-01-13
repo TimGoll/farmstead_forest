@@ -6,3 +6,5 @@ addParent("triumph:level_1/apiary")
 
 criteria = addCriteria("pam_comb_honey", "minecraft:inventory_changed")
 criteria.addItem(<harvestcraft:honeycombitem>)
+
+setRewardExperience(4)

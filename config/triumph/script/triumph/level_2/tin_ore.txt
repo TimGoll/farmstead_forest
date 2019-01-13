@@ -6,3 +6,5 @@ addParent("triumph:level_2/cobblestone")
 
 criteria = addCriteria("tinOre", "minecraft:inventory_changed")
 criteria.addItem(<farmsteadforest:o_tin>)
+
+setRewardExperience(4)

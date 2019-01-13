@@ -9,3 +9,5 @@ criteria.addItem(<naturesaura:gold_fiber>)
 
 setFrameType("GOAL")
 setRewardItem(<patchouli:guide_book, nbt:{"patchouli:book": "naturesaura:book"}>)
+
+setRewardExperience(4)

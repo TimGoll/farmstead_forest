@@ -6,3 +6,5 @@ addParent("triumph:level_2/diamond_ore")
 
 criteria = addCriteria("cooking_table", "minecraft:inventory_changed")
 criteria.addItem(<cookingforblockheads:cooking_table>)
+
+setRewardExperience(4)

@@ -6,3 +6,5 @@ addParent("triumph:level_3/crafting_pedestral")
 
 criteria = addCriteria("apple_sapling", "minecraft:inventory_changed")
 criteria.addItem(<harvestcraft:apple_sapling>)
+
+setRewardExperience(4)

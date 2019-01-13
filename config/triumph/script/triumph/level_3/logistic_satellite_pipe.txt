@@ -8,3 +8,5 @@ criteria = addCriteria("pipe_satellite", "minecraft:inventory_changed")
 criteria.addItem(<logisticspipes:pipe_satellite>)
 
 setFrameType("CHALLENGE")
+
+setRewardExperience(50)

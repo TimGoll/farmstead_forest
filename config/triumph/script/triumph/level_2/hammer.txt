@@ -9,3 +9,5 @@ criteria.addItem(<immersiveengineering:tool>)
 
 setFrameType("GOAL")
 setRewardItem(<immersiveengineering:tool:3>)
+
+setRewardExperience(4)

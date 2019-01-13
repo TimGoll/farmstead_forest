@@ -6,3 +6,5 @@ addParent("triumph:level_2/smeltery_controller")
 
 criteria = addCriteria("ingotIron", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:iron_ingot>)
+
+setRewardExperience(4)

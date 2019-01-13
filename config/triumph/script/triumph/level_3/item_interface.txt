@@ -6,3 +6,5 @@ addParent("triumph:level_3/logic_cable")
 
 criteria = addCriteria("iteminterface", "minecraft:inventory_changed")
 criteria.addItem(<integratedtunnels:part_interface_item_item>)
+
+setRewardExperience(4)

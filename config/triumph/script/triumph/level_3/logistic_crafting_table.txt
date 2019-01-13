@@ -6,3 +6,5 @@ addParent("triumph:level_3/logistic_crafting_pipe")
 
 criteria = addCriteria("crafting_table", "minecraft:inventory_changed")
 criteria.addItem(<logisticspipes:crafting_table>)
+
+setRewardExperience(4)

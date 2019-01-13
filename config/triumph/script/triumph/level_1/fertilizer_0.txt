@@ -6,3 +6,5 @@ addParent("triumph:level_1/compost")
 
 criteria = addCriteria("fertilizer_0", "minecraft:inventory_changed")
 criteria.addItem(<farmingforblockheads:fertilizer:0>)
+
+setRewardExperience(4)

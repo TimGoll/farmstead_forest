@@ -6,3 +6,5 @@ addParent("triumph:level_1/raw_hide")
 
 criteria = addCriteria("hide_salted", "minecraft:inventory_changed")
 criteria.addItem(<primal:hide_salted>)
+
+setRewardExperience(4)

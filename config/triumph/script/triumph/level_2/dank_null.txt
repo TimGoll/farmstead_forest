@@ -1,8 +1,10 @@
 setIcon(<danknull:dank_null>)
 setTitle("/dank/null/")
-setDescription("A neat item to enahnce your mining experience.")
+setDescription("A neat item to enhance your mining experience.")
 
 addParent("triumph:level_2/form_obsidian")
 
 criteria = addCriteria("dank_null", "minecraft:inventory_changed")
 criteria.addItem(<danknull:dank_null>)
+
+setRewardExperience(4)

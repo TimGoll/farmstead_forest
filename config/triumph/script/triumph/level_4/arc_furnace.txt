@@ -1,0 +1,10 @@
+setIcon(<immersiveengineering:metal_multiblock:13>)
+setTitle("Arc Furnace")
+setDescription("Fast smelting and alloying.")
+
+addParent("triumph:level_4/crusher")
+
+criteria = addCriteria("arc_furance", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IE:ArcFurnace")
+
+setRewardExperience(4)

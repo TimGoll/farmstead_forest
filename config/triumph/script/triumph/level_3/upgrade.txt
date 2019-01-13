@@ -6,3 +6,5 @@ addParent("triumph:level_3/cart_assembler")
 
 criteria = addCriteria("upgrade_cart", "minecraft:inventory_changed")
 criteria.addItem(<stevescarts:upgrade:11>)
+
+setRewardExperience(4)

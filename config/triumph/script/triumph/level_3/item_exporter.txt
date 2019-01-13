@@ -6,3 +6,5 @@ addParent("triumph:level_3/item_interface")
 
 criteria = addCriteria("part_exporter_item_item", "minecraft:inventory_changed")
 criteria.addItem(<integratedtunnels:part_exporter_item_item>)
+
+setRewardExperience(4)

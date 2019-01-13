@@ -6,3 +6,5 @@ addParent("triumph:level_1/porcelain_barrel")
 
 criteria = addCriteria("porcelain_barrel_extension", "minecraft:inventory_changed")
 criteria.addItem(<ceramics:porcelain_barrel_extension>)
+
+setRewardExperience(4)

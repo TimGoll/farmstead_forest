@@ -71,3 +71,5 @@ criteria = addCriteria("zombie_villager", "minecraft:player_killed_entity")
 criteria.setEntityType("zombie_villager")
 
 setRequirements("any")
+
+setRewardExperience(4)

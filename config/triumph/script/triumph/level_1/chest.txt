@@ -6,3 +6,5 @@ addParent("triumph:level_1/wood")
 
 criteria = addCriteria("chestWood", "minecraft:inventory_changed")
 criteria.addItem(<ore:chestWood>)
+
+setRewardExperience(4)

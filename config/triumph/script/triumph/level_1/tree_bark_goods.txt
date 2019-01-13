@@ -6,3 +6,5 @@ addParent("triumph:level_1/wood")
 
 criteria = addCriteria("treeBarkGood", "minecraft:inventory_changed")
 criteria.addItem(<ore:treeBarkGood>)
+
+setRewardExperience(4)

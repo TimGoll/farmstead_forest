@@ -11,3 +11,5 @@ criteria = addCriteria("seared_melter", "minecraft:inventory_changed")
 criteria.addItem(<tcomplement:melter:0>)
 
 setRequirements("any")
+
+setRewardExperience(4)

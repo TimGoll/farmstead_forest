@@ -6,3 +6,5 @@ addParent("triumph:level_1/wheat")
 
 criteria = addCriteria("snad", "minecraft:inventory_changed")
 criteria.addItem(<justanothersnad:snad>)
+
+setRewardExperience(4)

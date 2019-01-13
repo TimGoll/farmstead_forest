@@ -6,3 +6,5 @@ addParent("triumph:level_0/root")
 
 criteria = addCriteria("plant_fiber", "minecraft:inventory_changed")
 criteria.addItem(<primal:plant_fiber>)
+
+setRewardExperience(4)

@@ -6,3 +6,5 @@ addParent("triumph:level_1/crushing_tub")
 
 criteria = addCriteria("evaporating_basin", "minecraft:inventory_changed")
 criteria.addItem(<rustic:evaporating_basin>)
+
+setRewardExperience(4)

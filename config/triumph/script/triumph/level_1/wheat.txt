@@ -6,3 +6,5 @@ addParent("triumph:level_1/root")
 
 criteria = addCriteria("wheat", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:wheat>)
+
+setRewardExperience(4)

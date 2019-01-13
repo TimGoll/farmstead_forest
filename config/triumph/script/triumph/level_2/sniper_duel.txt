@@ -13,3 +13,5 @@ distanceData.setHorizontalMin(50)
 
 damageSource = criteria.getDamageSourceData()
 damageSource.isProjectile(true)
+
+setRewardExperience(4)

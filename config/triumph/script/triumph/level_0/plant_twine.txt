@@ -6,3 +6,5 @@ addParent("triumph:level_0/furnace")
 
 criteria = addCriteria("hardened_plant_cordage", "minecraft:inventory_changed")
 criteria.addItem(<farmsteadforest:hardened_plant_cordage>)
+
+setRewardExperience(4)

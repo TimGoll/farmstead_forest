@@ -6,3 +6,5 @@ addParent("triumph:level_3/EU_resonator")
 
 criteria = addCriteria("eternal_glass", "minecraft:inventory_changed")
 criteria.addItem(<extrautils2:ineffableglass:0>)
+
+setRewardExperience(4)

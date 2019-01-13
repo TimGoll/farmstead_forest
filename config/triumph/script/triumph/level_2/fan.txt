@@ -1,0 +1,10 @@
+setIcon(<trapexpansion:fan>)
+setTitle("Fan")
+setDescription("Pushes Entities through the world. Needs a redstone signal.")
+
+addParent("triumph:level_2/chatbox")
+
+criteria = addCriteria("fan", "minecraft:inventory_changed")
+criteria.addItem(<trapexpansion:fan>)
+
+setRewardExperience(4)

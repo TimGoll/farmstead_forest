@@ -6,3 +6,5 @@ addParent("triumph:level_3/furnace_heater")
 
 criteria = addCriteria("pickup_stopper", "minecraft:inventory_changed")
 criteria.addItem(<naturesaura:pickup_stopper>)
+
+setRewardExperience(4)

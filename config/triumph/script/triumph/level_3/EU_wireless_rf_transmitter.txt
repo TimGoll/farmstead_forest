@@ -6,3 +6,5 @@ addParent("triumph:level_3/EU_wireless_rf_battery")
 
 criteria = addCriteria("powertransmitter", "minecraft:inventory_changed")
 criteria.addItem(<extrautils2:powertransmitter>)
+
+setRewardExperience(4)

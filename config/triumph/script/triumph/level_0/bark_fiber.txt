@@ -6,3 +6,5 @@ addParent("triumph:level_0/flaked_with_rock")
 
 criteria = addCriteria("bark_fiber", "minecraft:inventory_changed")
 criteria.addItem(<farmsteadforest:bark_fiber>)
+
+setRewardExperience(4)

@@ -18,3 +18,5 @@ criteria.addItem(<immersiveengineering:seed>)
 
 setFrameType("GOAL")
 setRewardItem("harvestcraft:mixedsaladitem", 0, 2)
+
+setRewardExperience(4)

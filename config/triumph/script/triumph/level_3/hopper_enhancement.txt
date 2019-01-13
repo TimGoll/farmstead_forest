@@ -6,3 +6,5 @@ addParent("triumph:level_3/furnace_heater")
 
 criteria = addCriteria("hopper_upgrade", "minecraft:inventory_changed")
 criteria.addItem(<naturesaura:hopper_upgrade>)
+
+setRewardExperience(4)

@@ -6,3 +6,5 @@ addParent("triumph:level_3/spawner")
 
 criteria = addCriteria("soulbook", "minecraft:inventory_changed")
 criteria.addItem(<soulus:soulbook>)
+
+setRewardExperience(4)

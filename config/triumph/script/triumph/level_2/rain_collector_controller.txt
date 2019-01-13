@@ -9,3 +9,5 @@ criteria.addItem(<waterworks:rain_collector_controller>)
 
 setFrameType("GOAL")
 setRewardItem(<waterworks:pipe_wrench>)
+
+setRewardExperience(4)

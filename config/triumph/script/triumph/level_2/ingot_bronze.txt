@@ -6,3 +6,5 @@ addParent("triumph:level_2/alloy_kiln")
 
 criteria = addCriteria("ingotBronze", "minecraft:inventory_changed")
 criteria.addItem(<ore:ingotBronze>)
+
+setRewardExperience(4)

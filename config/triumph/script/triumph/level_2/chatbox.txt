@@ -6,3 +6,5 @@ addParent("triumph:level_2/ingot_iron")
 
 criteria = addCriteria("chatbox", "minecraft:inventory_changed")
 criteria.addItem(<jlgm_chatbox:chatbox>)
+
+setRewardExperience(4)

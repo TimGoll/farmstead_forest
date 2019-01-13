@@ -6,3 +6,5 @@ addParent("triumph:level_1/wheat")
 
 criteria = addCriteria("crop_stake", "minecraft:inventory_changed")
 criteria.addItem(<rustic:crop_stake>)
+
+setRewardExperience(4)

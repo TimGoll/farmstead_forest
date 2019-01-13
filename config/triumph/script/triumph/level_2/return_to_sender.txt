@@ -12,3 +12,5 @@ damageSource = criteria.getDamageSourceData()
 damageSource.isProjectile(true)
 immediateSource = damageSource.getImmediateSourceData()
 immediateSource.setType("minecraft:fireball")
+
+setRewardExperience(4)

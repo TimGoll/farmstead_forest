@@ -1,0 +1,10 @@
+setIcon(<nuclearcraft:fission_port>)
+setTitle("Fission Reactor Port")
+setDescription("A proxy for your fission controller to interact with the I/O of your reactor.")
+
+addParent("triumph:level_4/fission_controller")
+
+criteria = addCriteria("fission_port", "minecraft:inventory_changed")
+criteria.addItem(<nuclearcraft:fission_port>)
+
+setRewardExperience(4)

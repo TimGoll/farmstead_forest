@@ -9,3 +9,5 @@ criteria.addItem(<ore:logWood>)
 
 setFrameType("GOAL")
 setRewardItem(<minecraft:sapling, ore:treeSapling, meta:1, count:8>)
+
+setRewardExperience(4)

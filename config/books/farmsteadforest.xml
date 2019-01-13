@@ -21,6 +21,8 @@
 			<p><link ref="automated_carts">10. Automated Carts</link></p>
 			<p><link ref="logistics_pipes">11. Lopistics Pipes</link></p>
 			<p><link ref="automated_farming">12. Advanced Farm Automation</link></p>
+			<p><link ref="bigbattery">13. Big Battery</link></p>
+			<p><link ref="nuclearcraft">14. Nuclearcraft</link></p>
 		</page>
 	</chapter>
 	
@@ -28,8 +30,12 @@
 		<page>
 			<p space="15" scale="1.5" bold="true" align="center">Genral Information</p>
 			<p space="10">To help you through the game, a questing system was added in the advancement tree. In the beginnning, basically all major steps are covered to help you not get lost. There are even nice rewards! You open the advancement tree by pressing V.</p>
-			<p space="20">You start with one advancement and progress through them. Advancements with rounded corners have some sort of item reward. Be it in form of a guidebook or something eles. You have to complete the advancements with the bumpy corners to unlock the new chapter.</p>
-			<p space="10">You can start leveling your character as soon as you reach level 5. You open the GUI by pressing L.</p>
+			<p space="10">You start with one advancement and progress through them. Advancements with rounded corners have some sort of item reward. Be it in form of a guidebook or something else. You have to complete the advancements with the bumpy corners to unlock the new chapter.</p>
+			<p space="10">Each completed advancement grants you 4 XP and each finished chapter grants you additional 50 XP.</p>
+		</page>
+		<page>
+			<p space="20">You can start leveling your character as soon as you reach level 5. You open the GUI by pressing L.</p>
+			<p space="10">You start with only 8 hearts but it's easy to gain more if you eat different stuff. Check out <link ref="cooking">cooking</link>.</p>
 		</page>
 	</chapter>
 	
@@ -196,6 +202,7 @@
 				<stack item="waterworks:water_pipe"/>
 				<stack item="industrialforegoing:water_condensator"/>
 			</p>
+			<p space="10">Hint: The cooking for blockheads sink is no infinite water source in this pack. It needs water to be piped into.</p>
 		</page>
 	</chapter>
 	
@@ -311,18 +318,16 @@
 	<chapter id="animals">
 		<page>
 			<p space="15" scale="1.5" bold="true" align="center">Animals</p>
-			<p space="10">ToDo</p>
+			<p space="10">TBD</p>
 		</page>
 	</chapter>
 	<chapter id="cooking">
 		<page>
 			<p space="15" scale="1.5" bold="true" align="center">Cooking</p>
-			<p space="10">ToDo</p>
-			best start food
-			start with bread
-			salt
-			automation (fishing, ...)
-			Cooking for blockheads
+			<p space="10">Like said earlier, you start with 8 hearts. After eating 5 different foods, you gain another heart. You have your default 10 hearts after eating 10 different food types. This continues until you've eating every type of food available. But the gaps between two gained hearts get bigger over time.</p>
+			<p space="10">Additionally there are cravings. Every once in a while a craving appears in the chat. You can safely ignore it but you get a potion boost if you eat the craved food. There are no penalties for missing a craving.</p>
+			<p space="10">More info TBD. Cooking for Blockheads, faster hunger, general cooking, pams.</p>
+			
 		</page>
 	</chapter>
 	
@@ -408,4 +413,51 @@
 			</recipe>
 		</page>
 	</chapter>
+	
+	<chapter id="bigbattery">
+		<page>
+			<p space="15" scale="1.5" bold="true" align="center">Big Battery</p>
+			<p space="10">The big battery is an advanced way of storing massive amaounts of RF. You should check out the <link href="https://www.zi.bymarcin.com/BigBattery/BigBattery.md">wiki of the mod</link>.</p>
+			<p space="10">The most basic battery is 5x3x3 needs the following blocks:</p>
+			<p space="10">
+				<stack item="zettaindustries:batterywall" meta="0" count="41"/>
+				<stack item="zettaindustries:batteryelectrode" meta="0" count="2"/>
+				<stack item="zettaindustries:batterypowertap" meta="0" count="2"/>
+				<stack item="zettaindustries:batterycontroller" meta="0" count="1"/>
+				<stack item="forge:bucketfilled" meta="0" tag='{FluidName: "sulfurousacid", Amount: 1000}' count="1"/>
+			</p>
+			<p><image src="gbook:big_battery_basic" tw="170" th="78" /></p>
+			<p space="15" scale="0.75" align="center" color="#383531">The smallest big battery.</p>
+		</page>
+	</chapter>
+	
+	<chapter id="nuclearcraft">
+		<page>
+			<p space="15" scale="1.5" bold="true" align="center">Nuclearcraft</p>
+			<p space="10">Nuclearcraft is a very powerful and complex fusion and fission reactor mod. Build a simple fission reactor to get started. There's no minimum size but in this example I will stick to a 5x3x3 (internal) reactor. Be careful, rectors in nuclear craft have to be without casing in the edges.</p>
+			<p space="10">This needs the following blocks:</p>
+			<p space="10">
+				<stack item="nuclearcraft:fission_block" meta="0" count="63"/>
+				<stack item="nuclearcraft:reactor_casing_transparent" meta="0" count="12"/>
+				<stack item="nuclearcraft:reactor_door_item" meta="0" count="1"/>
+				<stack item="nuclearcraft:fission_controller_new_fixed" meta="0" count="1"/>
+			</p>
+			<p><image src="gbook:nuclearcraft_basecasing" tw="170" th="78" /></p>
+			<p space="15" scale="0.75" align="center" color="#383531">A basic reactor casing.</p>
+		</page>
+		<page>
+			<p space="10">There are no blacklisted blocks inside of reactors. But of course are the blocks from nuclear craft the most important ones.</p>
+			<p space="10">A very basic reactor needs the following two blocks:</p>
+			<p space="10">
+				<stack item="nuclearcraft:cell_block" meta="0" count="1"/>
+				<stack item="nuclearcraft:cooler" meta="1" count="1"/>
+			</p>
+			<p><image src="gbook:nuclearcraft_basereactor" tw="170" th="78" /></p>
+			<p space="15" scale="0.75" align="center" color="#383531">A very simple fission reactor.</p>
+			<p space="10" bold="true">Further information:</p>
+			<p space="10">- <link href="https://ftb.gamepedia.com/Fission_Reactor">FTB wiki of the mod</link></p>
+			<p space="10">- <link href="https://www.youtube.com/watch?v=IIZur0OrqGY">YouTube spotlight by the mod creator</link></p>
+		</page>
+	</chapter>
+	
 </book>

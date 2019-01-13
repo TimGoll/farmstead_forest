@@ -6,3 +6,5 @@ addParent("triumph:level_3/bunch_block")
 
 criteria = addCriteria("roost", "minecraft:inventory_changed")
 criteria.addItem(<roost:roost>)
+
+setRewardExperience(4)

@@ -6,3 +6,5 @@ addParent("triumph:level_2/water_filter")
 
 criteria = addCriteria("presser", "minecraft:inventory_changed")
 criteria.addItem(<harvestcraft:presser>)
+
+setRewardExperience(4)

@@ -6,3 +6,5 @@ addParent("triumph:level_1/sariras")
 
 criteria = addCriteria("copper_nugget", "minecraft:inventory_changed")
 criteria.addItem(<immersiveengineering:metal:20>)
+
+setRewardExperience(4)

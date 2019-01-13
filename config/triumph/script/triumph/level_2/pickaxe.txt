@@ -6,3 +6,5 @@ addParent("triumph:level_2/root")
 
 criteria = addCriteria("tc_pickaxe", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:pickaxe>)
+
+setRewardExperience(4)

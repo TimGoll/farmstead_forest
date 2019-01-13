@@ -17,3 +17,5 @@ criteria = addCriteria("hide4", "minecraft:inventory_changed")
 criteria.addItem(<ore:peltMedium>)
 
 setRequirements("any")
+
+setRewardExperience(4)

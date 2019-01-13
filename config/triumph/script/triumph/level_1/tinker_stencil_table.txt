@@ -6,3 +6,5 @@ addParent("triumph:level_1/pattern")
 
 criteria = addCriteria("table_1", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:tooltables:1>)
+
+setRewardExperience(4)

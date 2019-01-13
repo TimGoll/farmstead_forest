@@ -6,3 +6,5 @@ addParent("triumph:level_3/external_distributor")
 
 criteria = addCriteria("fluid_pipe", "minecraft:inventory_changed")
 criteria.addItem(<cyclicmagic:fluid_pipe>)
+
+setRewardExperience(4)

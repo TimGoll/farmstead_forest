@@ -6,3 +6,5 @@ addParent("triumph:level_1/log_stack")
 
 criteria = addCriteria("charcoal", "minecraft:inventory_changed")
 criteria.addItem(<ore:charcoal>)
+
+setRewardExperience(4)

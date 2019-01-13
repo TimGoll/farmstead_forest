@@ -11,3 +11,5 @@ criteria = addCriteria("seared_casting_table", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:casting>)
 
 setRequirements("any")
+
+setRewardExperience(4)

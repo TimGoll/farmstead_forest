@@ -1,0 +1,10 @@
+setIcon(<nuclearcraft:fuel_uranium:4>)
+setTitle("LEU-235 Fuel")
+setDescription("The base fission fuel.")
+
+addParent("triumph:level_4/fission_controller")
+
+criteria = addCriteria("fuel_uranium", "minecraft:inventory_changed")
+criteria.addItem(<nuclearcraft:fuel_uranium:4>)
+
+setRewardExperience(4)

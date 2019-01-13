@@ -6,3 +6,5 @@ addParent("triumph:level_3/external_heater")
 
 criteria = addCriteria("carpenter", "minecraft:inventory_changed")
 criteria.addItem(<forestry:carpenter>)
+
+setRewardExperience(4)

@@ -6,3 +6,5 @@ addParent("triumph:level_1/charcoal")
 
 criteria = addCriteria("torch_wood", "minecraft:inventory_changed")
 criteria.addItem(<primal:torch_wood>)
+
+setRewardExperience(4)

@@ -9,3 +9,5 @@ criteria.addItem(<tconstruct:pattern>)
 
 setFrameType("GOAL")
 setRewardItem(<tconstruct:book>)
+
+setRewardExperience(4)

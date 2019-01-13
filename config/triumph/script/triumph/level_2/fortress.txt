@@ -6,3 +6,5 @@ addParent("triumph:level_2/nether")
 
 criteria = addCriteria("fortress", "minecraft:location")
 criteria.setFeature("Fortress")
+
+setRewardExperience(4)

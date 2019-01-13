@@ -1,8 +1,10 @@
-setIcon(<compresseditems:bunchblock>)
-setTitle("Bunch Block")
+setIcon(<nuclearcraft:fission_block>)
+setTitle("Branches Block")
 setDescription("Transform a hay bale into a bunch block.")
 
 addParent("triumph:level_3/atomic_reconstructor")
 
 criteria = addCriteria("bunchblock", "minecraft:inventory_changed")
-criteria.addItem(<compresseditems:bunchblock>)
+criteria.addItem(<nuclearcraft:fission_block>)
+
+setRewardExperience(4)

@@ -6,3 +6,5 @@ addParent("triumph:level_1/apiary")
 
 criteria = addCriteria("pam_comb_wax", "minecraft:inventory_changed")
 criteria.addItem(<harvestcraft:waxcombitem>)
+
+setRewardExperience(4)

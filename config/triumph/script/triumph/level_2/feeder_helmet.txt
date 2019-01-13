@@ -6,3 +6,5 @@ addParent("triumph:level_2/chestplate_finished")
 
 criteria = addCriteria("feeder_helmet_module", "minecraft:inventory_changed")
 criteria.addItem(<feederhelmet:feeder_helmet_module>)
+
+setRewardExperience(4)

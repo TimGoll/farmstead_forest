@@ -6,3 +6,5 @@ addParent("triumph:level_1/wood")
 
 criteria = addCriteria("saw", "minecraft:inventory_changed")
 criteria.addItem(<primal_tech:water_saw>)
+
+setRewardExperience(4)

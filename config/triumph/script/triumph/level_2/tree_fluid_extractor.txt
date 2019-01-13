@@ -8,3 +8,5 @@ criteria = addCriteria("tree_fluid_extractor", "minecraft:inventory_changed")
 criteria.addItem(<industrialforegoing:tree_fluid_extractor>)
 
 setFrameType("CHALLENGE")
+
+setRewardExperience(50)

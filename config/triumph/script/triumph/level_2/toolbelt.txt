@@ -6,3 +6,5 @@ addParent("triumph:level_2/ingot_iron")
 
 criteria = addCriteria("toolbelt", "minecraft:inventory_changed")
 criteria.addItem(<toolbelt:belt:0>)
+
+setRewardExperience(4)

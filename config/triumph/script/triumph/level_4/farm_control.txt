@@ -1,0 +1,10 @@
+setIcon(<forestry:ffarm, meta:5, nbt:{FarmBlock:0}>)
+setTitle("Farm Control")
+setDescription("Automate your farms without carts. [You find more information in the 'Farmstead Forest' book.]")
+
+addParent("triumph:level_4/root")
+
+criteria = addCriteria("ffarm", "minecraft:inventory_changed")
+criteria.addItem(<forestry:ffarm, meta:5>)
+
+setRewardExperience(4)

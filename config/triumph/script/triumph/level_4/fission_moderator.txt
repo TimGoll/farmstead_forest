@@ -1,0 +1,10 @@
+setIcon(<nuclearcraft:ingot_block:8>)
+setTitle("Graphite Block")
+setDescription("A moderator increases the efficiency of your reactor while increasing the heat production.")
+
+addParent("triumph:level_4/fission_cell")
+
+criteria = addCriteria("moderator", "minecraft:inventory_changed")
+criteria.addItem(<nuclearcraft:ingot_block:8>)
+
+setRewardExperience(4)

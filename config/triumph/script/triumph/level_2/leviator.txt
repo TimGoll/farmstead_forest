@@ -1,0 +1,10 @@
+setIcon(<arcaneworld:levitator>)
+setTitle("Leviator")
+setDescription("A magic thing to push entities through the world. Always on.")
+
+addParent("triumph:level_2/ingot_gold")
+
+criteria = addCriteria("levitator", "minecraft:inventory_changed")
+criteria.addItem(<arcaneworld:levitator>)
+
+setRewardExperience(4)

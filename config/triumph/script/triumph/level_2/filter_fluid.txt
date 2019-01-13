@@ -6,3 +6,5 @@ addParent("triumph:level_2/node_fluid")
 
 criteria = addCriteria("filterfluids", "minecraft:inventory_changed")
 criteria.addItem(<extrautils2:filterfluids>)
+
+setRewardExperience(4)

@@ -6,3 +6,5 @@ addParent("triumph:level_2/deflect_arrow")
 
 criteria = addCriteria("dummy", "minecraft:inventory_changed")
 criteria.addItem(<testdummy:dummy>)
+
+setRewardExperience(4)

@@ -6,3 +6,5 @@ addParent("triumph:level_3/furnace_heater")
 
 criteria = addCriteria("conversion_catalyst", "minecraft:inventory_changed")
 criteria.addItem(<naturesaura:conversion_catalyst>)
+
+setRewardExperience(4)

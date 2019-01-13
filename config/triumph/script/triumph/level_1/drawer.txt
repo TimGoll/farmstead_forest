@@ -6,3 +6,5 @@ addParent("triumph:level_1/chest")
 
 criteria = addCriteria("drawerBasic", "minecraft:inventory_changed")
 criteria.addItem(<ore:drawerBasic>)
+
+setRewardExperience(4)

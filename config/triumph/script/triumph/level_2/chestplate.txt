@@ -6,3 +6,5 @@ addParent("triumph:level_2/root")
 
 criteria = addCriteria("tc_armor", "minecraft:inventory_changed")
 criteria.addItem(<conarm:chest_core>)
+
+setRewardExperience(4)

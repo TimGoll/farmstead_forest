@@ -6,3 +6,5 @@ addParent("triumph:level_2/coke_oven")
 
 criteria = addCriteria("treated_wood", "minecraft:inventory_changed")
 criteria.addItem(<ore:plankTreatedWood>)
+
+setRewardExperience(4)

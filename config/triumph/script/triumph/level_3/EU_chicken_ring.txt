@@ -6,3 +6,5 @@ addParent("triumph:level_3/EU_solar")
 
 criteria = addCriteria("chickenring", "minecraft:inventory_changed")
 criteria.addItem(<extrautils2:chickenring:0>)
+
+setRewardExperience(4)

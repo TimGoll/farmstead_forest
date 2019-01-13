@@ -6,3 +6,5 @@ addParent("triumph:level_1/wood")
 
 criteria = addCriteria("freshwateritem", "minecraft:inventory_changed")
 criteria.addItem(<harvestcraft:freshwateritem>)
+
+setRewardExperience(4)

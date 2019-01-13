@@ -53,3 +53,5 @@ criteria = addCriteria("colored_catcher_p", "minecraft:inventory_changed")
 criteria.addItem(<roost:chicken, nbt:{Chicken:"chickens:whitechicken",Growth:10,Gain:10,Strength:10}>)
 
 setRequirements("any")
+
+setRewardExperience(4)

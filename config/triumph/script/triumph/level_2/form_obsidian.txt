@@ -6,3 +6,5 @@ addParent("triumph:level_2/pickaxe2")
 
 criteria = addCriteria("obsidian", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:obsidian>)
+
+setRewardExperience(4)

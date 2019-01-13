@@ -6,3 +6,5 @@ addParent("triumph:level_3/EU_solar")
 
 criteria = addCriteria("resonator", "minecraft:inventory_changed")
 criteria.addItem(<extrautils2:resonator>)
+
+setRewardExperience(4)

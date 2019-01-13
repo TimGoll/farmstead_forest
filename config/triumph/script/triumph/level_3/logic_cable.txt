@@ -6,3 +6,5 @@ addParent("triumph:level_3/drying_basin")
 
 criteria = addCriteria("logiccable", "minecraft:inventory_changed")
 criteria.addItem(<integrateddynamics:cable>)
+
+setRewardExperience(4)

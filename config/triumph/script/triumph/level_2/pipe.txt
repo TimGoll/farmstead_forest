@@ -9,3 +9,5 @@ criteria.addItem(<extrautils2:pipe>)
 
 setFrameType("GOAL")
 setRewardItem(<extrautils2:book>)
+
+setRewardExperience(4)

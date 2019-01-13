@@ -6,3 +6,5 @@ addParent("triumph:level_2/coke_oven")
 
 criteria = addCriteria("coal_coke", "minecraft:inventory_changed")
 criteria.addItem(<immersiveengineering:material:6>)
+
+setRewardExperience(4)

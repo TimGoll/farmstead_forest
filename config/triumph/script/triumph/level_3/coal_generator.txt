@@ -1,8 +1,10 @@
-setIcon(<actuallyadditions:block_coal_generator>)
-setTitle("Coal Generator")
-setDescription("Create energy from burning coal.")
+setIcon(<extrautils2:machine, meta:0, count:1, nbt:{Type:"extrautils2:generator_survival"}>)
+setTitle("Survival Generator")
+setDescription("A very efficient but slow coal generator.")
 
 addParent("triumph:level_3/root")
 
 criteria = addCriteria("coal_generator", "minecraft:inventory_changed")
-criteria.addItem(<actuallyadditions:block_coal_generator>)
+criteria.addItem(<extrautils2:machine, meta:0, count:1, nbt:{Type:"extrautils2:generator_survival"}>)
+
+setRewardExperience(4)

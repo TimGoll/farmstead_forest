@@ -1,0 +1,18 @@
+recipes.remove(<ci:branches_block>);
+
+recipes.addShapeless(<minecraft:leather> *9, [<ci:leather_block>]);
+//recipes.addShapeless(<minecraft:feather> *9, [<compresseditems:pillow>]);
+//recipes.addShapeless(<minecraft:egg> *9, [<compresseditems:setofeggs>]);
+//recipes.addShapeless(<minecraft:blaze_rod> *9, [<compresseditems:blazebunchblock>]);
+recipes.addShapeless(<minecraft:stick> *9, [<ci:branches_block>]);
+
+recipes.addShapeless(<minecraft:beetroot_seeds> *9, [<ci:beetroot_seeds_sack>]);
+recipes.addShapeless(<minecraft:melon_seeds> *9, [<ci:melon_seeds_sack>]);
+recipes.addShapeless(<minecraft:pumpkin_seeds> *9, [<ci:pumpkin_seeds_sack>]);
+recipes.addShapeless(<minecraft:wheat_seeds> *9, [<ci:wheat_seeds_sack>]);
+
+recipes.remove(<ci:charcoal_block>);
+mods.jei.JEI.hide(<ci:charcoal_block>);
+
+recipes.remove(<ci:set_of_eggs>);
+recipes.addShaped(<ci:set_of_eggs>, [[<ore:egg>, <ore:egg>, <ore:egg>], [<ore:egg>, <ore:egg>, <ore:egg>], [<ore:egg>, <ore:egg>, <ore:egg>]]);

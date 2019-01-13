@@ -6,3 +6,5 @@ addParent("triumph:level_3/root")
 
 criteria = addCriteria("formed", "immersiveengineering:multiblock_formed")
 criteria.setMultiblock("IE:BlastFurnace")
+
+setRewardExperience(4)

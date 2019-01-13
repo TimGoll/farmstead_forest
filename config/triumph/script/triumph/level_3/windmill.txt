@@ -6,3 +6,5 @@ addParent("triumph:level_3/dynamo")
 
 criteria = addCriteria("windmill", "minecraft:inventory_changed")
 criteria.addItem(<immersiveengineering:wooden_device1:1>)
+
+setRewardExperience(4)

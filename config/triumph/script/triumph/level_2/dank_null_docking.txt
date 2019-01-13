@@ -6,3 +6,5 @@ addParent("triumph:level_2/dank_null")
 
 criteria = addCriteria("danknull_dock", "minecraft:inventory_changed")
 criteria.addItem(<danknull:danknull_dock>)
+
+setRewardExperience(4)

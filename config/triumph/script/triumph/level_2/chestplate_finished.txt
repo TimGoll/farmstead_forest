@@ -6,3 +6,5 @@ addParent("triumph:level_2/chestplate")
 
 criteria = addCriteria("tc_armor_finished", "minecraft:inventory_changed")
 criteria.addItem(<conarm:chestplate>)
+
+setRewardExperience(4)

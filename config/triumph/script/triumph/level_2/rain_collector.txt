@@ -6,3 +6,6 @@ addParent("triumph:level_2/rain_collector_controller")
 
 criteria = addCriteria("rain_collector", "minecraft:inventory_changed")
 criteria.addItem(<waterworks:rain_collector>)
+setPos(384,202)
+
+setRewardExperience(4)

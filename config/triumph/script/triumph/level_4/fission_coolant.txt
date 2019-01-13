@@ -1,0 +1,10 @@
+setIcon(<nuclearcraft:cooler:1>)
+setTitle("Water Cooler")
+setDescription("The base passive coolant.")
+
+addParent("triumph:level_4/fission_controller")
+
+criteria = addCriteria("cooler", "minecraft:inventory_changed")
+criteria.addItem(<nuclearcraft:cooler:1>)
+
+setRewardExperience(4)

@@ -6,3 +6,5 @@ addParent("triumph:level_1/water_collector")
 
 criteria = addCriteria("porcelain_barrel", "minecraft:inventory_changed")
 criteria.addItem(<ceramics:porcelain_barrel>)
+
+setRewardExperience(4)

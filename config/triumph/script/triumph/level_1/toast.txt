@@ -6,3 +6,5 @@ addParent("triumph:level_1/dough")
 
 criteria = addCriteria("toastitem", "minecraft:inventory_changed")
 criteria.addItem(<harvestcraft:toastitem>)
+
+setRewardExperience(4)

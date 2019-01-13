@@ -6,3 +6,5 @@ addParent("triumph:level_3/connector_lv")
 
 criteria = addCriteria("external_heater", "minecraft:inventory_changed")
 criteria.addItem(<immersiveengineering:metal_device1:1>)
+
+setRewardExperience(4)

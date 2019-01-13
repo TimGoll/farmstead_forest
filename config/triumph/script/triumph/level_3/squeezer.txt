@@ -9,3 +9,5 @@ criteria.addItem(<integrateddynamics:squeezer>)
 
 setFrameType("GOAL")
 setRewardItem(<integrateddynamics:on_the_dynamics_of_integration>)
+
+setRewardExperience(4)

@@ -9,3 +9,5 @@ criteria.addItem(<farmsteadforest:plastic_sheet>)
 
 setFrameType("GOAL")
 setRewardItem(<industrialforegoing:book_manual>)
+
+setRewardExperience(4)

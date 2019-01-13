@@ -6,3 +6,5 @@ addParent("triumph:level_3/capacitor_lv")
 
 criteria = addCriteria("lv_exchanger", "minecraft:inventory_changed")
 criteria.addItem(<exchangers:lv_exchanger>)
+
+setRewardExperience(4)

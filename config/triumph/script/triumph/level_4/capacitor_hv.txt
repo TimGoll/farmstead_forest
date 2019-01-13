@@ -1,0 +1,10 @@
+setIcon(<immersiveengineering:metal_device0:2>)
+setTitle("HV Capacitor")
+setDescription("Store a bit more power in here.")
+
+addParent("triumph:level_4/root")
+
+criteria = addCriteria("capacitor_hv", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:metal_device0:2>)
+
+setRewardExperience(4)

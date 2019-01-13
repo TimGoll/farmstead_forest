@@ -9,3 +9,5 @@ criteria.addItem(<rustic:crushing_tub>)
 
 setFrameType("GOAL")
 setRewardItem(<rustic:book>)
+
+setRewardExperience(4)

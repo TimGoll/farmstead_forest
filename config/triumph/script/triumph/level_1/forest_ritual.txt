@@ -6,3 +6,5 @@ addParent("triumph:level_1/golden_leaves")
 
 criteria = addCriteria("wood_stand", "minecraft:inventory_changed")
 criteria.addItem(<naturesaura:wood_stand>)
+
+setRewardExperience(4)

@@ -1,0 +1,10 @@
+setIcon(<enderstorage:ender_storage:0>)
+setTitle("Ender Chest")
+setDescription("Build at least two of these to teleport items across dimensions.")
+
+addParent("triumph:level_2/blaze_rod")
+
+criteria = addCriteria("ender_chest", "minecraft:inventory_changed")
+criteria.addItem(<enderstorage:ender_storage:0>)
+
+setRewardExperience(4)

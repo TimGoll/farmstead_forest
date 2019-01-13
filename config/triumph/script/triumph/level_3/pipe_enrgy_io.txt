@@ -6,3 +6,5 @@ addParent("triumph:level_3/pipe_energy")
 
 criteria = addCriteria("energy_io", "minecraft:inventory_changed")
 criteria.addItem(<cyclicmagic:energy_pump>)
+
+setRewardExperience(4)

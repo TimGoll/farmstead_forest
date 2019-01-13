@@ -1,0 +1,10 @@
+setIcon(<enderstorage:ender_storage:1>)
+setTitle("Ender Tank")
+setDescription("Build at least two of these to teleport fluids across dimensions.")
+
+addParent("triumph:level_2/blaze_rod")
+
+criteria = addCriteria("ender_tank", "minecraft:inventory_changed")
+criteria.addItem(<enderstorage:ender_storage:1>)
+
+setRewardExperience(4)

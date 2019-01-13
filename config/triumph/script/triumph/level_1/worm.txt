@@ -9,3 +9,5 @@ criteria.addItem(<actuallyadditions:item_worm>)
 
 setFrameType("GOAL")
 setRewardItem(<actuallyadditions:item_booklet>)
+
+setRewardExperience(4)

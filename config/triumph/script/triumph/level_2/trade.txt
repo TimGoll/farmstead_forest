@@ -5,3 +5,5 @@ setDescription("Successfully trade with a Villager.")
 addParent("triumph:level_2/root")
 
 addCriteria("traded", "minecraft:villager_trade")
+
+setRewardExperience(4)

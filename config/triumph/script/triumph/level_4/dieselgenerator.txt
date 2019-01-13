@@ -1,0 +1,10 @@
+setIcon(<immersiveengineering:metal_multiblock:10>)
+setTitle("Diesel Generator")
+setDescription("Produce huge amounts of energy by burning diesel or bio diesel. Start with the latter.")
+
+addParent("triumph:level_4/capacitor_hv")
+
+criteria = addCriteria("diesel_generator", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IE:DieselGenerator")
+
+setRewardExperience(4)

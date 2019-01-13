@@ -6,3 +6,5 @@ addParent("triumph:level_2/ingot_iron")
 
 criteria = addCriteria("red_alloy_wire", "minecraft:inventory_changed")
 criteria.addItem(<projectred-transmission:wire>)
+
+setRewardExperience(4)

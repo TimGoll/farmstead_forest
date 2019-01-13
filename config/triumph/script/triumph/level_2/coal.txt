@@ -6,3 +6,5 @@ addParent("triumph:level_2/cobblestone")
 
 criteria = addCriteria("coalOre", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:coal:0>)
+
+setRewardExperience(4)

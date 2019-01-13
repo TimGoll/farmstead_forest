@@ -1,0 +1,10 @@
+setIcon(<xpholder:obsidian_container>)
+setTitle("Obsidian Container")
+setDescription("Craft two of them two build the bottom and top part of the container.")
+
+addParent("triumph:level_2/form_obsidian")
+
+criteria = addCriteria("obsidian_container", "minecraft:inventory_changed")
+criteria.addItem(<xpholder:obsidian_container>)
+
+setRewardExperience(4)

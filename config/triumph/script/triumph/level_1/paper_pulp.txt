@@ -6,3 +6,5 @@ addParent("triumph:level_1/fired_cauldron")
 
 criteria = addCriteria("paper_pulp", "minecraft:inventory_changed")
 criteria.addItem(<farmsteadforest:paper_pulp>)
+
+setRewardExperience(4)

@@ -165,6 +165,9 @@ mods.immersiveengineering.Crusher.removeRecipe(<actuallyadditions:item_dust:7>);
 mods.immersiveengineering.Crusher.removeRecipe(<actuallyadditions:item_dust:4>);
 mods.immersiveengineering.Crusher.removeRecipe(<actuallyadditions:item_dust:3>);
 
+<ore:dustLapis>.remove(<actuallyadditions:block_coal_generator>);
+mods.jei.JEI.hide(<actuallyadditions:block_coal_generator>);	
+
 
 
 
@@ -180,3 +183,6 @@ mods.jei.JEI.hide(<actuallyadditions:item_misc:9>);
 
 recipes.remove(<actuallyadditions:item_misc:12>);
 recipes.addShaped(<actuallyadditions:item_misc:12>, [[<harvestcraft:ricecakeitem>, <harvestcraft:ricecakeitem>, <harvestcraft:ricecakeitem>], [<harvestcraft:ricecakeitem>, <ore:listAllwater>, <harvestcraft:ricecakeitem>], [<harvestcraft:ricecakeitem>, <harvestcraft:ricecakeitem>, <harvestcraft:ricecakeitem>]]);
+
+recipes.remove(<actuallyadditions:block_empowerer>);
+recipes.addShaped(<actuallyadditions:block_empowerer>, [[null, <actuallyadditions:item_crystal>, null], [<stevescarts:modulecomponents:22>, <actuallyadditions:item_battery_double>, <stevescarts:modulecomponents:22>], [<actuallyadditions:block_misc:9>, <actuallyadditions:block_display_stand>, <actuallyadditions:block_misc:9>]]);

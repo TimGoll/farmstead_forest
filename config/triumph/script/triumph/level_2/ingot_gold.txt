@@ -6,3 +6,5 @@ addParent("triumph:level_2/pickaxe2")
 
 criteria = addCriteria("ingotGold", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:gold_ingot>)
+
+setRewardExperience(4)

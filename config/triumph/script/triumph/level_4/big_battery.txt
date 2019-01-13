@@ -1,0 +1,10 @@
+setIcon(<zettaindustries:batterycontroller>)
+setTitle("Battery Controller")
+setDescription("Build a big battery. The minimum size is 5x3x3. [You find more information in the 'Farmstead Forest' book.]")
+
+addParent("triumph:level_4/dieselgenerator")
+
+criteria = addCriteria("batterycontroller", "minecraft:inventory_changed")
+criteria.addItem(<zettaindustries:batterycontroller>)
+
+setRewardExperience(4)

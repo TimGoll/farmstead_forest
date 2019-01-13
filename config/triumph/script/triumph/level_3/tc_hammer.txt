@@ -6,3 +6,5 @@ addParent("triumph:level_3/tool_forge")
 
 criteria = addCriteria("tc_hammer", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:hammer>)
+
+setRewardExperience(4)

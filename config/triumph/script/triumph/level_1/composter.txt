@@ -6,3 +6,5 @@ addParent("triumph:level_1/wheat")
 
 criteria = addCriteria("compost_bin", "minecraft:inventory_changed")
 criteria.addItem(<composter:compost_bin>)
+
+setRewardExperience(4)

@@ -6,3 +6,5 @@ addParent("triumph:level_3/fabricator")
 
 criteria = addCriteria("passivegenerator", "minecraft:inventory_changed")
 criteria.addItem(<extrautils2:passivegenerator:0>)
+
+setRewardExperience(4)

@@ -6,3 +6,5 @@ addParent("triumph:level_3/tool_forge")
 
 criteria = addCriteria("tc_excavator", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:excavator>)
+
+setRewardExperience(4)

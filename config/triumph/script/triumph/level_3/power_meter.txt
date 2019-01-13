@@ -1,0 +1,10 @@
+setIcon(<zettaindustries:rfmeterblock>)
+setTitle("FU Meter")
+setDescription("Monitor your power usage.")
+
+addParent("triumph:level_3/capacitor_lv")
+
+criteria = addCriteria("rfmeterblock", "minecraft:inventory_changed")
+criteria.addItem(<zettaindustries:rfmeterblock>)
+
+setRewardExperience(4)

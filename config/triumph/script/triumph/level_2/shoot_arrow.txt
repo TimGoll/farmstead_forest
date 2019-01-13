@@ -10,3 +10,5 @@ damageSource = damage.getDamageSourceData()
 damageSource.isProjectile(true)
 immediateSource = damageSource.getImmediateSourceData()
 immediateSource.setType("minecraft:arrow")
+
+setRewardExperience(4)

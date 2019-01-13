@@ -6,3 +6,5 @@ addParent("triumph:level_2/waystone")
 
 criteria = addCriteria("waystone_return_scroll", "minecraft:inventory_changed")
 criteria.addItem(<waystones:return_scroll>)
+
+setRewardExperience(4)

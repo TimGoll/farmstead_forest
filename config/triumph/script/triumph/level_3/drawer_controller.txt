@@ -6,3 +6,5 @@ addParent("triumph:level_3/compacting_drawer")
 
 criteria = addCriteria("controller", "minecraft:inventory_changed")
 criteria.addItem(<storagedrawers:controller>)
+
+setRewardExperience(4)

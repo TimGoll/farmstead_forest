@@ -6,3 +6,5 @@ addParent("triumph:level_3/squeezer")
 
 criteria = addCriteria("drying_basin_2", "minecraft:inventory_changed")
 criteria.addItem(<integrateddynamics:drying_basin>)
+
+setRewardExperience(4)

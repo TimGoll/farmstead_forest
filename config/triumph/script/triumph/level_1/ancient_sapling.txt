@@ -6,3 +6,5 @@ addParent("triumph:level_1/forest_ritual")
 
 criteria = addCriteria("ancient_sapling", "minecraft:inventory_changed")
 criteria.addItem(<naturesaura:ancient_sapling>)
+
+setRewardExperience(4)

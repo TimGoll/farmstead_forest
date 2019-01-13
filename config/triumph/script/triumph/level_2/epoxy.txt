@@ -6,3 +6,5 @@ addParent("triumph:level_2/hammer")
 
 criteria = addCriteria("natural_epoxy", "minecraft:inventory_changed")
 criteria.addItem(<farmsteadforest:natural_epoxy>)
+
+setRewardExperience(4)

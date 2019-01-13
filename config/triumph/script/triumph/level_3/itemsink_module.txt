@@ -6,3 +6,5 @@ addParent("triumph:level_3/logistic_chassis_mk2")
 
 criteria = addCriteria("module_item_sink", "minecraft:inventory_changed")
 criteria.addItem(<logisticspipes:module_item_sink>)
+
+setRewardExperience(4)

@@ -11,3 +11,5 @@ criteria = addCriteria("seared_casting_faucet", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:faucet>)
 
 setRequirements("any")
+
+setRewardExperience(4)

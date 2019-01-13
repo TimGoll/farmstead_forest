@@ -6,3 +6,5 @@ addParent("triumph:level_3/root")
 
 criteria = addCriteria("capacitor_lv", "minecraft:inventory_changed")
 criteria.addItem(<immersiveengineering:metal_device0:0>)
+
+setRewardExperience(4)

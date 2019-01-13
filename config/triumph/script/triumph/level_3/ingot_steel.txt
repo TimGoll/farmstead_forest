@@ -6,3 +6,5 @@ addParent("triumph:level_3/blast_furnace")
 
 criteria = addCriteria("steel_ingot", "minecraft:inventory_changed")
 criteria.addItem(<immersiveengineering:metal:8>)
+
+setRewardExperience(4)

@@ -6,3 +6,5 @@ addParent("triumph:level_1/dried_hide")
 
 criteria = addCriteria("hide_tanned", "minecraft:inventory_changed")
 criteria.addItem(<primal:hide_tanned>)
+
+setRewardExperience(4)

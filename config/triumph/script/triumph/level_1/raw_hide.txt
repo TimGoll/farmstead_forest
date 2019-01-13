@@ -6,3 +6,5 @@ addParent("triumph:level_1/skin")
 
 criteria = addCriteria("hide_raw", "minecraft:inventory_changed")
 criteria.addItem(<primal:hide_raw>)
+
+setRewardExperience(4)

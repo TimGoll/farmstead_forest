@@ -6,3 +6,5 @@ addParent("triumph:level_3/spawner")
 
 criteria = addCriteria("gear_oscillating", "minecraft:inventory_changed")
 criteria.addItem(<soulus:gear_oscillating>)
+
+setRewardExperience(4)

@@ -6,3 +6,5 @@ addParent("triumph:level_2/ingot_bronze")
 
 criteria = addCriteria("gearBronze", "minecraft:inventory_changed")
 criteria.addItem(<forestry:gear_bronze>)
+
+setRewardExperience(4)

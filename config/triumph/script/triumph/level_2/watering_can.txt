@@ -6,3 +6,5 @@ addParent("triumph:level_2/ingot_iron")
 
 criteria = addCriteria("wateringcan", "minecraft:inventory_changed")
 criteria.addItem(<extrautils2:wateringcan>)
+
+setRewardExperience(4)

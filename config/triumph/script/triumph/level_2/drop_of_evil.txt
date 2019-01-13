@@ -6,3 +6,5 @@ addParent("triumph:level_2/wither_skull")
 
 criteria = addCriteria("drop_of_evil", "minecraft:inventory_changed")
 criteria.addItem(<extrautils2:ingredients:10>)
+
+setRewardExperience(4)

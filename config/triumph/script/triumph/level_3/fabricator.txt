@@ -9,3 +9,5 @@ criteria.addItem(<forestry:fabricator>)
 
 setFrameType("GOAL")
 setRewardItem(<forestry:book_forester>)
+
+setRewardExperience(4)

@@ -6,3 +6,5 @@ addParent("triumph:level_0/root")
 
 criteria = addCriteria("clay_ball", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:clay_ball>)
+
+setRewardExperience(4)

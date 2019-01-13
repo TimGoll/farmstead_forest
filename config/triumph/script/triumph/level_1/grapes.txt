@@ -9,3 +9,5 @@ criteria.addItem(<rustic:grapes>)
 
 setFrameType("GOAL")
 setRewardItem(<cookingforblockheads:recipe_book:1>)
+
+setRewardExperience(4)

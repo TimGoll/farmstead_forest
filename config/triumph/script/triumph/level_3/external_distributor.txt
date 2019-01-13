@@ -6,3 +6,5 @@ addParent("triumph:level_3/cargo_manager")
 
 criteria = addCriteria("blockdistributor", "minecraft:inventory_changed")
 criteria.addItem(<stevescarts:blockdistributor>)
+
+setRewardExperience(4)

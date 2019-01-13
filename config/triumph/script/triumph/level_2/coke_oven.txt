@@ -8,3 +8,5 @@ addParent("triumph:level_2/casting_basin")
 
 criteria = addCriteria("coke_brick", "minecraft:inventory_changed")
 criteria.addItem(<immersiveengineering:stone_decoration:0>)
+
+setRewardExperience(4)

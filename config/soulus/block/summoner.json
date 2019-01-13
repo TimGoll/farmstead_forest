@@ -41,24 +41,16 @@
 		"min": 1.0,
 		"max": 5.0
 	},
+	"style_items": {
+		"soulus:dust_iron": "normal",
+		"soulus:dust_niobium": "sorrow",
+		"soulus:dust_ender": "ender",
+		"soulus:dust_wood": "earthy",
+		"minecraft:blaze_powder": "blazing",
+		"soulus:ash": "madness",
+		"soulus:dust_stone": "spooky"
+	},
 	"style_potion_effects": {
-		"madness": [
-			{
-				"effect": "weakness",
-				"duration": 6000,
-				"chance": 0.1
-			},
-			{
-				"effect": "wither",
-				"duration": 6000,
-				"chance": 0.5
-			},
-			{
-				"effect": "poison",
-				"duration": 6000,
-				"chance": 0.2
-			}
-		],
 		"spooky": [
 			{
 				"effect": "glowing",
@@ -106,23 +98,6 @@
 			},
 			{
 				"effect": "resistance",
-				"duration": 6000,
-				"chance": 0.1
-			}
-		],
-		"earthy": [
-			{
-				"effect": "slowness",
-				"duration": 6000,
-				"chance": 0.2
-			},
-			{
-				"effect": "resistance",
-				"duration": 6000,
-				"chance": 0.5
-			},
-			{
-				"effect": "poison",
 				"duration": 6000,
 				"chance": 0.1
 			}
@@ -182,6 +157,40 @@
 			},
 			{
 				"effect": "strength",
+				"duration": 6000,
+				"chance": 0.2
+			}
+		],
+		"earthy": [
+			{
+				"effect": "slowness",
+				"duration": 6000,
+				"chance": 0.2
+			},
+			{
+				"effect": "resistance",
+				"duration": 6000,
+				"chance": 0.5
+			},
+			{
+				"effect": "poison",
+				"duration": 6000,
+				"chance": 0.1
+			}
+		],
+		"madness": [
+			{
+				"effect": "weakness",
+				"duration": 6000,
+				"chance": 0.1
+			},
+			{
+				"effect": "wither",
+				"duration": 6000,
+				"chance": 0.5
+			},
+			{
+				"effect": "poison",
 				"duration": 6000,
 				"chance": 0.2
 			}

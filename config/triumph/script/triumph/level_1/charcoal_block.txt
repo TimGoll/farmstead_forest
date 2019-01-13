@@ -6,3 +6,5 @@ addParent("triumph:level_1/fire_bow")
 
 criteria = addCriteria("charcoal_block", "minecraft:inventory_changed")
 criteria.addItem(<primal_tech:charcoal_block>)
+
+setRewardExperience(4)

@@ -6,3 +6,5 @@ addParent("triumph:level_0/bark_fiber")
 
 criteria = addCriteria("flaked_stick_with_rock", "minecraft:inventory_changed")
 criteria.addItem(<primal_tech:work_stump>)
+
+setRewardExperience(4)

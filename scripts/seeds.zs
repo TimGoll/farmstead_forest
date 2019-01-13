@@ -577,3 +577,167 @@ mods.primal.Flake.addRecipe(
 	<rustic:chili_pepper>, 
     <rustic:chili_pepper_seeds>
 );
+
+
+
+
+
+
+recipes.remove(<harvestcraft:agaveseeditem>);
+mods.primal.Flake.addRecipe(
+    "seed_agave", 
+    1.0, 1.0, 1.0,
+	<harvestcraft:agaveitem>, 
+    <harvestcraft:agaveseeditem>
+);
+
+recipes.remove(<harvestcraft:amaranthseeditem>);
+mods.primal.Flake.addRecipe(
+    "seed_amaranth", 
+    1.0, 1.0, 1.0,
+	<harvestcraft:amaranthitem>, 
+    <harvestcraft:amaranthseeditem>
+);
+
+recipes.remove(<harvestcraft:arrowrootseeditem>);
+mods.primal.Flake.addRecipe(
+    "seed_arrowroot", 
+    1.0, 1.0, 1.0,
+	<harvestcraft:arrowrootitem>, 
+    <harvestcraft:arrowrootseeditem>
+);
+
+recipes.remove(<harvestcraft:cassavaseeditem>);
+mods.primal.Flake.addRecipe(
+    "seed_cassava", 
+    1.0, 1.0, 1.0,
+	<harvestcraft:cassavaitem>, 
+    <harvestcraft:cassavaseeditem>
+);
+
+recipes.remove(<harvestcraft:chickpeaseeditem>);
+mods.primal.Flake.addRecipe(
+    "seed_chickpea", 
+    1.0, 1.0, 1.0,
+	<harvestcraft:chickpeaitem>, 
+    <harvestcraft:chickpeaseeditem>
+);
+
+recipes.remove(<harvestcraft:elderberryseeditem>);
+mods.primal.Flake.addRecipe(
+    "seed_elderberry", 
+    1.0, 1.0, 1.0,
+	<harvestcraft:elderberryitem>, 
+    <harvestcraft:elderberryseeditem>
+);
+
+recipes.remove(<harvestcraft:flaxseeditem>);
+mods.primal.Flake.addRecipe(
+    "seed_flax", 
+    1.0, 1.0, 1.0,
+	<harvestcraft:flaxitem>, 
+    <harvestcraft:flaxseeditem>
+);
+
+recipes.remove(<harvestcraft:flaxseeditem>);
+mods.primal.Flake.addRecipe(
+    "seed_flax2", 
+    1.0, 1.0, 1.0,
+	<biomesoplenty:double_plant>, 
+    <harvestcraft:flaxseeditem>
+);
+
+recipes.remove(<harvestcraft:greengrapeseeditem>);
+mods.primal.Flake.addRecipe(
+    "seed_greengrape", 
+    1.0, 1.0, 1.0,
+	<harvestcraft:greengrapeitem>, 
+    <harvestcraft:greengrapeseeditem>
+);
+
+recipes.remove(<harvestcraft:huckleberryseeditem>);
+mods.primal.Flake.addRecipe(
+    "seed_huckleberry", 
+    1.0, 1.0, 1.0,
+	<harvestcraft:huckleberryitem>, 
+    <harvestcraft:huckleberryseeditem>
+);
+
+recipes.remove(<harvestcraft:jicamaseeditem>);
+mods.primal.Flake.addRecipe(
+    "seed_jicama", 
+    1.0, 1.0, 1.0,
+	<harvestcraft:jicamaitem>, 
+    <harvestcraft:jicamaseeditem>
+);
+recipes.remove(<harvestcraft:juteseeditem>);
+mods.primal.Flake.addRecipe(
+    "seed_jute", 
+    1.0, 1.0, 1.0,
+	<harvestcraft:juteitem>, 
+    <harvestcraft:juteseeditem>
+);
+
+recipes.remove(<harvestcraft:kenafseeditem>);
+mods.primal.Flake.addRecipe(
+    "seed_kenaf", 
+    1.0, 1.0, 1.0,
+	<harvestcraft:kenafitem>, 
+    <harvestcraft:kenafseeditem>
+);
+
+recipes.remove(<harvestcraft:kohlrabiseeditem>);
+mods.primal.Flake.addRecipe(
+    "seed_kohlrabi", 
+    1.0, 1.0, 1.0,
+	<harvestcraft:kohlrabiitem>, 
+    <harvestcraft:kohlrabiseeditem>
+);
+
+recipes.remove(<harvestcraft:lentilseeditem>);
+mods.primal.Flake.addRecipe(
+    "seed_lentil", 
+    1.0, 1.0, 1.0,
+	<harvestcraft:lentilitem>, 
+    <harvestcraft:lentilseeditem>
+);
+
+recipes.remove(<harvestcraft:milletseeditem>);
+mods.primal.Flake.addRecipe(
+    "seed_millet", 
+    1.0, 1.0, 1.0,
+	<harvestcraft:milletitem>, 
+    <harvestcraft:milletseeditem>
+);
+
+recipes.remove(<harvestcraft:mulberryseeditem>);
+mods.primal.Flake.addRecipe(
+    "seed_mulberry", 
+    1.0, 1.0, 1.0,
+	<harvestcraft:mulberryitem>, 
+    <harvestcraft:mulberryseeditem>
+);
+
+recipes.remove(<harvestcraft:quinoaseeditem>);
+mods.primal.Flake.addRecipe(
+    "seed_quinoa", 
+    1.0, 1.0, 1.0,
+	<harvestcraft:quinoaitem>, 
+    <harvestcraft:quinoaseeditem>
+);
+
+recipes.remove(<harvestcraft:sisalseeditem>);
+mods.primal.Flake.addRecipe(
+    "seed_sisal", 
+    1.0, 1.0, 1.0,
+	<harvestcraft:sisalitem>, 
+    <harvestcraft:sisalseeditem>
+);
+
+recipes.remove(<harvestcraft:taroseeditem>);
+mods.primal.Flake.addRecipe(
+    "seed_tao", 
+    1.0, 1.0, 1.0,
+	<harvestcraft:taroitem>, 
+    <harvestcraft:taroseeditem>
+);

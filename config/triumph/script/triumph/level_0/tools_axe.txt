@@ -8,3 +8,6 @@ setFrameType("CHALLENGE")
 
 criteria = addCriteria("flint_axe", "minecraft:inventory_changed")
 criteria.addItem(<primal:flint_axe>)
+
+addRewardFunction("triumph:finished_0")
+setRewardExperience(50)

@@ -6,3 +6,5 @@ addParent("triumph:level_3/EU_eternal_glass")
 
 criteria = addCriteria("powerbattery", "minecraft:inventory_changed")
 criteria.addItem(<extrautils2:powerbattery>)
+
+setRewardExperience(4)

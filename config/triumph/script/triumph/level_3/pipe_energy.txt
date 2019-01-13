@@ -6,3 +6,5 @@ addParent("triumph:level_3/external_distributor")
 
 criteria = addCriteria("energy_cable", "minecraft:inventory_changed")
 criteria.addItem(<cyclicmagic:energy_pipe>)
+
+setRewardExperience(4)

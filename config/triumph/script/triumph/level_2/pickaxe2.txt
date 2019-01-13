@@ -6,3 +6,5 @@ addParent("triumph:level_2/ingot_bronze")
 
 criteria = addCriteria("tc_pickaxe2", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:pick_head, nbt:{Material: "bronze"}>)
+
+setRewardExperience(4)

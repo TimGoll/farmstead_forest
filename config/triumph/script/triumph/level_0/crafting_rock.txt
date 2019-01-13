@@ -9,3 +9,5 @@ criteria.addItem(<primal_tech:rock>)
 
 setFrameType("GOAL")
 setRewardItem("harvestcraft:toastitem", 0, 4)
+
+setRewardExperience(4)

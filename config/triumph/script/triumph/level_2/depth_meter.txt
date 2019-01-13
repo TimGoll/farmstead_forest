@@ -6,3 +6,5 @@ addParent("triumph:level_2/compass")
 
 criteria = addCriteria("depth_meter", "minecraft:inventory_changed")
 criteria.addItem(<infoaccessories:info_accessory:2>)
+
+setRewardExperience(4)

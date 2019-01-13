@@ -6,3 +6,5 @@ addParent("triumph:level_2/chestplate_finished")
 
 criteria = addCriteria("lanolin", "minecraft:inventory_changed")
 criteria.addItem(<lanolin:lanolin>)
+
+setRewardExperience(4)

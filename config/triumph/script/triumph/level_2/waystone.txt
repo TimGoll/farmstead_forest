@@ -6,3 +6,5 @@ addParent("triumph:level_2/form_obsidian")
 
 criteria = addCriteria("waystone", "minecraft:inventory_changed")
 criteria.addItem(<waystones:waystone>)
+
+setRewardExperience(4)

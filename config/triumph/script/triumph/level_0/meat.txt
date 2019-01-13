@@ -6,3 +6,5 @@ addParent("triumph:level_0/flaked_with_rock")
 
 criteria = addCriteria("meat_raw", "minecraft:inventory_changed")
 criteria.addItem(<ore:listAllmeatraw>)
+
+setRewardExperience(4)

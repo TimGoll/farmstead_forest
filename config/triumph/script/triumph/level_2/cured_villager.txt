@@ -5,3 +5,5 @@ setDescription("Weaken and then cure a zombie villager.")
 addParent("triumph:level_2/nether")
 
 criteria = addCriteria("cured_zombie", "minecraft:cured_zombie_villager")
+
+setRewardExperience(4)

@@ -6,3 +6,5 @@ addParent("triumph:level_2/pickaxe")
 
 criteria = addCriteria("brokeStone", "triumph:player_harvest_block")
 criteria.setBlock(<ore:stone>)
+
+setRewardExperience(4)

@@ -6,3 +6,5 @@ addParent("triumph:level_1/paper_pulp")
 
 criteria = addCriteria("waxed_paper", "minecraft:inventory_changed")
 criteria.addItem(<farmsteadforest:waxed_paper>)
+
+setRewardExperience(4)

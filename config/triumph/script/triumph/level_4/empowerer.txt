@@ -1,0 +1,10 @@
+setIcon(<actuallyadditions:block_empowerer>)
+setTitle("Empowerer")
+setDescription("Empower stuff!")
+
+addParent("triumph:level_4/root")
+
+criteria = addCriteria("block_empowerer", "minecraft:inventory_changed")
+criteria.addItem(<actuallyadditions:block_empowerer>)
+
+setRewardExperience(4)

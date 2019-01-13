@@ -1,0 +1,10 @@
+setIcon(<xpholder:xp_holder>)
+setTitle("XP Holder")
+setDescription("The finished XP holder can hold up to 250 XP levels. The bottom and top part must be enchanted with 'holder' and then be combined in an anvil.")
+
+addParent("triumph:level_2/xp_holder_part")
+
+criteria = addCriteria("xp_holder", "minecraft:inventory_changed")
+criteria.addItem(<xpholder:xp_holder>)
+
+setRewardExperience(4)

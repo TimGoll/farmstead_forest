@@ -6,3 +6,5 @@ addParent("triumph:level_3/root")
 
 criteria = addCriteria("elevator_white", "minecraft:inventory_changed")
 criteria.addItem(<elevatorid:elevator_white>)
+
+setRewardExperience(4)

@@ -6,3 +6,5 @@ addParent("triumph:level_3/cart_assembler")
 
 criteria = addCriteria("wooden_hull", "minecraft:inventory_changed")
 criteria.addItem(<stevescarts:cartmodule:37>)
+
+setRewardExperience(4)

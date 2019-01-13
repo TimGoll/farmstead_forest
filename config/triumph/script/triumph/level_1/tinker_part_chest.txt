@@ -6,3 +6,5 @@ addParent("triumph:level_1/tinker_part_builder")
 
 criteria = addCriteria("table_5", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:tooltables:5>)
+
+setRewardExperience(4)

@@ -1,0 +1,10 @@
+setIcon(<nuclearcraft:fission_controller_new_fixed>)
+setTitle("Fission Controller")
+setDescription("The control unit of your fission reactor. [You find more information in the 'Farmstead Forest' book.]")
+
+addParent("triumph:level_4/big_battery")
+
+criteria = addCriteria("fission_controller_new_fixed", "minecraft:inventory_changed")
+criteria.addItem(<nuclearcraft:fission_controller_new_fixed>)
+
+setRewardExperience(4)

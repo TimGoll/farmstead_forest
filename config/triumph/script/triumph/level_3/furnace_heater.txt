@@ -6,3 +6,5 @@ addParent("triumph:level_3/root")
 
 criteria = addCriteria("furnace_heater", "minecraft:inventory_changed")
 criteria.addItem(<naturesaura:furnace_heater>)
+
+setRewardExperience(4)

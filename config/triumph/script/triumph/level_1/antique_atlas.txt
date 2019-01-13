@@ -6,3 +6,5 @@ addParent("triumph:level_1/wood")
 
 criteria = addCriteria("empty_antique_atlas", "minecraft:inventory_changed")
 criteria.addItem(<antiqueatlas:empty_antique_atlas>)
+
+setRewardExperience(4)

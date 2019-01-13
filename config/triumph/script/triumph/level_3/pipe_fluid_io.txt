@@ -6,3 +6,5 @@ addParent("triumph:level_3/pipe_fluid")
 
 criteria = addCriteria("fluid_io", "minecraft:inventory_changed")
 criteria.addItem(<cyclicmagic:fluid_pump>)
+
+setRewardExperience(4)

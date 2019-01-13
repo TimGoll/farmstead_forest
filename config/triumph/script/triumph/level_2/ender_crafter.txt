@@ -6,3 +6,5 @@ addParent("triumph:level_2/ingot_iron")
 
 criteria = addCriteria("ender_crafter", "minecraft:inventory_changed")
 criteria.addItem(<extendedcrafting:ender_crafter>)
+
+setRewardExperience(4)

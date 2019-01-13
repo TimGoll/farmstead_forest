@@ -6,3 +6,5 @@ addParent("triumph:level_1/fired_cauldron")
 
 criteria = addCriteria("ladle", "minecraft:inventory_changed")
 criteria.addItem(<ore:ladle>)
+
+setRewardExperience(4)

@@ -6,3 +6,5 @@ addParent("triumph:level_1/tomato")
 
 criteria = addCriteria("chili_pepper", "minecraft:inventory_changed")
 criteria.addItem(<rustic:chili_pepper>)
+
+setRewardExperience(4)

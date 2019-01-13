@@ -6,3 +6,5 @@ addParent("triumph:level_2/chisel")
 
 criteria = addCriteria("tc_width++", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:materials:12>)
+
+setRewardExperience(4)

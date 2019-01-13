@@ -6,3 +6,5 @@ addParent("triumph:level_2/plastic_sheet")
 
 criteria = addCriteria("plastic", "minecraft:inventory_changed")
 criteria.addItem(<industrialforegoing:plastic>)
+
+setRewardExperience(4)

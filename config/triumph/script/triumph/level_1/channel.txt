@@ -11,3 +11,5 @@ criteria = addCriteria("seared_casting_channel", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:channel>)
 
 setRequirements("any")
+
+setRewardExperience(4)

@@ -6,3 +6,5 @@ addParent("triumph:level_3/external_heater")
 
 criteria = addCriteria("groundwater_pump", "minecraft:inventory_changed")
 criteria.addItem(<waterworks:groundwater_pump>)
+
+setRewardExperience(4)

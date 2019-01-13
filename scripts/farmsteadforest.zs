@@ -27,6 +27,7 @@ furnace.addRecipe(<primal:salt_dust_netjry>, <farmsteadforest:wetsalt>);
 recipes.addShapeless(<farmsteadforest:wetsalt>, [<harvestcraft:potitem>, <minecraft:water_bucket>]);
 recipes.addShapeless(<farmsteadforest:wetsalt>, [<harvestcraft:potitem>, <ceramics:clay_bucket>.withTag({fluids: {FluidName: "water", Amount: 1000}})]);
 recipes.addShapeless(<farmsteadforest:wetsalt>, [<harvestcraft:potitem>, <harvestcraft:freshwateritem>]);
+recipes.addShapeless(<farmsteadforest:wetsalt>, [<harvestcraft:potitem>, <chickens:liquid_egg>]);
 
 //book
 recipes.addShapeless(<gbook:guidebook>.withTag({Book: "gbook:farmsteadforest.xml"}), [<minecraft:book>, <minecraft:book>]);

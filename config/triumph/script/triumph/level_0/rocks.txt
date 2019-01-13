@@ -6,3 +6,5 @@ addParent("triumph:level_0/sticks")
 
 criteria = addCriteria("rock_stone", "minecraft:inventory_changed")
 criteria.addItem(<primal:rock_stone>)
+
+setRewardExperience(4)

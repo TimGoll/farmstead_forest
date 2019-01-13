@@ -6,3 +6,5 @@ addParent("triumph:level_2/compass")
 
 criteria = addCriteria("biome_analyzer", "minecraft:inventory_changed")
 criteria.addItem(<infoaccessories:info_accessory:6>)
+
+setRewardExperience(4)

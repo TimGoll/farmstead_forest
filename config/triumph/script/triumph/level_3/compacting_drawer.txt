@@ -6,3 +6,5 @@ addParent("triumph:level_3/ingot_steel")
 
 criteria = addCriteria("compdrawers", "minecraft:inventory_changed")
 criteria.addItem(<storagedrawers:compdrawers>)
+
+setRewardExperience(4)

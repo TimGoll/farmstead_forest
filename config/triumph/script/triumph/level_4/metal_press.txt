@@ -1,0 +1,10 @@
+setIcon(<immersiveengineering:metal_multiblock:0>)
+setTitle("Metal Press")
+setDescription("Machine to create plates and gears in a faster way.")
+
+addParent("triumph:level_4/root")
+
+criteria = addCriteria("MetalPress", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IE:MetalPress")
+
+setRewardExperience(4)

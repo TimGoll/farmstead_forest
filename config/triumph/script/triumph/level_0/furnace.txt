@@ -10,3 +10,5 @@ criteria = addCriteria("furnace", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:furnace>)
 
 setRewardItem("harvestcraft:applejellysandwichitem", 0, 1)
+
+setRewardExperience(4)

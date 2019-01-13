@@ -6,3 +6,5 @@ addParent("triumph:level_1/saw")
 
 criteria = addCriteria("wooden_hopper", "minecraft:inventory_changed")
 criteria.addItem(<primal_tech:wooden_hopper>)
+
+setRewardExperience(4)

@@ -6,3 +6,5 @@ addParent("triumph:level_3/item_interface")
 
 criteria = addCriteria("variablecard", "minecraft:inventory_changed")
 criteria.addItem(<integrateddynamics:variable>)
+
+setRewardExperience(4)

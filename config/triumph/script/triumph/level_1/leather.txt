@@ -6,3 +6,5 @@ addParent("triumph:level_1/tanned_hide")
 
 criteria = addCriteria("leather", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:leather>)
+
+setRewardExperience(4)

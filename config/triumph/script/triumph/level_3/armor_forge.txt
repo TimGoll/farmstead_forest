@@ -6,3 +6,5 @@ addParent("triumph:level_3/ingot_steel")
 
 criteria = addCriteria("armorforge", "minecraft:inventory_changed")
 criteria.addItem(<conarm:armorforge:0>)
+
+setRewardExperience(4)

@@ -35,3 +35,5 @@ criteria = addCriteria("colored_egg_2j", "minecraft:inventory_changed")
 criteria.addItem(<chickens:colored_egg:14>)
 
 setRequirements("any")
+
+setRewardExperience(4)

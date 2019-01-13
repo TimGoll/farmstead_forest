@@ -1,0 +1,10 @@
+setIcon(<chickens:spawn_egg, meta:0, count:1, nbt:{ChickenType:{id:"chickens:sandchicken"}}>)
+setTitle("Sand Chicken")
+setDescription("One of your base chickens.")
+
+addParent("triumph:level_4/empowerer")
+
+criteria = addCriteria("chicken_egg_4", "minecraft:inventory_changed")
+criteria.addItem(<chickens:spawn_egg, meta:0, count:1, nbt:{ChickenType:{id:"chickens:sandchicken"}}>)
+
+setRewardExperience(4)

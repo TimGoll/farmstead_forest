@@ -1,0 +1,10 @@
+setIcon(<extrautils2:machine, meta:0, count:1, nbt:{Type:"extrautils2:generator"}>)
+setTitle("Furnace Generator")
+setDescription("Your average coal generator.")
+
+addParent("triumph:level_3/coal_generator")
+
+criteria = addCriteria("coal_generator2", "minecraft:inventory_changed")
+criteria.addItem(<extrautils2:machine, meta:0, count:1, nbt:{Type:"extrautils2:generator"}>)
+
+setRewardExperience(4)

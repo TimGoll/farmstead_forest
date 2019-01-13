@@ -6,3 +6,5 @@ addParent("triumph:level_0/root")
 
 criteria = addCriteria("stick", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:stick>)
+
+setRewardExperience(4)

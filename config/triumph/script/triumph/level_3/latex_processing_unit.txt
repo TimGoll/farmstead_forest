@@ -6,3 +6,5 @@ addParent("triumph:level_3/external_heater")
 
 criteria = addCriteria("latex_processing_unit", "minecraft:inventory_changed")
 criteria.addItem(<industrialforegoing:latex_processing_unit>)
+
+setRewardExperience(4)

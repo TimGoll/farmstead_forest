@@ -11,3 +11,5 @@ criteria = addCriteria("seared_casting_basin", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:casting:1>)
 
 setRequirements("any")
+
+setRewardExperience(4)

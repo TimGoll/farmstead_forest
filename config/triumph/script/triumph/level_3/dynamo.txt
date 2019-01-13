@@ -6,3 +6,5 @@ addParent("triumph:level_3/root")
 
 criteria = addCriteria("kinetic_dynamo", "minecraft:inventory_changed")
 criteria.addItem(<immersiveengineering:metal_device1:2>)
+
+setRewardExperience(4)

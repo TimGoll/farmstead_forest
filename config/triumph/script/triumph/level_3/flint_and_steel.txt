@@ -6,3 +6,5 @@ addParent("triumph:level_3/ingot_steel")
 
 criteria = addCriteria("flint_and_steel", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:flint_and_steel>)
+
+setRewardExperience(4)

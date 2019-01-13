@@ -1,0 +1,10 @@
+setIcon(<nuclearcraft:cell_block>)
+setTitle("Reactor Cell")
+setDescription("The fuel gets burned in here.")
+
+addParent("triumph:level_4/fission_controller")
+
+criteria = addCriteria("cell_block", "minecraft:inventory_changed")
+criteria.addItem(<nuclearcraft:cell_block>)
+
+setRewardExperience(4)

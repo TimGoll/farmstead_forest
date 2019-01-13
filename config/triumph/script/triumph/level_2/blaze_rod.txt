@@ -6,3 +6,5 @@ addParent("triumph:level_2/fortress")
 
 criteria = addCriteria("blaze_rod", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:blaze_rod>)
+
+setRewardExperience(4)

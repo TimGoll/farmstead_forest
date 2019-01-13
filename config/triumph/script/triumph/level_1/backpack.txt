@@ -6,3 +6,5 @@ addParent("triumph:level_1/antique_atlas")
 
 criteria = addCriteria("backpack_simple", "minecraft:inventory_changed")
 criteria.addItem(<ironbackpacks:backpack, meta:0, nbt:{packInfo:{type:"ironbackpacks:basic",spec:"NONE"}}>)
+
+setRewardExperience(4)

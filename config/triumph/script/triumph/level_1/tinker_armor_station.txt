@@ -9,3 +9,5 @@ criteria.addItem(<conarm:armorstation>)
 
 setFrameType("GOAL")
 setRewardItem(<conarm:book, nbt:{mantle: {book: {page: "armory.repairing"}}}>)
+
+setRewardExperience(4)

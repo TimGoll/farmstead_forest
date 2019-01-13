@@ -6,3 +6,5 @@ addParent("triumph:level_2/root")
 
 criteria = addCriteria("tc_chisel", "minecraft:inventory_changed")
 criteria.addItem(<tcomplement:chisel>)
+
+setRewardExperience(4)

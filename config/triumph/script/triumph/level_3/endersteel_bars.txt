@@ -6,3 +6,5 @@ addParent("triumph:level_3/ender_dust")
 
 criteria = addCriteria("bars_endersteel", "minecraft:inventory_changed")
 criteria.addItem(<soulus:bars_endersteel>)
+
+setRewardExperience(4)

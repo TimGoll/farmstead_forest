@@ -6,3 +6,5 @@ addParent("triumph:level_3/unrouted_transport_pipe")
 
 criteria = addCriteria("pipe_basic", "minecraft:inventory_changed")
 criteria.addItem(<logisticspipes:pipe_basic>)
+
+setRewardExperience(4)

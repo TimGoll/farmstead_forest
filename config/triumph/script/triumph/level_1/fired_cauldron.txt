@@ -6,3 +6,5 @@ addParent("triumph:level_1/charcoal")
 
 criteria = addCriteria("cauldron", "minecraft:inventory_changed")
 criteria.addItem(<primal:cauldron>)
+
+setRewardExperience(4)

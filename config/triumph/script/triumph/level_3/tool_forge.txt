@@ -6,3 +6,5 @@ addParent("triumph:level_3/ingot_steel")
 
 criteria = addCriteria("toolforge", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:toolforge:0>)
+
+setRewardExperience(4)

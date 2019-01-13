@@ -6,3 +6,5 @@ addParent("triumph:level_2/hopper")
 
 criteria = addCriteria("hopper_pipe", "minecraft:inventory_changed")
 criteria.addItem(<inspirations:pipe>)
+
+setRewardExperience(4)

@@ -6,3 +6,5 @@ addParent("triumph:level_3/burnt_emerald")
 
 criteria = addCriteria("emerald_coated", "minecraft:inventory_changed")
 criteria.addItem(<soulus:emerald_coated>)
+
+setRewardExperience(4)

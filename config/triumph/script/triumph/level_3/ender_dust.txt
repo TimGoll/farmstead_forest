@@ -1,8 +1,10 @@
 setIcon(<soulus:dust_ender>)
 setTitle("Ender Dust")
-setDescription("A magic dust from ender bones. You find more information in the 'Farmstead Forest' book.")
+setDescription("A magic dust from ender bones. [You find more information in the 'Farmstead Forest' book.]")
 
 addParent("triumph:level_3/root")
 
 criteria = addCriteria("dust_ender", "minecraft:inventory_changed")
 criteria.addItem(<soulus:dust_ender:0>)
+
+setRewardExperience(4)

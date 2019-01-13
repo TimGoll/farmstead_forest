@@ -1,0 +1,4 @@
+/title @p title {"text":"Completed Chapter Zero","color":"red", "bold":true}
+/title @p subtitle {"text":"Unlocked Chapter One - It's Wood Time", "color":"white", "bold":true}
+
+summon minecraft:fireworks_rocket ~ ~ ~
