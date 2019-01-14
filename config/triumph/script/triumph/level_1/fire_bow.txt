@@ -2,7 +2,7 @@ setIcon(<primal:fire_bow>)
 setTitle("Fire Bow")
 setDescription("You need this fire bow to set things on fire! It consumes sticks.")
 
-addParent("triumph:level_1/charcoal")
+addParent("triumph:level_1/log_stack")
 
 criteria = addCriteria("fire_bow", "minecraft:inventory_changed")
 criteria.addItem(<primal:fire_bow>)

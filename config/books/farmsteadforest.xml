@@ -35,7 +35,13 @@
 		</page>
 		<page>
 			<p space="20">You can start leveling your character as soon as you reach level 5. You open the GUI by pressing L.</p>
-			<p space="10">You start with only 8 hearts but it's easy to gain more if you eat different stuff. Check out <link ref="cooking">cooking</link>.</p>
+			<p space="20">You start with only 8 hearts but it's easy to gain more if you eat different stuff. Check out <link ref="cooking">cooking</link>.</p>
+			<p space="10">You can craft a new guidebook at any time with just one piece of dirt.</p>
+			<recipe type="shapeless">
+				<recipe.result>
+					<stack item="gbook:guidebook" tag='{Book: "gbook:farmsteadforest.xml"}'/>
+				</recipe.result>
+			</recipe>
 		</page>
 	</chapter>
 	

@@ -1,0 +1,10 @@
+setIcon(<primalchests:primal_chest>)
+setTitle("Primal Chest")
+setDescription("A small chest for your first irems.")
+
+addParent("triumph:level_0/bark_fiber")
+
+criteria = addCriteria("primal_chest", "minecraft:inventory_changed")
+criteria.addItem(<primalchests:primal_chest>)
+
+setRewardExperience(4)

@@ -30,7 +30,7 @@ recipes.addShapeless(<farmsteadforest:wetsalt>, [<harvestcraft:potitem>, <harves
 recipes.addShapeless(<farmsteadforest:wetsalt>, [<harvestcraft:potitem>, <chickens:liquid_egg>]);
 
 //book
-recipes.addShapeless(<gbook:guidebook>.withTag({Book: "gbook:farmsteadforest.xml"}), [<minecraft:book>, <minecraft:book>]);
+recipes.addShapeless(<gbook:guidebook>.withTag({Book: "gbook:farmsteadforest.xml"}), [<minecraft:dirt>]);
 
 //dense metal and stuff
 recipes.addShaped(<farmsteadforest:clumb_dense_metal> *2, [[<ore:plateConstantan>, <ore:plateConstantan>, <ore:plateConstantan>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], [<ore:plateElectrum>, <ore:plateElectrum>, <ore:plateElectrum>]]);

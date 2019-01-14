@@ -1,0 +1,10 @@
+setIcon(<metalchests:metal_chest:0>)
+setTitle("Copper Chest")
+setDescription("A slightly bigger chest.")
+
+addParent("triumph:level_2/casting_basin")
+
+criteria = addCriteria("metal_chest", "minecraft:inventory_changed")
+criteria.addItem(<metalchests:metal_chest:0>)
+
+setRewardExperience(4)

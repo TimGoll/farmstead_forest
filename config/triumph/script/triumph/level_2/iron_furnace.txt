@@ -1,0 +1,10 @@
+setIcon(<ironfurnaces:iron_furnace_idle>)
+setTitle("Iron Furnace")
+setDescription("A faster and more advanced furnace.")
+
+addParent("triumph:level_2/ingot_iron")
+
+criteria = addCriteria("iron_furnace_idle", "minecraft:inventory_changed")
+criteria.addItem(<ironfurnaces:iron_furnace_idle>)
+
+setRewardExperience(4)

@@ -121,3 +121,7 @@ recipes.addShapeless(<harvestcraft:freshwateritem>, [<chickens:liquid_egg>]);
 //wax recipes
 recipes.remove(<harvestcraft:beeswaxitem>);
 recipes.addShapeless(<harvestcraft:beeswaxitem> *9, [<harvestcraft:pressedwax>]);
+
+//remove stupid recipe bug
+recipes.removeByRecipeName("harvestcraft:string_cropflax");
+recipes.addShapeless(<minecraft:string>, [<harvestcraft:flaxitem>, <harvestcraft:flaxitem>, <harvestcraft:flaxitem>]);

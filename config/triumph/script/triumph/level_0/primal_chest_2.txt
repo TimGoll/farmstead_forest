@@ -1,0 +1,10 @@
+setIcon(<primalchests:primal_chest_advanced>)
+setTitle("Primal Chest Advanced")
+setDescription("A bigger primitive chest.")
+
+addParent("triumph:level_0/work_stump")
+
+criteria = addCriteria("primal_chest_advanced", "minecraft:inventory_changed")
+criteria.addItem(<primalchests:primal_chest_advanced>)
+
+setRewardExperience(4)

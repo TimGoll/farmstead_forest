@@ -4,7 +4,11 @@ setDescription("Get some sticks by breaking leaves.")
 
 addParent("triumph:level_0/root")
 
+setFrameType("GOAL")
+
 criteria = addCriteria("stick", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:stick>)
+
+setRewardItem(<harvestcraft:hamburgeritem, meta:0, count:4>)
 
 setRewardExperience(4)

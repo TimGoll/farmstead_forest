@@ -102,7 +102,7 @@
       "enable": true
     },
     "trees": {
-      "amountPerChunk": 2.5,
+      "amountPerChunk": 3.0,
       "enable": true,
       "generators": {}
     },

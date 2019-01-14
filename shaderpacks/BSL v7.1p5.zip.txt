@@ -1,0 +1,8 @@
+#Wed Nov 28 14:49:18 CET 2018
+WaterG=228
+WaterF=48.0
+BumpyEdge=true
+CloudLighting=true
+WaterSharpness=0.20
+WaterS=0.15
+AOQuality=1

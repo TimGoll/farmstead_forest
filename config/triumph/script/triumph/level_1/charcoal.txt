@@ -2,7 +2,7 @@ setIcon(<primal:charcoal_high>)
 setTitle("Charcoal")
 setDescription("Harvest your first charcoal.")
 
-addParent("triumph:level_1/log_stack")
+addParent("triumph:level_1/fire_bow")
 
 criteria = addCriteria("charcoal", "minecraft:inventory_changed")
 criteria.addItem(<ore:charcoal>)

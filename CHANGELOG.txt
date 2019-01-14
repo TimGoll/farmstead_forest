@@ -1,1 +1,17 @@
-the changelog will be in this file and displayed ingame.
+Release Candidate 2 (14.01.18)
+===================
+- added early game chests
+- added electric chisel
+- added fancy lamps
+- added metal chests
+- added and edited some advancements
+- sped up thatch production by a factor of 5
+- water powered saw uses now oredicted pressure plates
+- silk cordage recipe fix
+- fixed coke brick recipe
+
+
+Release Candidate 1 (13.01.18)
+===================
+
+initial test release for server play

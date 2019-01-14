@@ -1,0 +1,10 @@
+setIcon(<powerchisels:fluxed_chisel>)
+setTitle("Fluxed Chisel")
+setDescription("A powered chisel which works like an iChisel.")
+
+addParent("triumph:level_3/capacitor_lv")
+
+criteria = addCriteria("fluxed_chisel", "minecraft:inventory_changed")
+criteria.addItem(<powerchisels:fluxed_chisel>)
+
+setRewardExperience(4)

@@ -59,7 +59,7 @@ furnace.addRecipe(<farmsteadforest:hardened_plant_cordage>, <primal:plant_cordag
 
 //charcoal mote clashes with tiny coal
 recipes.remove(<primal:charcoal_mote>);
-recipes.addShapeless(<primal:charcoal_mote> *5, [<ore:charcoal>, <ore:toolWorkBlade>]);
+recipes.addShapeless(<primal:charcoal_mote> *10, [<ore:charcoal>, <ore:toolWorkBlade>]);
 
 //charcoal to mini charcoal
 recipes.addShapeless(<minicoal:minicharcoal> *8, [<primal:charcoal_fair>]);

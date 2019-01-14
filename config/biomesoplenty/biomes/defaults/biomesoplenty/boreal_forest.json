@@ -42,17 +42,8 @@
       "amountPerChunk": 1.5,
       "enable": true
     },
-    "gravel": {
-      "with": {
-        "block": "minecraft:gravel",
-        "properties": {}
-      },
-      "maxRadius": 7,
-      "amountPerChunk": 6.0,
-      "enable": true
-    },
     "flowers": {
-      "amountPerChunk": 0.2,
+      "amountPerChunk": 0.5,
       "enable": true,
       "generators": {}
     },
@@ -76,22 +67,6 @@
       },
       "generationAttempts": 32,
       "amountPerChunk": 1.0,
-      "enable": true
-    },
-    "grass": {
-      "amountPerChunk": 1.75,
-      "enable": true,
-      "generators": {}
-    },
-    "bushes": {
-      "with": {
-        "block": "biomesoplenty:plant_0",
-        "properties": {
-          "variant": "bush"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 0.75,
       "enable": true
     },
     "amber": {
@@ -118,7 +93,7 @@
       "enable": true
     },
     "trees": {
-      "amountPerChunk": 8.0,
+      "amountPerChunk": 20.0,
       "enable": true,
       "generators": {}
     },
@@ -130,7 +105,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 0.25,
+      "amountPerChunk": 2.0,
       "enable": true
     },
     "poison_ivy": {
@@ -143,6 +118,50 @@
       "generationAttempts": 16,
       "amountPerChunk": 0.1,
       "enable": true
+    },
+    "gravel": {
+      "with": {
+        "block": "minecraft:gravel",
+        "properties": {}
+      },
+      "maxRadius": 7,
+      "amountPerChunk": 6.0,
+      "enable": true
+    },
+    "sand": {
+      "with": {
+        "block": "minecraft:sand",
+        "properties": {
+          "variant": "sand"
+        }
+      },
+      "maxRadius": 7,
+      "amountPerChunk": 3.0,
+      "enable": true
+    },
+    "flax": {
+      "with": {
+        "block": "biomesoplenty:double_plant",
+        "properties": {
+          "half": "lower",
+          "variant": "flax"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 0.2,
+      "enable": true,
+      "withTop": {
+        "block": "biomesoplenty:double_plant",
+        "properties": {
+          "half": "upper",
+          "variant": "flax"
+        }
+      }
+    },
+    "grass": {
+      "amountPerChunk": 1.2,
+      "enable": true,
+      "generators": {}
     }
   },
   "weights": {

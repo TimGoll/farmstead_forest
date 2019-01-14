@@ -24,7 +24,7 @@
       "enable": true
     },
     "flowers": {
-      "amountPerChunk": 0.1,
+      "amountPerChunk": 0.15,
       "enable": true,
       "generators": {}
     },

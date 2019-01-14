@@ -25,13 +25,8 @@ recipes.addShaped(<immersiveengineering:metal_decoration0:4> *2, [[<industrialfo
 recipes.remove(<immersiveengineering:metal_decoration0:5>);
 recipes.addShaped(<immersiveengineering:metal_decoration0:5> *2, [[<ore:plateSteel>, <immersiveengineering:material:9>, <ore:plateSteel>], [<forestry:thermionic_tubes:11>, <ore:ingotElectrum>, <forestry:thermionic_tubes:11>], [<ore:gearBronze>, <immersiveengineering:material:9>, <ore:gearBronze>]]);
 
-//you need primal lacquer wood for the coke oven
-recipes.removeByRecipeName("immersiveengineering:stone_decoration/cokebrick");
-recipes.addShaped(<immersiveengineering:stone_decoration> *4, [[<minecraft:brick>, <minecraft:brick>, <minecraft:brick>], [<primal:mortar>, <ore:plankLacquer>, <primal:mortar>], [<minecraft:brick>, <minecraft:brick>, <minecraft:brick>]]);
-recipes.addShaped(<immersiveengineering:stone_decoration> *4, [[<minecraft:brick>, <minecraft:brick>, <minecraft:brick>], [<primal:mortar>, <ore:plankTreatedWood>, <primal:mortar>], [<minecraft:brick>, <minecraft:brick>, <minecraft:brick>]]);
-
 recipes.removeByRecipeName("immersiveengineering:stone_decoration/blastbrick");
-recipes.addShaped(<immersiveengineering:stone_decoration:1> *3, [[<farmsteadforest:nether_crafting_compound>, <minecraft:brick>, <farmsteadforest:nether_crafting_compound>], [<minecraft:brick>, <minecraft:magma_cream>, <minecraft:brick>], [<farmsteadforest:nether_crafting_compound>, <minecraft:brick>, <farmsteadforest:nether_crafting_compound>]]);
+recipes.addShaped(<immersiveengineering:stone_decoration:1> *4, [[<farmsteadforest:nether_crafting_compound>, <minecraft:brick>, <farmsteadforest:nether_crafting_compound>], [<minecraft:brick>, <minecraft:magma_cream>, <minecraft:brick>], [<farmsteadforest:nether_crafting_compound>, <minecraft:brick>, <farmsteadforest:nether_crafting_compound>]]);
 
 //early game items should use iron mechanical components
 recipes.remove(<immersiveengineering:metal_device1:2>);
