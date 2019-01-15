@@ -8,8 +8,8 @@ recipes.addShaped(<extrautils2:pipe> *8, [[<minecraft:stone_slab>, <minecraft:st
 recipes.remove(<extrautils2:teleporter:1>);
 recipes.addShaped(<extrautils2:teleporter:1>, [[<extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>], [<extrautils2:decorativesolid:3>, null, <extrautils2:decorativesolid:3>], [<extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>]]);
 
-recipes.remove(<extrautils2:machine>);
-recipes.addShaped(<extrautils2:machine> *4, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [<industrialforegoing:plastic>, <ore:dustRedstone>, <industrialforegoing:plastic>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
+//recipes.remove(<extrautils2:machine>.withTag());
+//recipes.addShaped(<extrautils2:machine> *4, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [<industrialforegoing:plastic>, <ore:dustRedstone>, <industrialforegoing:plastic>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
 
 
 //disable stuff

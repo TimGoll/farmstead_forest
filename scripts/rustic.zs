@@ -74,3 +74,9 @@ recipes.addShaped(<rustic:condenser_advanced>, [[null, <minecraft:netherbrick>, 
 
 recipes.remove(<rustic:retort_advanced>);
 recipes.addShaped(<rustic:retort_advanced>, [[<minecraft:netherbrick>], [<ore:plateSteel>], [<minecraft:netherbrick>]]);
+
+//no beed
+recipes.remove(<rustic:apiary>);
+mods.jei.JEI.hide(<rustic:apiary>);
+mods.jei.JEI.hide(<rustic:beehive>);
+mods.jei.JEI.hide(<rustic:bee>);

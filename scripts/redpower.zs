@@ -36,7 +36,10 @@ recipes.addShaped(<projectred-core:resource_item:410>, [[<ore:ingotIron>, <proje
 
 //change tube recipe to the one of redpower
 recipes.remove(<teckle:tube.item>);
-recipes.addShaped(<teckle:tube.item> *8, [[<teckle:ingot>, <ore:blockGlassColorless>, <teckle:ingot>]]);
+recipes.addShaped(<teckle:tube.item> *8, [[<ore:ingotBronze>, <ore:blockGlassColorless>, <ore:ingotBronze>]]);
+
+recipes.remove(<teckle:alloyfurnace>);
+mods.jei.JEI.hide(<teckle:alloyfurnace>);
 
 
 
@@ -156,14 +159,14 @@ recipes.remove(<projectred-transportation:pipe:1>);
 recipes.addShapedMirrored(<projectred-transportation:pipe:1> *16, [[<projectred-core:resource_item:514>, <teckle:siliconwafer:1>, <projectred-core:resource_item:505>], [<ore:gemDiamond>, <minecraft:glass_pane>, <ore:gemDiamond>], [<projectred-core:resource_item:505>, <teckle:siliconwafer:1>, <projectred-core:resource_item:514>]]);
 
 //add alloys to IE
-mods.immersiveengineering.AlloySmelter.addRecipe(<teckle:ingot:1>, <ore:ingotIron>, <ore:dustRedstone> *4, 2000);
-mods.immersiveengineering.AlloySmelter.addRecipe(<teckle:ingot:1>, <ore:dustIron>, <ore:dustRedstone> *4, 2000);
+mods.immersiveengineering.AlloySmelter.addRecipe(<teckle:ingot:1>, <ore:ingotIron>, <ore:dustRedstone> *4, 500);
+mods.immersiveengineering.AlloySmelter.addRecipe(<teckle:ingot:1>, <ore:dustIron>, <ore:dustRedstone> *4, 500);
 
-mods.immersiveengineering.AlloySmelter.addRecipe(<teckle:ingot:1>, <ore:ingotCopper>, <ore:dustRedstone> *4, 2000);
-mods.immersiveengineering.AlloySmelter.addRecipe(<teckle:ingot:1>, <ore:dustCopper>, <ore:dustRedstone> *4, 2000);
+mods.immersiveengineering.AlloySmelter.addRecipe(<teckle:ingot:1>, <ore:ingotCopper>, <ore:dustRedstone> *4, 500);
+mods.immersiveengineering.AlloySmelter.addRecipe(<teckle:ingot:1>, <ore:dustCopper>, <ore:dustRedstone> *4, 500);
 
-mods.immersiveengineering.AlloySmelter.addRecipe(<teckle:ingot:2>, <ore:ingotSilver>, <teckle:nikolite> *4, 2000);
-mods.immersiveengineering.AlloySmelter.addRecipe(<teckle:ingot:2>, <ore:dustSilver>, <teckle:nikolite> *4, 2000);
+mods.immersiveengineering.AlloySmelter.addRecipe(<teckle:ingot:2>, <ore:ingotSilver>, <teckle:nikolite> *4, 500);
+mods.immersiveengineering.AlloySmelter.addRecipe(<teckle:ingot:2>, <ore:dustSilver>, <teckle:nikolite> *4, 500);
 
 mods.immersiveengineering.ArcFurnace.addRecipe(<teckle:ingot:1>, <ore:ingotIron>, null, 100, 512, [<ore:dustRedstone> *4], "Alloying");
 mods.immersiveengineering.ArcFurnace.addRecipe(<teckle:ingot:1>, <ore:dustIron>, null, 100, 512, [<ore:dustRedstone> *4], "Alloying");
@@ -175,13 +178,13 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<teckle:ingot:2>, <ore:ingotSilve
 mods.immersiveengineering.ArcFurnace.addRecipe(<teckle:ingot:2>, <ore:dustSilver>, null, 100, 512, [<teckle:nikolite> *4], "Alloying");
 
 //silicon in alloy furnace
-mods.immersiveengineering.AlloySmelter.addRecipe(<teckle:siliconboule>, <ore:sand> *8, <minecraft:coal> *8, 2000);
+mods.immersiveengineering.AlloySmelter.addRecipe(<teckle:siliconboule>, <ore:sand> *8, <minecraft:coal> *8, 500);
 mods.immersiveengineering.ArcFurnace.addRecipe(<teckle:siliconboule>, <ore:sand> *8, null, 100, 512, [<minecraft:coal> *8], "Alloying");
 
-mods.immersiveengineering.AlloySmelter.addRecipe(<teckle:siliconwafer:1>, <teckle:siliconwafer>, <ore:dustRedstone> *4, 2000);
+mods.immersiveengineering.AlloySmelter.addRecipe(<teckle:siliconwafer:1>, <teckle:siliconwafer>, <ore:dustRedstone> *4, 500);
 mods.immersiveengineering.ArcFurnace.addRecipe(<teckle:siliconwafer:1>, <teckle:siliconwafer>, null, 100, 512, [<ore:dustRedstone> *4], "Alloying");
 
-mods.immersiveengineering.AlloySmelter.addRecipe(<teckle:siliconwafer:2>, <teckle:siliconwafer>, <teckle:nikolite> *4, 2000);
+mods.immersiveengineering.AlloySmelter.addRecipe(<teckle:siliconwafer:2>, <teckle:siliconwafer>, <teckle:nikolite> *4, 500);
 mods.immersiveengineering.ArcFurnace.addRecipe(<teckle:siliconwafer:2>, <teckle:siliconwafer>, null, 100, 512, [<teckle:nikolite> *4], "Alloying");
 
 recipes.addShaped(<teckle:blade>, [[<ore:ingotCopper>], [<ore:stickWood>]]);

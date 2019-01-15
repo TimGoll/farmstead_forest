@@ -111,6 +111,7 @@ recipes.remove(<immersiveengineering:metal:30>);
 recipes.addShapeless(<immersiveengineering:metal:30>, [<immersiveengineering:tool>, <ore:ingotCopper>, <ore:ingotCopper>]);
 
 recipes.remove(<immersiveengineering:metal:39>);
+recipes.removeByRecipeName("unidict:plateiron_x3_shape.aaa");
 recipes.addShapeless(<immersiveengineering:metal:39>, [<immersiveengineering:tool>, <ore:ingotIron>, <ore:ingotIron>]);
 
 recipes.remove(<immersiveengineering:metal:40>);

@@ -1,5 +1,17 @@
+Release Candidate 3 (15.01.18)
+==============================
+- disabled teckle alloy furnace (cconfused players)
+- fixed EU2 generator recipes
+- disabled rustic bees
+- fixed iron plate recipe
+- added new recipe for strings
+- sped up alloy kiln
+- wooden hopper recipe accepts now all wooden trapdoors
+- increased rock yield (early game)
+- updated some advancements
+
 Release Candidate 2 (14.01.18)
-===================
+==============================
 - added early game chests
 - added electric chisel
 - added fancy lamps
@@ -12,6 +24,5 @@ Release Candidate 2 (14.01.18)
 
 
 Release Candidate 1 (13.01.18)
-===================
-
+==============================
 initial test release for server play

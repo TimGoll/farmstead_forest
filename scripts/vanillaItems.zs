@@ -135,3 +135,5 @@ mods.jei.JEI.hide(<minecraft:command_block_minecart>);
 recipes.remove(<minecraft:leather>);
 furnace.remove(<minecraft:leather>);
 
+//new string recipe
+recipes.addShapeless(<minecraft:string> *4, [<farmsteadforest:hardened_plant_cordage>, <farmsteadforest:hardened_plant_cordage>, <farmsteadforest:hardened_plant_cordage>]);

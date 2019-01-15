@@ -63,6 +63,9 @@ mods.jei.JEI.hide(<primal_tech:charcoal_hopper>);
 <primal_tech:wooden_hopper>.displayName = "Wooden Hopper";
 <primal_tech:charcoal_hopper>.displayName = "Fireproof Hopper";
 
+recipes.remove(<primal_tech:wooden_hopper>);
+recipes.addShaped(<primal_tech:wooden_hopper>, [[<ore:plankWood>, null, <ore:plankWood>], [<ore:plankWood>, <ore:trapdoorWood>, <ore:plankWood>], [null, <ore:plankWood>, null]]);
+
 //add hints
 mods.jei.JEI.addDescription(<primal_tech:water_saw>, "Place on top of a flowing water source block. The flow of the water has to match the direction of the water mill.");
 mods.jei.JEI.addDescription(<primal_tech:work_stump>, "Place needed items ontop of the grid by rightklicking the desired stot. Rightklick the work stump with a crafting rock until the crafted items appears on top of it.");

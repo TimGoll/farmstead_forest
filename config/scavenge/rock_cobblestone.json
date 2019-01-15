@@ -52,7 +52,7 @@
 			[
 				{
 					"name": "primal:rock_stone",
-					"amount": "1",
+					"amount": "2",
 					"weight": 66
 				},
 				{
@@ -115,7 +115,7 @@
 			[
 				{
 					"name": "primal:rock_stone",
-					"amount": "2",
+					"amount": "3",
 					"weight": 75
 				},
 				{
@@ -177,7 +177,7 @@
 			[
 				{
 					"name": "primal:rock_stone",
-					"amount": "3",
+					"amount": "5",
 					"weight": 100
 				},
 				{
