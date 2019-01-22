@@ -1,6 +1,6 @@
 setIcon(<immersiveengineering:metal_device1:2>)
 setTitle("Kinetic Dynamo")
-setDescription("Turn nit to produce energy.")
+setDescription("Turn it to produce energy.")
 
 addParent("triumph:level_3/root")
 

@@ -1,10 +1,10 @@
-setIcon(<immersiveengineering:metal_device0:0>)
-setTitle("LV Capacitor")
+setIcon(<gadgetrymachines:energy_cell>)
+setTitle("Energy Cell")
 setDescription("The first enery storage option.")
 
 addParent("triumph:level_3/root")
 
 criteria = addCriteria("capacitor_lv", "minecraft:inventory_changed")
-criteria.addItem(<immersiveengineering:metal_device0:0>)
+criteria.addItem(<gadgetrymachines:energy_cell>)
 
 setRewardExperience(4)

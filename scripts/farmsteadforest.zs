@@ -40,7 +40,7 @@ recipes.addShapeless(<farmsteadforest:metal_nugget_dense_metal> *9, [<farmsteadf
 
 recipes.addShaped(<farmsteadforest:casing_plastic>, [[<industrialforegoing:plastic>, <industrialforegoing:plastic>, <industrialforegoing:plastic>], [<industrialforegoing:plastic>, null, <industrialforegoing:plastic>], [<industrialforegoing:plastic>, <industrialforegoing:plastic>, <industrialforegoing:plastic>]]);
 
-mods.forestry.Carpenter.addRecipe(<farmsteadforest:casing_dense_metal>, [[<farmsteadforest:metal_plate_dense_metal>,<farmsteadforest:metal_plate_dense_metal>,<farmsteadforest:metal_plate_dense_metal>],[<forestry:peat>, <farmsteadforest:casing_plastic>, <forestry:peat>],[<farmsteadforest:metal_plate_dense_metal>, <farmsteadforest:metal_plate_dense_metal>, <farmsteadforest:metal_plate_dense_metal>]], 150, <liquid:water> * 7500);
+mods.forestry.Carpenter.addRecipe(<farmsteadforest:casing_dense_metal>, [[<farmsteadforest:metal_plate_dense_metal>,<farmsteadforest:metal_plate_dense_metal>,<farmsteadforest:metal_plate_dense_metal>],[<farmsteadforest:metal_plate_dense_metal>, <farmsteadforest:casing_plastic>, <farmsteadforest:metal_plate_dense_metal>],[<farmsteadforest:metal_plate_dense_metal>, <farmsteadforest:metal_plate_dense_metal>, <farmsteadforest:metal_plate_dense_metal>]], 150, <liquid:water> * 7500);
 
 mods.immersiveengineering.MetalPress.addRecipe(<farmsteadforest:metal_plate_dense_metal>, <farmsteadforest:metal_ingot_dense_metal>, <immersiveengineering:mold>, 2000, 1);
 recipes.addShapeless(<farmsteadforest:metal_plate_dense_metal>, [<immersiveengineering:tool>, <farmsteadforest:metal_ingot_dense_metal>, <farmsteadforest:metal_ingot_dense_metal>]);
@@ -97,7 +97,6 @@ recipes.addShapeless(<farmsteadforest:charcoal_dust>, [<immersiveengineering:too
 
 //resin
 recipes.addShapeless(<farmsteadforest:natural_epoxy> *2, [<farmsteadforest:charcoal_dust>, <farmsteadforest:resin>, <farmsteadforest:resin>]);
-recipes.addShaped(<primal:torch_wood> *2, [[<farmsteadforest:resin>], [<ore:cordageGeneral>], [<ore:stickWood>]]);
 recipes.addShaped(<gardenstuff:candelabra> *2, [[<minecraft:string>], [<farmsteadforest:resin>], [<farmsteadforest:resin>]]);
 <ore:slimeball>.add(<farmsteadforest:natural_epoxy>);
 

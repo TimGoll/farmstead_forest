@@ -26,7 +26,8 @@ recipes.remove(<immersiveengineering:metal_decoration0:5>);
 recipes.addShaped(<immersiveengineering:metal_decoration0:5> *2, [[<ore:plateSteel>, <immersiveengineering:material:9>, <ore:plateSteel>], [<forestry:thermionic_tubes:11>, <ore:ingotElectrum>, <forestry:thermionic_tubes:11>], [<ore:gearBronze>, <immersiveengineering:material:9>, <ore:gearBronze>]]);
 
 recipes.removeByRecipeName("immersiveengineering:stone_decoration/blastbrick");
-recipes.addShaped(<immersiveengineering:stone_decoration:1> *4, [[<farmsteadforest:nether_crafting_compound>, <minecraft:brick>, <farmsteadforest:nether_crafting_compound>], [<minecraft:brick>, <minecraft:magma_cream>, <minecraft:brick>], [<farmsteadforest:nether_crafting_compound>, <minecraft:brick>, <farmsteadforest:nether_crafting_compound>]]);
+recipes.addShaped(<immersiveengineering:stone_decoration:1> *4, [[<farmsteadforest:nether_crafting_compound>, <notenoughroofs:terracotta>, <farmsteadforest:nether_crafting_compound>], [<notenoughroofs:terracotta>, <minecraft:magma_cream>, <notenoughroofs:terracotta>], [<farmsteadforest:nether_crafting_compound>, <notenoughroofs:terracotta>, <farmsteadforest:nether_crafting_compound>]]);
+recipes.addShaped(<immersiveengineering:stone_decoration:1> *4, [[<farmsteadforest:nether_crafting_compound>, <notenoughroofs:slate_brick>, <farmsteadforest:nether_crafting_compound>], [<notenoughroofs:slate_brick>, <minecraft:magma_cream>, <notenoughroofs:slate_brick>], [<farmsteadforest:nether_crafting_compound>, <notenoughroofs:slate_brick>, <farmsteadforest:nether_crafting_compound>]]);
 
 //early game items should use iron mechanical components
 recipes.remove(<immersiveengineering:metal_device1:2>);
@@ -37,6 +38,9 @@ recipes.addShaped(<immersiveengineering:wooden_device1:1>, [[<immersiveengineeri
 
 recipes.remove(<immersiveengineering:wooden_device1>);
 recipes.addShaped(<immersiveengineering:wooden_device1>, [[null, <immersiveengineering:material:10>, null], [<immersiveengineering:material:10>, <immersiveengineering:material:9>, <immersiveengineering:material:10>], [null, <immersiveengineering:material:10>, null]]);
+
+recipes.remove(<immersiveengineering:stone_decoration:10>);
+recipes.addShaped(<immersiveengineering:stone_decoration:10> *2, [[<ore:sandstone>, <notenoughroofs:terracotta>], [<notenoughroofs:terracotta>, <ore:sandstone>]]);
 
 //remove crafting recipes for sheetmetal in favor of inspirations anvil dropping
 recipes.removeByRecipeName("immersiveengineering:sheetmetal/silver_sheetmetal");
@@ -112,3 +116,17 @@ mods.immersiveengineering.CokeOven.removeRecipe(<immersiveengineering:stone_deco
 
 //use tallow for bio diesel
 mods.forestry.Squeezer.addRecipe(<liquid:biodiesel> * 25, [<primal:tallow>], 120);
+
+//remove usage of capacitors
+recipes.replaceAllOccurences(<immersiveengineering:metal_device0>, <gadgetrymachines:energy_cell>);
+recipes.replaceAllOccurences(<immersiveengineering:metal_device0:1>, <gadgetrymachines:energy_cell>);
+recipes.replaceAllOccurences(<immersiveengineering:metal_device0:2>, <integrateddynamics:energy_battery>);
+
+recipes.remove(<immersiveengineering:metal_device0>);
+mods.jei.JEI.hide(<immersiveengineering:metal_device0>);
+
+recipes.remove(<immersiveengineering:metal_device0:1>);
+mods.jei.JEI.hide(<immersiveengineering:metal_device0:1>);
+
+recipes.remove(<immersiveengineering:metal_device0:2>);
+mods.jei.JEI.hide(<immersiveengineering:metal_device0:2>);

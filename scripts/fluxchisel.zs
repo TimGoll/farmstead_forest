@@ -1,2 +1,2 @@
 recipes.remove(<powerchisels:fluxed_chisel>);
-recipes.addShaped(<powerchisels:fluxed_chisel>, [[null, <ore:plateSteel>, <ore:plateSteel>], [null, <ore:stickWood>, <ore:plateSteel>], [<immersiveengineering:metal_device0:1>, null, null]]);
+recipes.addShaped(<powerchisels:fluxed_chisel>, [[null, <ore:plateSteel>, <ore:plateSteel>], [null, <ore:stickWood>, <ore:plateSteel>], [<gadgetrymachines:energy_cell>, null, null]]);

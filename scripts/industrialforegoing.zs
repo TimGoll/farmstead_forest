@@ -95,7 +95,7 @@ recipes.remove(<industrialforegoing:animal_stock_increaser>);
 recipes.addShaped(<industrialforegoing:animal_stock_increaser>, [[<ore:plateIron>, <minecraft:golden_apple>, <ore:plateIron>], [<minecraft:golden_carrot>, <farmsteadforest:casing_plastic>, <minecraft:golden_carrot>], [<ore:dyePurple>, <farmsteadforest:gear_iron>, <ore:dyePurple>]]);
 
 recipes.remove(<industrialforegoing:water_condensator>);
-//recipes.addShaped(<industrialforegoing:water_condensator>, [[<ore:plateIron>, <gadgetrymachines:fluid_tank>, <ore:plateIron>], [<minecraft:piston>, <gadgetrymachines:pump>, <minecraft:piston>], [<forestry:gear_tin>, <farmsteadforest:casing_plastic>, <forestry:gear_tin>]]);
+recipes.addShaped(<industrialforegoing:water_condensator>, [[<ore:plateIron>, <gadgetrymachines:fluid_tank>, <ore:plateIron>], [<minecraft:piston>, <gadgetrymachines:pump>, <minecraft:piston>], [<forestry:gear_tin>, <farmsteadforest:casing_plastic>, <forestry:gear_tin>]]);
 
 recipes.remove(<industrialforegoing:water_resources_collector>);
 recipes.addShaped(<industrialforegoing:water_resources_collector>, [[<ore:plateIron>, <harvestcraft:watertrap>, <ore:plateIron>], [<minecraft:bucket>, <farmsteadforest:casing_dense_metal>, <minecraft:bucket>], [<farmsteadforest:gear_iron>, <ore:dustRedstone>, <farmsteadforest:gear_iron>]]);

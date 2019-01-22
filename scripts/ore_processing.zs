@@ -89,8 +89,8 @@ recipes.addShapeless(<immersiveengineering:metal:14>, [<immersiveengineering:too
 <ore:oreCobalt>.add(<farmsteadforest:o_cobalt>);
 <ore:oreCobalt>.remove(<tconstruct:ore>);
 <ore:oreCopper>.add(<farmsteadforest:o_copper>);
-<ore:oreCopper>.remove(<immersiveengineering:ore>);
-<ore:oreCopper>.add(<immersiveengineering:ore:0>); //remove and add again so that environmental tech detect the orechunk and ore samples detects the block
+//<ore:oreCopper>.remove(<immersiveengineering:ore:0>); //isn't removed due to ore samples
+//<ore:oreCopper>.add(<immersiveengineering:ore:0>); //remove and add again so that environmental tech detect the orechunk and ore samples detects the block
 <ore:oreGold>.add(<farmsteadforest:o_gold>);
 <ore:oreGold>.remove(<minecraft:gold_ore>);
 <ore:oreIron>.add(<farmsteadforest:o_iron>);

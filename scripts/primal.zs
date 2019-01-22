@@ -6,8 +6,16 @@
 (<ore:barkWoodJungle>).add(<primal:bark_jungle>);
 (<ore:barkWoodAcacia>).add(<primal:bark_acacia>);
 
+recipes.remove(<primal:torch_wood>);
+recipes.addShaped(<primal:torch_wood> *6, [[<ore:charcoal>], [<ore:cordageGeneral>], [<ore:stickWood>]]);
+recipes.addShaped(<primal:torch_wood> *4, [[<ore:coal>], [<ore:stickWood>]]);
+recipes.addShaped(<primal:torch_wood> *8, [[<primal:tallow>], [<ore:cordageGeneral>], [<ore:stickWood>]]);
+recipes.addShaped(<primal:torch_wood> *2, [[<farmsteadforest:resin>], [<ore:cordageGeneral>], [<ore:stickWood>]]);
+recipes.addShaped(<primal:torch_wood> *2, [[<ore:itemBeeswax>], [<ore:cordageGeneral>], [<ore:stickWood>]]);
+
+furnace.addRecipe(<primal:animal_fat>, <ore:listAllmeatcooked>);
 furnace.addRecipe(<primal:animal_fat>, <ore:listAllmeatrotten>);
-recipes.addShaped(<primal:torch_wood> *2, [[<primal:tallow>], [<ore:cordageGeneral>], [<ore:stickWood>]]);
+furnace.addRecipe(<minecraft:rotten_flesh>, <primal:animal_fat>);
 
 //remove charcoal recipe
 furnace.remove(<minecraft:coal:1>);

@@ -1,0 +1,10 @@
+setIcon(<gadgetrycore:wrench>)
+setTitle("Wrench")
+setDescription("This wrench is needed to change the IO of gadgetry machines.")
+
+addParent("triumph:level_3/capacitor_lv")
+
+criteria = addCriteria("g_wrench", "minecraft:inventory_changed")
+criteria.addItem(<gadgetrycore:wrench>)
+
+setRewardExperience(4)

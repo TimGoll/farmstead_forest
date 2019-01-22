@@ -1,0 +1,10 @@
+setIcon(<industrialforegoing:water_condensator>)
+setTitle("Water Condensator")
+setDescription("Acts like an infinite pump when surrounded by water source blocks.")
+
+addParent("triumph:level_3/latex_processing_unit")
+
+criteria = addCriteria("water_condensator", "minecraft:inventory_changed")
+criteria.addItem(<industrialforegoing:water_condensator>)
+
+setRewardExperience(4)

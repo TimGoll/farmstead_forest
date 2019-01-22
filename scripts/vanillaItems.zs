@@ -19,17 +19,6 @@ recipes.remove(<minecraft:flint>);
 recipes.addShapeless(<minecraft:flint> * 4, [<ore:blockGravel>, <ore:blockGravel>, <ore:blockGravel>, <ore:blockGravel>]);
 recipes.addShapeless(<minecraft:flint> * 9, [<ore:blockFlint>]);
 
-//adding more ores to some metal items
-recipes.addShaped(<minecraft:iron_trapdoor>, [[<ore:ingotCopper>, <ore:ingotCopper>], [<ore:ingotCopper>, <ore:ingotCopper>]]);
-recipes.addShaped(<minecraft:iron_trapdoor>, [[<ore:ingotLead>, <ore:ingotLead>], [<ore:ingotLead>, <ore:ingotLead>]]);
-recipes.addShaped(<minecraft:iron_trapdoor>, [[<ore:ingotTin>, <ore:ingotTin>], [<ore:ingotTin>, <ore:ingotTin>]]);
-recipes.addShaped(<minecraft:iron_trapdoor>, [[<ore:ingotAluminum>, <ore:ingotAluminum>], [<ore:ingotAluminum>, <ore:ingotAluminum>]]);
-
-recipes.addShaped(<minecraft:iron_door> * 3, [[<ore:ingotCopper>, <ore:ingotCopper>], [<ore:ingotCopper>, <ore:ingotCopper>], [<ore:ingotCopper>, <ore:ingotCopper>]]);
-recipes.addShaped(<minecraft:iron_door> * 3, [[<ore:ingotLead>, <ore:ingotLead>], [<ore:ingotLead>, <ore:ingotLead>], [<ore:ingotLead>, <ore:ingotLead>]]);
-recipes.addShaped(<minecraft:iron_door> * 3, [[<ore:ingotTin>, <ore:ingotTin>], [<ore:ingotTin>, <ore:ingotTin>], [<ore:ingotTin>, <ore:ingotTin>]]);
-recipes.addShaped(<minecraft:iron_door> * 3, [[<ore:ingotAluminum>, <ore:ingotAluminum>], [<ore:ingotAluminum>, <ore:ingotAluminum>], [<ore:ingotAluminum>, <ore:ingotAluminum>]]);
-
 recipes.addShaped(<minecraft:iron_bars> * 16, [[<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>], [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]]);
 recipes.addShaped(<minecraft:iron_bars> * 16, [[<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>], [<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>]]);
 recipes.addShaped(<minecraft:iron_bars> * 16, [[<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>], [<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>]]);
@@ -137,3 +126,6 @@ furnace.remove(<minecraft:leather>);
 
 //new string recipe
 recipes.addShapeless(<minecraft:string> *4, [<farmsteadforest:hardened_plant_cordage>, <farmsteadforest:hardened_plant_cordage>, <farmsteadforest:hardened_plant_cordage>]);
+
+recipes.addShapeless(<notenoughroofs:terracotta> *4, [<minecraft:hardened_clay>]);
+recipes.addShaped(<minecraft:hardened_clay>, [[<notenoughroofs:terracotta>, <notenoughroofs:terracotta>], [<notenoughroofs:terracotta>, <notenoughroofs:terracotta>]]);

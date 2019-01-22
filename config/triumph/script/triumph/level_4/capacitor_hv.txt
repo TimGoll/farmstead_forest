@@ -1,10 +1,10 @@
-setIcon(<immersiveengineering:metal_device0:2>)
-setTitle("HV Capacitor")
-setDescription("Store a bit more power in here.")
+setIcon(<integrateddynamics:energy_battery>)
+setTitle("Energy Battery")
+setDescription("Store a bit more power in here. Combine multiple of them in a crafting grid to get even more storage!")
 
 addParent("triumph:level_4/root")
 
 criteria = addCriteria("capacitor_hv", "minecraft:inventory_changed")
-criteria.addItem(<immersiveengineering:metal_device0:2>)
+criteria.addItem(<integrateddynamics:energy_battery>
 
 setRewardExperience(4)

@@ -1,0 +1,10 @@
+setIcon(<immersiveengineering:metal_device1:5>)
+setTitle("Charging Station")
+setDescription("Charge your powered items in this neat machine.")
+
+addParent("triumph:level_3/capacitor_lv")
+
+criteria = addCriteria("charging_station", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:metal_device1:5>)
+
+setRewardExperience(4)

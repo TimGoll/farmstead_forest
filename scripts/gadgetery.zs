@@ -43,7 +43,7 @@ recipes.remove(<gadgetrymachines:circuit>);
 recipes.addShaped(<gadgetrymachines:circuit>, [[<ore:nuggetGold>, null, <ore:nuggetGold>], [null, <gadgetrycore:silicon>, null], [null, <ore:nuggetGold>, null]]);
 
 recipes.remove(<gadgetrymachines:solar_panel>);
-recipes.addShaped(<gadgetrymachines:solar_panel>, [[<gadgetrycore:silicon>, <gadgetrycore:silicon>, <gadgetrycore:silicon>], [<gadgetrycore:silicon>, <gadgetrycore:silicon>, <gadgetrycore:silicon>], [<ore:ingotIron>, <gadgetrycore:redmetal_ingot>, <ore:ingotIron>]]);
+recipes.addShaped(<gadgetrymachines:solar_panel>, [[<gadgetrycore:silicon>, <gadgetrycore:silicon>, <gadgetrycore:silicon>], [<gadgetrycore:silicon>, <gadgetrycore:silicon>, <gadgetrycore:silicon>], [<ore:ingotIron>, <teckle:ingot:1>, <ore:ingotIron>]]);
 
 mods.jei.JEI.hide(<gadgetrycore:multiblock_slave_empty>);
 mods.jei.JEI.hide(<gadgetrycore:multiblock_slave_modular>);
@@ -55,28 +55,39 @@ recipes.remove(<gadgetrymachines:fluid_tank>);
 recipes.addShaped(<gadgetrymachines:fluid_tank>, [[<extrautils2:decorativeglass>, <extrautils2:decorativeglass>, <extrautils2:decorativeglass>], [<extrautils2:decorativeglass>, null, <extrautils2:decorativeglass>], [<extrautils2:decorativeglass>, <extrautils2:decorativeglass>, <extrautils2:decorativeglass>]]);
 
 recipes.remove(<gadgetrytransmission:energy_cable>);
-//recipes.addShaped(<gadgetrytransmission:energy_cable> *8, [[<ore:ingotRedmetal>], [<ore:dustRedstone>], [<ore:ingotRedmetal>]]);
+recipes.addShaped(<gadgetrytransmission:energy_cable> *8, [[<teckle:ingot:1>], [<ore:dustRedstone>], [<teckle:ingot:1>]]);
 
 recipes.remove(<gadgetrytransmission:fluid_pipe>);
-//recipes.addShaped(<gadgetrytransmission:fluid_pipe> *8, [[<ore:ingotIron>], [<farmsteadforest:pipe_sealant>], [<ore:ingotIron>]]);
+recipes.addShaped(<gadgetrytransmission:fluid_pipe> *8, [[<ore:ingotIron>], [<farmsteadforest:pipe_sealant>], [<ore:ingotIron>]]);
 
 recipes.remove(<gadgetrytransmission:item_pipe>);
-//recipes.addShaped(<gadgetrytransmission:item_pipe> *8, [[<industrialforegoing:plastic>], [<ore:blockGlass>], [<industrialforegoing:plastic>]]);
+recipes.addShaped(<gadgetrytransmission:item_pipe> *8, [[<industrialforegoing:plastic>], [<ore:blockGlass>], [<industrialforegoing:plastic>]]);
 
 recipes.remove(<gadgetrytransmission:energy_io>);
-//recipes.addShaped(<gadgetrytransmission:energy_io> *2, [[null, <ore:ingotRedmetal>, null], [<ore:ingotRedmetal>, <ore:dustRedstone>, <ore:ingotRedmetal>]]);
+recipes.addShaped(<gadgetrytransmission:energy_io> *2, [[null, <teckle:ingot:1>, null], [<teckle:ingot:1>, <ore:dustRedstone>, <teckle:ingot:1>]]);
 
 recipes.remove(<gadgetrytransmission:fluid_io>);
-//recipes.addShaped(<gadgetrytransmission:fluid_io> *2, [[null, <ore:ingotIron>, null], [<ore:ingotIron>, <farmsteadforest:pipe_sealant>, <ore:ingotIron>]]);
+recipes.addShaped(<gadgetrytransmission:fluid_io> *2, [[null, <ore:ingotIron>, null], [<ore:ingotIron>, <farmsteadforest:pipe_sealant>, <ore:ingotIron>]]);
 
 recipes.remove(<gadgetrytransmission:item_io>);
-//recipes.addShaped(<gadgetrytransmission:item_io> *2, [[null, <industrialforegoing:plastic>, null], [<industrialforegoing:plastic>, <ore:blockGlass>, <industrialforegoing:plastic>]]);
+recipes.addShaped(<gadgetrytransmission:item_io> *2, [[null, <industrialforegoing:plastic>, null], [<industrialforegoing:plastic>, <ore:blockGlass>, <industrialforegoing:plastic>]]);
 
+//remove redmetal_ingot
+recipes.replaceAllOccurences(<gadgetrycore:redmetal_ingot>, <teckle:ingot:1>);
+recipes.replaceAllOccurences(<ore:ingotRedmetal>, <teckle:ingot:1>);
 
-recipes.addShapeless(<gadgetrymachines:dust_redmetal>, [<immersiveengineering:tool>, <ore:ingotRedmetal>]);
-mods.immersiveengineering.Crusher.addRecipe(<gadgetrymachines:dust_redmetal>, <ore:ingotRedmetal>, 2048);
+recipes.remove(<gadgetrycore:redmetal_nugget>);
+mods.jei.JEI.hide(<gadgetrycore:redmetal_nugget>);
+<ore:nuggetRedmetal>.remove(<gadgetrycore:redmetal_nugget>);
 
-mods.immersiveengineering.AlloySmelter.addRecipe(<gadgetrycore:redmetal_ingot> *2, <ore:ingotGold>, <ore:dustRedstone> *4, 2000);
-mods.immersiveengineering.AlloySmelter.addRecipe(<gadgetrycore:redmetal_ingot> *2, <ore:dustGold>, <ore:dustRedstone> *4, 2000);
-mods.immersiveengineering.ArcFurnace.addRecipe(<gadgetrycore:redmetal_ingot> *2, <ore:ingotGold>, null, 2000, 2048, [<ore:dustRedstone> *4], "Alloying");
-mods.immersiveengineering.ArcFurnace.addRecipe(<gadgetrycore:redmetal_ingot> *2, <ore:dustGold>, null, 2000, 2048, [<ore:dustRedstone> *4], "Alloying");
+recipes.remove(<gadgetrycore:redmetal_block>);
+mods.jei.JEI.hide(<gadgetrycore:redmetal_block>);
+<ore:blockRedmetal>.remove(<gadgetrycore:redmetal_block>);
+
+recipes.remove(<gadgetrymachines:dust_redmetal>);
+mods.jei.JEI.hide(<gadgetrymachines:dust_redmetal>);
+<ore:dustRedmetal>.remove(<gadgetrymachines:dust_redmetal>);
+
+recipes.remove(<gadgetrycore:redmetal_ingot>);
+mods.jei.JEI.hide(<gadgetrycore:redmetal_ingot>);
+<ore:ingotRedmetal>.remove(<gadgetrycore:redmetal_ingot>);

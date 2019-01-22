@@ -1,5 +1,4 @@
 recipes.remove(<minecraft:torch>);
-recipes.addShaped(<primal:torch_wood> *2, [[<ore:itemBeeswax>], [<ore:cordageGeneral>], [<ore:stickWood>]]);
 
 recipes.remove(<forestry:sturdy_machine>);
 recipes.addShaped(<forestry:sturdy_machine>, [[<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>], [<ore:plateBronze>, null, <ore:plateBronze>], [<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>]]);

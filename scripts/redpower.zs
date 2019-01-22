@@ -165,6 +165,9 @@ mods.immersiveengineering.AlloySmelter.addRecipe(<teckle:ingot:1>, <ore:dustIron
 mods.immersiveengineering.AlloySmelter.addRecipe(<teckle:ingot:1>, <ore:ingotCopper>, <ore:dustRedstone> *4, 500);
 mods.immersiveengineering.AlloySmelter.addRecipe(<teckle:ingot:1>, <ore:dustCopper>, <ore:dustRedstone> *4, 500);
 
+mods.immersiveengineering.AlloySmelter.addRecipe(<teckle:ingot:1> *2, <ore:ingotGold>, <ore:dustRedstone> *2, 500);
+mods.immersiveengineering.AlloySmelter.addRecipe(<teckle:ingot:1> *2, <ore:dustGold>, <ore:dustRedstone> *2, 500);
+
 mods.immersiveengineering.AlloySmelter.addRecipe(<teckle:ingot:2>, <ore:ingotSilver>, <teckle:nikolite> *4, 500);
 mods.immersiveengineering.AlloySmelter.addRecipe(<teckle:ingot:2>, <ore:dustSilver>, <teckle:nikolite> *4, 500);
 
@@ -173,6 +176,9 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<teckle:ingot:1>, <ore:dustIron>,
 
 mods.immersiveengineering.ArcFurnace.addRecipe(<teckle:ingot:1>, <ore:ingotCopper>, null, 100, 512, [<ore:dustRedstone> *4], "Alloying");
 mods.immersiveengineering.ArcFurnace.addRecipe(<teckle:ingot:1>, <ore:dustCopper>, null, 100, 512, [<ore:dustRedstone> *4], "Alloying");
+
+mods.immersiveengineering.ArcFurnace.addRecipe(<teckle:ingot:1> *2, <ore:ingotGold>, null, 100, 512, [<ore:dustRedstone> *2], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(<teckle:ingot:1> *2, <ore:dustGold>, null, 100, 512, [<ore:dustRedstone> *2], "Alloying");
 
 mods.immersiveengineering.ArcFurnace.addRecipe(<teckle:ingot:2>, <ore:ingotSilver>, null, 100, 512, [<teckle:nikolite> *4], "Alloying");
 mods.immersiveengineering.ArcFurnace.addRecipe(<teckle:ingot:2>, <ore:dustSilver>, null, 100, 512, [<teckle:nikolite> *4], "Alloying");

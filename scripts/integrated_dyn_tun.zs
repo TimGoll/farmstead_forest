@@ -21,3 +21,7 @@ mods.actuallyadditions.AtomicReconstructor.addRecipe(<integrateddynamics:drying_
 
 recipes.remove(<integrateddynamics:squeezer>);
 mods.actuallyadditions.AtomicReconstructor.addRecipe(<integrateddynamics:squeezer>, <rustic:crushing_tub>, 5000);
+
+//change battery
+//recipes.remove(<integrateddynamics:energy_battery>.withTag({capacity: 1000000}));
+//recipes.addShaped(<integrateddynamics:energy_battery>.withTag({capacity: 1000000}), [[<integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_menril_block>, <integrateddynamics:crystalized_menril_chunk>], [<integrateddynamics:crystalized_menril_chunk>, <gadgetrymachines:energy_cell>, <integrateddynamics:crystalized_menril_chunk>], [<integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_menril_block>, <integrateddynamics:crystalized_menril_chunk>]]);

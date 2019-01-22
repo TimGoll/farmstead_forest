@@ -5,7 +5,7 @@ recipes.remove(<extendedcrafting:interface>);
 recipes.addShaped(<extendedcrafting:interface>, [[<industrialforegoing:plastic>, <industrialforegoing:plastic>, <industrialforegoing:plastic>], [<ore:ingotIron>, <extendedcrafting:frame>, <ore:ingotIron>], [null, <ore:chestWood>, null]]);
 
 recipes.remove(<extendedcrafting:crafting_core>);
-recipes.addShaped(<extendedcrafting:crafting_core>, [[<projectred-core:resource_item:421>, <ore:workbench>, <projectred-core:resource_item:421>], [<ore:plankWood>, <immersiveengineering:metal_device0>, <ore:plankWood>], [<naturesaura:infused_stone>, <naturesaura:infused_stone>, <naturesaura:infused_stone>]]);
+recipes.addShaped(<extendedcrafting:crafting_core>, [[<projectred-core:resource_item:421>, <ore:workbench>, <projectred-core:resource_item:421>], [<ore:plankWood>, <gadgetrymachines:energy_cell>, <ore:plankWood>], [<naturesaura:infused_stone>, <naturesaura:infused_stone>, <naturesaura:infused_stone>]]);
 
 recipes.remove(<extendedcrafting:pedestal>);
 recipes.addShaped(<extendedcrafting:pedestal> *2, [[<projectred-core:resource_item:421>], [<naturesaura:infused_stone>], [<naturesaura:infused_stone>]]);
@@ -247,15 +247,6 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <refinedstorage:controller>, [
 ]);
 
 //INDUSTRIAL FOREGOING
-mods.extendedcrafting.TableCrafting.addShaped(0, <industrialforegoing:water_condensator>, [
-	[null, null, <farmsteadforest:reinforced_sealant>, <farmsteadforest:reinforced_sealant>, <farmsteadforest:reinforced_sealant>, null, null], 
-	[null, <stevescarts:modulecomponents:49>, <extendedcrafting:material:48>, <immersiveengineering:metal_device1:1>, <extendedcrafting:material:48>, <stevescarts:modulecomponents:49>, null], 
-	[<farmsteadforest:reinforced_sealant>, <extendedcrafting:material:48>, <gadgetrymachines:fluid_tank>, <gadgetrymachines:fluid_tank>, <gadgetrymachines:fluid_tank>, <extendedcrafting:material:48>, <farmsteadforest:reinforced_sealant>], 
-	[<farmsteadforest:reinforced_sealant>, <immersiveengineering:metal_device1:1>, <gadgetrymachines:fluid_tank>, <farmsteadforest:casing_dense_metal>, <gadgetrymachines:fluid_tank>, <immersiveengineering:metal_device1:1>, <farmsteadforest:reinforced_sealant>], 
-	[<farmsteadforest:reinforced_sealant>, <extendedcrafting:material:48>, <minecraft:piston>, <gadgetrymachines:pump>, <minecraft:piston>, <extendedcrafting:material:48>, <farmsteadforest:reinforced_sealant>], 
-	[null, <stevescarts:modulecomponents:49>, <extendedcrafting:material:48>, <immersiveengineering:metal_device1:1>, <extendedcrafting:material:48>, <stevescarts:modulecomponents:49>, null], 
-	[null, null, <farmsteadforest:reinforced_sealant>, <farmsteadforest:reinforced_sealant>, <farmsteadforest:reinforced_sealant>, null, null]
-]);
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <industrialforegoing:mob_duplicator>, [
 	[null, null, <industrialforegoing:plastic>, <industrialforegoing:plastic>, <industrialforegoing:plastic>, null, null], 

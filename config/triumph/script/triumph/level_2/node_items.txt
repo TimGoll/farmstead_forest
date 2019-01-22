@@ -1,10 +1,10 @@
-setIcon(<extrautils2:grocket>)
+setIcon(<extrautils2:grocket:0>)
 setTitle("Item Transfer Node")
 setDescription("Extracts items and inserts them into a pipe.")
 
 addParent("triumph:level_2/pipe")
 
 criteria = addCriteria("node_items", "minecraft:inventory_changed")
-criteria.addItem(<extrautils2:grocket>)
+criteria.addItem(<extrautils2:grocket:0>)
 
 setRewardExperience(4)
