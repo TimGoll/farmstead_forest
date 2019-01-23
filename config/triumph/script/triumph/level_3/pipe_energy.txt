@@ -1,10 +1,10 @@
-setIcon(<cyclicmagic:energy_pipe>)
+setIcon(<gadgetrytransmission:energy_cable>)
 setTitle("Energy Cable")
 setDescription("A fast and easy way to transport energy.")
 
-addParent("triumph:level_3/external_distributor")
+addParent("triumph:level_3/capacitor_lv")
 
 criteria = addCriteria("energy_cable", "minecraft:inventory_changed")
-criteria.addItem(<cyclicmagic:energy_pipe>)
+criteria.addItem(<gadgetrytransmission:energy_cable>)
 
 setRewardExperience(4)

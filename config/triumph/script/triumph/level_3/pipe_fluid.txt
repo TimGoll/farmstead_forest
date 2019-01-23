@@ -1,10 +1,10 @@
-setIcon(<cyclicmagic:fluid_pipe>)
+setIcon(<gadgetrytransmission:fluid_pipe>)
 setTitle("Fluid Pipe")
 setDescription("A fast and easy way to transport fluids.")
 
-addParent("triumph:level_3/external_distributor")
+addParent("triumph:level_3/coal_generator2")
 
 criteria = addCriteria("fluid_pipe", "minecraft:inventory_changed")
-criteria.addItem(<cyclicmagic:fluid_pipe>)
+criteria.addItem(<gadgetrytransmission:fluid_pipe>)
 
 setRewardExperience(4)

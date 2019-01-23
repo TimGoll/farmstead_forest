@@ -1,10 +1,10 @@
-setIcon(<cyclicmagic:item_pipe>)
+setIcon(<gadgetrytransmission:item_pipe>)
 setTitle("Item Pipe")
 setDescription("A fast and easy way to transport items.")
 
-addParent("triumph:level_3/external_distributor")
+addParent("triumph:level_3/coal_generator2")
 
 criteria = addCriteria("item_pipe", "minecraft:inventory_changed")
-criteria.addItem(<cyclicmagic:item_pipe>)
+criteria.addItem(<gadgetrytransmission:item_pipe>)
 
 setRewardExperience(4)

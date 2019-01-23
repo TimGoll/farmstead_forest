@@ -2,7 +2,7 @@ setIcon(<waterworks:groundwater_pump>)
 setTitle("Groundwater Pump")
 setDescription("This pump pumps infinite amounts of water from beneath the bedrock.")
 
-addParent("triumph:level_3/external_heater")
+addParent("triumph:level_3/tank_controller")
 
 criteria = addCriteria("groundwater_pump", "minecraft:inventory_changed")
 criteria.addItem(<waterworks:groundwater_pump>)
